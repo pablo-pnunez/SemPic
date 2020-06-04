@@ -24,14 +24,14 @@ def cmdArgs():
 
 args = cmdArgs()
 
-stage = "train" if args.s is None else args.s
+stage = "test" if args.s is None else args.s
 encoding = "emb" if args.e is None else args.e
 
 gpu = 0
 cfg_no = 0 if args.i is None else args.i
 gpu = np.argmin(list(map(lambda x: x["mem_used_percent"],nvgpu.gpu_info()))) if args.gpu is None else args.gpu
 
-city  = "barcelona" if args.c is None else args.c
+city  = "gijon" if args.c is None else args.c
 city = city.lower().replace(" ","")
 
 # DATASETS #############################################################################################################
@@ -47,11 +47,8 @@ dts = OnlyFoodAndImages(data_cfg)
 # MODELS ###############################################################################################################
 
 seeds = [100,12,8778,0,99968547,772,8002,4658,9,34785]
-#cfg_u = {"id":city+"_"+str(cfg_no),"pctg_usrs":.25, "learning_rate":5e-4, "epochs":500, "batch_size":2048, "gpu":gpu,"seed":seeds[cfg_no]}
-#mdl = SemPic(cfg_u, dts)
-
 cfg_u = {"id":city+"_"+str(cfg_no),"pctg_usrs":.25, "learning_rate":5e-4, "epochs":500, "batch_size":2048, "gpu":gpu,"seed":seeds[cfg_no]}
-mdl = SemPic2(cfg_u, dts)
+mdl = SemPic(cfg_u, dts)
 
 # STAGES ###############################################################################################################
 
