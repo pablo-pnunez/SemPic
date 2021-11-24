@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ColabFilter",
+            "type": "python",
+            "request": "launch",
+            "program": "ColabFilter.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "SemPic",
+            "type": "python",
+            "request": "launch",
+            "program": "SemPic.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "SemPicCold",
+            "type": "python",
+            "request": "launch",
+            "program": "SemPicCold.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "SemPicPoi",
+            "type": "python",
+            "request": "launch",
+            "program": "SemPicPoi.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "SemPicPoiCold",
+            "type": "python",
+            "request": "launch",
+            "program": "SemPicPoiCold.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

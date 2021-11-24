@@ -1,0 +1,2128 @@
+madrid
+   -[23229] madrid
+2021-11-12 21:57:00.221568: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+paris
+   -[23254] paris
+2021-11-12 21:57:01.236032: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[93m[WARNING] Model folder already exists...[0m
+2021-11-12 21:57:19.932513: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 21:57:19.933266: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-12 21:57:19.967883: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 21:57:19.967943: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 21:57:19.971343: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 21:57:19.971462: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 21:57:19.972826: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 21:57:19.973246: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 21:57:19.975732: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 21:57:19.976225: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 21:57:19.976395: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 21:57:19.978161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 21:57:19.999449: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-12 21:57:20.000741: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 21:57:20.002484: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 21:57:20.002559: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 21:57:20.002620: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 21:57:20.002651: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 21:57:20.002681: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 21:57:20.002710: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 21:57:20.002740: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 21:57:20.002769: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 21:57:20.002804: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 21:57:20.005741: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 21:57:20.005822: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 21:57:20.402059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-12 21:57:20.402103: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-12 21:57:20.402109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-12 21:57:20.403733: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11217 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+Sequence data:   0%|          | 0/6042 [00:00<?, ?it/s]Sequence data:   1%|          | 34/6042 [00:01<04:17, 23.37it/s]Sequence data:   1%|▏         | 77/6042 [00:01<01:39, 59.71it/s]Sequence data:   2%|▏         | 125/6042 [00:01<00:55, 107.30it/s]Sequence data:   3%|▎         | 175/6042 [00:01<00:36, 161.77it/s]Sequence data:   4%|▎         | 220/6042 [00:01<00:27, 208.89it/s]Sequence data:   4%|▍         | 265/6042 [00:01<00:22, 254.39it/s]Sequence data:   5%|▌         | 312/6042 [00:02<00:19, 299.71it/s]Sequence data:   6%|▌         | 360/6042 [00:02<00:16, 341.17it/s]Sequence data:   7%|▋         | 410/6042 [00:02<00:14, 378.70it/s]Sequence data:   8%|▊         | 458/6042 [00:02<00:13, 404.19it/s]Sequence data:   8%|▊         | 508/6042 [00:02<00:12, 427.76it/s]Sequence data:   9%|▉         | 556/6042 [00:02<00:12, 434.52it/s]Sequence data:  10%|▉         | 603/6042 [00:02<00:12, 438.51it/s]Sequence data:  11%|█         | 650/6042 [00:02<00:12, 438.10it/s]Sequence data:  12%|█▏        | 696/6042 [00:02<00:12, 443.86it/s]Sequence data:  12%|█▏        | 743/6042 [00:02<00:11, 449.76it/s]Sequence data:  13%|█▎        | 790/6042 [00:03<00:11, 455.20it/s]Sequence data:  14%|█▍        | 840/6042 [00:03<00:11, 465.98it/s]Sequence data:  15%|█▍        | 890/6042 [00:03<00:10, 475.63it/s]Sequence data:  16%|█▌        | 942/6042 [00:03<00:10, 488.14it/s]Sequence data:  16%|█▋        | 993/6042 [00:03<00:10, 493.04it/s]Sequence data:  17%|█▋        | 1045/6042 [00:03<00:10, 498.66it/s]Sequence data:  18%|█▊        | 1095/6042 [00:03<00:09, 498.35it/s]Sequence data:  19%|█▉        | 1145/6042 [00:03<00:09, 494.67it/s]Sequence data:  20%|█▉        | 1195/6042 [00:03<00:09, 491.83it/s]Sequence data:  21%|██        | 1245/6042 [00:04<00:09, 481.88it/s]Sequence data:  21%|██▏       | 1294/6042 [00:04<00:09, 476.73it/s]Sequence data:  22%|██▏       | 1342/6042 [00:04<00:09, 476.84it/s]Sequence data:  23%|██▎       | 1390/6042 [00:04<00:09, 475.57it/s]Sequence data:  24%|██▍       | 1438/6042 [00:04<00:09, 473.08it/s]Sequence data:  25%|██▍       | 1487/6042 [00:04<00:09, 475.83it/s]Sequence data:  25%|██▌       | 1537/6042 [00:04<00:09, 481.48it/s]Sequence data:  26%|██▋       | 1587/6042 [00:04<00:09, 486.74it/s]Sequence data:  27%|██▋       | 1639/6042 [00:04<00:08, 495.42it/s]Sequence data:  28%|██▊       | 1690/6042 [00:04<00:08, 499.63it/s]Sequence data:  29%|██▉       | 1742/6042 [00:05<00:08, 505.53it/s]Sequence data:  30%|██▉       | 1794/6042 [00:05<00:08, 507.61it/s]Sequence data:  31%|███       | 1848/6042 [00:05<00:08, 515.14it/s]Sequence data:  31%|███▏      | 1901/6042 [00:05<00:07, 517.69it/s]Sequence data:  32%|███▏      | 1953/6042 [00:05<00:07, 514.35it/s]Sequence data:  33%|███▎      | 2006/6042 [00:05<00:07, 516.84it/s]Sequence data:  34%|███▍      | 2058/6042 [00:05<00:07, 517.63it/s]Sequence data:  35%|███▍      | 2112/6042 [00:05<00:07, 522.19it/s]Sequence data:  36%|███▌      | 2165/6042 [00:05<00:07, 513.58it/s]Sequence data:  37%|███▋      | 2217/6042 [00:05<00:07, 510.51it/s]Sequence data:  38%|███▊      | 2270/6042 [00:06<00:07, 513.26it/s]Sequence data:  38%|███▊      | 2324/6042 [00:06<00:07, 520.06it/s]Sequence data:  39%|███▉      | 2379/6042 [00:06<00:06, 528.17it/s]Sequence data:  40%|████      | 2432/6042 [00:06<00:06, 525.51it/s]Sequence data:  41%|████      | 2487/6042 [00:06<00:06, 530.54it/s]Sequence data:  42%|████▏     | 2541/6042 [00:06<00:06, 532.54it/s][93m[WARNING] Model folder already exists...[0m
+2021-11-12 21:57:27.293573: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 21:57:27.294318: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-12 21:57:27.321091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 21:57:27.321131: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 21:57:27.324205: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 21:57:27.324285: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 21:57:27.325267: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 21:57:27.325495: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 21:57:27.327294: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 21:57:27.327734: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 21:57:27.327866: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 21:57:27.329087: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+Sequence data:  43%|████▎     | 2596/6042 [00:06<00:06, 536.18it/s]2021-11-12 21:57:27.347982: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-12 21:57:27.349222: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 21:57:27.349813: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 21:57:27.350042: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 21:57:27.350071: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 21:57:27.350080: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 21:57:27.350088: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 21:57:27.350096: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 21:57:27.350104: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 21:57:27.350114: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 21:57:27.350122: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 21:57:27.350923: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 21:57:27.350950: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+Sequence data:  44%|████▍     | 2650/6042 [00:06<00:06, 531.26it/s]Sequence data:  45%|████▍     | 2708/6042 [00:06<00:06, 545.38it/s]Sequence data:  46%|████▌     | 2767/6042 [00:06<00:05, 557.46it/s]2021-11-12 21:57:27.662204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-12 21:57:27.662244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-12 21:57:27.662251: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-12 21:57:27.663665: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10959 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+Sequence data:  47%|████▋     | 2825/6042 [00:07<00:05, 562.84it/s]Sequence data:  48%|████▊     | 2885/6042 [00:07<00:05, 573.08it/s]Sequence data:  49%|████▊     | 2944/6042 [00:07<00:05, 575.84it/s]Sequence data:  50%|████▉     | 3003/6042 [00:07<00:05, 579.06it/s]Sequence data:   0%|          | 0/11019 [00:00<?, ?it/s]Sequence data:  51%|█████     | 3061/6042 [00:07<00:05, 578.62it/s]Sequence data:   0%|          | 35/11019 [00:00<00:32, 342.65it/s]Sequence data:  52%|█████▏    | 3123/6042 [00:07<00:04, 587.73it/s]Sequence data:   1%|          | 74/11019 [00:00<00:29, 367.80it/s]Sequence data:  53%|█████▎    | 3186/6042 [00:07<00:04, 599.09it/s]Sequence data:   1%|          | 114/11019 [00:00<00:28, 380.13it/s]Sequence data:  54%|█████▎    | 3246/6042 [00:07<00:05, 557.95it/s]Sequence data:   1%|▏         | 153/11019 [00:00<00:28, 380.54it/s]Sequence data:  55%|█████▍    | 3313/6042 [00:07<00:04, 588.96it/s]Sequence data:   2%|▏         | 192/11019 [00:00<00:28, 377.56it/s]Sequence data:  56%|█████▌    | 3379/6042 [00:07<00:04, 609.20it/s]Sequence data:   2%|▏         | 230/11019 [00:00<00:29, 368.66it/s]Sequence data:  57%|█████▋    | 3448/6042 [00:08<00:04, 632.66it/s]Sequence data:   2%|▏         | 268/11019 [00:00<00:29, 369.32it/s]Sequence data:  58%|█████▊    | 3519/6042 [00:08<00:03, 654.31it/s]Sequence data:   3%|▎         | 307/11019 [00:00<00:28, 374.10it/s]Sequence data:  59%|█████▉    | 3586/6042 [00:08<00:03, 658.64it/s]Sequence data:   3%|▎         | 347/11019 [00:00<00:28, 380.71it/s]Sequence data:  60%|██████    | 3655/6042 [00:08<00:03, 665.80it/s]Sequence data:   4%|▎         | 388/11019 [00:01<00:27, 387.98it/s]Sequence data:  62%|██████▏   | 3728/6042 [00:08<00:03, 683.22it/s]Sequence data:   4%|▍         | 430/11019 [00:01<00:26, 395.20it/s]Sequence data:  63%|██████▎   | 3806/6042 [00:08<00:03, 710.17it/s]Sequence data:   4%|▍         | 471/11019 [00:01<00:26, 398.58it/s]Sequence data:  65%|██████▍   | 3907/6042 [00:08<00:02, 798.41it/s]Sequence data:   5%|▍         | 511/11019 [00:01<00:26, 395.28it/s]Sequence data:  66%|██████▋   | 4007/6042 [00:08<00:02, 856.71it/s]Sequence data:  68%|██████▊   | 4107/6042 [00:08<00:02, 897.80it/s]Sequence data:   5%|▌         | 551/11019 [00:01<00:26, 391.87it/s]Sequence data:  70%|██████▉   | 4205/6042 [00:08<00:01, 922.01it/s]Sequence data:   5%|▌         | 591/11019 [00:01<00:26, 388.65it/s]Sequence data:  71%|███████   | 4298/6042 [00:09<00:01, 916.27it/s]Sequence data:   6%|▌         | 630/11019 [00:01<00:26, 385.74it/s]Sequence data:  73%|███████▎  | 4390/6042 [00:09<00:01, 899.00it/s]Sequence data:   6%|▌         | 669/11019 [00:01<00:27, 374.11it/s]Sequence data:  74%|███████▍  | 4497/6042 [00:09<00:01, 947.75it/s]Sequence data:   6%|▋         | 707/11019 [00:01<00:28, 366.78it/s]Sequence data:  76%|███████▌  | 4601/6042 [00:09<00:01, 974.22it/s]Sequence data:   7%|▋         | 744/11019 [00:01<00:28, 363.85it/s]Sequence data:  78%|███████▊  | 4732/6042 [00:09<00:01, 1069.19it/s]Sequence data:   7%|▋         | 781/11019 [00:02<00:28, 357.56it/s]Sequence data:  80%|████████  | 4840/6042 [00:09<00:01, 1071.75it/s]Sequence data:   7%|▋         | 817/11019 [00:02<00:28, 358.05it/s]Sequence data:  82%|████████▏ | 4958/6042 [00:09<00:00, 1099.39it/s]Sequence data:   8%|▊         | 853/11019 [00:02<00:28, 358.26it/s]Sequence data:  84%|████████▍ | 5083/6042 [00:09<00:00, 1143.02it/s]Sequence data:   8%|▊         | 890/11019 [00:02<00:28, 361.65it/s]Sequence data:  86%|████████▌ | 5208/6042 [00:09<00:00, 1170.78it/s]Sequence data:   8%|▊         | 928/11019 [00:02<00:27, 365.88it/s]Sequence data:  88%|████████▊ | 5342/6042 [00:10<00:00, 1218.57it/s]Sequence data:   9%|▉         | 967/11019 [00:02<00:27, 370.99it/s]Sequence data:  91%|█████████ | 5481/6042 [00:10<00:00, 1267.87it/s]Sequence data:   9%|▉         | 1007/11019 [00:02<00:26, 376.86it/s]Sequence data:  93%|█████████▎| 5608/6042 [00:10<00:00, 1255.38it/s]Sequence data:  10%|▉         | 1047/11019 [00:02<00:26, 381.99it/s]Sequence data:  95%|█████████▌| 5748/6042 [00:10<00:00, 1293.78it/s]Sequence data:  10%|▉         | 1087/11019 [00:02<00:25, 386.95it/s]Sequence data:  97%|█████████▋| 5878/6042 [00:10<00:00, 1294.79it/s]Sequence data:  10%|█         | 1127/11019 [00:02<00:25, 388.76it/s]Sequence data:  99%|█████████▉| 6008/6042 [00:10<00:00, 1285.70it/s]Sequence data: 100%|██████████| 6042/6042 [00:10<00:00, 573.25it/s] 
+Sequence data:  11%|█         | 1168/11019 [00:03<00:25, 393.96it/s]Sequence data:  11%|█         | 1210/11019 [00:03<00:24, 400.50it/s]Sequence data:  11%|█▏        | 1251/11019 [00:03<00:24, 402.87it/s]Sequence data:  12%|█▏        | 1293/11019 [00:03<00:23, 407.09it/s]Sequence data:  12%|█▏        | 1335/11019 [00:03<00:23, 409.91it/s]Sequence data:   0%|          | 0/2744 [00:00<?, ?it/s]Sequence data:   2%|▏         | 49/2744 [00:00<00:05, 484.78it/s]Sequence data:   4%|▎         | 100/2744 [00:00<00:05, 496.12it/s]Sequence data:   5%|▌         | 150/2744 [00:00<00:05, 496.57it/s]Sequence data:   7%|▋         | 202/2744 [00:00<00:05, 504.24it/s]Sequence data:   9%|▉         | 254/2744 [00:00<00:04, 509.33it/s]Sequence data:  12%|█▏        | 1376/11019 [00:05<02:21, 67.97it/s] Sequence data:  13%|█▎        | 1418/11019 [00:05<01:45, 91.18it/s]Sequence data:  11%|█         | 306/2744 [00:00<00:04, 510.67it/s]Sequence data:  13%|█▎        | 359/2744 [00:00<00:04, 514.82it/s]Sequence data:  13%|█▎        | 1461/11019 [00:05<01:19, 120.19it/s]Sequence data:  14%|█▎        | 1502/11019 [00:05<01:02, 151.77it/s]Sequence data:  15%|█▌        | 413/2744 [00:00<00:04, 520.89it/s]Sequence data:  17%|█▋        | 466/2744 [00:00<00:04, 523.12it/s]Sequence data:  14%|█▍        | 1544/11019 [00:05<00:50, 187.76it/s]Sequence data:  19%|█▉        | 520/2744 [00:01<00:04, 527.37it/s]Sequence data:  14%|█▍        | 1586/11019 [00:05<00:42, 224.57it/s]Sequence data:  21%|██        | 573/2744 [00:01<00:04, 526.48it/s]Sequence data:  15%|█▍        | 1626/11019 [00:05<00:36, 256.91it/s]Sequence data:  23%|██▎       | 628/2744 [00:01<00:03, 531.51it/s]Sequence data:  15%|█▌        | 1666/11019 [00:05<00:32, 283.98it/s]Sequence data:  25%|██▍       | 682/2744 [00:01<00:03, 533.78it/s]Sequence data:  15%|█▌        | 1707/11019 [00:06<00:29, 311.88it/s]Sequence data:  27%|██▋       | 738/2744 [00:01<00:03, 538.91it/s]Sequence data:  16%|█▌        | 1747/11019 [00:06<00:27, 331.72it/s]Sequence data:  29%|██▉       | 794/2744 [00:01<00:03, 544.38it/s]Sequence data:  16%|█▌        | 1787/11019 [00:06<00:26, 346.13it/s]Sequence data:  31%|███       | 851/2744 [00:01<00:03, 550.03it/s]Sequence data:  17%|█▋        | 1827/11019 [00:06<00:25, 356.73it/s]Sequence data:  33%|███▎      | 907/2744 [00:01<00:03, 551.77it/s]Sequence data:  17%|█▋        | 1866/11019 [00:06<00:25, 363.95it/s]Sequence data:  35%|███▌      | 965/2744 [00:01<00:03, 559.90it/s]Sequence data:  17%|█▋        | 1905/11019 [00:06<00:24, 368.95it/s]Sequence data:  37%|███▋      | 1023/2744 [00:01<00:03, 564.67it/s]Sequence data:  18%|█▊        | 1944/11019 [00:06<00:24, 373.32it/s]Sequence data:  39%|███▉      | 1081/2744 [00:02<00:02, 568.81it/s]Sequence data:  18%|█▊        | 1983/11019 [00:06<00:24, 375.89it/s]Sequence data:  42%|████▏     | 1140/2744 [00:02<00:02, 573.91it/s]Sequence data:  18%|█▊        | 2022/11019 [00:06<00:24, 373.62it/s]Sequence data:  44%|████▎     | 1199/2744 [00:02<00:02, 576.94it/s]Sequence data:  19%|█▊        | 2060/11019 [00:07<00:23, 373.89it/s]Sequence data:  46%|████▌     | 1257/2744 [00:02<00:02, 574.45it/s]Sequence data:  19%|█▉        | 2098/11019 [00:07<00:23, 372.25it/s]Sequence data:  48%|████▊     | 1316/2744 [00:02<00:02, 576.84it/s]Sequence data:  19%|█▉        | 2138/11019 [00:07<00:23, 379.37it/s]Sequence data:  50%|█████     | 1375/2744 [00:02<00:02, 579.56it/s]Sequence data:  20%|█▉        | 2178/11019 [00:07<00:23, 384.19it/s]Sequence data:  52%|█████▏    | 1436/2744 [00:02<00:02, 587.17it/s]Sequence data:  20%|██        | 2217/11019 [00:07<00:22, 384.51it/s]Sequence data:  54%|█████▍    | 1495/2744 [00:02<00:02, 587.98it/s]Sequence data:  20%|██        | 2256/11019 [00:07<00:22, 384.33it/s]Sequence data:  57%|█████▋    | 1557/2744 [00:02<00:01, 595.29it/s]Sequence data:  21%|██        | 2295/11019 [00:07<00:22, 385.92it/s]Sequence data:  59%|█████▉    | 1621/2744 [00:02<00:01, 605.97it/s]Sequence data:  21%|██        | 2335/11019 [00:07<00:22, 389.91it/s]Sequence data:  61%|██████▏   | 1683/2744 [00:03<00:01, 607.75it/s]Sequence data:  22%|██▏       | 2376/11019 [00:07<00:21, 395.06it/s]Sequence data:  64%|██████▎   | 1745/2744 [00:03<00:01, 609.97it/s]Sequence data:  22%|██▏       | 2417/11019 [00:07<00:21, 396.82it/s]Sequence data:  66%|██████▌   | 1808/2744 [00:03<00:01, 615.18it/s]Sequence data:  22%|██▏       | 2458/11019 [00:08<00:21, 397.83it/s]Sequence data:  68%|██████▊   | 1872/2744 [00:03<00:01, 620.56it/s]Sequence data:  23%|██▎       | 2499/11019 [00:08<00:21, 400.84it/s]Sequence data:  71%|███████   | 1935/2744 [00:03<00:01, 622.08it/s]Sequence data:  23%|██▎       | 2540/11019 [00:08<00:21, 402.03it/s]Sequence data:  73%|███████▎  | 2001/2744 [00:03<00:01, 632.50it/s]Sequence data:  23%|██▎       | 2582/11019 [00:08<00:20, 406.88it/s]Sequence data:  75%|███████▌  | 2066/2744 [00:03<00:01, 635.28it/s]Sequence data:  24%|██▍       | 2623/11019 [00:08<00:20, 406.08it/s]Sequence data:  78%|███████▊  | 2130/2744 [00:03<00:00, 636.68it/s]Sequence data:  24%|██▍       | 2665/11019 [00:08<00:20, 408.24it/s]Sequence data:  80%|███████▉  | 2195/2744 [00:03<00:00, 640.58it/s]Sequence data:  25%|██▍       | 2707/11019 [00:08<00:20, 411.02it/s]Sequence data:  82%|████████▏ | 2260/2744 [00:03<00:00, 643.38it/s]Sequence data:  25%|██▍       | 2749/11019 [00:08<00:20, 410.83it/s]Sequence data:  85%|████████▍ | 2327/2744 [00:04<00:00, 649.20it/s]Sequence data:  25%|██▌       | 2792/11019 [00:08<00:19, 414.81it/s]Sequence data:  87%|████████▋ | 2394/2744 [00:04<00:00, 653.95it/s]Sequence data:  26%|██▌       | 2834/11019 [00:08<00:19, 414.26it/s]Sequence data:  90%|████████▉ | 2462/2744 [00:04<00:00, 659.55it/s]Sequence data:  26%|██▌       | 2878/11019 [00:09<00:19, 419.22it/s]Sequence data:  92%|█████████▏| 2530/2744 [00:04<00:00, 663.60it/s]Sequence data:  27%|██▋       | 2921/11019 [00:09<00:19, 420.24it/s]Sequence data:  95%|█████████▍| 2599/2744 [00:04<00:00, 669.55it/s]Sequence data:  27%|██▋       | 2964/11019 [00:09<00:19, 419.81it/s]Sequence data:  97%|█████████▋| 2669/2744 [00:04<00:00, 676.10it/s]Sequence data:  27%|██▋       | 3007/11019 [00:09<00:19, 420.25it/s]Sequence data: 100%|█████████▉| 2739/2744 [00:04<00:00, 681.66it/s]Sequence data: 100%|██████████| 2744/2744 [00:04<00:00, 590.56it/s]
+[92m[INFO] Best epoch number: 219[0m
+Sequence data:  28%|██▊       | 3050/11019 [00:09<00:19, 418.92it/s]2021-11-12 21:57:37.630606: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-12 21:57:37.648701: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/219
+Sequence data:  28%|██▊       | 3092/11019 [00:09<00:18, 418.50it/s]Sequence data:  28%|██▊       | 3134/11019 [00:09<00:18, 416.45it/s]Sequence data:  29%|██▉       | 3176/11019 [00:09<00:18, 415.87it/s]Sequence data:  29%|██▉       | 3218/11019 [00:09<00:18, 411.37it/s]Sequence data:  30%|██▉       | 3260/11019 [00:09<00:18, 410.55it/s]Sequence data:  30%|██▉       | 3303/11019 [00:10<00:18, 415.68it/s]2021-11-12 21:57:38.228175: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+Sequence data:  30%|███       | 3345/11019 [00:10<00:18, 406.70it/s]2021-11-12 21:57:38.377708: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+Sequence data:  31%|███       | 3386/11019 [00:10<00:18, 406.60it/s]Sequence data:  31%|███       | 3427/11019 [00:10<00:18, 401.56it/s]Sequence data:  31%|███▏      | 3468/11019 [00:10<00:18, 403.02it/s]Sequence data:  32%|███▏      | 3510/11019 [00:10<00:18, 407.79it/s]Sequence data:  32%|███▏      | 3552/11019 [00:10<00:18, 410.28it/s]Sequence data:  33%|███▎      | 3594/11019 [00:10<00:18, 405.17it/s]Sequence data:  33%|███▎      | 3635/11019 [00:10<00:18, 402.79it/s]Sequence data:  33%|███▎      | 3677/11019 [00:10<00:18, 407.37it/s]Sequence data:  34%|███▎      | 3718/11019 [00:11<00:18, 398.89it/s]Sequence data:  34%|███▍      | 3760/11019 [00:11<00:18, 401.85it/s]Sequence data:  35%|███▍      | 3802/11019 [00:11<00:17, 406.34it/s]Sequence data:  35%|███▍      | 3843/11019 [00:11<00:17, 407.30it/s]Sequence data:  35%|███▌      | 3884/11019 [00:11<00:17, 407.33it/s]Sequence data:  36%|███▌      | 3928/11019 [00:11<00:17, 416.07it/s]Sequence data:  36%|███▌      | 3970/11019 [00:11<00:17, 414.57it/s]Sequence data:  36%|███▋      | 4012/11019 [00:11<00:16, 414.75it/s]Sequence data:  37%|███▋      | 4055/11019 [00:11<00:16, 417.57it/s]Sequence data:  37%|███▋      | 4097/11019 [00:12<00:16, 416.71it/s]Sequence data:  38%|███▊      | 4139/11019 [00:12<00:16, 410.09it/s]Sequence data:  38%|███▊      | 4183/11019 [00:12<00:16, 416.50it/s]Sequence data:  38%|███▊      | 4227/11019 [00:12<00:16, 423.34it/s]Sequence data:  39%|███▉      | 4271/11019 [00:12<00:15, 427.07it/s]Sequence data:  39%|███▉      | 4314/11019 [00:12<00:15, 422.09it/s]Sequence data:  40%|███▉      | 4357/11019 [00:12<00:15, 419.95it/s]Sequence data:  40%|███▉      | 4400/11019 [00:12<00:16, 411.89it/s]Sequence data:  40%|████      | 4444/11019 [00:12<00:15, 416.83it/s]Sequence data:  41%|████      | 4486/11019 [00:12<00:15, 412.87it/s]Sequence data:  41%|████      | 4528/11019 [00:13<00:15, 409.76it/s]Sequence data:  41%|████▏     | 4569/11019 [00:13<00:15, 407.65it/s]Sequence data:  42%|████▏     | 4615/11019 [00:13<00:15, 420.45it/s]Sequence data:  42%|████▏     | 4658/11019 [00:13<00:15, 420.20it/s]Sequence data:  43%|████▎     | 4705/11019 [00:13<00:14, 431.62it/s]Sequence data:  43%|████▎     | 4750/11019 [00:13<00:14, 435.85it/s]Sequence data:  44%|████▎     | 4797/11019 [00:13<00:14, 443.05it/s]Sequence data:  44%|████▍     | 4843/11019 [00:13<00:13, 446.93it/s]Sequence data:  44%|████▍     | 4888/11019 [00:13<00:13, 442.24it/s]Sequence data:  45%|████▍     | 4934/11019 [00:13<00:13, 447.01it/s]Sequence data:  45%|████▌     | 4984/11019 [00:14<00:13, 462.23it/s]Sequence data:  46%|████▌     | 5031/11019 [00:14<00:13, 453.92it/s]Sequence data:  46%|████▌     | 5079/11019 [00:14<00:12, 459.39it/s]Sequence data:  47%|████▋     | 5125/11019 [00:14<00:13, 448.92it/s]Sequence data:  47%|████▋     | 5175/11019 [00:14<00:12, 462.23it/s]Sequence data:  47%|████▋     | 5222/11019 [00:14<00:12, 457.00it/s]Sequence data:  48%|████▊     | 5270/11019 [00:14<00:12, 461.10it/s]Sequence data:  48%|████▊     | 5320/11019 [00:14<00:12, 470.25it/s]Sequence data:  49%|████▊     | 5368/11019 [00:14<00:11, 472.66it/s]Sequence data:  49%|████▉     | 5419/11019 [00:14<00:11, 481.66it/s]Sequence data:  50%|████▉     | 5468/11019 [00:15<00:11, 478.68it/s]Sequence data:  50%|█████     | 5516/11019 [00:15<00:11, 468.23it/s]Sequence data:  51%|█████     | 5568/11019 [00:15<00:11, 480.47it/s]Sequence data:  51%|█████     | 5622/11019 [00:15<00:10, 496.16it/s]Sequence data:  51%|█████▏    | 5672/11019 [00:15<00:10, 494.26it/s]Sequence data:  52%|█████▏    | 5722/11019 [00:15<00:10, 493.43it/s]Sequence data:  52%|█████▏    | 5772/11019 [00:15<00:10, 486.14it/s]Sequence data:  53%|█████▎    | 5822/11019 [00:15<00:10, 490.15it/s]Sequence data:  53%|█████▎    | 5874/11019 [00:15<00:10, 498.74it/s]Sequence data:  54%|█████▍    | 5927/11019 [00:16<00:10, 507.66it/s]Sequence data:  54%|█████▍    | 5979/11019 [00:16<00:09, 511.24it/s]Sequence data:  55%|█████▍    | 6034/11019 [00:16<00:09, 520.51it/s]Sequence data:  55%|█████▌    | 6087/11019 [00:16<00:09, 509.97it/s]Sequence data:  56%|█████▌    | 6144/11019 [00:16<00:09, 526.62it/s]Sequence data:  56%|█████▋    | 6207/11019 [00:16<00:08, 554.93it/s]Sequence data:  57%|█████▋    | 6265/11019 [00:16<00:08, 560.66it/s]Sequence data:  57%|█████▋    | 6331/11019 [00:16<00:07, 589.67it/s]Sequence data:  58%|█████▊    | 6391/11019 [00:16<00:07, 582.92it/s]Sequence data:  59%|█████▊    | 6450/11019 [00:16<00:08, 559.37it/s]Sequence data:  59%|█████▉    | 6509/11019 [00:17<00:07, 564.77it/s]Sequence data:  60%|█████▉    | 6566/11019 [00:17<00:07, 562.32it/s]Sequence data:  60%|██████    | 6627/11019 [00:17<00:07, 576.01it/s]Sequence data:  61%|██████    | 6685/11019 [00:17<00:07, 575.44it/s]Sequence data:  61%|██████    | 6743/11019 [00:17<00:07, 575.49it/s]Sequence data:  62%|██████▏   | 6806/11019 [00:17<00:07, 591.34it/s]Sequence data:  62%|██████▏   | 6866/11019 [00:17<00:07, 590.78it/s]Sequence data:  63%|██████▎   | 6926/11019 [00:17<00:07, 576.78it/s]Sequence data:  63%|██████▎   | 6986/11019 [00:17<00:06, 582.05it/s]Sequence data:  64%|██████▍   | 7048/11019 [00:17<00:06, 591.48it/s]Sequence data:  65%|██████▍   | 7114/11019 [00:18<00:06, 608.33it/s]Sequence data:  65%|██████▌   | 7177/11019 [00:18<00:06, 612.33it/s]Sequence data:  66%|██████▌   | 7251/11019 [00:18<00:05, 649.31it/s]Sequence data:  67%|██████▋   | 7343/11019 [00:18<00:05, 728.60it/s]Sequence data:  67%|██████▋   | 7416/11019 [00:18<00:04, 728.86it/s]Sequence data:  68%|██████▊   | 7508/11019 [00:18<00:04, 785.12it/s]Sequence data:  69%|██████▉   | 7588/11019 [00:18<00:04, 788.02it/s]Sequence data:  70%|██████▉   | 7672/11019 [00:18<00:04, 800.02it/s]Sequence data:  70%|███████   | 7753/11019 [00:18<00:04, 760.65it/s]Sequence data:  71%|███████   | 7832/11019 [00:19<00:04, 767.08it/s]Sequence data:  72%|███████▏  | 7918/11019 [00:19<00:03, 792.27it/s]Sequence data:  73%|███████▎  | 8010/11019 [00:19<00:03, 829.14it/s]Sequence data:  73%|███████▎  | 8094/11019 [00:19<00:03, 808.19it/s]Sequence data:  74%|███████▍  | 8176/11019 [00:19<00:03, 772.82it/s]Sequence data:  75%|███████▍  | 8254/11019 [00:19<00:03, 751.86it/s]Sequence data:  76%|███████▌  | 8331/11019 [00:19<00:03, 753.15it/s]Sequence data:  76%|███████▋  | 8407/11019 [00:19<00:03, 753.44it/s]Sequence data:  77%|███████▋  | 8485/11019 [00:19<00:03, 757.54it/s]Sequence data:  78%|███████▊  | 8563/11019 [00:19<00:03, 760.47it/s]Sequence data:  78%|███████▊  | 8649/11019 [00:20<00:03, 787.82it/s]Sequence data:  79%|███████▉  | 8743/11019 [00:20<00:02, 831.30it/s]Sequence data:  80%|████████  | 8857/11019 [00:20<00:02, 922.59it/s]Sequence data:  81%|████████▏ | 8957/11019 [00:20<00:02, 943.12it/s]Sequence data:  82%|████████▏ | 9069/11019 [00:20<00:01, 992.31it/s]Sequence data:  83%|████████▎ | 9186/11019 [00:20<00:01, 1044.49it/s]Sequence data:  84%|████████▍ | 9291/11019 [00:20<00:01, 1011.81it/s]Sequence data:  85%|████████▌ | 9409/11019 [00:20<00:01, 1059.41it/s]Sequence data:  87%|████████▋ | 9542/11019 [00:20<00:01, 1134.63it/s]Sequence data:  88%|████████▊ | 9660/11019 [00:20<00:01, 1147.10it/s]Sequence data:  89%|████████▉ | 9780/11019 [00:21<00:01, 1160.18it/s]Sequence data:  90%|████████▉ | 9912/11019 [00:21<00:00, 1203.71it/s]Sequence data:  91%|█████████ | 10033/11019 [00:21<00:00, 1175.04it/s]Sequence data:  92%|█████████▏| 10151/11019 [00:21<00:00, 1147.88it/s]Sequence data:  93%|█████████▎| 10271/11019 [00:21<00:00, 1160.00it/s]Sequence data:  94%|█████████▍| 10388/11019 [00:21<00:00, 1161.50it/s]Sequence data:  95%|█████████▌| 10505/11019 [00:21<00:00, 1146.35it/s]Sequence data:  96%|█████████▋| 10620/11019 [00:21<00:00, 1120.55it/s]Sequence data:  97%|█████████▋| 10734/11019 [00:21<00:00, 1121.43it/s]Sequence data:  98%|█████████▊| 10847/11019 [00:22<00:00, 1074.90it/s]Sequence data:  99%|█████████▉| 10955/11019 [00:22<00:00, 1033.07it/s]Sequence data: 100%|██████████| 11019/11019 [00:22<00:00, 496.59it/s] 
+Sequence data:   0%|          | 0/4872 [00:00<?, ?it/s]Sequence data:   1%|          | 41/4872 [00:00<00:12, 401.83it/s]Sequence data:   2%|▏         | 83/4872 [00:00<00:11, 407.42it/s]Sequence data:   3%|▎         | 126/4872 [00:00<00:11, 413.58it/s]Sequence data:   3%|▎         | 169/4872 [00:00<00:11, 418.41it/s]Sequence data:   4%|▍         | 213/4872 [00:00<00:10, 425.84it/s]Sequence data:   5%|▌         | 257/4872 [00:00<00:10, 430.58it/s]Sequence data:   6%|▌         | 302/4872 [00:00<00:10, 434.48it/s]Sequence data:   7%|▋         | 347/4872 [00:00<00:10, 438.52it/s]Sequence data:   8%|▊         | 392/4872 [00:00<00:10, 441.52it/s]Sequence data:   9%|▉         | 438/4872 [00:01<00:09, 445.32it/s]Sequence data:  10%|▉         | 483/4872 [00:01<00:09, 445.11it/s]Sequence data:  11%|█         | 528/4872 [00:01<00:09, 445.13it/s]Sequence data:  12%|█▏        | 573/4872 [00:01<00:09, 445.90it/s]Sequence data:  13%|█▎        | 619/4872 [00:01<00:09, 449.54it/s]Sequence data:  14%|█▎        | 666/4872 [00:01<00:09, 454.48it/s]Sequence data:  15%|█▍        | 712/4872 [00:01<00:09, 453.49it/s]Sequence data:  16%|█▌        | 758/4872 [00:01<00:09, 454.45it/s]Sequence data:  17%|█▋        | 806/4872 [00:01<00:08, 460.35it/s]Sequence data:  18%|█▊        | 853/4872 [00:01<00:08, 461.76it/s]Sequence data:  18%|█▊        | 900/4872 [00:02<00:08, 462.48it/s]Sequence data:  19%|█▉        | 947/4872 [00:02<00:08, 458.68it/s]Sequence data:  20%|██        | 994/4872 [00:02<00:08, 461.47it/s]Sequence data:  21%|██▏       | 1043/4872 [00:02<00:08, 467.63it/s]Sequence data:  22%|██▏       | 1090/4872 [00:02<00:08, 466.97it/s]Sequence data:  23%|██▎       | 1139/4872 [00:02<00:07, 472.05it/s]Sequence data:  24%|██▍       | 1189/4872 [00:02<00:07, 479.43it/s]Sequence data:  25%|██▌       | 1237/4872 [00:02<00:07, 477.34it/s]Sequence data:  26%|██▋       | 1286/4872 [00:02<00:07, 478.65it/s]Sequence data:  27%|██▋       | 1334/4872 [00:02<00:07, 477.27it/s]Sequence data:  28%|██▊       | 1382/4872 [00:03<00:07, 477.13it/s]Sequence data:  29%|██▉       | 1431/4872 [00:03<00:07, 479.92it/s]Sequence data:  30%|███       | 1480/4872 [00:03<00:07, 482.74it/s]Sequence data:  31%|███▏      | 1531/4872 [00:03<00:06, 489.33it/s]Sequence data:  32%|███▏      | 1580/4872 [00:03<00:06, 487.05it/s]Sequence data:  33%|███▎      | 1630/4872 [00:03<00:06, 488.80it/s]Sequence data:  34%|███▍      | 1680/4872 [00:03<00:06, 490.41it/s]878/878 - 17s - loss: 0.1272 - f1: 0.0010
+Epoch 2/219
+Sequence data:  36%|███▌      | 1731/4872 [00:03<00:06, 495.12it/s]Sequence data:  37%|███▋      | 1782/4872 [00:03<00:06, 497.46it/s]Sequence data:  38%|███▊      | 1832/4872 [00:03<00:06, 494.77it/s]Sequence data:  39%|███▊      | 1883/4872 [00:04<00:06, 498.13it/s]Sequence data:  40%|███▉      | 1933/4872 [00:04<00:05, 495.88it/s]Sequence data:  41%|████      | 1984/4872 [00:04<00:05, 499.31it/s]Sequence data:  42%|████▏     | 2035/4872 [00:04<00:05, 500.66it/s]Sequence data:  43%|████▎     | 2086/4872 [00:04<00:05, 497.19it/s]Sequence data:  44%|████▍     | 2137/4872 [00:04<00:05, 500.63it/s]Sequence data:  45%|████▍     | 2189/4872 [00:04<00:05, 503.48it/s]Sequence data:  46%|████▌     | 2240/4872 [00:04<00:05, 503.10it/s]Sequence data:  47%|████▋     | 2292/4872 [00:04<00:05, 506.60it/s]Sequence data:  48%|████▊     | 2345/4872 [00:04<00:04, 511.39it/s]Sequence data:  49%|████▉     | 2397/4872 [00:05<00:04, 510.99it/s]Sequence data:  50%|█████     | 2449/4872 [00:05<00:04, 507.47it/s]Sequence data:  51%|█████▏    | 2500/4872 [00:05<00:04, 507.98it/s]Sequence data:  52%|█████▏    | 2551/4872 [00:05<00:04, 502.02it/s]Sequence data:  53%|█████▎    | 2603/4872 [00:05<00:04, 507.00it/s]Sequence data:  54%|█████▍    | 2655/4872 [00:05<00:04, 507.26it/s]Sequence data:  56%|█████▌    | 2706/4872 [00:05<00:04, 507.22it/s]Sequence data:  57%|█████▋    | 2758/4872 [00:05<00:04, 510.48it/s]Sequence data:  58%|█████▊    | 2810/4872 [00:05<00:04, 511.71it/s]Sequence data:  59%|█████▊    | 2862/4872 [00:05<00:03, 510.72it/s]Sequence data:  60%|█████▉    | 2916/4872 [00:06<00:03, 516.96it/s]Sequence data:  61%|██████    | 2969/4872 [00:06<00:03, 519.63it/s]Sequence data:  62%|██████▏   | 3021/4872 [00:06<00:03, 518.55it/s]Sequence data:  63%|██████▎   | 3075/4872 [00:06<00:03, 522.58it/s]Sequence data:  64%|██████▍   | 3129/4872 [00:06<00:03, 526.71it/s]Sequence data:  65%|██████▌   | 3183/4872 [00:06<00:03, 528.72it/s]Sequence data:  66%|██████▋   | 3236/4872 [00:06<00:03, 528.70it/s]Sequence data:  68%|██████▊   | 3291/4872 [00:06<00:02, 532.46it/s]Sequence data:  69%|██████▊   | 3345/4872 [00:06<00:02, 533.11it/s]Sequence data:  70%|██████▉   | 3399/4872 [00:06<00:02, 535.08it/s]Sequence data:  71%|███████   | 3454/4872 [00:07<00:02, 538.24it/s]Sequence data:  72%|███████▏  | 3508/4872 [00:07<00:02, 538.01it/s]Sequence data:  73%|███████▎  | 3562/4872 [00:07<00:02, 537.32it/s]Sequence data:  74%|███████▍  | 3617/4872 [00:07<00:02, 540.12it/s]Sequence data:  75%|███████▌  | 3672/4872 [00:07<00:02, 540.25it/s]Sequence data:  76%|███████▋  | 3727/4872 [00:07<00:02, 541.88it/s]Sequence data:  78%|███████▊  | 3782/4872 [00:07<00:02, 543.13it/s]Sequence data:  79%|███████▉  | 3838/4872 [00:07<00:01, 547.38it/s]Sequence data:  80%|███████▉  | 3893/4872 [00:07<00:01, 545.70it/s]Sequence data:  81%|████████  | 3949/4872 [00:07<00:01, 547.80it/s]Sequence data:  82%|████████▏ | 4005/4872 [00:08<00:01, 549.37it/s]Sequence data:  83%|████████▎ | 4060/4872 [00:08<00:01, 549.26it/s]Sequence data:  84%|████████▍ | 4115/4872 [00:08<00:01, 547.32it/s]Sequence data:  86%|████████▌ | 4171/4872 [00:08<00:01, 550.21it/s]Sequence data:  87%|████████▋ | 4227/4872 [00:08<00:01, 551.47it/s]Sequence data:  88%|████████▊ | 4284/4872 [00:08<00:01, 556.09it/s]Sequence data:  89%|████████▉ | 4340/4872 [00:08<00:00, 555.74it/s]Sequence data:  90%|█████████ | 4397/4872 [00:08<00:00, 559.24it/s]Sequence data:  91%|█████████▏| 4455/4872 [00:08<00:00, 562.92it/s]Sequence data:  93%|█████████▎| 4513/4872 [00:09<00:00, 566.26it/s]Sequence data:  94%|█████████▍| 4571/4872 [00:09<00:00, 570.05it/s]Sequence data:  95%|█████████▌| 4629/4872 [00:09<00:00, 572.91it/s]Sequence data:  96%|█████████▌| 4687/4872 [00:09<00:00, 575.02it/s]Sequence data:  97%|█████████▋| 4745/4872 [00:09<00:00, 576.39it/s]Sequence data:  99%|█████████▊| 4803/4872 [00:09<00:00, 577.14it/s]Sequence data: 100%|█████████▉| 4862/4872 [00:09<00:00, 578.21it/s]Sequence data: 100%|██████████| 4872/4872 [00:09<00:00, 506.08it/s]
+[92m[INFO] Best epoch number: 365[0m
+2021-11-12 21:58:00.528130: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-12 21:58:00.552678: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/365
+2021-11-12 21:58:01.148586: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 21:58:01.310296: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+878/878 - 16s - loss: 0.0978 - f1: 0.0790
+Epoch 3/219
+1082/1082 - 23s - loss: 0.0657 - f1: 2.8598e-04
+Epoch 2/365
+878/878 - 16s - loss: 0.0921 - f1: 0.1848
+Epoch 4/219
+878/878 - 16s - loss: 0.0896 - f1: 0.2081
+Epoch 5/219
+1082/1082 - 21s - loss: 0.0446 - f1: 2.8475e-04
+Epoch 3/365
+878/878 - 16s - loss: 0.0882 - f1: 0.2145
+Epoch 6/219
+1082/1082 - 20s - loss: 0.0433 - f1: 0.0012
+Epoch 4/365
+878/878 - 16s - loss: 0.0870 - f1: 0.2261
+Epoch 7/219
+1082/1082 - 20s - loss: 0.0423 - f1: 0.0034
+Epoch 5/365
+878/878 - 16s - loss: 0.0860 - f1: 0.2340
+Epoch 8/219
+1082/1082 - 20s - loss: 0.0414 - f1: 0.0071
+Epoch 6/365
+878/878 - 16s - loss: 0.0849 - f1: 0.2422
+Epoch 9/219
+878/878 - 16s - loss: 0.0841 - f1: 0.2466
+Epoch 10/219
+1082/1082 - 20s - loss: 0.0408 - f1: 0.0113
+Epoch 7/365
+878/878 - 16s - loss: 0.0833 - f1: 0.2534
+Epoch 11/219
+1082/1082 - 20s - loss: 0.0403 - f1: 0.0154
+Epoch 8/365
+878/878 - 16s - loss: 0.0828 - f1: 0.2589
+Epoch 12/219
+1082/1082 - 21s - loss: 0.0399 - f1: 0.0163
+Epoch 9/365
+878/878 - 16s - loss: 0.0821 - f1: 0.2623
+Epoch 13/219
+878/878 - 16s - loss: 0.0816 - f1: 0.2671
+Epoch 14/219
+1082/1082 - 21s - loss: 0.0395 - f1: 0.0223
+Epoch 10/365
+878/878 - 16s - loss: 0.0810 - f1: 0.2732
+Epoch 15/219
+1082/1082 - 21s - loss: 0.0392 - f1: 0.0261
+Epoch 11/365
+878/878 - 16s - loss: 0.0807 - f1: 0.2722
+Epoch 16/219
+1082/1082 - 20s - loss: 0.0390 - f1: 0.0309
+Epoch 12/365
+878/878 - 15s - loss: 0.0802 - f1: 0.2800
+Epoch 17/219
+878/878 - 16s - loss: 0.0797 - f1: 0.2836
+Epoch 18/219
+1082/1082 - 20s - loss: 0.0387 - f1: 0.0340
+Epoch 13/365
+878/878 - 16s - loss: 0.0794 - f1: 0.2877
+Epoch 19/219
+1082/1082 - 20s - loss: 0.0386 - f1: 0.0359
+Epoch 14/365
+878/878 - 16s - loss: 0.0790 - f1: 0.2903
+Epoch 20/219
+1082/1082 - 21s - loss: 0.0383 - f1: 0.0403
+Epoch 15/365
+878/878 - 16s - loss: 0.0787 - f1: 0.2935
+Epoch 21/219
+1082/1082 - 20s - loss: 0.0382 - f1: 0.0422
+Epoch 16/365
+878/878 - 16s - loss: 0.0784 - f1: 0.2953
+Epoch 22/219
+878/878 - 16s - loss: 0.0779 - f1: 0.3022
+Epoch 23/219
+1082/1082 - 21s - loss: 0.0380 - f1: 0.0440
+Epoch 17/365
+878/878 - 16s - loss: 0.0779 - f1: 0.2996
+Epoch 24/219
+1082/1082 - 21s - loss: 0.0378 - f1: 0.0486
+Epoch 18/365
+878/878 - 16s - loss: 0.0774 - f1: 0.3043
+Epoch 25/219
+1082/1082 - 20s - loss: 0.0377 - f1: 0.0509
+Epoch 19/365
+878/878 - 16s - loss: 0.0772 - f1: 0.3073
+Epoch 26/219
+878/878 - 16s - loss: 0.0768 - f1: 0.3114
+Epoch 27/219
+1082/1082 - 21s - loss: 0.0375 - f1: 0.0541
+Epoch 20/365
+878/878 - 16s - loss: 0.0765 - f1: 0.3136
+Epoch 28/219
+1082/1082 - 20s - loss: 0.0373 - f1: 0.0555
+Epoch 21/365
+878/878 - 16s - loss: 0.0764 - f1: 0.3125
+Epoch 29/219
+1082/1082 - 20s - loss: 0.0373 - f1: 0.0566
+Epoch 22/365
+878/878 - 16s - loss: 0.0760 - f1: 0.3183
+Epoch 30/219
+1082/1082 - 21s - loss: 0.0371 - f1: 0.0593
+Epoch 23/365
+878/878 - 16s - loss: 0.0759 - f1: 0.3185
+Epoch 31/219
+878/878 - 16s - loss: 0.0756 - f1: 0.3216
+Epoch 32/219
+1082/1082 - 20s - loss: 0.0370 - f1: 0.0625
+Epoch 24/365
+878/878 - 16s - loss: 0.0755 - f1: 0.3210
+Epoch 33/219
+1082/1082 - 21s - loss: 0.0368 - f1: 0.0662
+Epoch 25/365
+878/878 - 16s - loss: 0.0754 - f1: 0.3231
+Epoch 34/219
+1082/1082 - 21s - loss: 0.0367 - f1: 0.0670
+Epoch 26/365
+878/878 - 16s - loss: 0.0751 - f1: 0.3246
+Epoch 35/219
+878/878 - 15s - loss: 0.0748 - f1: 0.3289
+Epoch 36/219
+1082/1082 - 20s - loss: 0.0366 - f1: 0.0683
+Epoch 27/365
+878/878 - 16s - loss: 0.0746 - f1: 0.3277
+Epoch 37/219
+1082/1082 - 21s - loss: 0.0365 - f1: 0.0713
+Epoch 28/365
+878/878 - 16s - loss: 0.0744 - f1: 0.3308
+Epoch 38/219
+1082/1082 - 20s - loss: 0.0364 - f1: 0.0730
+Epoch 29/365
+878/878 - 15s - loss: 0.0740 - f1: 0.3335
+Epoch 39/219
+878/878 - 16s - loss: 0.0739 - f1: 0.3353
+Epoch 40/219
+1082/1082 - 20s - loss: 0.0363 - f1: 0.0740
+Epoch 30/365
+878/878 - 16s - loss: 0.0738 - f1: 0.3351
+Epoch 41/219
+1082/1082 - 20s - loss: 0.0362 - f1: 0.0777
+Epoch 31/365
+878/878 - 16s - loss: 0.0736 - f1: 0.3363
+Epoch 42/219
+1082/1082 - 20s - loss: 0.0361 - f1: 0.0795
+Epoch 32/365
+878/878 - 16s - loss: 0.0735 - f1: 0.3395
+Epoch 43/219
+1082/1082 - 20s - loss: 0.0360 - f1: 0.0803
+Epoch 33/365
+878/878 - 16s - loss: 0.0732 - f1: 0.3412
+Epoch 44/219
+878/878 - 16s - loss: 0.0730 - f1: 0.3429
+Epoch 45/219
+1082/1082 - 20s - loss: 0.0359 - f1: 0.0833
+Epoch 34/365
+878/878 - 16s - loss: 0.0730 - f1: 0.3442
+Epoch 46/219
+1082/1082 - 21s - loss: 0.0358 - f1: 0.0835
+Epoch 35/365
+878/878 - 16s - loss: 0.0728 - f1: 0.3446
+Epoch 47/219
+1082/1082 - 20s - loss: 0.0357 - f1: 0.0837
+Epoch 36/365
+878/878 - 16s - loss: 0.0725 - f1: 0.3474
+Epoch 48/219
+878/878 - 16s - loss: 0.0725 - f1: 0.3465
+Epoch 49/219
+1082/1082 - 20s - loss: 0.0356 - f1: 0.0879
+Epoch 37/365
+878/878 - 16s - loss: 0.0725 - f1: 0.3452
+Epoch 50/219
+1082/1082 - 20s - loss: 0.0355 - f1: 0.0890
+Epoch 38/365
+878/878 - 16s - loss: 0.0722 - f1: 0.3516
+Epoch 51/219
+1082/1082 - 20s - loss: 0.0355 - f1: 0.0915
+Epoch 39/365
+878/878 - 16s - loss: 0.0720 - f1: 0.3514
+Epoch 52/219
+1082/1082 - 21s - loss: 0.0354 - f1: 0.0910
+Epoch 40/365
+878/878 - 16s - loss: 0.0718 - f1: 0.3539
+Epoch 53/219
+878/878 - 16s - loss: 0.0718 - f1: 0.3530
+Epoch 54/219
+1082/1082 - 20s - loss: 0.0353 - f1: 0.0935
+Epoch 41/365
+878/878 - 16s - loss: 0.0715 - f1: 0.3553
+Epoch 55/219
+1082/1082 - 21s - loss: 0.0352 - f1: 0.0954
+Epoch 42/365
+878/878 - 15s - loss: 0.0716 - f1: 0.3545
+Epoch 56/219
+1082/1082 - 20s - loss: 0.0351 - f1: 0.0990
+Epoch 43/365
+878/878 - 16s - loss: 0.0714 - f1: 0.3580
+Epoch 57/219
+878/878 - 16s - loss: 0.0712 - f1: 0.3572
+Epoch 58/219
+1082/1082 - 21s - loss: 0.0351 - f1: 0.0988
+Epoch 44/365
+878/878 - 15s - loss: 0.0710 - f1: 0.3593
+Epoch 59/219
+1082/1082 - 20s - loss: 0.0350 - f1: 0.1006
+Epoch 45/365
+878/878 - 16s - loss: 0.0711 - f1: 0.3572
+Epoch 60/219
+1082/1082 - 20s - loss: 0.0349 - f1: 0.1023
+Epoch 46/365
+878/878 - 16s - loss: 0.0709 - f1: 0.3594
+Epoch 61/219
+1082/1082 - 20s - loss: 0.0348 - f1: 0.1055
+Epoch 47/365
+878/878 - 16s - loss: 0.0708 - f1: 0.3613
+Epoch 62/219
+878/878 - 16s - loss: 0.0708 - f1: 0.3620
+Epoch 63/219
+1082/1082 - 21s - loss: 0.0348 - f1: 0.1051
+Epoch 48/365
+878/878 - 16s - loss: 0.0705 - f1: 0.3651
+Epoch 64/219
+1082/1082 - 21s - loss: 0.0348 - f1: 0.1060
+Epoch 49/365
+878/878 - 16s - loss: 0.0705 - f1: 0.3626
+Epoch 65/219
+1082/1082 - 21s - loss: 0.0346 - f1: 0.1102
+Epoch 50/365
+878/878 - 16s - loss: 0.0706 - f1: 0.3622
+Epoch 66/219
+878/878 - 16s - loss: 0.0701 - f1: 0.3712
+Epoch 67/219
+1082/1082 - 21s - loss: 0.0346 - f1: 0.1098
+Epoch 51/365
+878/878 - 16s - loss: 0.0701 - f1: 0.3672
+Epoch 68/219
+1082/1082 - 20s - loss: 0.0345 - f1: 0.1109
+Epoch 52/365
+878/878 - 16s - loss: 0.0700 - f1: 0.3692
+Epoch 69/219
+1082/1082 - 20s - loss: 0.0345 - f1: 0.1124
+Epoch 53/365
+878/878 - 16s - loss: 0.0700 - f1: 0.3699
+Epoch 70/219
+1082/1082 - 20s - loss: 0.0344 - f1: 0.1143
+Epoch 54/365
+878/878 - 16s - loss: 0.0698 - f1: 0.3718
+Epoch 71/219
+878/878 - 16s - loss: 0.0698 - f1: 0.3709
+Epoch 72/219
+1082/1082 - 20s - loss: 0.0343 - f1: 0.1145
+Epoch 55/365
+878/878 - 16s - loss: 0.0697 - f1: 0.3725
+Epoch 73/219
+1082/1082 - 20s - loss: 0.0343 - f1: 0.1161
+Epoch 56/365
+878/878 - 16s - loss: 0.0695 - f1: 0.3735
+Epoch 74/219
+1082/1082 - 21s - loss: 0.0343 - f1: 0.1176
+Epoch 57/365
+878/878 - 16s - loss: 0.0696 - f1: 0.3715
+Epoch 75/219
+878/878 - 16s - loss: 0.0695 - f1: 0.3735
+Epoch 76/219
+1082/1082 - 20s - loss: 0.0342 - f1: 0.1188
+Epoch 58/365
+878/878 - 16s - loss: 0.0693 - f1: 0.3761
+Epoch 77/219
+1082/1082 - 20s - loss: 0.0342 - f1: 0.1202
+Epoch 59/365
+878/878 - 16s - loss: 0.0692 - f1: 0.3763
+Epoch 78/219
+1082/1082 - 21s - loss: 0.0341 - f1: 0.1214
+Epoch 60/365
+878/878 - 16s - loss: 0.0693 - f1: 0.3744
+Epoch 79/219
+1082/1082 - 21s - loss: 0.0341 - f1: 0.1230
+Epoch 61/365
+878/878 - 16s - loss: 0.0692 - f1: 0.3765
+Epoch 80/219
+878/878 - 16s - loss: 0.0691 - f1: 0.3778
+Epoch 81/219
+1082/1082 - 21s - loss: 0.0341 - f1: 0.1238
+Epoch 62/365
+878/878 - 16s - loss: 0.0692 - f1: 0.3780
+Epoch 82/219
+1082/1082 - 21s - loss: 0.0340 - f1: 0.1257
+Epoch 63/365
+878/878 - 16s - loss: 0.0690 - f1: 0.3786
+Epoch 83/219
+1082/1082 - 20s - loss: 0.0339 - f1: 0.1262
+Epoch 64/365
+878/878 - 16s - loss: 0.0688 - f1: 0.3807
+Epoch 84/219
+878/878 - 16s - loss: 0.0687 - f1: 0.3812
+Epoch 85/219
+1082/1082 - 20s - loss: 0.0339 - f1: 0.1269
+Epoch 65/365
+878/878 - 16s - loss: 0.0687 - f1: 0.3808
+Epoch 86/219
+1082/1082 - 20s - loss: 0.0338 - f1: 0.1285
+Epoch 66/365
+878/878 - 16s - loss: 0.0687 - f1: 0.3813
+Epoch 87/219
+1082/1082 - 20s - loss: 0.0338 - f1: 0.1294
+Epoch 67/365
+878/878 - 16s - loss: 0.0686 - f1: 0.3831
+Epoch 88/219
+1082/1082 - 21s - loss: 0.0338 - f1: 0.1298
+Epoch 68/365
+878/878 - 16s - loss: 0.0685 - f1: 0.3859
+Epoch 89/219
+878/878 - 15s - loss: 0.0685 - f1: 0.3832
+Epoch 90/219
+1082/1082 - 21s - loss: 0.0337 - f1: 0.1323
+Epoch 69/365
+878/878 - 16s - loss: 0.0683 - f1: 0.3845
+Epoch 91/219
+1082/1082 - 20s - loss: 0.0337 - f1: 0.1336
+Epoch 70/365
+878/878 - 16s - loss: 0.0682 - f1: 0.3865
+Epoch 92/219
+1082/1082 - 20s - loss: 0.0337 - f1: 0.1336
+Epoch 71/365
+878/878 - 16s - loss: 0.0681 - f1: 0.3872
+Epoch 93/219
+878/878 - 16s - loss: 0.0682 - f1: 0.3849
+Epoch 94/219
+1082/1082 - 20s - loss: 0.0336 - f1: 0.1330
+Epoch 72/365
+878/878 - 16s - loss: 0.0682 - f1: 0.3848
+Epoch 95/219
+1082/1082 - 20s - loss: 0.0336 - f1: 0.1373
+Epoch 73/365
+878/878 - 16s - loss: 0.0681 - f1: 0.3874
+Epoch 96/219
+1082/1082 - 20s - loss: 0.0336 - f1: 0.1360
+Epoch 74/365
+878/878 - 16s - loss: 0.0680 - f1: 0.3865
+Epoch 97/219
+1082/1082 - 20s - loss: 0.0335 - f1: 0.1386
+Epoch 75/365
+878/878 - 16s - loss: 0.0679 - f1: 0.3897
+Epoch 98/219
+878/878 - 16s - loss: 0.0677 - f1: 0.3922
+Epoch 99/219
+1082/1082 - 20s - loss: 0.0335 - f1: 0.1388
+Epoch 76/365
+878/878 - 16s - loss: 0.0678 - f1: 0.3895
+Epoch 100/219
+1082/1082 - 20s - loss: 0.0334 - f1: 0.1408
+Epoch 77/365
+878/878 - 16s - loss: 0.0678 - f1: 0.3899
+Epoch 101/219
+1082/1082 - 20s - loss: 0.0334 - f1: 0.1412
+Epoch 78/365
+878/878 - 16s - loss: 0.0676 - f1: 0.3919
+Epoch 102/219
+1082/1082 - 20s - loss: 0.0334 - f1: 0.1409
+Epoch 79/365
+878/878 - 16s - loss: 0.0675 - f1: 0.3924
+Epoch 103/219
+878/878 - 16s - loss: 0.0676 - f1: 0.3897
+Epoch 104/219
+1082/1082 - 21s - loss: 0.0334 - f1: 0.1422
+Epoch 80/365
+878/878 - 16s - loss: 0.0674 - f1: 0.3928
+Epoch 105/219
+1082/1082 - 21s - loss: 0.0333 - f1: 0.1445
+Epoch 81/365
+878/878 - 16s - loss: 0.0675 - f1: 0.3921
+Epoch 106/219
+1082/1082 - 20s - loss: 0.0333 - f1: 0.1443
+Epoch 82/365
+878/878 - 16s - loss: 0.0674 - f1: 0.3920
+Epoch 107/219
+878/878 - 16s - loss: 0.0673 - f1: 0.3945
+Epoch 108/219
+1082/1082 - 21s - loss: 0.0333 - f1: 0.1435
+Epoch 83/365
+878/878 - 16s - loss: 0.0673 - f1: 0.3944
+Epoch 109/219
+1082/1082 - 20s - loss: 0.0332 - f1: 0.1469
+Epoch 84/365
+878/878 - 16s - loss: 0.0673 - f1: 0.3951
+Epoch 110/219
+1082/1082 - 20s - loss: 0.0332 - f1: 0.1478
+Epoch 85/365
+878/878 - 16s - loss: 0.0671 - f1: 0.3960
+Epoch 111/219
+1082/1082 - 20s - loss: 0.0332 - f1: 0.1462
+Epoch 86/365
+878/878 - 16s - loss: 0.0672 - f1: 0.3968
+Epoch 112/219
+878/878 - 16s - loss: 0.0671 - f1: 0.3970
+Epoch 113/219
+1082/1082 - 20s - loss: 0.0331 - f1: 0.1499
+Epoch 87/365
+878/878 - 16s - loss: 0.0670 - f1: 0.3966
+Epoch 114/219
+1082/1082 - 21s - loss: 0.0330 - f1: 0.1528
+Epoch 88/365
+878/878 - 16s - loss: 0.0671 - f1: 0.3968
+Epoch 115/219
+1082/1082 - 20s - loss: 0.0331 - f1: 0.1485
+Epoch 89/365
+878/878 - 16s - loss: 0.0670 - f1: 0.3956
+Epoch 116/219
+878/878 - 16s - loss: 0.0669 - f1: 0.3981
+Epoch 117/219
+1082/1082 - 21s - loss: 0.0330 - f1: 0.1532
+Epoch 90/365
+878/878 - 15s - loss: 0.0669 - f1: 0.3990
+Epoch 118/219
+1082/1082 - 20s - loss: 0.0330 - f1: 0.1523
+Epoch 91/365
+878/878 - 16s - loss: 0.0669 - f1: 0.3979
+Epoch 119/219
+1082/1082 - 20s - loss: 0.0330 - f1: 0.1535
+Epoch 92/365
+878/878 - 16s - loss: 0.0667 - f1: 0.4017
+Epoch 120/219
+1082/1082 - 20s - loss: 0.0329 - f1: 0.1564
+Epoch 93/365
+878/878 - 16s - loss: 0.0667 - f1: 0.3998
+Epoch 121/219
+878/878 - 16s - loss: 0.0667 - f1: 0.4000
+Epoch 122/219
+1082/1082 - 20s - loss: 0.0329 - f1: 0.1548
+Epoch 94/365
+878/878 - 16s - loss: 0.0665 - f1: 0.4010
+Epoch 123/219
+1082/1082 - 20s - loss: 0.0330 - f1: 0.1516
+Epoch 95/365
+878/878 - 16s - loss: 0.0665 - f1: 0.4019
+Epoch 124/219
+1082/1082 - 20s - loss: 0.0329 - f1: 0.1552
+Epoch 96/365
+878/878 - 16s - loss: 0.0666 - f1: 0.4015
+Epoch 125/219
+1082/1082 - 21s - loss: 0.0328 - f1: 0.1577
+Epoch 97/365
+878/878 - 16s - loss: 0.0665 - f1: 0.4029
+Epoch 126/219
+878/878 - 16s - loss: 0.0665 - f1: 0.4030
+Epoch 127/219
+1082/1082 - 20s - loss: 0.0328 - f1: 0.1572
+Epoch 98/365
+878/878 - 16s - loss: 0.0664 - f1: 0.4024
+Epoch 128/219
+1082/1082 - 21s - loss: 0.0328 - f1: 0.1572
+Epoch 99/365
+878/878 - 16s - loss: 0.0663 - f1: 0.4055
+Epoch 129/219
+1082/1082 - 20s - loss: 0.0328 - f1: 0.1591
+Epoch 100/365
+878/878 - 16s - loss: 0.0663 - f1: 0.4031
+Epoch 130/219
+878/878 - 15s - loss: 0.0662 - f1: 0.4067
+Epoch 131/219
+1082/1082 - 20s - loss: 0.0328 - f1: 0.1601
+Epoch 101/365
+878/878 - 16s - loss: 0.0663 - f1: 0.4026
+Epoch 132/219
+1082/1082 - 20s - loss: 0.0328 - f1: 0.1592
+Epoch 102/365
+878/878 - 16s - loss: 0.0663 - f1: 0.4027
+Epoch 133/219
+1082/1082 - 21s - loss: 0.0327 - f1: 0.1600
+Epoch 103/365
+878/878 - 16s - loss: 0.0661 - f1: 0.4047
+Epoch 134/219
+1082/1082 - 20s - loss: 0.0327 - f1: 0.1604
+Epoch 104/365
+878/878 - 16s - loss: 0.0662 - f1: 0.4066
+Epoch 135/219
+878/878 - 16s - loss: 0.0661 - f1: 0.4070
+Epoch 136/219
+1082/1082 - 21s - loss: 0.0327 - f1: 0.1612
+Epoch 105/365
+878/878 - 16s - loss: 0.0660 - f1: 0.4078
+Epoch 137/219
+1082/1082 - 20s - loss: 0.0327 - f1: 0.1618
+Epoch 106/365
+878/878 - 16s - loss: 0.0660 - f1: 0.4082
+Epoch 138/219
+1082/1082 - 20s - loss: 0.0326 - f1: 0.1638
+Epoch 107/365
+878/878 - 16s - loss: 0.0660 - f1: 0.4070
+Epoch 139/219
+878/878 - 16s - loss: 0.0659 - f1: 0.4086
+Epoch 140/219
+1082/1082 - 21s - loss: 0.0326 - f1: 0.1641
+Epoch 108/365
+878/878 - 16s - loss: 0.0660 - f1: 0.4071
+Epoch 141/219
+1082/1082 - 21s - loss: 0.0326 - f1: 0.1634
+Epoch 109/365
+878/878 - 16s - loss: 0.0659 - f1: 0.4081
+Epoch 142/219
+1082/1082 - 20s - loss: 0.0326 - f1: 0.1617
+Epoch 110/365
+878/878 - 16s - loss: 0.0660 - f1: 0.4057
+Epoch 143/219
+1082/1082 - 20s - loss: 0.0325 - f1: 0.1655
+Epoch 111/365
+878/878 - 16s - loss: 0.0658 - f1: 0.4084
+Epoch 144/219
+878/878 - 16s - loss: 0.0657 - f1: 0.4113
+Epoch 145/219
+1082/1082 - 21s - loss: 0.0325 - f1: 0.1649
+Epoch 112/365
+878/878 - 16s - loss: 0.0655 - f1: 0.4148
+Epoch 146/219
+1082/1082 - 20s - loss: 0.0325 - f1: 0.1639
+Epoch 113/365
+878/878 - 16s - loss: 0.0656 - f1: 0.4113
+Epoch 147/219
+1082/1082 - 20s - loss: 0.0325 - f1: 0.1680
+Epoch 114/365
+878/878 - 16s - loss: 0.0658 - f1: 0.4095
+Epoch 148/219
+878/878 - 16s - loss: 0.0657 - f1: 0.4095
+Epoch 149/219
+1082/1082 - 21s - loss: 0.0325 - f1: 0.1664
+Epoch 115/365
+878/878 - 16s - loss: 0.0656 - f1: 0.4116
+Epoch 150/219
+1082/1082 - 20s - loss: 0.0325 - f1: 0.1677
+Epoch 116/365
+878/878 - 16s - loss: 0.0655 - f1: 0.4131
+Epoch 151/219
+1082/1082 - 21s - loss: 0.0324 - f1: 0.1697
+Epoch 117/365
+878/878 - 16s - loss: 0.0654 - f1: 0.4132
+Epoch 152/219
+1082/1082 - 20s - loss: 0.0324 - f1: 0.1713
+Epoch 118/365
+878/878 - 16s - loss: 0.0655 - f1: 0.4112
+Epoch 153/219
+878/878 - 16s - loss: 0.0656 - f1: 0.4105
+Epoch 154/219
+1082/1082 - 21s - loss: 0.0324 - f1: 0.1681
+Epoch 119/365
+878/878 - 16s - loss: 0.0654 - f1: 0.4118
+Epoch 155/219
+1082/1082 - 20s - loss: 0.0324 - f1: 0.1698
+Epoch 120/365
+878/878 - 15s - loss: 0.0655 - f1: 0.4124
+Epoch 156/219
+1082/1082 - 20s - loss: 0.0324 - f1: 0.1683
+Epoch 121/365
+878/878 - 16s - loss: 0.0654 - f1: 0.4130
+Epoch 157/219
+878/878 - 16s - loss: 0.0655 - f1: 0.4121
+Epoch 158/219
+1082/1082 - 21s - loss: 0.0324 - f1: 0.1687
+Epoch 122/365
+878/878 - 16s - loss: 0.0653 - f1: 0.4150
+Epoch 159/219
+1082/1082 - 20s - loss: 0.0323 - f1: 0.1743
+Epoch 123/365
+878/878 - 15s - loss: 0.0654 - f1: 0.4123
+Epoch 160/219
+1082/1082 - 20s - loss: 0.0323 - f1: 0.1721
+Epoch 124/365
+878/878 - 16s - loss: 0.0653 - f1: 0.4151
+Epoch 161/219
+878/878 - 16s - loss: 0.0651 - f1: 0.4155
+Epoch 162/219
+1082/1082 - 20s - loss: 0.0323 - f1: 0.1716
+Epoch 125/365
+878/878 - 16s - loss: 0.0652 - f1: 0.4133
+Epoch 163/219
+1082/1082 - 21s - loss: 0.0323 - f1: 0.1729
+Epoch 126/365
+878/878 - 16s - loss: 0.0653 - f1: 0.4133
+Epoch 164/219
+1082/1082 - 20s - loss: 0.0322 - f1: 0.1747
+Epoch 127/365
+878/878 - 16s - loss: 0.0652 - f1: 0.4178
+Epoch 165/219
+1082/1082 - 21s - loss: 0.0323 - f1: 0.1749
+Epoch 128/365
+878/878 - 16s - loss: 0.0650 - f1: 0.4175
+Epoch 166/219
+878/878 - 16s - loss: 0.0652 - f1: 0.4147
+Epoch 167/219
+1082/1082 - 20s - loss: 0.0322 - f1: 0.1749
+Epoch 129/365
+878/878 - 16s - loss: 0.0651 - f1: 0.4151
+Epoch 168/219
+1082/1082 - 21s - loss: 0.0322 - f1: 0.1760
+Epoch 130/365
+878/878 - 16s - loss: 0.0651 - f1: 0.4169
+Epoch 169/219
+1082/1082 - 20s - loss: 0.0322 - f1: 0.1760
+Epoch 131/365
+878/878 - 16s - loss: 0.0650 - f1: 0.4182
+Epoch 170/219
+878/878 - 16s - loss: 0.0651 - f1: 0.4149
+Epoch 171/219
+1082/1082 - 20s - loss: 0.0322 - f1: 0.1763
+Epoch 132/365
+878/878 - 16s - loss: 0.0650 - f1: 0.4169
+Epoch 172/219
+1082/1082 - 21s - loss: 0.0321 - f1: 0.1789
+Epoch 133/365
+878/878 - 16s - loss: 0.0649 - f1: 0.4198
+Epoch 173/219
+1082/1082 - 20s - loss: 0.0322 - f1: 0.1762
+Epoch 134/365
+878/878 - 16s - loss: 0.0649 - f1: 0.4173
+Epoch 174/219
+1082/1082 - 21s - loss: 0.0321 - f1: 0.1808
+Epoch 135/365
+878/878 - 16s - loss: 0.0649 - f1: 0.4163
+Epoch 175/219
+878/878 - 16s - loss: 0.0648 - f1: 0.4197
+Epoch 176/219
+1082/1082 - 20s - loss: 0.0321 - f1: 0.1786
+Epoch 136/365
+878/878 - 16s - loss: 0.0650 - f1: 0.4172
+Epoch 177/219
+1082/1082 - 21s - loss: 0.0321 - f1: 0.1796
+Epoch 137/365
+878/878 - 16s - loss: 0.0649 - f1: 0.4192
+Epoch 178/219
+1082/1082 - 20s - loss: 0.0321 - f1: 0.1791
+Epoch 138/365
+878/878 - 16s - loss: 0.0647 - f1: 0.4205
+Epoch 179/219
+878/878 - 16s - loss: 0.0648 - f1: 0.4175
+Epoch 180/219
+1082/1082 - 20s - loss: 0.0321 - f1: 0.1786
+Epoch 139/365
+878/878 - 16s - loss: 0.0648 - f1: 0.4180
+Epoch 181/219
+1082/1082 - 21s - loss: 0.0321 - f1: 0.1784
+Epoch 140/365
+878/878 - 16s - loss: 0.0647 - f1: 0.4206
+Epoch 182/219
+1082/1082 - 21s - loss: 0.0320 - f1: 0.1810
+Epoch 141/365
+878/878 - 15s - loss: 0.0646 - f1: 0.4198
+Epoch 183/219
+878/878 - 16s - loss: 0.0644 - f1: 0.4229
+Epoch 184/219
+1082/1082 - 21s - loss: 0.0320 - f1: 0.1809
+Epoch 142/365
+878/878 - 16s - loss: 0.0646 - f1: 0.4201
+Epoch 185/219
+1082/1082 - 21s - loss: 0.0320 - f1: 0.1827
+Epoch 143/365
+878/878 - 16s - loss: 0.0645 - f1: 0.4225
+Epoch 186/219
+1082/1082 - 21s - loss: 0.0320 - f1: 0.1818
+Epoch 144/365
+878/878 - 16s - loss: 0.0647 - f1: 0.4207
+Epoch 187/219
+1082/1082 - 20s - loss: 0.0320 - f1: 0.1827
+Epoch 145/365
+878/878 - 16s - loss: 0.0645 - f1: 0.4215
+Epoch 188/219
+878/878 - 16s - loss: 0.0645 - f1: 0.4211
+Epoch 189/219
+1082/1082 - 20s - loss: 0.0320 - f1: 0.1825
+Epoch 146/365
+878/878 - 16s - loss: 0.0645 - f1: 0.4221
+Epoch 190/219
+1082/1082 - 20s - loss: 0.0320 - f1: 0.1834
+Epoch 147/365
+878/878 - 16s - loss: 0.0645 - f1: 0.4231
+Epoch 191/219
+1082/1082 - 21s - loss: 0.0320 - f1: 0.1822
+Epoch 148/365
+878/878 - 16s - loss: 0.0645 - f1: 0.4216
+Epoch 192/219
+878/878 - 16s - loss: 0.0644 - f1: 0.4222
+Epoch 193/219
+1082/1082 - 20s - loss: 0.0319 - f1: 0.1854
+Epoch 149/365
+878/878 - 16s - loss: 0.0645 - f1: 0.4204
+Epoch 194/219
+1082/1082 - 20s - loss: 0.0320 - f1: 0.1828
+Epoch 150/365
+878/878 - 15s - loss: 0.0643 - f1: 0.4229
+Epoch 195/219
+1082/1082 - 21s - loss: 0.0319 - f1: 0.1843
+Epoch 151/365
+878/878 - 15s - loss: 0.0643 - f1: 0.4243
+Epoch 196/219
+878/878 - 16s - loss: 0.0644 - f1: 0.4220
+1082/1082 - 21s - loss: 0.0319 - f1: 0.1849
+Epoch 197/219
+Epoch 152/365
+878/878 - 16s - loss: 0.0643 - f1: 0.4240
+Epoch 198/219
+1082/1082 - 20s - loss: 0.0319 - f1: 0.1858
+Epoch 153/365
+878/878 - 16s - loss: 0.0643 - f1: 0.4239
+Epoch 199/219
+1082/1082 - 20s - loss: 0.0319 - f1: 0.1858
+Epoch 154/365
+878/878 - 16s - loss: 0.0643 - f1: 0.4241
+Epoch 200/219
+1082/1082 - 21s - loss: 0.0319 - f1: 0.1863
+Epoch 155/365
+878/878 - 16s - loss: 0.0641 - f1: 0.4265
+Epoch 201/219
+878/878 - 16s - loss: 0.0641 - f1: 0.4262
+Epoch 202/219
+1082/1082 - 20s - loss: 0.0318 - f1: 0.1867
+Epoch 156/365
+878/878 - 16s - loss: 0.0643 - f1: 0.4238
+Epoch 203/219
+1082/1082 - 21s - loss: 0.0318 - f1: 0.1879
+Epoch 157/365
+878/878 - 16s - loss: 0.0641 - f1: 0.4265
+Epoch 204/219
+1082/1082 - 20s - loss: 0.0319 - f1: 0.1858
+Epoch 158/365
+878/878 - 16s - loss: 0.0641 - f1: 0.4249
+Epoch 205/219
+1082/1082 - 20s - loss: 0.0319 - f1: 0.1861
+Epoch 159/365
+878/878 - 15s - loss: 0.0639 - f1: 0.4290
+Epoch 206/219
+878/878 - 16s - loss: 0.0642 - f1: 0.4250
+Epoch 207/219
+1082/1082 - 20s - loss: 0.0318 - f1: 0.1868
+Epoch 160/365
+878/878 - 16s - loss: 0.0641 - f1: 0.4276
+Epoch 208/219
+1082/1082 - 21s - loss: 0.0318 - f1: 0.1863
+Epoch 161/365
+878/878 - 16s - loss: 0.0641 - f1: 0.4262
+Epoch 209/219
+1082/1082 - 20s - loss: 0.0318 - f1: 0.1878
+Epoch 162/365
+878/878 - 16s - loss: 0.0640 - f1: 0.4255
+Epoch 210/219
+878/878 - 16s - loss: 0.0640 - f1: 0.4269
+Epoch 211/219
+1082/1082 - 20s - loss: 0.0318 - f1: 0.1882
+Epoch 163/365
+878/878 - 15s - loss: 0.0641 - f1: 0.4262
+Epoch 212/219
+1082/1082 - 20s - loss: 0.0318 - f1: 0.1895
+Epoch 164/365
+878/878 - 16s - loss: 0.0640 - f1: 0.4263
+Epoch 213/219
+1082/1082 - 21s - loss: 0.0317 - f1: 0.1924
+Epoch 165/365
+878/878 - 16s - loss: 0.0639 - f1: 0.4292
+Epoch 214/219
+1082/1082 - 20s - loss: 0.0318 - f1: 0.1872
+Epoch 166/365
+878/878 - 16s - loss: 0.0641 - f1: 0.4239
+Epoch 215/219
+878/878 - 16s - loss: 0.0640 - f1: 0.4280
+Epoch 216/219
+1082/1082 - 21s - loss: 0.0317 - f1: 0.1915
+Epoch 167/365
+878/878 - 16s - loss: 0.0640 - f1: 0.4259
+Epoch 217/219
+1082/1082 - 20s - loss: 0.0317 - f1: 0.1897
+Epoch 168/365
+878/878 - 16s - loss: 0.0638 - f1: 0.4283
+Epoch 218/219
+1082/1082 - 20s - loss: 0.0318 - f1: 0.1892
+Epoch 169/365
+878/878 - 15s - loss: 0.0639 - f1: 0.4285
+Epoch 219/219
+878/878 - 16s - loss: 0.0639 - f1: 0.4280
+[92m[INFO] Loading best model...[0m
+1082/1082 - 20s - loss: 0.0317 - f1: 0.1903
+Epoch 170/365
+1082/1082 - 21s - loss: 0.0317 - f1: 0.1917
+Epoch 171/365
+1082/1082 - 21s - loss: 0.0317 - f1: 0.1908
+Epoch 172/365
+1082/1082 - 21s - loss: 0.0317 - f1: 0.1913
+Epoch 173/365
+1082/1082 - 20s - loss: 0.0317 - f1: 0.1911
+Epoch 174/365
+1082/1082 - 20s - loss: 0.0317 - f1: 0.1897
+Epoch 175/365
+1082/1082 - 22s - loss: 0.0317 - f1: 0.1926
+Epoch 176/365
+1082/1082 - 20s - loss: 0.0316 - f1: 0.1930
+Epoch 177/365
+1082/1082 - 21s - loss: 0.0317 - f1: 0.1904
+Epoch 178/365
+1082/1082 - 20s - loss: 0.0316 - f1: 0.1929
+Epoch 179/365
+1082/1082 - 21s - loss: 0.0316 - f1: 0.1927
+Epoch 180/365
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1947
+Epoch 181/365
+1082/1082 - 20s - loss: 0.0316 - f1: 0.1954
+Epoch 182/365
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1942
+Epoch 183/365
+1082/1082 - 21s - loss: 0.0316 - f1: 0.1940
+Epoch 184/365
+1082/1082 - 22s - loss: 0.0316 - f1: 0.1930
+Epoch 185/365
+1082/1082 - 21s - loss: 0.0315 - f1: 0.1945
+Epoch 186/365
+1082/1082 - 21s - loss: 0.0316 - f1: 0.1963
+Epoch 187/365
+1082/1082 - 20s - loss: 0.0315 - f1: 0.1970
+Epoch 188/365
+1082/1082 - 20s - loss: 0.0316 - f1: 0.1929
+Epoch 189/365
+1082/1082 - 21s - loss: 0.0315 - f1: 0.1964
+Epoch 190/365
+1082/1082 - 21s - loss: 0.0315 - f1: 0.1981
+Epoch 191/365
+1082/1082 - 22s - loss: 0.0315 - f1: 0.1964
+Epoch 192/365
+1082/1082 - 21s - loss: 0.0315 - f1: 0.1972
+Epoch 193/365
+1082/1082 - 21s - loss: 0.0315 - f1: 0.1974
+Epoch 194/365
+1082/1082 - 20s - loss: 0.0315 - f1: 0.1965
+Epoch 195/365
+1082/1082 - 21s - loss: 0.0315 - f1: 0.1959
+Epoch 196/365
+1082/1082 - 21s - loss: 0.0315 - f1: 0.1975
+Epoch 197/365
+1082/1082 - 20s - loss: 0.0314 - f1: 0.1994
+Epoch 198/365
+1082/1082 - 20s - loss: 0.0315 - f1: 0.1985
+Epoch 199/365
+1082/1082 - 22s - loss: 0.0315 - f1: 0.1982
+Epoch 200/365
+1082/1082 - 22s - loss: 0.0314 - f1: 0.2004
+Epoch 201/365
+1082/1082 - 21s - loss: 0.0314 - f1: 0.1992
+Epoch 202/365
+1082/1082 - 21s - loss: 0.0314 - f1: 0.1993
+Epoch 203/365
+1082/1082 - 21s - loss: 0.0314 - f1: 0.2007
+Epoch 204/365
+1082/1082 - 21s - loss: 0.0314 - f1: 0.1989
+Epoch 205/365
+1082/1082 - 22s - loss: 0.0314 - f1: 0.2000
+Epoch 206/365
+1082/1082 - 21s - loss: 0.0315 - f1: 0.1998
+Epoch 207/365
+1082/1082 - 22s - loss: 0.0315 - f1: 0.2005
+Epoch 208/365
+1082/1082 - 22s - loss: 0.0315 - f1: 0.1966
+Epoch 209/365
+1082/1082 - 20s - loss: 0.0314 - f1: 0.2017
+Epoch 210/365
+1082/1082 - 22s - loss: 0.0314 - f1: 0.2007
+Epoch 211/365
+1082/1082 - 20s - loss: 0.0314 - f1: 0.2020
+Epoch 212/365
+1082/1082 - 20s - loss: 0.0314 - f1: 0.2021
+Epoch 213/365
+1082/1082 - 20s - loss: 0.0313 - f1: 0.2027
+Epoch 214/365
+1082/1082 - 23s - loss: 0.0314 - f1: 0.2021
+Epoch 215/365
+1082/1082 - 21s - loss: 0.0313 - f1: 0.2020
+Epoch 216/365
+1082/1082 - 21s - loss: 0.0313 - f1: 0.2042
+Epoch 217/365
+1082/1082 - 21s - loss: 0.0313 - f1: 0.2009
+Epoch 218/365
+1082/1082 - 20s - loss: 0.0313 - f1: 0.2051
+Epoch 219/365
+1082/1082 - 22s - loss: 0.0313 - f1: 0.2036
+Epoch 220/365
+1082/1082 - 20s - loss: 0.0313 - f1: 0.2016
+Epoch 221/365
+1082/1082 - 22s - loss: 0.0313 - f1: 0.2061
+Epoch 222/365
+1082/1082 - 22s - loss: 0.0313 - f1: 0.2035
+Epoch 223/365
+1082/1082 - 21s - loss: 0.0313 - f1: 0.2029
+Epoch 224/365
+1082/1082 - 20s - loss: 0.0313 - f1: 0.2035
+Epoch 225/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2056
+Epoch 226/365
+1082/1082 - 22s - loss: 0.0313 - f1: 0.2053
+Epoch 227/365
+1082/1082 - 20s - loss: 0.0312 - f1: 0.2047
+Epoch 228/365
+1082/1082 - 21s - loss: 0.0313 - f1: 0.2061
+Epoch 229/365
+1082/1082 - 20s - loss: 0.0313 - f1: 0.2056
+Epoch 230/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2075
+Epoch 231/365
+1082/1082 - 20s - loss: 0.0313 - f1: 0.2054
+Epoch 232/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2053
+Epoch 233/365
+1082/1082 - 22s - loss: 0.0312 - f1: 0.2063
+Epoch 234/365
+1082/1082 - 21s - loss: 0.0313 - f1: 0.2036
+Epoch 235/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2059
+Epoch 236/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2061
+Epoch 237/365
+1082/1082 - 20s - loss: 0.0312 - f1: 0.2082
+Epoch 238/365
+1082/1082 - 22s - loss: 0.0312 - f1: 0.2071
+Epoch 239/365
+1082/1082 - 20s - loss: 0.0312 - f1: 0.2069
+Epoch 240/365
+1082/1082 - 22s - loss: 0.0311 - f1: 0.2085
+Epoch 241/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2076
+Epoch 242/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2062
+Epoch 243/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2088
+Epoch 244/365
+1082/1082 - 22s - loss: 0.0312 - f1: 0.2071
+Epoch 245/365
+1082/1082 - 20s - loss: 0.0312 - f1: 0.2070
+Epoch 246/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2064
+Epoch 247/365
+1082/1082 - 21s - loss: 0.0312 - f1: 0.2086
+Epoch 248/365
+1082/1082 - 20s - loss: 0.0311 - f1: 0.2082
+Epoch 249/365
+1082/1082 - 20s - loss: 0.0312 - f1: 0.2082
+Epoch 250/365
+1082/1082 - 19s - loss: 0.0312 - f1: 0.2081
+Epoch 251/365
+1082/1082 - 21s - loss: 0.0311 - f1: 0.2090
+Epoch 252/365
+1082/1082 - 22s - loss: 0.0311 - f1: 0.2089
+Epoch 253/365
+1082/1082 - 21s - loss: 0.0311 - f1: 0.2119
+Epoch 254/365
+1082/1082 - 20s - loss: 0.0312 - f1: 0.2060
+Epoch 255/365
+1082/1082 - 21s - loss: 0.0311 - f1: 0.2090
+Epoch 256/365
+1082/1082 - 22s - loss: 0.0311 - f1: 0.2091
+Epoch 257/365
+1082/1082 - 22s - loss: 0.0311 - f1: 0.2104
+Epoch 258/365
+1082/1082 - 21s - loss: 0.0311 - f1: 0.2092
+Epoch 259/365
+1082/1082 - 20s - loss: 0.0311 - f1: 0.2112
+Epoch 260/365
+1082/1082 - 21s - loss: 0.0311 - f1: 0.2107
+Epoch 261/365
+1082/1082 - 20s - loss: 0.0311 - f1: 0.2104
+Epoch 262/365
+1082/1082 - 20s - loss: 0.0311 - f1: 0.2113
+Epoch 263/365
+1082/1082 - 21s - loss: 0.0311 - f1: 0.2105
+Epoch 264/365
+1082/1082 - 21s - loss: 0.0310 - f1: 0.2121
+Epoch 265/365
+1082/1082 - 21s - loss: 0.0311 - f1: 0.2100
+Epoch 266/365
+1082/1082 - 20s - loss: 0.0311 - f1: 0.2099
+Epoch 267/365
+1082/1082 - 20s - loss: 0.0311 - f1: 0.2100
+Epoch 268/365
+1082/1082 - 20s - loss: 0.0311 - f1: 0.2106
+Epoch 269/365
+1082/1082 - 21s - loss: 0.0311 - f1: 0.2097
+Epoch 270/365
+1082/1082 - 22s - loss: 0.0311 - f1: 0.2109
+Epoch 271/365
+1082/1082 - 22s - loss: 0.0311 - f1: 0.2112
+Epoch 272/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2137
+Epoch 273/365
+1082/1082 - 19s - loss: 0.0310 - f1: 0.2120
+Epoch 274/365
+1082/1082 - 20s - loss: 0.0310 - f1: 0.2139
+Epoch 275/365
+1082/1082 - 20s - loss: 0.0310 - f1: 0.2116
+Epoch 276/365
+1082/1082 - 21s - loss: 0.0310 - f1: 0.2149
+Epoch 277/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2150
+Epoch 278/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2143
+Epoch 279/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2125
+Epoch 280/365
+1082/1082 - 23s - loss: 0.0310 - f1: 0.2134
+Epoch 281/365
+1082/1082 - 21s - loss: 0.0310 - f1: 0.2127
+Epoch 282/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2132
+Epoch 283/365
+1082/1082 - 20s - loss: 0.0310 - f1: 0.2132
+Epoch 284/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2154
+Epoch 285/365
+1082/1082 - 21s - loss: 0.0310 - f1: 0.2149
+Epoch 286/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2169
+Epoch 287/365
+1082/1082 - 20s - loss: 0.0309 - f1: 0.2160
+Epoch 288/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2139
+Epoch 289/365
+1082/1082 - 21s - loss: 0.0310 - f1: 0.2164
+Epoch 290/365
+1082/1082 - 20s - loss: 0.0310 - f1: 0.2136
+Epoch 291/365
+1082/1082 - 20s - loss: 0.0310 - f1: 0.2134
+Epoch 292/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2162
+Epoch 293/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2155
+Epoch 294/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2136
+Epoch 295/365
+1082/1082 - 21s - loss: 0.0310 - f1: 0.2152
+Epoch 296/365
+1082/1082 - 22s - loss: 0.0309 - f1: 0.2157
+Epoch 297/365
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2152
+Epoch 298/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2182
+Epoch 299/365
+1082/1082 - 20s - loss: 0.0310 - f1: 0.2138
+Epoch 300/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2144
+Epoch 301/365
+1082/1082 - 19s - loss: 0.0309 - f1: 0.2147
+Epoch 302/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2157
+Epoch 303/365
+1082/1082 - 22s - loss: 0.0309 - f1: 0.2158
+Epoch 304/365
+1082/1082 - 22s - loss: 0.0309 - f1: 0.2169
+Epoch 305/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2160
+Epoch 306/365
+1082/1082 - 20s - loss: 0.0309 - f1: 0.2169
+Epoch 307/365
+1082/1082 - 22s - loss: 0.0309 - f1: 0.2156
+Epoch 308/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2184
+Epoch 309/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2165
+Epoch 310/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2178
+Epoch 311/365
+1082/1082 - 20s - loss: 0.0309 - f1: 0.2171
+Epoch 312/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2189
+Epoch 313/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2160
+Epoch 314/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2183
+Epoch 315/365
+1082/1082 - 22s - loss: 0.0309 - f1: 0.2182
+Epoch 316/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2172
+Epoch 317/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2214
+Epoch 318/365
+1082/1082 - 20s - loss: 0.0309 - f1: 0.2165
+Epoch 319/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2189
+Epoch 320/365
+1082/1082 - 22s - loss: 0.0309 - f1: 0.2185
+Epoch 321/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2193
+Epoch 322/365
+1082/1082 - 22s - loss: 0.0308 - f1: 0.2204
+Epoch 323/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2193
+Epoch 324/365
+1082/1082 - 20s - loss: 0.0309 - f1: 0.2177
+Epoch 325/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2186
+Epoch 326/365
+1082/1082 - 21s - loss: 0.0309 - f1: 0.2194
+Epoch 327/365
+1082/1082 - 22s - loss: 0.0308 - f1: 0.2205
+Epoch 328/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2200
+Epoch 329/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2196
+Epoch 330/365
+1082/1082 - 22s - loss: 0.0308 - f1: 0.2172
+Epoch 331/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2207
+Epoch 332/365
+1082/1082 - 22s - loss: 0.0308 - f1: 0.2206
+Epoch 333/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2191
+Epoch 334/365
+1082/1082 - 22s - loss: 0.0308 - f1: 0.2187
+Epoch 335/365
+1082/1082 - 21s - loss: 0.0307 - f1: 0.2231
+Epoch 336/365
+1082/1082 - 19s - loss: 0.0308 - f1: 0.2203
+Epoch 337/365
+1082/1082 - 20s - loss: 0.0308 - f1: 0.2228
+Epoch 338/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2199
+Epoch 339/365
+1082/1082 - 20s - loss: 0.0308 - f1: 0.2222
+Epoch 340/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2208
+Epoch 341/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2216
+Epoch 342/365
+1082/1082 - 20s - loss: 0.0308 - f1: 0.2209
+Epoch 343/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2198
+Epoch 344/365
+1082/1082 - 22s - loss: 0.0308 - f1: 0.2186
+Epoch 345/365
+1082/1082 - 22s - loss: 0.0308 - f1: 0.2203
+Epoch 346/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2207
+Epoch 347/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2203
+Epoch 348/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2216
+Epoch 349/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2214
+Epoch 350/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2205
+Epoch 351/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2192
+Epoch 352/365
+1082/1082 - 21s - loss: 0.0307 - f1: 0.2246
+Epoch 353/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2222
+Epoch 354/365
+1082/1082 - 21s - loss: 0.0307 - f1: 0.2233
+Epoch 355/365
+1082/1082 - 20s - loss: 0.0307 - f1: 0.2233
+Epoch 356/365
+1082/1082 - 20s - loss: 0.0308 - f1: 0.2222
+Epoch 357/365
+1082/1082 - 21s - loss: 0.0308 - f1: 0.2197
+Epoch 358/365
+1082/1082 - 20s - loss: 0.0307 - f1: 0.2240
+Epoch 359/365
+1082/1082 - 21s - loss: 0.0307 - f1: 0.2215
+Epoch 360/365
+1082/1082 - 20s - loss: 0.0308 - f1: 0.2204
+Epoch 361/365
+1082/1082 - 21s - loss: 0.0307 - f1: 0.2234
+Epoch 362/365
+1082/1082 - 20s - loss: 0.0307 - f1: 0.2247
+Epoch 363/365
+1082/1082 - 20s - loss: 0.0308 - f1: 0.2234
+Epoch 364/365
+1082/1082 - 20s - loss: 0.0307 - f1: 0.2231
+Epoch 365/365
+1082/1082 - 21s - loss: 0.0307 - f1: 0.2238
+[92m[INFO] Loading best model...[0m
+newyorkcity
+   -[26977] newyorkcity
+2021-11-13 00:04:20.863492: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+london
+   -[26999] london
+2021-11-13 00:04:21.880098: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[93m[WARNING] Model folder already exists...[0m
+2021-11-13 00:04:39.531563: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-13 00:04:39.532326: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-13 00:04:39.568163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-13 00:04:39.568217: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-13 00:04:39.571751: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-13 00:04:39.571881: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-13 00:04:39.573257: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-13 00:04:39.573677: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-13 00:04:39.575923: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-13 00:04:39.576458: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-13 00:04:39.576634: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-13 00:04:39.578116: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-13 00:04:39.654838: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-13 00:04:39.656103: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-13 00:04:39.657812: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-13 00:04:39.657875: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-13 00:04:39.657925: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-13 00:04:39.657950: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-13 00:04:39.657973: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-13 00:04:39.657998: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-13 00:04:39.658021: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-13 00:04:39.658056: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-13 00:04:39.658080: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-13 00:04:39.660892: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-13 00:04:39.660953: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-13 00:04:40.007895: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-13 00:04:40.007928: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-13 00:04:40.007933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-13 00:04:40.009405: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11217 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+Sequence data:   0%|          | 0/6675 [00:00<?, ?it/s]Sequence data:   1%|          | 40/6675 [00:00<00:16, 391.24it/s]Sequence data:   1%|▏         | 87/6675 [00:00<00:15, 434.36it/s]Sequence data:   2%|▏         | 131/6675 [00:01<01:42, 63.89it/s]Sequence data:   3%|▎         | 177/6675 [00:01<01:06, 98.11it/s]Sequence data:   3%|▎         | 225/6675 [00:01<00:46, 139.82it/s]Sequence data:   4%|▍         | 268/6675 [00:01<00:35, 178.82it/s]Sequence data:   5%|▍         | 310/6675 [00:01<00:29, 217.72it/s]Sequence data:   5%|▌         | 355/6675 [00:02<00:24, 260.42it/s]Sequence data:   6%|▌         | 402/6675 [00:02<00:20, 303.45it/s]Sequence data:   7%|▋         | 451/6675 [00:02<00:17, 346.21it/s]Sequence data:   8%|▊         | 501/6675 [00:02<00:16, 382.67it/s]Sequence data:   8%|▊         | 548/6675 [00:02<00:15, 403.02it/s]Sequence data:   9%|▉         | 595/6675 [00:02<00:14, 407.70it/s]Sequence data:  10%|▉         | 640/6675 [00:02<00:14, 410.23it/s]Sequence data:  10%|█         | 684/6675 [00:02<00:14, 414.41it/s]Sequence data:  11%|█         | 728/6675 [00:02<00:14, 419.31it/s]Sequence data:  12%|█▏        | 774/6675 [00:03<00:13, 428.64it/s]Sequence data:  12%|█▏        | 822/6675 [00:03<00:13, 440.92it/s]Sequence data:  13%|█▎        | 871/6675 [00:03<00:12, 454.15it/s]Sequence data:  14%|█▍        | 921/6675 [00:03<00:12, 465.90it/s]Sequence data:  15%|█▍        | 971/6675 [00:03<00:12, 473.98it/s]Sequence data:  15%|█▌        | 1019/6675 [00:03<00:11, 474.76it/s]Sequence data:  16%|█▌        | 1068/6675 [00:03<00:11, 478.42it/s]Sequence data:  17%|█▋        | 1116/6675 [00:03<00:11, 474.37it/s]Sequence data:  17%|█▋        | 1164/6675 [00:03<00:11, 474.18it/s]Sequence data:  18%|█▊        | 1212/6675 [00:03<00:11, 471.56it/s]Sequence data:  19%|█▉        | 1260/6675 [00:04<00:11, 463.59it/s]Sequence data:  20%|█▉        | 1307/6675 [00:04<00:11, 456.76it/s]Sequence data:  20%|██        | 1353/6675 [00:04<00:11, 454.29it/s]Sequence data:  21%|██        | 1399/6675 [00:04<00:11, 451.86it/s]Sequence data:  22%|██▏       | 1445/6675 [00:04<00:11, 454.03it/s]Sequence data:  22%|██▏       | 1493/6675 [00:04<00:11, 460.42it/s]Sequence data:  23%|██▎       | 1540/6675 [00:04<00:11, 462.22it/s]Sequence data:  24%|██▍       | 1589/6675 [00:04<00:10, 468.19it/s]Sequence data:  25%|██▍       | 1638/6675 [00:04<00:10, 473.25it/s]Sequence data:  25%|██▌       | 1689/6675 [00:04<00:10, 481.87it/s]Sequence data:  26%|██▌       | 1739/6675 [00:05<00:10, 485.35it/s]Sequence data:  27%|██▋       | 1789/6675 [00:05<00:10, 487.77it/s]Sequence data:  28%|██▊       | 1839/6675 [00:05<00:09, 490.64it/s]Sequence data:  28%|██▊       | 1889/6675 [00:05<00:09, 488.02it/s]Sequence data:  29%|██▉       | 1939/6675 [00:05<00:09, 490.24it/s]Sequence data:  30%|██▉       | 1991/6675 [00:05<00:09, 495.79it/s]Sequence data:  31%|███       | 2041/6675 [00:05<00:09, 488.64it/s]Sequence data:  31%|███▏      | 2090/6675 [00:05<00:09, 482.98it/s]Sequence data:  32%|███▏      | 2139/6675 [00:05<00:09, 482.30it/s]Sequence data:  33%|███▎      | 2190/6675 [00:05<00:09, 487.69it/s]Sequence data:  34%|███▎      | 2239/6675 [00:06<00:09, 480.98it/s]Sequence data:  34%|███▍      | 2288/6675 [00:06<00:09, 474.95it/s]Sequence data:  35%|███▌      | 2338/6675 [00:06<00:09, 480.15it/s]Sequence data:  36%|███▌      | 2387/6675 [00:06<00:08, 481.87it/s]Sequence data:  36%|███▋      | 2436/6675 [00:06<00:08, 482.24it/s]Sequence data:  37%|███▋      | 2485/6675 [00:06<00:08, 483.42it/s]Sequence data:  38%|███▊      | 2534/6675 [00:06<00:08, 481.96it/s]Sequence data:  39%|███▉      | 2587/6675 [00:06<00:08, 493.58it/s]Sequence data:  40%|███▉      | 2645/6675 [00:06<00:07, 517.94it/s]Sequence data:  40%|████      | 2698/6675 [00:07<00:07, 519.49it/s]Sequence data:  41%|████      | 2750/6675 [00:07<00:07, 516.30it/s]Sequence data:  42%|████▏     | 2804/6675 [00:07<00:07, 520.44it/s]Sequence data:  43%|████▎     | 2858/6675 [00:07<00:07, 524.59it/s]Sequence data:  44%|████▎     | 2911/6675 [00:07<00:07, 519.21it/s]Sequence data:  44%|████▍     | 2965/6675 [00:07<00:07, 522.51it/s]Sequence data:  45%|████▌     | 3023/6675 [00:07<00:06, 536.81it/s]Sequence data:  46%|████▌     | 3077/6675 [00:07<00:06, 536.51it/s]Sequence data:  47%|████▋     | 3139/6675 [00:07<00:06, 559.06it/s]Sequence data:  48%|████▊     | 3199/6675 [00:07<00:06, 571.15it/s]Sequence data:  49%|████▉     | 3259/6675 [00:08<00:05, 578.48it/s]Sequence data:  50%|████▉     | 3317/6675 [00:08<00:05, 571.27it/s]Sequence data:  51%|█████     | 3375/6675 [00:08<00:05, 571.58it/s]Sequence data:  51%|█████▏    | 3435/6675 [00:08<00:05, 579.09it/s]Sequence data:  52%|█████▏    | 3498/6675 [00:08<00:05, 591.89it/s]Sequence data:  53%|█████▎    | 3564/6675 [00:08<00:05, 611.81it/s]Sequence data:  54%|█████▍    | 3629/6675 [00:08<00:04, 622.74it/s]Sequence data:  55%|█████▌    | 3696/6675 [00:08<00:04, 634.72it/s]Sequence data:  56%|█████▋    | 3760/6675 [00:08<00:04, 626.48it/s]Sequence data:  57%|█████▋    | 3825/6675 [00:08<00:04, 632.91it/s]Sequence data:  58%|█████▊    | 3889/6675 [00:09<00:04, 622.29it/s]Sequence data:  59%|█████▉    | 3957/6675 [00:09<00:04, 635.26it/s]Sequence data:  60%|██████    | 4021/6675 [00:09<00:04, 627.82it/s]Sequence data:  61%|██████▏   | 4093/6675 [00:09<00:03, 654.19it/s]Sequence data:  63%|██████▎   | 4183/6675 [00:09<00:03, 723.55it/s]Sequence data:  64%|██████▍   | 4267/6675 [00:09<00:03, 757.12it/s]Sequence data:  65%|██████▌   | 4356/6675 [00:09<00:02, 794.72it/s]Sequence data:  66%|██████▋   | 4436/6675 [00:09<00:02, 796.00it/s]Sequence data:  68%|██████▊   | 4520/6675 [00:09<00:02, 805.68it/s]Sequence data:  69%|██████▉   | 4601/6675 [00:09<00:02, 795.75it/s]Sequence data:  70%|███████   | 4683/6675 [00:10<00:02, 802.27it/s]Sequence data:  71%|███████▏  | 4768/6675 [00:10<00:02, 816.29it/s]Sequence data:  73%|███████▎  | 4850/6675 [00:10<00:02, 794.55it/s]Sequence data:  74%|███████▍  | 4944/6675 [00:10<00:02, 834.14it/s]Sequence data:  75%|███████▌  | 5039/6675 [00:10<00:01, 864.44it/s]Sequence data:  77%|███████▋  | 5154/6675 [00:10<00:01, 944.97it/s]Sequence data:  79%|███████▉  | 5264/6675 [00:10<00:01, 989.63it/s]Sequence data:  80%|████████  | 5372/6675 [00:10<00:01, 1015.91it/s]Sequence data:  82%|████████▏ | 5487/6675 [00:10<00:01, 1051.76it/s]Sequence data:  84%|████████▍ | 5629/6675 [00:10<00:00, 1157.22it/s]Sequence data:  86%|████████▌ | 5747/6675 [00:11<00:00, 1159.00it/s]Sequence data:  88%|████████▊ | 5877/6675 [00:11<00:00, 1200.34it/s]Sequence data:  90%|████████▉ | 6003/6675 [00:11<00:00, 1214.37it/s]Sequence data:  92%|█████████▏| 6134/6675 [00:11<00:00, 1241.45it/s]Sequence data:  94%|█████████▍| 6267/6675 [00:11<00:00, 1263.96it/s]Sequence data:  96%|█████████▌| 6396/6675 [00:11<00:00, 1271.47it/s]Sequence data:  98%|█████████▊| 6524/6675 [00:11<00:00, 1254.13it/s]Sequence data: 100%|█████████▉| 6658/6675 [00:11<00:00, 1274.51it/s]Sequence data: 100%|██████████| 6675/6675 [00:11<00:00, 565.10it/s] 
+Sequence data:   0%|          | 0/2908 [00:00<?, ?it/s]Sequence data:   2%|▏         | 49/2908 [00:00<00:05, 486.49it/s]Sequence data:   3%|▎         | 100/2908 [00:00<00:05, 495.45it/s]Sequence data:   5%|▌         | 150/2908 [00:00<00:05, 495.88it/s]Sequence data:   7%|▋         | 200/2908 [00:00<00:05, 495.80it/s]Sequence data:   9%|▊         | 251/2908 [00:00<00:05, 497.70it/s]Sequence data:  10%|█         | 302/2908 [00:00<00:05, 500.51it/s]Sequence data:  12%|█▏        | 355/2908 [00:00<00:05, 508.90it/s]Sequence data:  14%|█▍        | 408/2908 [00:00<00:04, 512.97it/s]Sequence data:  16%|█▌        | 460/2908 [00:00<00:04, 513.03it/s]Sequence data:  18%|█▊        | 512/2908 [00:01<00:04, 512.82it/s]Sequence data:  19%|█▉        | 564/2908 [00:01<00:04, 514.27it/s]Sequence data:  21%|██▏       | 618/2908 [00:01<00:04, 519.06it/s]Sequence data:  23%|██▎       | 673/2908 [00:01<00:04, 525.66it/s]Sequence data:  25%|██▌       | 727/2908 [00:01<00:04, 529.45it/s]Sequence data:  27%|██▋       | 782/2908 [00:01<00:03, 534.73it/s]Sequence data:  29%|██▉       | 837/2908 [00:01<00:03, 536.76it/s]Sequence data:  31%|███       | 893/2908 [00:01<00:03, 542.91it/s]Sequence data:  33%|███▎      | 948/2908 [00:01<00:03, 539.58it/s]Sequence data:  35%|███▍      | 1004/2908 [00:01<00:03, 544.74it/s]Sequence data:  36%|███▋      | 1060/2908 [00:02<00:03, 546.98it/s]Sequence data:  38%|███▊      | 1116/2908 [00:02<00:03, 549.58it/s]Sequence data:  40%|████      | 1175/2908 [00:02<00:03, 560.49it/s]Sequence data:  42%|████▏     | 1232/2908 [00:03<00:14, 115.55it/s]Sequence data:  44%|████▍     | 1290/2908 [00:03<00:10, 152.58it/s]Sequence data:  46%|████▋     | 1348/2908 [00:03<00:07, 196.37it/s]Sequence data:  48%|████▊     | 1407/2908 [00:03<00:06, 246.40it/s]Sequence data:  50%|█████     | 1465/2908 [00:04<00:04, 297.35it/s]Sequence data:  52%|█████▏    | 1524/2908 [00:04<00:03, 349.24it/s]Sequence data:  55%|█████▍    | 1585/2908 [00:04<00:03, 401.54it/s]Sequence data:  57%|█████▋    | 1644/2908 [00:04<00:02, 443.55it/s]Sequence data:  59%|█████▊    | 1704/2908 [00:04<00:02, 481.37it/s]Sequence data:  61%|██████    | 1765/2908 [00:04<00:02, 513.74it/s]Sequence data:  63%|██████▎   | 1827/2908 [00:04<00:01, 541.87it/s]Sequence data:  65%|██████▍   | 1888/2908 [00:04<00:01, 560.16it/s]Sequence data:  67%|██████▋   | 1950/2908 [00:04<00:01, 575.54it/s]Sequence data:  69%|██████▉   | 2011/2908 [00:04<00:01, 583.26it/s]Sequence data:  71%|███████▏  | 2073/2908 [00:05<00:01, 593.46it/s]Sequence data:  73%|███████▎  | 2136/2908 [00:05<00:01, 603.33it/s]Sequence data:  76%|███████▌  | 2199/2908 [00:05<00:01, 610.15it/s]Sequence data:  78%|███████▊  | 2264/2908 [00:05<00:01, 619.38it/s]Sequence data:  80%|████████  | 2327/2908 [00:05<00:00, 622.14it/s]Sequence data:  82%|████████▏ | 2390/2908 [00:05<00:00, 621.89it/s]Sequence data:  84%|████████▍ | 2456/2908 [00:05<00:00, 630.41it/s]Sequence data:  87%|████████▋ | 2521/2908 [00:05<00:00, 633.61it/s]Sequence data:  89%|████████▉ | 2585/2908 [00:05<00:00, 634.81it/s]Sequence data:  91%|█████████ | 2650/2908 [00:05<00:00, 639.09it/s]Sequence data:  93%|█████████▎| 2716/2908 [00:06<00:00, 643.00it/s]Sequence data:  96%|█████████▌| 2783/2908 [00:06<00:00, 651.01it/s]Sequence data:  98%|█████████▊| 2851/2908 [00:06<00:00, 656.91it/s]Sequence data: 100%|██████████| 2908/2908 [00:06<00:00, 459.07it/s]
+[92m[INFO] Best epoch number: 174[0m
+2021-11-13 00:04:58.865705: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-13 00:04:58.884709: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/174
+2021-11-13 00:04:59.485978: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-13 00:04:59.637260: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+[93m[WARNING] Model folder already exists...[0m
+2021-11-13 00:05:05.315939: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-13 00:05:05.316671: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-13 00:05:05.345969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-13 00:05:05.346014: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-13 00:05:05.348667: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-13 00:05:05.348759: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-13 00:05:05.349765: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-13 00:05:05.350064: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-13 00:05:05.352140: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-13 00:05:05.352678: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-13 00:05:05.352848: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-13 00:05:05.354047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-13 00:05:05.429187: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-13 00:05:05.430430: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-13 00:05:05.431045: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-13 00:05:05.431083: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-13 00:05:05.431112: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-13 00:05:05.431120: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-13 00:05:05.431128: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-13 00:05:05.431135: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-13 00:05:05.431142: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-13 00:05:05.431150: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-13 00:05:05.431158: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-13 00:05:05.431943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-13 00:05:05.431971: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-13 00:05:05.756347: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-13 00:05:05.756386: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-13 00:05:05.756394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-13 00:05:05.760036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10851 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+Sequence data:   0%|          | 0/12574 [00:00<?, ?it/s]Sequence data:   0%|          | 9/12574 [00:02<1:06:19,  3.16it/s]Sequence data:   0%|          | 34/12574 [00:02<14:00, 14.91it/s] Sequence data:   0%|          | 59/12574 [00:03<06:59, 29.81it/s]Sequence data:   1%|          | 82/12574 [00:03<04:29, 46.41it/s]Sequence data:   1%|          | 107/12574 [00:03<03:03, 67.81it/s]Sequence data:   1%|          | 134/12574 [00:03<02:12, 94.07it/s]Sequence data:   1%|▏         | 162/12574 [00:03<01:41, 122.54it/s]Sequence data:   1%|▏         | 188/12574 [00:03<01:24, 146.80it/s]Sequence data:   2%|▏         | 213/12574 [00:03<01:15, 163.90it/s]Sequence data:   2%|▏         | 237/12574 [00:03<01:10, 175.54it/s]Sequence data:   2%|▏         | 261/12574 [00:03<01:05, 187.44it/s]Sequence data:   2%|▏         | 285/12574 [00:04<01:01, 198.93it/s]Sequence data:   2%|▏         | 310/12574 [00:04<00:58, 210.66it/s]Sequence data:   3%|▎         | 335/12574 [00:04<00:55, 221.16it/s]Sequence data:   3%|▎         | 361/12574 [00:04<00:53, 230.23it/s]Sequence data:   3%|▎         | 388/12574 [00:04<00:50, 240.25it/s]Sequence data:   3%|▎         | 416/12574 [00:04<00:48, 250.21it/s]Sequence data:   4%|▎         | 444/12574 [00:04<00:47, 256.81it/s]Sequence data:   4%|▍         | 473/12574 [00:04<00:45, 264.38it/s]Sequence data:   4%|▍         | 502/12574 [00:04<00:44, 270.54it/s]Sequence data:   4%|▍         | 531/12574 [00:04<00:44, 273.66it/s]Sequence data:   4%|▍         | 559/12574 [00:05<00:44, 273.06it/s]Sequence data:   5%|▍         | 587/12574 [00:05<00:45, 263.14it/s]Sequence data:   5%|▍         | 614/12574 [00:05<00:47, 254.37it/s]Sequence data:   5%|▌         | 640/12574 [00:05<00:49, 242.90it/s]Sequence data:   5%|▌         | 665/12574 [00:05<00:49, 238.20it/s]Sequence data:   5%|▌         | 689/12574 [00:05<00:50, 233.34it/s]Sequence data:   6%|▌         | 713/12574 [00:05<00:51, 232.14it/s]Sequence data:   6%|▌         | 737/12574 [00:05<00:51, 229.05it/s]Sequence data:   6%|▌         | 760/12574 [00:05<00:51, 227.81it/s]Sequence data:   6%|▌         | 785/12574 [00:06<00:50, 232.28it/s]Sequence data:   6%|▋         | 810/12574 [00:06<00:50, 234.87it/s]Sequence data:   7%|▋         | 836/12574 [00:06<00:48, 239.83it/s]Sequence data:   7%|▋         | 862/12574 [00:06<00:48, 243.34it/s]Sequence data:   7%|▋         | 888/12574 [00:06<00:47, 247.20it/s]Sequence data:   7%|▋         | 915/12574 [00:06<00:46, 251.42it/s]Sequence data:   7%|▋         | 941/12574 [00:06<00:45, 253.36it/s]Sequence data:   8%|▊         | 968/12574 [00:06<00:45, 257.71it/s]Sequence data:   8%|▊         | 995/12574 [00:06<00:44, 259.42it/s]Sequence data:   8%|▊         | 1023/12574 [00:06<00:43, 263.37it/s]Sequence data:   8%|▊         | 1050/12574 [00:07<00:43, 264.86it/s]Sequence data:   9%|▊         | 1077/12574 [00:07<00:43, 263.79it/s]Sequence data:   9%|▉         | 1105/12574 [00:07<00:43, 266.09it/s]Sequence data:   9%|▉         | 1133/12574 [00:07<00:42, 269.14it/s]Sequence data:   9%|▉         | 1161/12574 [00:07<00:42, 270.48it/s]Sequence data:   9%|▉         | 1189/12574 [00:07<00:41, 271.96it/s]Sequence data:  10%|▉         | 1217/12574 [00:07<00:42, 267.11it/s]Sequence data:  10%|▉         | 1244/12574 [00:07<00:42, 266.82it/s]Sequence data:  10%|█         | 1271/12574 [00:07<00:42, 264.32it/s]Sequence data:  10%|█         | 1298/12574 [00:07<00:43, 262.17it/s]Sequence data:  11%|█         | 1325/12574 [00:08<00:43, 257.68it/s]Sequence data:  11%|█         | 1351/12574 [00:08<00:44, 251.22it/s]Sequence data:  11%|█         | 1377/12574 [00:08<00:44, 249.87it/s]Sequence data:  11%|█         | 1403/12574 [00:08<00:45, 247.64it/s]Sequence data:  11%|█▏        | 1428/12574 [00:08<00:45, 246.25it/s]Sequence data:  12%|█▏        | 1453/12574 [00:08<00:46, 238.34it/s]Sequence data:  12%|█▏        | 1477/12574 [00:08<00:47, 233.30it/s]Sequence data:  12%|█▏        | 1501/12574 [00:08<00:48, 230.44it/s]Sequence data:  12%|█▏        | 1525/12574 [00:08<00:47, 230.24it/s]844/844 - 17s - loss: 0.1152 - f1: 0.0013
+Epoch 2/174
+Sequence data:  12%|█▏        | 1549/12574 [00:11<07:09, 25.65it/s] Sequence data:  13%|█▎        | 1572/12574 [00:11<05:19, 34.39it/s]Sequence data:  13%|█▎        | 1595/12574 [00:12<04:00, 45.71it/s]Sequence data:  13%|█▎        | 1618/12574 [00:12<03:03, 59.72it/s]Sequence data:  13%|█▎        | 1641/12574 [00:12<02:23, 76.40it/s]Sequence data:  13%|█▎        | 1664/12574 [00:12<01:54, 95.30it/s]Sequence data:  13%|█▎        | 1688/12574 [00:12<01:33, 116.39it/s]Sequence data:  14%|█▎        | 1711/12574 [00:12<01:20, 135.62it/s]Sequence data:  14%|█▍        | 1735/12574 [00:12<01:09, 155.42it/s]Sequence data:  14%|█▍        | 1759/12574 [00:12<01:02, 173.24it/s]Sequence data:  14%|█▍        | 1784/12574 [00:12<00:56, 190.68it/s]Sequence data:  14%|█▍        | 1809/12574 [00:12<00:52, 203.79it/s]Sequence data:  15%|█▍        | 1834/12574 [00:13<00:49, 215.33it/s]Sequence data:  15%|█▍        | 1859/12574 [00:13<00:48, 222.32it/s]Sequence data:  15%|█▍        | 1884/12574 [00:13<00:46, 229.30it/s]Sequence data:  15%|█▌        | 1910/12574 [00:13<00:45, 235.77it/s]Sequence data:  15%|█▌        | 1936/12574 [00:13<00:43, 242.65it/s]Sequence data:  16%|█▌        | 1961/12574 [00:13<00:43, 244.73it/s]Sequence data:  16%|█▌        | 1988/12574 [00:13<00:42, 248.89it/s]Sequence data:  16%|█▌        | 2014/12574 [00:13<00:41, 251.60it/s]Sequence data:  16%|█▌        | 2041/12574 [00:13<00:41, 255.65it/s]Sequence data:  16%|█▋        | 2068/12574 [00:14<00:40, 258.79it/s]Sequence data:  17%|█▋        | 2095/12574 [00:14<00:40, 261.60it/s]Sequence data:  17%|█▋        | 2122/12574 [00:14<00:39, 262.68it/s]Sequence data:  17%|█▋        | 2149/12574 [00:14<00:39, 260.83it/s]Sequence data:  17%|█▋        | 2177/12574 [00:14<00:39, 264.34it/s]Sequence data:  18%|█▊        | 2205/12574 [00:14<00:38, 266.09it/s]Sequence data:  18%|█▊        | 2232/12574 [00:14<00:38, 266.75it/s]Sequence data:  18%|█▊        | 2260/12574 [00:14<00:38, 269.14it/s]Sequence data:  18%|█▊        | 2288/12574 [00:14<00:38, 269.89it/s]Sequence data:  18%|█▊        | 2316/12574 [00:14<00:37, 270.49it/s]Sequence data:  19%|█▊        | 2344/12574 [00:15<00:37, 271.56it/s]Sequence data:  19%|█▉        | 2373/12574 [00:15<00:37, 274.52it/s]Sequence data:  19%|█▉        | 2401/12574 [00:15<00:37, 274.26it/s]Sequence data:  19%|█▉        | 2430/12574 [00:15<00:36, 276.57it/s]Sequence data:  20%|█▉        | 2459/12574 [00:15<00:36, 280.06it/s]Sequence data:  20%|█▉        | 2488/12574 [00:15<00:35, 280.61it/s]Sequence data:  20%|██        | 2517/12574 [00:15<00:35, 280.81it/s]Sequence data:  20%|██        | 2546/12574 [00:15<00:35, 281.16it/s]Sequence data:  20%|██        | 2575/12574 [00:15<00:35, 280.67it/s]Sequence data:  21%|██        | 2604/12574 [00:15<00:36, 276.29it/s]Sequence data:  21%|██        | 2632/12574 [00:16<00:36, 274.34it/s]Sequence data:  21%|██        | 2660/12574 [00:16<00:36, 269.42it/s]Sequence data:  21%|██▏       | 2687/12574 [00:16<00:36, 268.20it/s]Sequence data:  22%|██▏       | 2714/12574 [00:16<00:37, 264.79it/s]Sequence data:  22%|██▏       | 2741/12574 [00:16<00:37, 259.35it/s]Sequence data:  22%|██▏       | 2769/12574 [00:16<00:37, 263.24it/s]Sequence data:  22%|██▏       | 2796/12574 [00:16<00:37, 264.14it/s]Sequence data:  22%|██▏       | 2824/12574 [00:16<00:36, 265.49it/s]Sequence data:  23%|██▎       | 2851/12574 [00:16<00:36, 265.06it/s]Sequence data:  23%|██▎       | 2878/12574 [00:17<00:37, 256.96it/s]Sequence data:  23%|██▎       | 2904/12574 [00:17<00:37, 254.71it/s]Sequence data:  23%|██▎       | 2930/12574 [00:17<00:38, 251.23it/s]Sequence data:  24%|██▎       | 2956/12574 [00:17<00:38, 247.67it/s]Sequence data:  24%|██▎       | 2981/12574 [00:17<00:38, 247.57it/s]Sequence data:  24%|██▍       | 3007/12574 [00:17<00:38, 250.62it/s]Sequence data:  24%|██▍       | 3033/12574 [00:17<00:37, 251.46it/s]Sequence data:  24%|██▍       | 3059/12574 [00:17<00:38, 246.80it/s]Sequence data:  25%|██▍       | 3084/12574 [00:17<00:38, 245.86it/s]Sequence data:  25%|██▍       | 3109/12574 [00:17<00:38, 244.28it/s]Sequence data:  25%|██▍       | 3134/12574 [00:18<00:38, 242.09it/s]Sequence data:  25%|██▌       | 3159/12574 [00:18<00:38, 241.89it/s]Sequence data:  25%|██▌       | 3184/12574 [00:18<00:39, 240.23it/s]Sequence data:  26%|██▌       | 3211/12574 [00:18<00:37, 247.36it/s]Sequence data:  26%|██▌       | 3236/12574 [00:18<00:37, 246.93it/s]Sequence data:  26%|██▌       | 3261/12574 [00:18<00:37, 246.31it/s]Sequence data:  26%|██▌       | 3288/12574 [00:18<00:36, 251.43it/s]Sequence data:  26%|██▋       | 3314/12574 [00:18<00:36, 250.92it/s]Sequence data:  27%|██▋       | 3340/12574 [00:18<00:37, 249.38it/s]Sequence data:  27%|██▋       | 3365/12574 [00:18<00:37, 247.92it/s]Sequence data:  27%|██▋       | 3390/12574 [00:19<00:37, 248.02it/s]Sequence data:  27%|██▋       | 3415/12574 [00:19<00:36, 247.78it/s]Sequence data:  27%|██▋       | 3442/12574 [00:19<00:36, 251.29it/s]Sequence data:  28%|██▊       | 3468/12574 [00:19<00:35, 253.06it/s]Sequence data:  28%|██▊       | 3494/12574 [00:19<00:35, 255.02it/s]Sequence data:  28%|██▊       | 3520/12574 [00:19<00:35, 256.10it/s]Sequence data:  28%|██▊       | 3549/12574 [00:19<00:34, 263.83it/s]Sequence data:  28%|██▊       | 3576/12574 [00:19<00:34, 262.81it/s]Sequence data:  29%|██▊       | 3603/12574 [00:19<00:34, 261.56it/s]Sequence data:  29%|██▉       | 3630/12574 [00:20<00:34, 259.40it/s]Sequence data:  29%|██▉       | 3658/12574 [00:20<00:33, 262.53it/s]Sequence data:  29%|██▉       | 3685/12574 [00:20<00:33, 263.60it/s]Sequence data:  30%|██▉       | 3712/12574 [00:20<00:33, 262.78it/s]Sequence data:  30%|██▉       | 3739/12574 [00:20<00:33, 263.41it/s]Sequence data:  30%|██▉       | 3766/12574 [00:20<00:33, 264.22it/s]Sequence data:  30%|███       | 3794/12574 [00:20<00:32, 267.18it/s]Sequence data:  30%|███       | 3822/12574 [00:20<00:32, 268.51it/s]Sequence data:  31%|███       | 3851/12574 [00:20<00:31, 273.61it/s]Sequence data:  31%|███       | 3879/12574 [00:20<00:31, 273.51it/s]Sequence data:  31%|███       | 3907/12574 [00:21<00:31, 273.35it/s]Sequence data:  31%|███▏      | 3935/12574 [00:21<00:31, 271.77it/s]Sequence data:  32%|███▏      | 3964/12574 [00:21<00:31, 276.22it/s]Sequence data:  32%|███▏      | 3992/12574 [00:21<00:31, 273.78it/s]Sequence data:  32%|███▏      | 4021/12574 [00:21<00:30, 278.42it/s]Sequence data:  32%|███▏      | 4049/12574 [00:21<00:30, 276.79it/s]Sequence data:  32%|███▏      | 4077/12574 [00:21<00:30, 276.34it/s]Sequence data:  33%|███▎      | 4107/12574 [00:21<00:30, 282.07it/s]Sequence data:  33%|███▎      | 4136/12574 [00:21<00:30, 276.88it/s]Sequence data:  33%|███▎      | 4165/12574 [00:21<00:30, 279.20it/s]Sequence data:  33%|███▎      | 4194/12574 [00:22<00:29, 282.12it/s]Sequence data:  34%|███▎      | 4224/12574 [00:22<00:29, 285.42it/s]Sequence data:  34%|███▍      | 4253/12574 [00:22<00:29, 284.26it/s]Sequence data:  34%|███▍      | 4282/12574 [00:22<00:29, 284.90it/s]Sequence data:  34%|███▍      | 4311/12574 [00:22<00:29, 284.18it/s]Sequence data:  35%|███▍      | 4340/12574 [00:22<00:29, 282.46it/s]Sequence data:  35%|███▍      | 4369/12574 [00:22<00:29, 282.36it/s]Sequence data:  35%|███▍      | 4398/12574 [00:22<00:29, 278.43it/s]Sequence data:  35%|███▌      | 4427/12574 [00:22<00:28, 281.67it/s]Sequence data:  35%|███▌      | 4456/12574 [00:22<00:29, 277.26it/s]Sequence data:  36%|███▌      | 4486/12574 [00:23<00:28, 282.11it/s]Sequence data:  36%|███▌      | 4515/12574 [00:23<00:29, 277.68it/s]Sequence data:  36%|███▌      | 4544/12574 [00:23<00:28, 278.41it/s]Sequence data:  36%|███▋      | 4573/12574 [00:23<00:28, 281.53it/s]Sequence data:  37%|███▋      | 4602/12574 [00:23<00:28, 281.14it/s]Sequence data:  37%|███▋      | 4631/12574 [00:23<00:28, 282.22it/s]Sequence data:  37%|███▋      | 4660/12574 [00:23<00:28, 276.58it/s]Sequence data:  37%|███▋      | 4688/12574 [00:23<00:28, 276.43it/s]Sequence data:  38%|███▊      | 4717/12574 [00:23<00:28, 277.73it/s]Sequence data:  38%|███▊      | 4745/12574 [00:24<00:28, 274.43it/s]Sequence data:  38%|███▊      | 4773/12574 [00:24<00:28, 269.10it/s]Sequence data:  38%|███▊      | 4802/12574 [00:24<00:28, 274.40it/s]Sequence data:  38%|███▊      | 4830/12574 [00:24<00:28, 269.99it/s]Sequence data:  39%|███▊      | 4858/12574 [00:24<00:28, 272.71it/s]Sequence data:  39%|███▉      | 4886/12574 [00:24<00:28, 271.04it/s]Sequence data:  39%|███▉      | 4916/12574 [00:24<00:27, 276.39it/s]Sequence data:  39%|███▉      | 4944/12574 [00:24<00:27, 273.09it/s]Sequence data:  40%|███▉      | 4974/12574 [00:24<00:27, 280.04it/s]Sequence data:  40%|███▉      | 5003/12574 [00:24<00:27, 277.14it/s]Sequence data:  40%|████      | 5031/12574 [00:25<00:27, 272.25it/s]Sequence data:  40%|████      | 5059/12574 [00:25<00:27, 271.27it/s]Sequence data:  40%|████      | 5087/12574 [00:25<00:27, 269.06it/s]Sequence data:  41%|████      | 5114/12574 [00:25<00:27, 267.09it/s]Sequence data:  41%|████      | 5143/12574 [00:25<00:27, 273.71it/s]Sequence data:  41%|████      | 5171/12574 [00:25<00:27, 273.15it/s]844/844 - 16s - loss: 0.0847 - f1: 0.0943
+Epoch 3/174
+Sequence data:  41%|████▏     | 5202/12574 [00:25<00:26, 282.29it/s]Sequence data:  42%|████▏     | 5231/12574 [00:25<00:25, 283.10it/s]Sequence data:  42%|████▏     | 5260/12574 [00:25<00:26, 277.80it/s]Sequence data:  42%|████▏     | 5290/12574 [00:26<00:25, 283.93it/s]Sequence data:  42%|████▏     | 5319/12574 [00:26<00:25, 279.40it/s]Sequence data:  43%|████▎     | 5347/12574 [00:26<00:25, 278.49it/s]Sequence data:  43%|████▎     | 5376/12574 [00:26<00:25, 279.28it/s]Sequence data:  43%|████▎     | 5404/12574 [00:26<00:25, 278.65it/s]Sequence data:  43%|████▎     | 5432/12574 [00:26<00:25, 278.65it/s]Sequence data:  43%|████▎     | 5460/12574 [00:26<00:25, 275.91it/s]Sequence data:  44%|████▎     | 5488/12574 [00:26<00:25, 275.15it/s]Sequence data:  44%|████▍     | 5516/12574 [00:26<00:26, 266.90it/s]Sequence data:  44%|████▍     | 5543/12574 [00:26<00:26, 264.96it/s]Sequence data:  44%|████▍     | 5571/12574 [00:27<00:26, 267.14it/s]Sequence data:  45%|████▍     | 5601/12574 [00:27<00:25, 273.42it/s]Sequence data:  45%|████▍     | 5630/12574 [00:27<00:25, 276.21it/s]Sequence data:  45%|████▌     | 5661/12574 [00:27<00:24, 284.30it/s]Sequence data:  45%|████▌     | 5694/12574 [00:27<00:23, 296.77it/s]Sequence data:  46%|████▌     | 5724/12574 [00:27<00:23, 292.52it/s]Sequence data:  46%|████▌     | 5754/12574 [00:27<00:24, 283.50it/s]Sequence data:  46%|████▌     | 5786/12574 [00:27<00:23, 290.98it/s]Sequence data:  46%|████▋     | 5818/12574 [00:27<00:22, 298.94it/s]Sequence data:  47%|████▋     | 5849/12574 [00:27<00:22, 300.03it/s]Sequence data:  47%|████▋     | 5881/12574 [00:28<00:21, 304.93it/s]Sequence data:  47%|████▋     | 5913/12574 [00:28<00:21, 305.99it/s]Sequence data:  47%|████▋     | 5945/12574 [00:28<00:21, 307.82it/s]Sequence data:  48%|████▊     | 5979/12574 [00:28<00:20, 315.86it/s]Sequence data:  48%|████▊     | 6011/12574 [00:28<00:20, 314.70it/s]Sequence data:  48%|████▊     | 6043/12574 [00:28<00:20, 311.55it/s]Sequence data:  48%|████▊     | 6075/12574 [00:28<00:21, 308.52it/s]Sequence data:  49%|████▊     | 6108/12574 [00:28<00:20, 314.70it/s]Sequence data:  49%|████▉     | 6140/12574 [00:28<00:20, 316.04it/s]Sequence data:  49%|████▉     | 6173/12574 [00:29<00:20, 317.37it/s]Sequence data:  49%|████▉     | 6205/12574 [00:29<00:20, 311.49it/s]Sequence data:  50%|████▉     | 6237/12574 [00:29<00:20, 307.95it/s]Sequence data:  50%|████▉     | 6269/12574 [00:29<00:20, 310.15it/s]Sequence data:  50%|█████     | 6301/12574 [00:29<00:20, 306.88it/s]Sequence data:  50%|█████     | 6332/12574 [00:29<00:20, 301.71it/s]Sequence data:  51%|█████     | 6363/12574 [00:29<00:20, 301.49it/s]Sequence data:  51%|█████     | 6395/12574 [00:29<00:20, 305.41it/s]Sequence data:  51%|█████     | 6427/12574 [00:29<00:20, 307.22it/s]Sequence data:  51%|█████▏    | 6459/12574 [00:29<00:19, 308.25it/s]Sequence data:  52%|█████▏    | 6493/12574 [00:30<00:19, 315.47it/s]Sequence data:  52%|█████▏    | 6529/12574 [00:30<00:18, 325.43it/s]Sequence data:  52%|█████▏    | 6564/12574 [00:30<00:18, 330.36it/s]Sequence data:  52%|█████▏    | 6598/12574 [00:30<00:18, 325.43it/s]Sequence data:  53%|█████▎    | 6633/12574 [00:30<00:18, 329.36it/s]Sequence data:  53%|█████▎    | 6668/12574 [00:30<00:17, 333.07it/s]Sequence data:  53%|█████▎    | 6702/12574 [00:30<00:17, 334.44it/s]Sequence data:  54%|█████▎    | 6738/12574 [00:30<00:17, 338.89it/s]Sequence data:  54%|█████▍    | 6776/12574 [00:30<00:16, 347.14it/s]Sequence data:  54%|█████▍    | 6811/12574 [00:30<00:17, 337.45it/s]Sequence data:  54%|█████▍    | 6846/12574 [00:31<00:16, 339.04it/s]Sequence data:  55%|█████▍    | 6884/12574 [00:31<00:16, 348.71it/s]Sequence data:  55%|█████▌    | 6919/12574 [00:31<00:16, 346.19it/s]Sequence data:  55%|█████▌    | 6955/12574 [00:31<00:16, 347.25it/s]Sequence data:  56%|█████▌    | 6993/12574 [00:31<00:15, 354.71it/s]Sequence data:  56%|█████▌    | 7029/12574 [00:31<00:16, 340.67it/s]Sequence data:  56%|█████▌    | 7064/12574 [00:31<00:16, 338.67it/s]Sequence data:  56%|█████▋    | 7101/12574 [00:31<00:15, 345.20it/s]Sequence data:  57%|█████▋    | 7136/12574 [00:31<00:15, 344.96it/s]Sequence data:  57%|█████▋    | 7171/12574 [00:32<00:15, 342.99it/s]Sequence data:  57%|█████▋    | 7208/12574 [00:32<00:15, 349.88it/s]Sequence data:  58%|█████▊    | 7247/12574 [00:32<00:14, 359.92it/s]Sequence data:  58%|█████▊    | 7292/12574 [00:32<00:13, 382.50it/s]Sequence data:  58%|█████▊    | 7334/12574 [00:32<00:13, 393.14it/s]Sequence data:  59%|█████▊    | 7378/12574 [00:32<00:12, 404.08it/s]Sequence data:  59%|█████▉    | 7419/12574 [00:32<00:12, 398.54it/s]Sequence data:  59%|█████▉    | 7463/12574 [00:32<00:12, 410.26it/s]Sequence data:  60%|█████▉    | 7505/12574 [00:32<00:12, 398.74it/s]Sequence data:  60%|██████    | 7554/12574 [00:32<00:11, 424.59it/s]Sequence data:  60%|██████    | 7598/12574 [00:33<00:11, 427.48it/s]Sequence data:  61%|██████    | 7641/12574 [00:33<00:11, 420.89it/s]Sequence data:  61%|██████    | 7684/12574 [00:33<00:12, 405.86it/s]Sequence data:  61%|██████▏   | 7733/12574 [00:33<00:11, 428.74it/s]Sequence data:  62%|██████▏   | 7777/12574 [00:33<00:11, 418.06it/s]Sequence data:  62%|██████▏   | 7819/12574 [00:33<00:11, 418.02it/s]Sequence data:  63%|██████▎   | 7861/12574 [00:33<00:11, 417.08it/s]Sequence data:  63%|██████▎   | 7903/12574 [00:33<00:11, 395.49it/s]Sequence data:  63%|██████▎   | 7943/12574 [00:33<00:12, 370.22it/s]Sequence data:  64%|██████▎   | 7991/12574 [00:34<00:11, 400.21it/s]Sequence data:  64%|██████▍   | 8032/12574 [00:34<00:11, 388.50it/s]Sequence data:  64%|██████▍   | 8074/12574 [00:34<00:11, 393.69it/s]Sequence data:  65%|██████▍   | 8114/12574 [00:34<00:11, 386.00it/s]Sequence data:  65%|██████▍   | 8153/12574 [00:34<00:11, 384.53it/s]Sequence data:  65%|██████▌   | 8193/12574 [00:34<00:11, 388.19it/s]Sequence data:  65%|██████▌   | 8233/12574 [00:34<00:11, 390.80it/s]Sequence data:  66%|██████▌   | 8273/12574 [00:34<00:11, 388.87it/s]Sequence data:  66%|██████▌   | 8312/12574 [00:34<00:11, 376.83it/s]Sequence data:  67%|██████▋   | 8363/12574 [00:34<00:10, 413.81it/s]Sequence data:  67%|██████▋   | 8419/12574 [00:35<00:09, 453.16it/s]Sequence data:  67%|██████▋   | 8475/12574 [00:35<00:08, 484.27it/s]Sequence data:  68%|██████▊   | 8528/12574 [00:35<00:08, 496.12it/s]Sequence data:  68%|██████▊   | 8588/12574 [00:35<00:07, 526.23it/s]Sequence data:  69%|██████▉   | 8646/12574 [00:35<00:07, 538.27it/s]Sequence data:  69%|██████▉   | 8700/12574 [00:35<00:07, 522.52it/s]Sequence data:  70%|██████▉   | 8764/12574 [00:35<00:06, 554.78it/s]Sequence data:  70%|███████   | 8821/12574 [00:35<00:06, 557.41it/s]Sequence data:  71%|███████   | 8877/12574 [00:35<00:06, 554.61it/s]Sequence data:  71%|███████   | 8933/12574 [00:36<00:06, 529.99it/s]Sequence data:  71%|███████▏  | 8987/12574 [00:36<00:06, 530.38it/s]Sequence data:  72%|███████▏  | 9053/12574 [00:36<00:06, 567.03it/s]Sequence data:  72%|███████▏  | 9110/12574 [00:36<00:06, 549.68it/s]Sequence data:  73%|███████▎  | 9167/12574 [00:36<00:06, 552.66it/s]Sequence data:  73%|███████▎  | 9224/12574 [00:36<00:06, 556.41it/s]Sequence data:  74%|███████▍  | 9283/12574 [00:36<00:05, 563.11it/s]Sequence data:  74%|███████▍  | 9340/12574 [00:36<00:05, 553.76it/s]Sequence data:  75%|███████▍  | 9401/12574 [00:36<00:05, 569.37it/s]Sequence data:  75%|███████▌  | 9459/12574 [00:36<00:05, 546.47it/s]Sequence data:  76%|███████▌  | 9517/12574 [00:37<00:05, 553.54it/s]Sequence data:  76%|███████▌  | 9573/12574 [00:37<00:05, 549.42it/s]Sequence data:  77%|███████▋  | 9631/12574 [00:37<00:05, 556.02it/s]Sequence data:  77%|███████▋  | 9687/12574 [00:37<00:05, 554.14it/s]Sequence data:  78%|███████▊  | 9746/12574 [00:37<00:05, 563.40it/s]Sequence data:  78%|███████▊  | 9810/12574 [00:37<00:04, 582.14it/s]Sequence data:  78%|███████▊  | 9869/12574 [00:37<00:04, 572.79it/s]Sequence data:  79%|███████▉  | 9928/12574 [00:37<00:04, 575.54it/s]Sequence data:  80%|███████▉  | 10011/12574 [00:37<00:03, 646.37it/s]Sequence data:  80%|████████  | 10112/12574 [00:37<00:03, 753.33it/s]Sequence data:  81%|████████  | 10196/12574 [00:38<00:03, 778.97it/s]Sequence data:  82%|████████▏ | 10283/12574 [00:38<00:02, 804.58it/s]Sequence data:  82%|████████▏ | 10367/12574 [00:38<00:02, 809.95it/s]Sequence data:  83%|████████▎ | 10449/12574 [00:38<00:02, 803.15it/s]Sequence data:  84%|████████▍ | 10540/12574 [00:38<00:02, 832.27it/s]Sequence data:  85%|████████▍ | 10632/12574 [00:38<00:02, 856.54it/s]Sequence data:  85%|████████▌ | 10718/12574 [00:38<00:02, 834.92it/s]Sequence data:  86%|████████▌ | 10806/12574 [00:38<00:02, 846.28it/s]Sequence data:  87%|████████▋ | 10891/12574 [00:38<00:02, 832.40it/s]Sequence data:  87%|████████▋ | 10975/12574 [00:39<00:02, 797.56it/s]Sequence data:  88%|████████▊ | 11061/12574 [00:39<00:01, 815.12it/s]Sequence data:  89%|████████▊ | 11143/12574 [00:39<00:01, 802.93it/s]Sequence data:  89%|████████▉ | 11224/12574 [00:39<00:01, 801.03it/s]Sequence data:  90%|████████▉ | 11305/12574 [00:39<00:01, 775.27it/s]Sequence data:  91%|█████████ | 11383/12574 [00:39<00:01, 759.94it/s]Sequence data:  91%|█████████▏| 11482/12574 [00:39<00:01, 821.58it/s]Sequence data:  92%|█████████▏| 11576/12574 [00:39<00:01, 852.64it/s]Sequence data:  93%|█████████▎| 11672/12574 [00:39<00:01, 879.30it/s]Sequence data:  94%|█████████▎| 11761/12574 [00:39<00:00, 873.68it/s]Sequence data:  94%|█████████▍| 11849/12574 [00:40<00:00, 851.64it/s]Sequence data:  95%|█████████▍| 11935/12574 [00:40<00:00, 805.83it/s]Sequence data:  96%|█████████▌| 12023/12574 [00:40<00:00, 824.21it/s]Sequence data:  96%|█████████▋| 12106/12574 [00:40<00:00, 816.35it/s]Sequence data:  97%|█████████▋| 12194/12574 [00:40<00:00, 833.46it/s]Sequence data:  98%|█████████▊| 12284/12574 [00:40<00:00, 851.33it/s]Sequence data:  99%|█████████▊| 12390/12574 [00:40<00:00, 909.47it/s]Sequence data:  99%|█████████▉| 12482/12574 [00:40<00:00, 897.17it/s]Sequence data: 100%|█████████▉| 12572/12574 [00:40<00:00, 863.42it/s]Sequence data: 100%|██████████| 12574/12574 [00:40<00:00, 307.23it/s]
+Sequence data:   0%|          | 0/5866 [00:00<?, ?it/s]Sequence data:   0%|          | 26/5866 [00:00<00:22, 255.52it/s]Sequence data:   1%|          | 52/5866 [00:00<00:22, 257.79it/s]Sequence data:   1%|▏         | 79/5866 [00:00<00:22, 258.85it/s]Sequence data:   2%|▏         | 106/5866 [00:00<00:21, 262.70it/s]Sequence data:   2%|▏         | 133/5866 [00:00<00:21, 261.84it/s]844/844 - 16s - loss: 0.0803 - f1: 0.1348
+Epoch 4/174
+Sequence data:   3%|▎         | 160/5866 [00:00<00:21, 260.89it/s]Sequence data:   3%|▎         | 187/5866 [00:00<00:21, 261.25it/s]Sequence data:   4%|▎         | 215/5866 [00:00<00:21, 264.39it/s]Sequence data:   4%|▍         | 242/5866 [00:00<00:21, 265.65it/s]Sequence data:   5%|▍         | 270/5866 [00:01<00:20, 269.24it/s]Sequence data:   5%|▌         | 298/5866 [00:01<00:20, 270.37it/s]Sequence data:   6%|▌         | 326/5866 [00:01<00:20, 269.69it/s]Sequence data:   6%|▌         | 354/5866 [00:01<00:20, 272.50it/s]Sequence data:   7%|▋         | 382/5866 [00:01<00:20, 274.07it/s]Sequence data:   7%|▋         | 411/5866 [00:01<00:19, 277.40it/s]Sequence data:   7%|▋         | 439/5866 [00:01<00:19, 276.00it/s]Sequence data:   8%|▊         | 467/5866 [00:01<00:19, 273.83it/s]Sequence data:   8%|▊         | 496/5866 [00:01<00:19, 275.92it/s]Sequence data:   9%|▉         | 524/5866 [00:01<00:19, 273.78it/s]Sequence data:   9%|▉         | 553/5866 [00:02<00:19, 276.43it/s]Sequence data:  10%|▉         | 582/5866 [00:02<00:18, 278.76it/s]Sequence data:  10%|█         | 612/5866 [00:02<00:18, 283.80it/s]Sequence data:  11%|█         | 642/5866 [00:02<00:18, 285.64it/s]Sequence data:  11%|█▏        | 673/5866 [00:02<00:17, 291.54it/s]Sequence data:  12%|█▏        | 703/5866 [00:02<00:17, 289.00it/s]Sequence data:  12%|█▏        | 732/5866 [00:02<00:18, 284.74it/s]Sequence data:  13%|█▎        | 761/5866 [00:02<00:17, 284.39it/s]Sequence data:  13%|█▎        | 790/5866 [00:02<00:17, 282.73it/s]Sequence data:  14%|█▍        | 819/5866 [00:02<00:17, 284.18it/s]Sequence data:  14%|█▍        | 848/5866 [00:03<00:17, 279.71it/s]Sequence data:  15%|█▍        | 876/5866 [00:03<00:17, 278.90it/s]Sequence data:  15%|█▌        | 907/5866 [00:03<00:17, 285.13it/s]Sequence data:  16%|█▌        | 937/5866 [00:03<00:17, 286.94it/s]Sequence data:  17%|█▋        | 968/5866 [00:03<00:16, 292.99it/s]Sequence data:  17%|█▋        | 998/5866 [00:03<00:16, 295.04it/s]Sequence data:  18%|█▊        | 1028/5866 [00:03<00:16, 293.32it/s]Sequence data:  18%|█▊        | 1058/5866 [00:03<00:16, 295.23it/s]Sequence data:  19%|█▊        | 1088/5866 [00:03<00:16, 293.96it/s]Sequence data:  19%|█▉        | 1118/5866 [00:04<00:16, 290.54it/s]Sequence data:  20%|█▉        | 1149/5866 [00:04<00:15, 295.33it/s]Sequence data:  20%|██        | 1179/5866 [00:04<00:16, 291.82it/s]Sequence data:  21%|██        | 1211/5866 [00:04<00:15, 299.25it/s]Sequence data:  21%|██        | 1241/5866 [00:04<00:15, 297.91it/s]Sequence data:  22%|██▏       | 1271/5866 [00:04<00:15, 296.88it/s]Sequence data:  22%|██▏       | 1303/5866 [00:04<00:15, 301.77it/s]Sequence data:  23%|██▎       | 1334/5866 [00:04<00:14, 303.46it/s]Sequence data:  23%|██▎       | 1365/5866 [00:04<00:14, 304.10it/s]Sequence data:  24%|██▍       | 1396/5866 [00:04<00:14, 303.35it/s]Sequence data:  24%|██▍       | 1429/5866 [00:05<00:14, 308.53it/s]Sequence data:  25%|██▍       | 1460/5866 [00:05<00:14, 306.13it/s]Sequence data:  25%|██▌       | 1491/5866 [00:05<00:14, 305.47it/s]Sequence data:  26%|██▌       | 1522/5866 [00:05<00:14, 303.45it/s]Sequence data:  26%|██▋       | 1553/5866 [00:05<00:14, 303.12it/s]Sequence data:  27%|██▋       | 1586/5866 [00:05<00:13, 309.88it/s]Sequence data:  28%|██▊       | 1617/5866 [00:05<00:13, 308.59it/s]Sequence data:  28%|██▊       | 1649/5866 [00:05<00:13, 311.79it/s]Sequence data:  29%|██▊       | 1681/5866 [00:05<00:13, 312.46it/s]Sequence data:  29%|██▉       | 1713/5866 [00:05<00:13, 312.13it/s]Sequence data:  30%|██▉       | 1745/5866 [00:06<00:13, 308.97it/s]Sequence data:  30%|███       | 1777/5866 [00:06<00:13, 309.89it/s]Sequence data:  31%|███       | 1809/5866 [00:06<00:13, 310.54it/s]Sequence data:  31%|███▏      | 1841/5866 [00:06<00:12, 312.70it/s]Sequence data:  32%|███▏      | 1873/5866 [00:06<00:12, 313.00it/s]Sequence data:  32%|███▏      | 1905/5866 [00:06<00:12, 314.29it/s]Sequence data:  33%|███▎      | 1938/5866 [00:06<00:12, 315.43it/s]Sequence data:  34%|███▎      | 1970/5866 [00:06<00:12, 316.53it/s]Sequence data:  34%|███▍      | 2002/5866 [00:06<00:12, 310.22it/s]Sequence data:  35%|███▍      | 2034/5866 [00:06<00:12, 310.79it/s]Sequence data:  35%|███▌      | 2066/5866 [00:07<00:12, 311.01it/s]Sequence data:  36%|███▌      | 2098/5866 [00:07<00:12, 312.46it/s]Sequence data:  36%|███▋      | 2131/5866 [00:07<00:11, 315.95it/s]Sequence data:  37%|███▋      | 2164/5866 [00:07<00:11, 319.59it/s]Sequence data:  37%|███▋      | 2196/5866 [00:07<00:11, 314.84it/s]Sequence data:  38%|███▊      | 2228/5866 [00:07<00:11, 313.00it/s]Sequence data:  39%|███▊      | 2261/5866 [00:07<00:11, 317.64it/s]Sequence data:  39%|███▉      | 2293/5866 [00:07<00:11, 316.91it/s]Sequence data:  40%|███▉      | 2328/5866 [00:07<00:10, 324.92it/s]Sequence data:  40%|████      | 2362/5866 [00:07<00:10, 327.50it/s]Sequence data:  41%|████      | 2395/5866 [00:08<00:10, 323.95it/s]Sequence data:  41%|████▏     | 2429/5866 [00:08<00:10, 328.20it/s]Sequence data:  42%|████▏     | 2462/5866 [00:08<00:10, 328.52it/s]Sequence data:  43%|████▎     | 2496/5866 [00:08<00:10, 331.52it/s]Sequence data:  43%|████▎     | 2530/5866 [00:08<00:10, 333.59it/s]Sequence data:  44%|████▎     | 2564/5866 [00:08<00:09, 332.56it/s]Sequence data:  44%|████▍     | 2598/5866 [00:08<00:09, 329.72it/s]Sequence data:  45%|████▍     | 2631/5866 [00:08<00:09, 324.02it/s]Sequence data:  45%|████▌     | 2664/5866 [00:08<00:09, 325.54it/s]Sequence data:  46%|████▌     | 2699/5866 [00:09<00:09, 329.28it/s]Sequence data:  47%|████▋     | 2732/5866 [00:09<00:09, 326.76it/s]Sequence data:  47%|████▋     | 2766/5866 [00:09<00:09, 328.53it/s]Sequence data:  48%|████▊     | 2801/5866 [00:09<00:09, 333.18it/s]Sequence data:  48%|████▊     | 2835/5866 [00:09<00:09, 333.03it/s]Sequence data:  49%|████▉     | 2871/5866 [00:09<00:08, 338.07it/s]Sequence data:  50%|████▉     | 2906/5866 [00:09<00:08, 337.89it/s]Sequence data:  50%|█████     | 2940/5866 [00:09<00:08, 337.18it/s]Sequence data:  51%|█████     | 2976/5866 [00:09<00:08, 341.74it/s]Sequence data:  51%|█████▏    | 3011/5866 [00:09<00:08, 341.57it/s]Sequence data:  52%|█████▏    | 3046/5866 [00:10<00:08, 342.74it/s]Sequence data:  53%|█████▎    | 3083/5866 [00:10<00:07, 348.38it/s]Sequence data:  53%|█████▎    | 3118/5866 [00:10<00:07, 346.33it/s]Sequence data:  54%|█████▍    | 3154/5866 [00:10<00:07, 347.21it/s]Sequence data:  54%|█████▍    | 3189/5866 [00:10<00:07, 344.56it/s]Sequence data:  55%|█████▍    | 3226/5866 [00:10<00:07, 351.06it/s]Sequence data:  56%|█████▌    | 3262/5866 [00:10<00:07, 350.53it/s]Sequence data:  56%|█████▌    | 3298/5866 [00:10<00:07, 347.89it/s]Sequence data:  57%|█████▋    | 3333/5866 [00:10<00:07, 345.10it/s]Sequence data:  57%|█████▋    | 3368/5866 [00:10<00:07, 346.03it/s]Sequence data:  58%|█████▊    | 3404/5866 [00:11<00:07, 347.38it/s]Sequence data:  59%|█████▊    | 3439/5866 [00:11<00:06, 347.17it/s]Sequence data:  59%|█████▉    | 3474/5866 [00:11<00:06, 347.29it/s]Sequence data:  60%|█████▉    | 3510/5866 [00:11<00:06, 350.13it/s]Sequence data:  60%|██████    | 3546/5866 [00:11<00:06, 350.25it/s]Sequence data:  61%|██████    | 3582/5866 [00:11<00:06, 349.43it/s]Sequence data:  62%|██████▏   | 3619/5866 [00:11<00:06, 353.76it/s]Sequence data:  62%|██████▏   | 3656/5866 [00:11<00:06, 356.58it/s]Sequence data:  63%|██████▎   | 3693/5866 [00:11<00:06, 357.91it/s]Sequence data:  64%|██████▎   | 3729/5866 [00:11<00:06, 355.51it/s]Sequence data:  64%|██████▍   | 3765/5866 [00:12<00:05, 355.24it/s]Sequence data:  65%|██████▍   | 3803/5866 [00:12<00:05, 362.35it/s]Sequence data:  65%|██████▌   | 3841/5866 [00:12<00:05, 364.85it/s]Sequence data:  66%|██████▌   | 3879/5866 [00:12<00:05, 368.34it/s]Sequence data:  67%|██████▋   | 3916/5866 [00:12<00:05, 367.89it/s]Sequence data:  67%|██████▋   | 3954/5866 [00:12<00:05, 368.20it/s]Sequence data:  68%|██████▊   | 3991/5866 [00:12<00:05, 368.46it/s]Sequence data:  69%|██████▊   | 4029/5866 [00:12<00:04, 370.50it/s]Sequence data:  69%|██████▉   | 4067/5866 [00:12<00:04, 371.46it/s]Sequence data:  70%|██████▉   | 4105/5866 [00:13<00:04, 368.75it/s]Sequence data:  71%|███████   | 4142/5866 [00:13<00:04, 364.70it/s]Sequence data:  71%|███████▏  | 4180/5866 [00:13<00:04, 368.04it/s]Sequence data:  72%|███████▏  | 4218/5866 [00:13<00:04, 369.31it/s]Sequence data:  73%|███████▎  | 4256/5866 [00:13<00:04, 370.31it/s]Sequence data:  73%|███████▎  | 4294/5866 [00:13<00:04, 372.13it/s]Sequence data:  74%|███████▍  | 4333/5866 [00:13<00:04, 373.73it/s]Sequence data:  75%|███████▍  | 4371/5866 [00:13<00:04, 373.61it/s]Sequence data:  75%|███████▌  | 4409/5866 [00:13<00:03, 369.36it/s]Sequence data:  76%|███████▌  | 4447/5866 [00:13<00:03, 369.32it/s]Sequence data:  76%|███████▋  | 4486/5866 [00:14<00:03, 374.65it/s]Sequence data:  77%|███████▋  | 4525/5866 [00:14<00:03, 377.90it/s]Sequence data:  78%|███████▊  | 4564/5866 [00:14<00:03, 379.96it/s]Sequence data:  78%|███████▊  | 4603/5866 [00:14<00:03, 382.72it/s]Sequence data:  79%|███████▉  | 4642/5866 [00:14<00:03, 375.95it/s]Sequence data:  80%|███████▉  | 4680/5866 [00:14<00:03, 375.63it/s]Sequence data:  80%|████████  | 4718/5866 [00:14<00:03, 373.22it/s]Sequence data:  81%|████████  | 4756/5866 [00:14<00:02, 371.81it/s]Sequence data:  82%|████████▏ | 4794/5866 [00:14<00:02, 372.33it/s]Sequence data:  82%|████████▏ | 4834/5866 [00:14<00:02, 379.17it/s]Sequence data:  83%|████████▎ | 4874/5866 [00:15<00:02, 382.73it/s]Sequence data:  84%|████████▍ | 4913/5866 [00:15<00:02, 382.85it/s]Sequence data:  84%|████████▍ | 4952/5866 [00:15<00:02, 381.03it/s]Sequence data:  85%|████████▌ | 4992/5866 [00:15<00:02, 384.61it/s]Sequence data:  86%|████████▌ | 5031/5866 [00:15<00:02, 383.89it/s]Sequence data:  86%|████████▋ | 5070/5866 [00:15<00:02, 385.26it/s]Sequence data:  87%|████████▋ | 5109/5866 [00:15<00:02, 364.66it/s]Sequence data:  88%|████████▊ | 5147/5866 [00:15<00:01, 368.38it/s]Sequence data:  88%|████████▊ | 5187/5866 [00:15<00:01, 375.44it/s]Sequence data:  89%|████████▉ | 5226/5866 [00:15<00:01, 377.40it/s]Sequence data:  90%|████████▉ | 5265/5866 [00:16<00:01, 380.25it/s]Sequence data:  90%|█████████ | 5304/5866 [00:16<00:01, 378.20it/s]Sequence data:  91%|█████████ | 5342/5866 [00:16<00:01, 361.02it/s]Sequence data:  92%|█████████▏| 5381/5866 [00:16<00:01, 369.26it/s]844/844 - 16s - loss: 0.0772 - f1: 0.1673
+Epoch 5/174
+Sequence data:  92%|█████████▏| 5419/5866 [00:16<00:01, 363.36it/s]Sequence data:  93%|█████████▎| 5457/5866 [00:16<00:01, 366.19it/s]Sequence data:  94%|█████████▎| 5495/5866 [00:16<00:01, 369.17it/s]Sequence data:  94%|█████████▍| 5534/5866 [00:16<00:00, 374.87it/s]Sequence data:  95%|█████████▍| 5572/5866 [00:16<00:00, 371.44it/s]Sequence data:  96%|█████████▌| 5610/5866 [00:17<00:00, 371.29it/s]Sequence data:  96%|█████████▋| 5649/5866 [00:17<00:00, 375.37it/s]Sequence data:  97%|█████████▋| 5687/5866 [00:17<00:00, 373.36it/s]Sequence data:  98%|█████████▊| 5725/5866 [00:17<00:00, 367.00it/s]Sequence data:  98%|█████████▊| 5762/5866 [00:17<00:00, 366.59it/s]Sequence data:  99%|█████████▉| 5804/5866 [00:17<00:00, 378.75it/s]Sequence data: 100%|█████████▉| 5844/5866 [00:17<00:00, 383.55it/s]Sequence data: 100%|██████████| 5866/5866 [00:17<00:00, 331.43it/s]
+[92m[INFO] Best epoch number: 214[0m
+2021-11-13 00:06:05.676577: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-13 00:06:05.696683: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/214
+2021-11-13 00:06:06.305468: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-13 00:06:06.473413: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+844/844 - 16s - loss: 0.0749 - f1: 0.1912
+Epoch 6/174
+844/844 - 16s - loss: 0.0734 - f1: 0.2028
+Epoch 7/174
+844/844 - 16s - loss: 0.0722 - f1: 0.2120
+Epoch 8/174
+1936/1936 - 51s - loss: 0.0595 - f1: 2.9438e-04
+Epoch 2/214
+844/844 - 16s - loss: 0.0713 - f1: 0.2196
+Epoch 9/174
+844/844 - 16s - loss: 0.0704 - f1: 0.2258
+Epoch 10/174
+844/844 - 17s - loss: 0.0697 - f1: 0.2308
+Epoch 11/174
+1936/1936 - 47s - loss: 0.0460 - f1: 0.0028
+Epoch 3/214
+844/844 - 17s - loss: 0.0691 - f1: 0.2358
+Epoch 12/174
+844/844 - 17s - loss: 0.0686 - f1: 0.2406
+Epoch 13/174
+1936/1936 - 48s - loss: 0.0439 - f1: 0.0145
+Epoch 4/214
+844/844 - 16s - loss: 0.0679 - f1: 0.2507
+Epoch 14/174
+844/844 - 16s - loss: 0.0676 - f1: 0.2526
+Epoch 15/174
+844/844 - 16s - loss: 0.0671 - f1: 0.2575
+Epoch 16/174
+1936/1936 - 47s - loss: 0.0427 - f1: 0.0279
+Epoch 5/214
+844/844 - 16s - loss: 0.0666 - f1: 0.2639
+Epoch 17/174
+844/844 - 16s - loss: 0.0662 - f1: 0.2658
+Epoch 18/174
+844/844 - 16s - loss: 0.0659 - f1: 0.2702
+Epoch 19/174
+1936/1936 - 46s - loss: 0.0419 - f1: 0.0401
+Epoch 6/214
+844/844 - 16s - loss: 0.0656 - f1: 0.2694
+Epoch 20/174
+844/844 - 16s - loss: 0.0651 - f1: 0.2782
+Epoch 21/174
+844/844 - 16s - loss: 0.0649 - f1: 0.2759
+Epoch 22/174
+1936/1936 - 46s - loss: 0.0414 - f1: 0.0502
+Epoch 7/214
+844/844 - 16s - loss: 0.0646 - f1: 0.2829
+Epoch 23/174
+844/844 - 16s - loss: 0.0643 - f1: 0.2861
+Epoch 24/174
+844/844 - 16s - loss: 0.0640 - f1: 0.2873
+Epoch 25/174
+1936/1936 - 47s - loss: 0.0409 - f1: 0.0608
+Epoch 8/214
+844/844 - 16s - loss: 0.0637 - f1: 0.2905
+Epoch 26/174
+844/844 - 16s - loss: 0.0634 - f1: 0.2928
+Epoch 27/174
+844/844 - 16s - loss: 0.0634 - f1: 0.2930
+Epoch 28/174
+1936/1936 - 46s - loss: 0.0405 - f1: 0.0692
+Epoch 9/214
+844/844 - 16s - loss: 0.0629 - f1: 0.2994
+Epoch 29/174
+844/844 - 16s - loss: 0.0627 - f1: 0.3014
+Epoch 30/174
+844/844 - 16s - loss: 0.0626 - f1: 0.3025
+Epoch 31/174
+1936/1936 - 47s - loss: 0.0402 - f1: 0.0749
+Epoch 10/214
+844/844 - 16s - loss: 0.0624 - f1: 0.3032
+Epoch 32/174
+844/844 - 16s - loss: 0.0621 - f1: 0.3070
+Epoch 33/174
+844/844 - 16s - loss: 0.0619 - f1: 0.3080
+Epoch 34/174
+1936/1936 - 46s - loss: 0.0399 - f1: 0.0820
+Epoch 11/214
+844/844 - 16s - loss: 0.0616 - f1: 0.3137
+Epoch 35/174
+844/844 - 16s - loss: 0.0615 - f1: 0.3145
+Epoch 36/174
+1936/1936 - 46s - loss: 0.0396 - f1: 0.0886
+Epoch 12/214
+844/844 - 16s - loss: 0.0612 - f1: 0.3172
+Epoch 37/174
+844/844 - 16s - loss: 0.0610 - f1: 0.3189
+Epoch 38/174
+844/844 - 16s - loss: 0.0608 - f1: 0.3202
+Epoch 39/174
+1936/1936 - 48s - loss: 0.0393 - f1: 0.0940
+Epoch 13/214
+844/844 - 16s - loss: 0.0607 - f1: 0.3208
+Epoch 40/174
+844/844 - 16s - loss: 0.0605 - f1: 0.3237
+Epoch 41/174
+844/844 - 16s - loss: 0.0602 - f1: 0.3257
+Epoch 42/174
+1936/1936 - 47s - loss: 0.0391 - f1: 0.0972
+Epoch 14/214
+844/844 - 16s - loss: 0.0602 - f1: 0.3276
+Epoch 43/174
+844/844 - 16s - loss: 0.0601 - f1: 0.3307
+Epoch 44/174
+844/844 - 16s - loss: 0.0598 - f1: 0.3289
+Epoch 45/174
+1936/1936 - 46s - loss: 0.0388 - f1: 0.1029
+Epoch 15/214
+844/844 - 16s - loss: 0.0597 - f1: 0.3329
+Epoch 46/174
+844/844 - 16s - loss: 0.0595 - f1: 0.3319
+Epoch 47/174
+844/844 - 16s - loss: 0.0593 - f1: 0.3349
+Epoch 48/174
+1936/1936 - 47s - loss: 0.0386 - f1: 0.1067
+Epoch 16/214
+844/844 - 16s - loss: 0.0592 - f1: 0.3362
+Epoch 49/174
+844/844 - 16s - loss: 0.0591 - f1: 0.3375
+Epoch 50/174
+844/844 - 16s - loss: 0.0589 - f1: 0.3409
+Epoch 51/174
+1936/1936 - 48s - loss: 0.0385 - f1: 0.1108
+Epoch 17/214
+844/844 - 16s - loss: 0.0587 - f1: 0.3393
+Epoch 52/174
+844/844 - 17s - loss: 0.0587 - f1: 0.3414
+Epoch 53/174
+844/844 - 16s - loss: 0.0584 - f1: 0.3452
+Epoch 54/174
+1936/1936 - 47s - loss: 0.0383 - f1: 0.1133
+Epoch 18/214
+844/844 - 16s - loss: 0.0584 - f1: 0.3441
+Epoch 55/174
+844/844 - 16s - loss: 0.0585 - f1: 0.3441
+Epoch 56/174
+844/844 - 16s - loss: 0.0583 - f1: 0.3465
+Epoch 57/174
+1936/1936 - 46s - loss: 0.0381 - f1: 0.1167
+Epoch 19/214
+844/844 - 16s - loss: 0.0581 - f1: 0.3466
+Epoch 58/174
+844/844 - 16s - loss: 0.0579 - f1: 0.3493
+Epoch 59/174
+844/844 - 16s - loss: 0.0577 - f1: 0.3522
+Epoch 60/174
+1936/1936 - 47s - loss: 0.0379 - f1: 0.1197
+Epoch 20/214
+844/844 - 16s - loss: 0.0576 - f1: 0.3531
+Epoch 61/174
+844/844 - 16s - loss: 0.0577 - f1: 0.3523
+Epoch 62/174
+1936/1936 - 47s - loss: 0.0378 - f1: 0.1224
+Epoch 21/214
+844/844 - 16s - loss: 0.0575 - f1: 0.3539
+Epoch 63/174
+844/844 - 16s - loss: 0.0573 - f1: 0.3565
+Epoch 64/174
+844/844 - 16s - loss: 0.0573 - f1: 0.3553
+Epoch 65/174
+1936/1936 - 47s - loss: 0.0376 - f1: 0.1276
+Epoch 22/214
+844/844 - 16s - loss: 0.0573 - f1: 0.3543
+Epoch 66/174
+844/844 - 16s - loss: 0.0571 - f1: 0.3587
+Epoch 67/174
+844/844 - 16s - loss: 0.0570 - f1: 0.3592
+Epoch 68/174
+1936/1936 - 47s - loss: 0.0374 - f1: 0.1303
+Epoch 23/214
+844/844 - 16s - loss: 0.0568 - f1: 0.3628
+Epoch 69/174
+844/844 - 16s - loss: 0.0568 - f1: 0.3612
+Epoch 70/174
+844/844 - 16s - loss: 0.0567 - f1: 0.3629
+Epoch 71/174
+1936/1936 - 47s - loss: 0.0373 - f1: 0.1325
+Epoch 24/214
+844/844 - 16s - loss: 0.0566 - f1: 0.3629
+Epoch 72/174
+844/844 - 16s - loss: 0.0565 - f1: 0.3670
+Epoch 73/174
+844/844 - 16s - loss: 0.0564 - f1: 0.3664
+Epoch 74/174
+1936/1936 - 47s - loss: 0.0372 - f1: 0.1348
+Epoch 25/214
+844/844 - 16s - loss: 0.0564 - f1: 0.3665
+Epoch 75/174
+844/844 - 16s - loss: 0.0561 - f1: 0.3707
+Epoch 76/174
+844/844 - 16s - loss: 0.0563 - f1: 0.3665
+Epoch 77/174
+1936/1936 - 47s - loss: 0.0370 - f1: 0.1400
+Epoch 26/214
+844/844 - 16s - loss: 0.0562 - f1: 0.3686
+Epoch 78/174
+844/844 - 16s - loss: 0.0560 - f1: 0.3711
+Epoch 79/174
+844/844 - 16s - loss: 0.0560 - f1: 0.3715
+Epoch 80/174
+1936/1936 - 46s - loss: 0.0369 - f1: 0.1413
+Epoch 27/214
+844/844 - 16s - loss: 0.0558 - f1: 0.3733
+Epoch 81/174
+844/844 - 16s - loss: 0.0558 - f1: 0.3727
+Epoch 82/174
+844/844 - 17s - loss: 0.0557 - f1: 0.3733
+Epoch 83/174
+1936/1936 - 47s - loss: 0.0368 - f1: 0.1437
+Epoch 28/214
+844/844 - 16s - loss: 0.0557 - f1: 0.3729
+Epoch 84/174
+844/844 - 17s - loss: 0.0555 - f1: 0.3757
+Epoch 85/174
+844/844 - 16s - loss: 0.0556 - f1: 0.3758
+Epoch 86/174
+1936/1936 - 47s - loss: 0.0367 - f1: 0.1450
+Epoch 29/214
+844/844 - 16s - loss: 0.0555 - f1: 0.3770
+Epoch 87/174
+844/844 - 16s - loss: 0.0553 - f1: 0.3793
+Epoch 88/174
+844/844 - 16s - loss: 0.0553 - f1: 0.3777
+Epoch 89/174
+1936/1936 - 47s - loss: 0.0366 - f1: 0.1487
+Epoch 30/214
+844/844 - 16s - loss: 0.0553 - f1: 0.3779
+Epoch 90/174
+844/844 - 17s - loss: 0.0553 - f1: 0.3770
+Epoch 91/174
+844/844 - 16s - loss: 0.0551 - f1: 0.3795
+Epoch 92/174
+1936/1936 - 47s - loss: 0.0365 - f1: 0.1494
+Epoch 31/214
+844/844 - 17s - loss: 0.0552 - f1: 0.3799
+Epoch 93/174
+844/844 - 16s - loss: 0.0551 - f1: 0.3816
+Epoch 94/174
+844/844 - 16s - loss: 0.0551 - f1: 0.3809
+Epoch 95/174
+1936/1936 - 47s - loss: 0.0364 - f1: 0.1527
+Epoch 32/214
+844/844 - 16s - loss: 0.0549 - f1: 0.3839
+Epoch 96/174
+844/844 - 16s - loss: 0.0548 - f1: 0.3835
+Epoch 97/174
+1936/1936 - 47s - loss: 0.0363 - f1: 0.1552
+Epoch 33/214
+844/844 - 16s - loss: 0.0548 - f1: 0.3849
+Epoch 98/174
+844/844 - 16s - loss: 0.0549 - f1: 0.3827
+Epoch 99/174
+844/844 - 16s - loss: 0.0547 - f1: 0.3874
+Epoch 100/174
+1936/1936 - 47s - loss: 0.0362 - f1: 0.1561
+Epoch 34/214
+844/844 - 16s - loss: 0.0547 - f1: 0.3854
+Epoch 101/174
+844/844 - 16s - loss: 0.0546 - f1: 0.3870
+Epoch 102/174
+844/844 - 16s - loss: 0.0545 - f1: 0.3890
+Epoch 103/174
+1936/1936 - 47s - loss: 0.0362 - f1: 0.1588
+Epoch 35/214
+844/844 - 17s - loss: 0.0544 - f1: 0.3900
+Epoch 104/174
+844/844 - 16s - loss: 0.0544 - f1: 0.3892
+Epoch 105/174
+844/844 - 16s - loss: 0.0544 - f1: 0.3887
+Epoch 106/174
+1936/1936 - 47s - loss: 0.0361 - f1: 0.1606
+Epoch 36/214
+844/844 - 17s - loss: 0.0541 - f1: 0.3918
+Epoch 107/174
+844/844 - 17s - loss: 0.0543 - f1: 0.3899
+Epoch 108/174
+844/844 - 16s - loss: 0.0543 - f1: 0.3885
+Epoch 109/174
+1936/1936 - 46s - loss: 0.0360 - f1: 0.1637
+Epoch 37/214
+844/844 - 16s - loss: 0.0543 - f1: 0.3905
+Epoch 110/174
+844/844 - 16s - loss: 0.0542 - f1: 0.3900
+Epoch 111/174
+844/844 - 16s - loss: 0.0541 - f1: 0.3938
+Epoch 112/174
+1936/1936 - 47s - loss: 0.0359 - f1: 0.1652
+Epoch 38/214
+844/844 - 16s - loss: 0.0540 - f1: 0.3932
+Epoch 113/174
+844/844 - 16s - loss: 0.0541 - f1: 0.3934
+Epoch 114/174
+844/844 - 16s - loss: 0.0540 - f1: 0.3946
+Epoch 115/174
+1936/1936 - 47s - loss: 0.0358 - f1: 0.1650
+Epoch 39/214
+844/844 - 16s - loss: 0.0539 - f1: 0.3942
+Epoch 116/174
+844/844 - 17s - loss: 0.0538 - f1: 0.3964
+Epoch 117/174
+844/844 - 16s - loss: 0.0539 - f1: 0.3943
+Epoch 118/174
+1936/1936 - 47s - loss: 0.0358 - f1: 0.1674
+Epoch 40/214
+844/844 - 16s - loss: 0.0539 - f1: 0.3937
+Epoch 119/174
+844/844 - 16s - loss: 0.0539 - f1: 0.3940
+Epoch 120/174
+1936/1936 - 47s - loss: 0.0357 - f1: 0.1700
+Epoch 41/214
+844/844 - 16s - loss: 0.0538 - f1: 0.3966
+Epoch 121/174
+844/844 - 16s - loss: 0.0536 - f1: 0.3982
+Epoch 122/174
+844/844 - 16s - loss: 0.0537 - f1: 0.4000
+Epoch 123/174
+1936/1936 - 47s - loss: 0.0357 - f1: 0.1693
+Epoch 42/214
+844/844 - 16s - loss: 0.0537 - f1: 0.3975
+Epoch 124/174
+844/844 - 16s - loss: 0.0536 - f1: 0.3994
+Epoch 125/174
+844/844 - 16s - loss: 0.0535 - f1: 0.3997
+Epoch 126/174
+1936/1936 - 48s - loss: 0.0356 - f1: 0.1721
+Epoch 43/214
+844/844 - 16s - loss: 0.0535 - f1: 0.4002
+Epoch 127/174
+844/844 - 17s - loss: 0.0535 - f1: 0.3997
+Epoch 128/174
+844/844 - 16s - loss: 0.0534 - f1: 0.4008
+Epoch 129/174
+1936/1936 - 47s - loss: 0.0356 - f1: 0.1733
+Epoch 44/214
+844/844 - 16s - loss: 0.0534 - f1: 0.4004
+Epoch 130/174
+844/844 - 17s - loss: 0.0533 - f1: 0.4033
+Epoch 131/174
+844/844 - 16s - loss: 0.0531 - f1: 0.4046
+Epoch 132/174
+1936/1936 - 46s - loss: 0.0355 - f1: 0.1764
+Epoch 45/214
+844/844 - 16s - loss: 0.0533 - f1: 0.4022
+Epoch 133/174
+844/844 - 16s - loss: 0.0532 - f1: 0.4023
+Epoch 134/174
+844/844 - 17s - loss: 0.0532 - f1: 0.4029
+Epoch 135/174
+1936/1936 - 47s - loss: 0.0354 - f1: 0.1776
+Epoch 46/214
+844/844 - 17s - loss: 0.0532 - f1: 0.4026
+Epoch 136/174
+844/844 - 16s - loss: 0.0532 - f1: 0.4019
+Epoch 137/174
+844/844 - 17s - loss: 0.0532 - f1: 0.4042
+Epoch 138/174
+1936/1936 - 47s - loss: 0.0354 - f1: 0.1778
+Epoch 47/214
+844/844 - 16s - loss: 0.0531 - f1: 0.4064
+Epoch 139/174
+844/844 - 16s - loss: 0.0531 - f1: 0.4042
+Epoch 140/174
+844/844 - 16s - loss: 0.0530 - f1: 0.4053
+Epoch 141/174
+1936/1936 - 47s - loss: 0.0353 - f1: 0.1803
+Epoch 48/214
+844/844 - 17s - loss: 0.0530 - f1: 0.4052
+Epoch 142/174
+844/844 - 16s - loss: 0.0529 - f1: 0.4069
+Epoch 143/174
+1936/1936 - 47s - loss: 0.0353 - f1: 0.1806
+Epoch 49/214
+844/844 - 16s - loss: 0.0530 - f1: 0.4053
+Epoch 144/174
+844/844 - 16s - loss: 0.0528 - f1: 0.4080
+Epoch 145/174
+844/844 - 17s - loss: 0.0529 - f1: 0.4086
+Epoch 146/174
+1936/1936 - 47s - loss: 0.0353 - f1: 0.1818
+Epoch 50/214
+844/844 - 16s - loss: 0.0527 - f1: 0.4082
+Epoch 147/174
+844/844 - 16s - loss: 0.0528 - f1: 0.4075
+Epoch 148/174
+844/844 - 16s - loss: 0.0527 - f1: 0.4071
+Epoch 149/174
+1936/1936 - 47s - loss: 0.0352 - f1: 0.1829
+Epoch 51/214
+844/844 - 16s - loss: 0.0526 - f1: 0.4103
+Epoch 150/174
+844/844 - 16s - loss: 0.0527 - f1: 0.4096
+Epoch 151/174
+844/844 - 16s - loss: 0.0526 - f1: 0.4114
+Epoch 152/174
+1936/1936 - 46s - loss: 0.0352 - f1: 0.1849
+Epoch 52/214
+844/844 - 16s - loss: 0.0526 - f1: 0.4098
+Epoch 153/174
+844/844 - 17s - loss: 0.0526 - f1: 0.4084
+Epoch 154/174
+844/844 - 16s - loss: 0.0525 - f1: 0.4112
+Epoch 155/174
+1936/1936 - 47s - loss: 0.0351 - f1: 0.1845
+Epoch 53/214
+844/844 - 16s - loss: 0.0525 - f1: 0.4116
+Epoch 156/174
+844/844 - 16s - loss: 0.0525 - f1: 0.4112
+Epoch 157/174
+844/844 - 16s - loss: 0.0525 - f1: 0.4131
+Epoch 158/174
+1936/1936 - 47s - loss: 0.0351 - f1: 0.1859
+Epoch 54/214
+844/844 - 16s - loss: 0.0525 - f1: 0.4124
+Epoch 159/174
+844/844 - 16s - loss: 0.0524 - f1: 0.4122
+Epoch 160/174
+844/844 - 16s - loss: 0.0525 - f1: 0.4124
+Epoch 161/174
+1936/1936 - 47s - loss: 0.0350 - f1: 0.1866
+Epoch 55/214
+844/844 - 16s - loss: 0.0524 - f1: 0.4118
+Epoch 162/174
+844/844 - 16s - loss: 0.0524 - f1: 0.4131
+Epoch 163/174
+844/844 - 16s - loss: 0.0523 - f1: 0.4155
+Epoch 164/174
+1936/1936 - 46s - loss: 0.0350 - f1: 0.1885
+Epoch 56/214
+844/844 - 16s - loss: 0.0522 - f1: 0.4162
+Epoch 165/174
+844/844 - 16s - loss: 0.0522 - f1: 0.4143
+Epoch 166/174
+844/844 - 16s - loss: 0.0523 - f1: 0.4129
+Epoch 167/174
+1936/1936 - 47s - loss: 0.0349 - f1: 0.1898
+Epoch 57/214
+844/844 - 16s - loss: 0.0523 - f1: 0.4152
+Epoch 168/174
+844/844 - 17s - loss: 0.0522 - f1: 0.4164
+Epoch 169/174
+1936/1936 - 47s - loss: 0.0349 - f1: 0.1908
+Epoch 58/214
+844/844 - 16s - loss: 0.0522 - f1: 0.4157
+Epoch 170/174
+844/844 - 16s - loss: 0.0522 - f1: 0.4154
+Epoch 171/174
+844/844 - 16s - loss: 0.0522 - f1: 0.4160
+Epoch 172/174
+1936/1936 - 48s - loss: 0.0348 - f1: 0.1947
+Epoch 59/214
+844/844 - 16s - loss: 0.0521 - f1: 0.4157
+Epoch 173/174
+844/844 - 16s - loss: 0.0522 - f1: 0.4147
+Epoch 174/174
+844/844 - 16s - loss: 0.0519 - f1: 0.4175
+[92m[INFO] Loading best model...[0m
+1936/1936 - 47s - loss: 0.0348 - f1: 0.1930
+Epoch 60/214
+1936/1936 - 48s - loss: 0.0348 - f1: 0.1935
+Epoch 61/214
+1936/1936 - 45s - loss: 0.0348 - f1: 0.1944
+Epoch 62/214
+1936/1936 - 48s - loss: 0.0347 - f1: 0.1943
+Epoch 63/214
+1936/1936 - 48s - loss: 0.0347 - f1: 0.1971
+Epoch 64/214
+1936/1936 - 48s - loss: 0.0347 - f1: 0.1966
+Epoch 65/214
+1936/1936 - 48s - loss: 0.0346 - f1: 0.1985
+Epoch 66/214
+1936/1936 - 45s - loss: 0.0346 - f1: 0.1979
+Epoch 67/214
+1936/1936 - 49s - loss: 0.0346 - f1: 0.2004
+Epoch 68/214
+1936/1936 - 49s - loss: 0.0345 - f1: 0.2011
+Epoch 69/214
+1936/1936 - 50s - loss: 0.0345 - f1: 0.2022
+Epoch 70/214
+1936/1936 - 45s - loss: 0.0345 - f1: 0.2008
+Epoch 71/214
+1936/1936 - 49s - loss: 0.0344 - f1: 0.2031
+Epoch 72/214
+1936/1936 - 50s - loss: 0.0344 - f1: 0.2047
+Epoch 73/214
+1936/1936 - 47s - loss: 0.0344 - f1: 0.2028
+Epoch 74/214
+1936/1936 - 47s - loss: 0.0344 - f1: 0.2054
+Epoch 75/214
+1936/1936 - 45s - loss: 0.0343 - f1: 0.2077
+Epoch 76/214
+1936/1936 - 48s - loss: 0.0343 - f1: 0.2065
+Epoch 77/214
+1936/1936 - 47s - loss: 0.0343 - f1: 0.2086
+Epoch 78/214
+1936/1936 - 50s - loss: 0.0343 - f1: 0.2079
+Epoch 79/214
+1936/1936 - 48s - loss: 0.0342 - f1: 0.2092
+Epoch 80/214
+1936/1936 - 46s - loss: 0.0342 - f1: 0.2087
+Epoch 81/214
+1936/1936 - 48s - loss: 0.0342 - f1: 0.2087
+Epoch 82/214
+1936/1936 - 46s - loss: 0.0342 - f1: 0.2088
+Epoch 83/214
+1936/1936 - 50s - loss: 0.0342 - f1: 0.2104
+Epoch 84/214
+1936/1936 - 47s - loss: 0.0341 - f1: 0.2101
+Epoch 85/214
+1936/1936 - 47s - loss: 0.0341 - f1: 0.2137
+Epoch 86/214
+1936/1936 - 51s - loss: 0.0341 - f1: 0.2128
+Epoch 87/214
+1936/1936 - 45s - loss: 0.0341 - f1: 0.2139
+Epoch 88/214
+1936/1936 - 46s - loss: 0.0341 - f1: 0.2122
+Epoch 89/214
+1936/1936 - 48s - loss: 0.0341 - f1: 0.2123
+Epoch 90/214
+1936/1936 - 48s - loss: 0.0340 - f1: 0.2135
+Epoch 91/214
+1936/1936 - 49s - loss: 0.0340 - f1: 0.2150
+Epoch 92/214
+1936/1936 - 47s - loss: 0.0340 - f1: 0.2150
+Epoch 93/214
+1936/1936 - 46s - loss: 0.0340 - f1: 0.2132
+Epoch 94/214
+1936/1936 - 47s - loss: 0.0340 - f1: 0.2151
+Epoch 95/214
+1936/1936 - 47s - loss: 0.0340 - f1: 0.2158
+Epoch 96/214
+1936/1936 - 47s - loss: 0.0339 - f1: 0.2178
+Epoch 97/214
+1936/1936 - 47s - loss: 0.0339 - f1: 0.2185
+Epoch 98/214
+1936/1936 - 48s - loss: 0.0339 - f1: 0.2176
+Epoch 99/214
+1936/1936 - 46s - loss: 0.0339 - f1: 0.2184
+Epoch 100/214
+1936/1936 - 46s - loss: 0.0338 - f1: 0.2184
+Epoch 101/214
+1936/1936 - 48s - loss: 0.0338 - f1: 0.2188
+Epoch 102/214
+1936/1936 - 49s - loss: 0.0338 - f1: 0.2180
+Epoch 103/214
+1936/1936 - 47s - loss: 0.0338 - f1: 0.2206
+Epoch 104/214
+1936/1936 - 46s - loss: 0.0338 - f1: 0.2195
+Epoch 105/214
+1936/1936 - 49s - loss: 0.0338 - f1: 0.2197
+Epoch 106/214
+1936/1936 - 47s - loss: 0.0338 - f1: 0.2199
+Epoch 107/214
+1936/1936 - 48s - loss: 0.0337 - f1: 0.2221
+Epoch 108/214
+1936/1936 - 46s - loss: 0.0337 - f1: 0.2212
+Epoch 109/214
+1936/1936 - 47s - loss: 0.0337 - f1: 0.2225
+Epoch 110/214
+1936/1936 - 46s - loss: 0.0337 - f1: 0.2223
+Epoch 111/214
+1936/1936 - 44s - loss: 0.0337 - f1: 0.2230
+Epoch 112/214
+1936/1936 - 47s - loss: 0.0337 - f1: 0.2230
+Epoch 113/214
+1936/1936 - 46s - loss: 0.0337 - f1: 0.2234
+Epoch 114/214
+1936/1936 - 48s - loss: 0.0337 - f1: 0.2249
+Epoch 115/214
+1936/1936 - 47s - loss: 0.0336 - f1: 0.2252
+Epoch 116/214
+1936/1936 - 49s - loss: 0.0336 - f1: 0.2241
+Epoch 117/214
+1936/1936 - 49s - loss: 0.0336 - f1: 0.2248
+Epoch 118/214
+1936/1936 - 48s - loss: 0.0336 - f1: 0.2257
+Epoch 119/214
+1936/1936 - 47s - loss: 0.0336 - f1: 0.2256
+Epoch 120/214
+1936/1936 - 49s - loss: 0.0336 - f1: 0.2261
+Epoch 121/214
+1936/1936 - 48s - loss: 0.0335 - f1: 0.2273
+Epoch 122/214
+1936/1936 - 46s - loss: 0.0336 - f1: 0.2267
+Epoch 123/214
+1936/1936 - 46s - loss: 0.0336 - f1: 0.2262
+Epoch 124/214
+1936/1936 - 46s - loss: 0.0335 - f1: 0.2282
+Epoch 125/214
+1936/1936 - 48s - loss: 0.0335 - f1: 0.2274
+Epoch 126/214
+1936/1936 - 47s - loss: 0.0335 - f1: 0.2268
+Epoch 127/214
+1936/1936 - 49s - loss: 0.0335 - f1: 0.2280
+Epoch 128/214
+1936/1936 - 46s - loss: 0.0335 - f1: 0.2276
+Epoch 129/214
+1936/1936 - 47s - loss: 0.0335 - f1: 0.2288
+Epoch 130/214
+1936/1936 - 48s - loss: 0.0335 - f1: 0.2274
+Epoch 131/214
+1936/1936 - 48s - loss: 0.0334 - f1: 0.2306
+Epoch 132/214
+1936/1936 - 47s - loss: 0.0335 - f1: 0.2282
+Epoch 133/214
+1936/1936 - 49s - loss: 0.0334 - f1: 0.2311
+Epoch 134/214
+1936/1936 - 48s - loss: 0.0334 - f1: 0.2304
+Epoch 135/214
+1936/1936 - 46s - loss: 0.0335 - f1: 0.2294
+Epoch 136/214
+1936/1936 - 46s - loss: 0.0334 - f1: 0.2306
+Epoch 137/214
+1936/1936 - 48s - loss: 0.0334 - f1: 0.2295
+Epoch 138/214
+1936/1936 - 49s - loss: 0.0334 - f1: 0.2290
+Epoch 139/214
+1936/1936 - 47s - loss: 0.0334 - f1: 0.2315
+Epoch 140/214
+1936/1936 - 50s - loss: 0.0334 - f1: 0.2319
+Epoch 141/214
+1936/1936 - 48s - loss: 0.0333 - f1: 0.2331
+Epoch 142/214
+1936/1936 - 48s - loss: 0.0334 - f1: 0.2307
+Epoch 143/214
+1936/1936 - 46s - loss: 0.0333 - f1: 0.2324
+Epoch 144/214
+1936/1936 - 47s - loss: 0.0333 - f1: 0.2333
+Epoch 145/214
+1936/1936 - 48s - loss: 0.0333 - f1: 0.2316
+Epoch 146/214
+1936/1936 - 47s - loss: 0.0333 - f1: 0.2328
+Epoch 147/214
+1936/1936 - 47s - loss: 0.0333 - f1: 0.2331
+Epoch 148/214
+1936/1936 - 48s - loss: 0.0333 - f1: 0.2333
+Epoch 149/214
+1936/1936 - 47s - loss: 0.0333 - f1: 0.2356
+Epoch 150/214
+1936/1936 - 48s - loss: 0.0333 - f1: 0.2327
+Epoch 151/214
+1936/1936 - 49s - loss: 0.0333 - f1: 0.2332
+Epoch 152/214
+1936/1936 - 49s - loss: 0.0333 - f1: 0.2350
+Epoch 153/214
+1936/1936 - 48s - loss: 0.0333 - f1: 0.2335
+Epoch 154/214
+1936/1936 - 48s - loss: 0.0333 - f1: 0.2332
+Epoch 155/214
+1936/1936 - 47s - loss: 0.0333 - f1: 0.2337
+Epoch 156/214
+1936/1936 - 48s - loss: 0.0332 - f1: 0.2362
+Epoch 157/214
+1936/1936 - 50s - loss: 0.0332 - f1: 0.2351
+Epoch 158/214
+1936/1936 - 49s - loss: 0.0332 - f1: 0.2362
+Epoch 159/214
+1936/1936 - 49s - loss: 0.0332 - f1: 0.2363
+Epoch 160/214
+1936/1936 - 46s - loss: 0.0332 - f1: 0.2352
+Epoch 161/214
+1936/1936 - 47s - loss: 0.0332 - f1: 0.2363
+Epoch 162/214
+1936/1936 - 49s - loss: 0.0332 - f1: 0.2368
+Epoch 163/214
+1936/1936 - 49s - loss: 0.0331 - f1: 0.2364
+Epoch 164/214
+1936/1936 - 47s - loss: 0.0332 - f1: 0.2360
+Epoch 165/214
+1936/1936 - 48s - loss: 0.0331 - f1: 0.2377
+Epoch 166/214
+1936/1936 - 46s - loss: 0.0332 - f1: 0.2356
+Epoch 167/214
+1936/1936 - 49s - loss: 0.0332 - f1: 0.2374
+Epoch 168/214
+1936/1936 - 47s - loss: 0.0331 - f1: 0.2366
+Epoch 169/214
+1936/1936 - 48s - loss: 0.0331 - f1: 0.2384
+Epoch 170/214
+1936/1936 - 48s - loss: 0.0331 - f1: 0.2380
+Epoch 171/214
+1936/1936 - 48s - loss: 0.0331 - f1: 0.2387
+Epoch 172/214
+1936/1936 - 49s - loss: 0.0331 - f1: 0.2373
+Epoch 173/214
+1936/1936 - 49s - loss: 0.0332 - f1: 0.2364
+Epoch 174/214
+1936/1936 - 49s - loss: 0.0331 - f1: 0.2357
+Epoch 175/214
+1936/1936 - 49s - loss: 0.0331 - f1: 0.2398
+Epoch 176/214
+1936/1936 - 48s - loss: 0.0331 - f1: 0.2399
+Epoch 177/214
+1936/1936 - 48s - loss: 0.0331 - f1: 0.2390
+Epoch 178/214
+1936/1936 - 47s - loss: 0.0331 - f1: 0.2384
+Epoch 179/214
+1936/1936 - 49s - loss: 0.0331 - f1: 0.2398
+Epoch 180/214
+1936/1936 - 47s - loss: 0.0331 - f1: 0.2392
+Epoch 181/214
+1936/1936 - 46s - loss: 0.0330 - f1: 0.2408
+Epoch 182/214
+1936/1936 - 48s - loss: 0.0331 - f1: 0.2383
+Epoch 183/214
+1936/1936 - 50s - loss: 0.0331 - f1: 0.2401
+Epoch 184/214
+1936/1936 - 47s - loss: 0.0331 - f1: 0.2394
+Epoch 185/214
+1936/1936 - 47s - loss: 0.0331 - f1: 0.2391
+Epoch 186/214
+1936/1936 - 48s - loss: 0.0330 - f1: 0.2427
+Epoch 187/214
+1936/1936 - 50s - loss: 0.0330 - f1: 0.2412
+Epoch 188/214
+1936/1936 - 49s - loss: 0.0330 - f1: 0.2409
+Epoch 189/214
+1936/1936 - 49s - loss: 0.0331 - f1: 0.2408
+Epoch 190/214
+1936/1936 - 47s - loss: 0.0330 - f1: 0.2425
+Epoch 191/214
+1936/1936 - 45s - loss: 0.0329 - f1: 0.2430
+Epoch 192/214
+1936/1936 - 49s - loss: 0.0330 - f1: 0.2393
+Epoch 193/214
+1936/1936 - 48s - loss: 0.0330 - f1: 0.2419
+Epoch 194/214
+1936/1936 - 48s - loss: 0.0330 - f1: 0.2413
+Epoch 195/214
+1936/1936 - 49s - loss: 0.0330 - f1: 0.2421
+Epoch 196/214
+1936/1936 - 47s - loss: 0.0330 - f1: 0.2422
+Epoch 197/214
+1936/1936 - 45s - loss: 0.0330 - f1: 0.2406
+Epoch 198/214
+1936/1936 - 47s - loss: 0.0330 - f1: 0.2414
+Epoch 199/214
+1936/1936 - 46s - loss: 0.0330 - f1: 0.2403
+Epoch 200/214
+1936/1936 - 47s - loss: 0.0330 - f1: 0.2405
+Epoch 201/214
+1936/1936 - 49s - loss: 0.0330 - f1: 0.2427
+Epoch 202/214
+1936/1936 - 49s - loss: 0.0330 - f1: 0.2418
+Epoch 203/214
+1936/1936 - 48s - loss: 0.0329 - f1: 0.2436
+Epoch 204/214
+1936/1936 - 47s - loss: 0.0329 - f1: 0.2447
+Epoch 205/214
+1936/1936 - 48s - loss: 0.0330 - f1: 0.2426
+Epoch 206/214
+1936/1936 - 48s - loss: 0.0329 - f1: 0.2438
+Epoch 207/214
+1936/1936 - 47s - loss: 0.0329 - f1: 0.2426
+Epoch 208/214
+1936/1936 - 46s - loss: 0.0330 - f1: 0.2442
+Epoch 209/214
+1936/1936 - 47s - loss: 0.0329 - f1: 0.2422
+Epoch 210/214
+1936/1936 - 47s - loss: 0.0329 - f1: 0.2433
+Epoch 211/214
+1936/1936 - 47s - loss: 0.0329 - f1: 0.2436
+Epoch 212/214
+1936/1936 - 47s - loss: 0.0329 - f1: 0.2449
+Epoch 213/214
+1936/1936 - 46s - loss: 0.0329 - f1: 0.2433
+Epoch 214/214
+1936/1936 - 47s - loss: 0.0329 - f1: 0.2458
+[92m[INFO] Loading best model...[0m

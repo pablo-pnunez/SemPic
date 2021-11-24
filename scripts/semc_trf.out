@@ -1,0 +1,2258 @@
+barcelona
+   -[12084] barcelona
+2021-11-18 12:19:25.165578: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+madrid
+   -[12133] madrid
+2021-11-18 12:19:26.186047: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+paris
+   -[12210] paris
+2021-11-18 12:19:27.198437: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+newyorkcity
+   -[12285] newyorkcity
+2021-11-18 12:19:28.240565: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+[93m[WARNING] Model folder already exists...[0m
+2021-11-18 12:19:41.235583: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-18 12:19:41.236365: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-18 12:19:41.275299: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-18 12:19:41.275379: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:41.280068: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:41.280257: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-18 12:19:41.282114: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-18 12:19:41.282726: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-18 12:19:41.285420: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-18 12:19:41.286136: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-18 12:19:41.286536: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-18 12:19:41.288533: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-18 12:19:41.362562: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-18 12:19:41.363899: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-18 12:19:41.364765: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-18 12:19:41.364976: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:41.365037: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:41.365105: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-18 12:19:41.365124: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-18 12:19:41.365136: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-18 12:19:41.365149: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-18 12:19:41.365166: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-18 12:19:41.365179: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-18 12:19:41.366755: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-18 12:19:41.366823: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:41.798812: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-18 12:19:41.798856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-18 12:19:41.798863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-18 12:19:41.800281: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10791 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+[92m[INFO] Best epoch number: 321[0m
+2021-11-18 12:19:41.998801: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-18 12:19:41.999275: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/321
+2021-11-18 12:19:42.642697: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:42.818362: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+/home/pperez/.local/lib/python3.6/site-packages/sklearn/preprocessing/_label.py:995: UserWarning: unknown class(es) [3079] will be ignored
+  .format(sorted(unknown, key=str)))
+[93m[WARNING] Model folder already exists...[0m
+2021-11-18 12:19:46.447189: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-18 12:19:46.448270: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-18 12:19:46.475851: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-18 12:19:46.475904: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:46.493856: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:46.493990: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-18 12:19:46.495527: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-18 12:19:46.496515: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-18 12:19:46.500295: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-18 12:19:46.501198: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-18 12:19:46.501665: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-18 12:19:46.505389: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-18 12:19:46.533158: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-18 12:19:46.534431: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-18 12:19:46.536024: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-18 12:19:46.536113: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:46.536194: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:46.536230: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-18 12:19:46.536262: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-18 12:19:46.536299: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-18 12:19:46.536347: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-18 12:19:46.536381: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-18 12:19:46.536425: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-18 12:19:46.539350: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-18 12:19:46.539443: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:46.949359: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-18 12:19:46.949404: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-18 12:19:46.949411: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-18 12:19:46.950805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10426 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+[93m[WARNING] Model folder already exists...[0m
+2021-11-18 12:19:47.500920: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-18 12:19:47.501703: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-18 12:19:47.529023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-18 12:19:47.529084: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:47.531715: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:47.531825: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-18 12:19:47.532803: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-18 12:19:47.533131: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-18 12:19:47.535098: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-18 12:19:47.535624: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-18 12:19:47.535799: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-18 12:19:47.536928: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-18 12:19:47.558012: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-18 12:19:47.559111: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-18 12:19:47.560547: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-18 12:19:47.560614: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:47.560663: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:47.560689: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-18 12:19:47.560714: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-18 12:19:47.560738: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-18 12:19:47.560763: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-18 12:19:47.560787: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-18 12:19:47.560812: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-18 12:19:47.563063: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-18 12:19:47.563136: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:48.021829: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-18 12:19:48.021879: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-18 12:19:48.021888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-18 12:19:48.023664: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10167 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+[92m[INFO] Best epoch number: 256[0m
+2021-11-18 12:19:48.235273: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-18 12:19:48.235850: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/256
+[92m[INFO] Best epoch number: 273[0m
+2021-11-18 12:19:48.618123: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-18 12:19:48.618513: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/273
+2021-11-18 12:19:48.890526: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:49.081060: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+/home/pperez/.local/lib/python3.6/site-packages/sklearn/preprocessing/_label.py:995: UserWarning: unknown class(es) [5211] will be ignored
+  .format(sorted(unknown, key=str)))
+2021-11-18 12:19:49.295022: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:49.532439: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+/home/pperez/.local/lib/python3.6/site-packages/sklearn/preprocessing/_label.py:995: UserWarning: unknown class(es) [4000] will be ignored
+  .format(sorted(unknown, key=str)))
+537/537 - 10s - loss: 0.1543 - f1: 0.0020
+Epoch 2/321
+[93m[WARNING] Model folder already exists...[0m
+2021-11-18 12:19:53.466514: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-18 12:19:53.467361: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-18 12:19:53.503593: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-18 12:19:53.503670: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:53.508230: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:53.508413: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-18 12:19:53.510162: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-18 12:19:53.510627: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-18 12:19:53.513515: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-18 12:19:53.514082: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-18 12:19:53.514478: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-18 12:19:53.515986: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-18 12:19:53.615955: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-18 12:19:53.617537: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-18 12:19:53.618442: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-18 12:19:53.618492: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:53.618530: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:53.618545: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-18 12:19:53.618560: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-18 12:19:53.618576: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-18 12:19:53.618590: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-18 12:19:53.618611: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-18 12:19:53.618627: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-18 12:19:53.619913: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-18 12:19:53.619958: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-18 12:19:54.087801: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-18 12:19:54.087847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-18 12:19:54.087856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-18 12:19:54.089773: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9694 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+[92m[INFO] Best epoch number: 187[0m
+2021-11-18 12:19:54.340500: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-18 12:19:54.340981: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/187
+2021-11-18 12:19:54.999762: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-18 12:19:55.239206: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+/home/pperez/.local/lib/python3.6/site-packages/sklearn/preprocessing/_label.py:995: UserWarning: unknown class(es) [5776] will be ignored
+  .format(sorted(unknown, key=str)))
+537/537 - 8s - loss: 0.1107 - f1: 5.9515e-04
+Epoch 3/321
+707/707 - 13s - loss: 0.1606 - f1: 0.0017
+Epoch 2/273
+658/658 - 14s - loss: 0.1518 - f1: 0.0015
+Epoch 2/256
+537/537 - 8s - loss: 0.1095 - f1: 0.0011
+Epoch 4/321
+890/890 - 16s - loss: 0.0836 - f1: 3.3585e-04
+Epoch 2/187
+707/707 - 11s - loss: 0.1285 - f1: 0.0114
+Epoch 3/273
+658/658 - 12s - loss: 0.1138 - f1: 0.0862
+Epoch 3/256
+537/537 - 8s - loss: 0.1078 - f1: 0.0051
+Epoch 5/321
+707/707 - 12s - loss: 0.1224 - f1: 0.1083
+Epoch 4/273
+537/537 - 8s - loss: 0.1057 - f1: 0.0108
+Epoch 6/321
+658/658 - 12s - loss: 0.1075 - f1: 0.1760
+Epoch 4/256
+890/890 - 15s - loss: 0.0578 - f1: 6.3677e-05
+Epoch 3/187
+537/537 - 8s - loss: 0.1044 - f1: 0.0200
+Epoch 7/321
+707/707 - 12s - loss: 0.1182 - f1: 0.1629
+Epoch 5/273
+658/658 - 12s - loss: 0.1046 - f1: 0.1920
+Epoch 5/256
+890/890 - 15s - loss: 0.0564 - f1: 0.0011
+Epoch 4/187
+537/537 - 8s - loss: 0.1033 - f1: 0.0260
+Epoch 8/321
+707/707 - 12s - loss: 0.1160 - f1: 0.1791
+Epoch 6/273
+658/658 - 11s - loss: 0.1020 - f1: 0.2015
+Epoch 6/256
+537/537 - 8s - loss: 0.1026 - f1: 0.0308
+Epoch 9/321
+890/890 - 15s - loss: 0.0552 - f1: 0.0029
+Epoch 5/187
+537/537 - 8s - loss: 0.1019 - f1: 0.0355
+Epoch 10/321
+658/658 - 12s - loss: 0.0996 - f1: 0.2151
+Epoch 7/256
+707/707 - 12s - loss: 0.1141 - f1: 0.1926
+Epoch 7/273
+537/537 - 8s - loss: 0.1013 - f1: 0.0390
+Epoch 11/321
+890/890 - 15s - loss: 0.0543 - f1: 0.0069
+Epoch 6/187
+658/658 - 12s - loss: 0.0979 - f1: 0.2270
+Epoch 8/256
+707/707 - 12s - loss: 0.1131 - f1: 0.1955
+Epoch 8/273
+537/537 - 8s - loss: 0.1009 - f1: 0.0420
+Epoch 12/321
+537/537 - 8s - loss: 0.1003 - f1: 0.0442
+Epoch 13/321
+658/658 - 12s - loss: 0.0966 - f1: 0.2357
+Epoch 9/256
+707/707 - 12s - loss: 0.1119 - f1: 0.2027
+Epoch 9/273
+890/890 - 15s - loss: 0.0534 - f1: 0.0097
+Epoch 7/187
+537/537 - 8s - loss: 0.0997 - f1: 0.0511
+Epoch 14/321
+658/658 - 12s - loss: 0.0955 - f1: 0.2461
+Epoch 10/256
+707/707 - 12s - loss: 0.1111 - f1: 0.2062
+Epoch 10/273
+537/537 - 8s - loss: 0.0990 - f1: 0.0549
+Epoch 15/321
+890/890 - 15s - loss: 0.0527 - f1: 0.0152
+Epoch 8/187
+537/537 - 8s - loss: 0.0985 - f1: 0.0605
+Epoch 16/321
+658/658 - 12s - loss: 0.0945 - f1: 0.2517
+Epoch 11/256
+707/707 - 12s - loss: 0.1102 - f1: 0.2130
+Epoch 11/273
+537/537 - 8s - loss: 0.0980 - f1: 0.0649
+Epoch 17/321
+890/890 - 16s - loss: 0.0523 - f1: 0.0185
+Epoch 9/187
+658/658 - 12s - loss: 0.0939 - f1: 0.2535
+Epoch 12/256
+707/707 - 12s - loss: 0.1095 - f1: 0.2170
+Epoch 12/273
+537/537 - 8s - loss: 0.0979 - f1: 0.0649
+Epoch 18/321
+658/658 - 12s - loss: 0.0930 - f1: 0.2611
+Epoch 13/256
+537/537 - 8s - loss: 0.0975 - f1: 0.0668
+Epoch 19/321
+890/890 - 15s - loss: 0.0519 - f1: 0.0227
+Epoch 10/187
+707/707 - 12s - loss: 0.1087 - f1: 0.2177
+Epoch 13/273
+537/537 - 8s - loss: 0.0970 - f1: 0.0723
+Epoch 20/321
+658/658 - 12s - loss: 0.0924 - f1: 0.2632
+Epoch 14/256
+707/707 - 12s - loss: 0.1079 - f1: 0.2244
+Epoch 14/273
+890/890 - 15s - loss: 0.0515 - f1: 0.0254
+Epoch 11/187
+537/537 - 8s - loss: 0.0966 - f1: 0.0764
+Epoch 21/321
+658/658 - 12s - loss: 0.0917 - f1: 0.2727
+Epoch 15/256
+537/537 - 8s - loss: 0.0963 - f1: 0.0772
+Epoch 22/321
+707/707 - 12s - loss: 0.1072 - f1: 0.2289
+Epoch 15/273
+890/890 - 15s - loss: 0.0512 - f1: 0.0298
+Epoch 12/187
+537/537 - 8s - loss: 0.0960 - f1: 0.0840
+Epoch 23/321
+658/658 - 12s - loss: 0.0910 - f1: 0.2759
+Epoch 16/256
+707/707 - 12s - loss: 0.1065 - f1: 0.2359
+Epoch 16/273
+537/537 - 8s - loss: 0.0957 - f1: 0.0828
+Epoch 24/321
+890/890 - 15s - loss: 0.0509 - f1: 0.0325
+Epoch 13/187
+658/658 - 11s - loss: 0.0904 - f1: 0.2801
+Epoch 17/256
+707/707 - 12s - loss: 0.1061 - f1: 0.2376
+Epoch 17/273
+537/537 - 8s - loss: 0.0955 - f1: 0.0859
+Epoch 25/321
+658/658 - 12s - loss: 0.0898 - f1: 0.2834
+Epoch 18/256
+537/537 - 8s - loss: 0.0951 - f1: 0.0911
+Epoch 26/321
+890/890 - 15s - loss: 0.0506 - f1: 0.0361
+Epoch 14/187
+707/707 - 12s - loss: 0.1057 - f1: 0.2406
+Epoch 18/273
+537/537 - 8s - loss: 0.0949 - f1: 0.0932
+Epoch 27/321
+658/658 - 11s - loss: 0.0896 - f1: 0.2845
+Epoch 19/256
+707/707 - 12s - loss: 0.1050 - f1: 0.2449
+Epoch 19/273
+537/537 - 8s - loss: 0.0945 - f1: 0.0948
+Epoch 28/321
+890/890 - 15s - loss: 0.0504 - f1: 0.0383
+Epoch 15/187
+658/658 - 12s - loss: 0.0889 - f1: 0.2885
+Epoch 20/256
+537/537 - 8s - loss: 0.0942 - f1: 0.0986
+Epoch 29/321
+707/707 - 12s - loss: 0.1045 - f1: 0.2484
+Epoch 20/273
+537/537 - 8s - loss: 0.0941 - f1: 0.1002
+Epoch 30/321
+890/890 - 15s - loss: 0.0502 - f1: 0.0416
+Epoch 16/187
+658/658 - 11s - loss: 0.0884 - f1: 0.2966
+Epoch 21/256
+707/707 - 12s - loss: 0.1042 - f1: 0.2518
+Epoch 21/273
+537/537 - 8s - loss: 0.0939 - f1: 0.1009
+Epoch 31/321
+658/658 - 12s - loss: 0.0879 - f1: 0.3003
+Epoch 22/256
+890/890 - 15s - loss: 0.0500 - f1: 0.0459
+Epoch 17/187
+537/537 - 8s - loss: 0.0934 - f1: 0.1046
+Epoch 32/321
+707/707 - 12s - loss: 0.1036 - f1: 0.2559
+Epoch 22/273
+537/537 - 8s - loss: 0.0933 - f1: 0.1071
+Epoch 33/321
+658/658 - 12s - loss: 0.0876 - f1: 0.3022
+Epoch 23/256
+707/707 - 12s - loss: 0.1034 - f1: 0.2574
+Epoch 23/273
+890/890 - 15s - loss: 0.0498 - f1: 0.0459
+Epoch 18/187
+537/537 - 8s - loss: 0.0930 - f1: 0.1100
+Epoch 34/321
+658/658 - 12s - loss: 0.0871 - f1: 0.3061
+Epoch 24/256
+537/537 - 8s - loss: 0.0928 - f1: 0.1113
+Epoch 35/321
+707/707 - 12s - loss: 0.1031 - f1: 0.2582
+Epoch 24/273
+890/890 - 15s - loss: 0.0496 - f1: 0.0511
+Epoch 19/187
+658/658 - 11s - loss: 0.0868 - f1: 0.3092
+Epoch 25/256
+537/537 - 8s - loss: 0.0926 - f1: 0.1152
+Epoch 36/321
+707/707 - 12s - loss: 0.1026 - f1: 0.2626
+Epoch 25/273
+537/537 - 8s - loss: 0.0925 - f1: 0.1161
+Epoch 37/321
+658/658 - 12s - loss: 0.0865 - f1: 0.3074
+Epoch 26/256
+890/890 - 15s - loss: 0.0493 - f1: 0.0542
+Epoch 20/187
+537/537 - 8s - loss: 0.0923 - f1: 0.1173
+Epoch 38/321
+707/707 - 12s - loss: 0.1022 - f1: 0.2673
+Epoch 26/273
+658/658 - 12s - loss: 0.0861 - f1: 0.3124
+Epoch 27/256
+537/537 - 8s - loss: 0.0919 - f1: 0.1202
+Epoch 39/321
+890/890 - 15s - loss: 0.0492 - f1: 0.0542
+Epoch 21/187
+707/707 - 12s - loss: 0.1016 - f1: 0.2699
+Epoch 27/273
+537/537 - 8s - loss: 0.0919 - f1: 0.1207
+Epoch 40/321
+658/658 - 12s - loss: 0.0856 - f1: 0.3178
+Epoch 28/256
+537/537 - 8s - loss: 0.0917 - f1: 0.1234
+Epoch 41/321
+890/890 - 15s - loss: 0.0490 - f1: 0.0565
+Epoch 22/187
+707/707 - 13s - loss: 0.1016 - f1: 0.2733
+Epoch 28/273
+658/658 - 12s - loss: 0.0855 - f1: 0.3180
+Epoch 29/256
+537/537 - 8s - loss: 0.0915 - f1: 0.1257
+Epoch 42/321
+707/707 - 12s - loss: 0.1010 - f1: 0.2782
+Epoch 29/273
+890/890 - 15s - loss: 0.0488 - f1: 0.0600
+Epoch 23/187
+537/537 - 8s - loss: 0.0913 - f1: 0.1267
+Epoch 43/321
+658/658 - 12s - loss: 0.0853 - f1: 0.3186
+Epoch 30/256
+707/707 - 12s - loss: 0.1007 - f1: 0.2769
+Epoch 30/273
+537/537 - 9s - loss: 0.0909 - f1: 0.1316
+Epoch 44/321
+658/658 - 12s - loss: 0.0849 - f1: 0.3209
+Epoch 31/256
+890/890 - 15s - loss: 0.0487 - f1: 0.0602
+Epoch 24/187
+537/537 - 8s - loss: 0.0907 - f1: 0.1339
+Epoch 45/321
+707/707 - 12s - loss: 0.1004 - f1: 0.2809
+Epoch 31/273
+658/658 - 12s - loss: 0.0846 - f1: 0.3241
+Epoch 32/256
+537/537 - 9s - loss: 0.0907 - f1: 0.1331
+Epoch 46/321
+890/890 - 15s - loss: 0.0486 - f1: 0.0626
+Epoch 25/187
+707/707 - 12s - loss: 0.1001 - f1: 0.2825
+Epoch 32/273
+537/537 - 8s - loss: 0.0906 - f1: 0.1361
+Epoch 47/321
+658/658 - 12s - loss: 0.0840 - f1: 0.3313
+Epoch 33/256
+537/537 - 8s - loss: 0.0903 - f1: 0.1378
+Epoch 48/321
+890/890 - 15s - loss: 0.0484 - f1: 0.0638
+707/707 - 12s - loss: 0.1000 - f1: 0.2826
+Epoch 26/187
+Epoch 33/273
+658/658 - 11s - loss: 0.0839 - f1: 0.3328
+Epoch 34/256
+537/537 - 8s - loss: 0.0901 - f1: 0.1402
+Epoch 49/321
+707/707 - 12s - loss: 0.0996 - f1: 0.2854
+Epoch 34/273
+537/537 - 8s - loss: 0.0899 - f1: 0.1408
+Epoch 50/321
+658/658 - 12s - loss: 0.0836 - f1: 0.3336
+Epoch 35/256
+890/890 - 15s - loss: 0.0483 - f1: 0.0680
+Epoch 27/187
+537/537 - 8s - loss: 0.0897 - f1: 0.1446
+Epoch 51/321
+707/707 - 12s - loss: 0.0994 - f1: 0.2871
+Epoch 35/273
+658/658 - 11s - loss: 0.0834 - f1: 0.3353
+Epoch 36/256
+890/890 - 15s - loss: 0.0481 - f1: 0.0688
+Epoch 28/187
+537/537 - 8s - loss: 0.0897 - f1: 0.1450
+Epoch 52/321
+707/707 - 12s - loss: 0.0988 - f1: 0.2933
+Epoch 36/273
+658/658 - 12s - loss: 0.0829 - f1: 0.3371
+Epoch 37/256
+537/537 - 8s - loss: 0.0895 - f1: 0.1464
+Epoch 53/321
+890/890 - 15s - loss: 0.0480 - f1: 0.0724
+Epoch 29/187
+537/537 - 8s - loss: 0.0893 - f1: 0.1486
+Epoch 54/321
+707/707 - 12s - loss: 0.0986 - f1: 0.2956
+Epoch 37/273
+658/658 - 12s - loss: 0.0829 - f1: 0.3377
+Epoch 38/256
+537/537 - 8s - loss: 0.0892 - f1: 0.1521
+Epoch 55/321
+707/707 - 12s - loss: 0.0984 - f1: 0.2948
+Epoch 38/273
+890/890 - 15s - loss: 0.0478 - f1: 0.0731
+Epoch 30/187
+658/658 - 12s - loss: 0.0827 - f1: 0.3379
+Epoch 39/256
+537/537 - 8s - loss: 0.0890 - f1: 0.1503
+Epoch 56/321
+707/707 - 12s - loss: 0.0980 - f1: 0.3012
+Epoch 39/273
+537/537 - 8s - loss: 0.0888 - f1: 0.1535
+Epoch 57/321
+658/658 - 12s - loss: 0.0824 - f1: 0.3403
+Epoch 40/256
+890/890 - 15s - loss: 0.0477 - f1: 0.0754
+Epoch 31/187
+537/537 - 8s - loss: 0.0886 - f1: 0.1571
+Epoch 58/321
+707/707 - 12s - loss: 0.0980 - f1: 0.3002
+Epoch 40/273
+658/658 - 12s - loss: 0.0821 - f1: 0.3425
+Epoch 41/256
+537/537 - 8s - loss: 0.0888 - f1: 0.1532
+Epoch 59/321
+890/890 - 15s - loss: 0.0476 - f1: 0.0767
+Epoch 32/187
+707/707 - 12s - loss: 0.0977 - f1: 0.3009
+Epoch 41/273
+658/658 - 11s - loss: 0.0818 - f1: 0.3461
+Epoch 42/256
+537/537 - 8s - loss: 0.0883 - f1: 0.1593
+Epoch 60/321
+537/537 - 8s - loss: 0.0881 - f1: 0.1613
+Epoch 61/321
+890/890 - 15s - loss: 0.0475 - f1: 0.0791
+Epoch 33/187
+658/658 - 12s - loss: 0.0818 - f1: 0.3432
+Epoch 43/256
+707/707 - 12s - loss: 0.0975 - f1: 0.3025
+Epoch 42/273
+537/537 - 8s - loss: 0.0880 - f1: 0.1634
+Epoch 62/321
+658/658 - 12s - loss: 0.0813 - f1: 0.3465
+Epoch 44/256
+707/707 - 12s - loss: 0.0973 - f1: 0.3011
+Epoch 43/273
+890/890 - 15s - loss: 0.0474 - f1: 0.0814
+Epoch 34/187
+537/537 - 8s - loss: 0.0878 - f1: 0.1658
+Epoch 63/321
+537/537 - 8s - loss: 0.0877 - f1: 0.1694
+Epoch 64/321
+658/658 - 11s - loss: 0.0813 - f1: 0.3481
+Epoch 45/256
+707/707 - 12s - loss: 0.0969 - f1: 0.3078
+Epoch 44/273
+890/890 - 15s - loss: 0.0473 - f1: 0.0826
+Epoch 35/187
+537/537 - 8s - loss: 0.0877 - f1: 0.1658
+Epoch 65/321
+658/658 - 12s - loss: 0.0811 - f1: 0.3492
+Epoch 46/256
+707/707 - 12s - loss: 0.0966 - f1: 0.3084
+Epoch 45/273
+537/537 - 8s - loss: 0.0874 - f1: 0.1694
+Epoch 66/321
+890/890 - 15s - loss: 0.0471 - f1: 0.0835
+Epoch 36/187
+537/537 - 8s - loss: 0.0873 - f1: 0.1698
+Epoch 67/321
+658/658 - 12s - loss: 0.0808 - f1: 0.3520
+Epoch 47/256
+707/707 - 12s - loss: 0.0966 - f1: 0.3085
+Epoch 46/273
+537/537 - 8s - loss: 0.0871 - f1: 0.1725
+Epoch 68/321
+890/890 - 15s - loss: 0.0470 - f1: 0.0859
+Epoch 37/187
+658/658 - 11s - loss: 0.0807 - f1: 0.3530
+Epoch 48/256
+707/707 - 11s - loss: 0.0962 - f1: 0.3117
+Epoch 47/273
+537/537 - 8s - loss: 0.0871 - f1: 0.1735
+Epoch 69/321
+658/658 - 12s - loss: 0.0803 - f1: 0.3551
+Epoch 49/256
+537/537 - 8s - loss: 0.0870 - f1: 0.1743
+Epoch 70/321
+707/707 - 12s - loss: 0.0961 - f1: 0.3117
+Epoch 48/273
+890/890 - 15s - loss: 0.0469 - f1: 0.0882
+Epoch 38/187
+537/537 - 8s - loss: 0.0869 - f1: 0.1752
+Epoch 71/321
+658/658 - 12s - loss: 0.0803 - f1: 0.3527
+Epoch 50/256
+707/707 - 12s - loss: 0.0959 - f1: 0.3166
+Epoch 49/273
+890/890 - 15s - loss: 0.0468 - f1: 0.0890
+Epoch 39/187
+537/537 - 8s - loss: 0.0868 - f1: 0.1772
+Epoch 72/321
+658/658 - 12s - loss: 0.0799 - f1: 0.3599
+Epoch 51/256
+707/707 - 12s - loss: 0.0957 - f1: 0.3151
+Epoch 50/273
+537/537 - 8s - loss: 0.0866 - f1: 0.1776
+Epoch 73/321
+890/890 - 15s - loss: 0.0467 - f1: 0.0921
+Epoch 40/187
+537/537 - 8s - loss: 0.0865 - f1: 0.1786
+Epoch 74/321
+658/658 - 12s - loss: 0.0797 - f1: 0.3596
+Epoch 52/256
+707/707 - 12s - loss: 0.0957 - f1: 0.3157
+Epoch 51/273
+537/537 - 9s - loss: 0.0864 - f1: 0.1810
+Epoch 75/321
+658/658 - 12s - loss: 0.0798 - f1: 0.3591
+Epoch 53/256
+890/890 - 16s - loss: 0.0466 - f1: 0.0935
+Epoch 41/187
+707/707 - 13s - loss: 0.0953 - f1: 0.3158
+Epoch 52/273
+537/537 - 8s - loss: 0.0863 - f1: 0.1815
+Epoch 76/321
+658/658 - 12s - loss: 0.0793 - f1: 0.3622
+Epoch 54/256
+537/537 - 8s - loss: 0.0862 - f1: 0.1809
+Epoch 77/321
+707/707 - 12s - loss: 0.0953 - f1: 0.3179
+Epoch 53/273
+890/890 - 15s - loss: 0.0464 - f1: 0.0959
+Epoch 42/187
+537/537 - 8s - loss: 0.0858 - f1: 0.1877
+Epoch 78/321
+658/658 - 12s - loss: 0.0792 - f1: 0.3634
+Epoch 55/256
+707/707 - 12s - loss: 0.0952 - f1: 0.3183
+Epoch 54/273
+537/537 - 8s - loss: 0.0859 - f1: 0.1852
+Epoch 79/321
+890/890 - 15s - loss: 0.0464 - f1: 0.0971
+Epoch 43/187
+658/658 - 12s - loss: 0.0790 - f1: 0.3669
+Epoch 56/256
+537/537 - 8s - loss: 0.0858 - f1: 0.1878
+Epoch 80/321
+707/707 - 12s - loss: 0.0948 - f1: 0.3209
+Epoch 55/273
+537/537 - 8s - loss: 0.0855 - f1: 0.1907
+Epoch 81/321
+890/890 - 15s - loss: 0.0463 - f1: 0.1000
+Epoch 44/187
+658/658 - 12s - loss: 0.0789 - f1: 0.3650
+Epoch 57/256
+707/707 - 12s - loss: 0.0945 - f1: 0.3241
+Epoch 56/273
+537/537 - 8s - loss: 0.0854 - f1: 0.1901
+Epoch 82/321
+658/658 - 12s - loss: 0.0786 - f1: 0.3694
+Epoch 58/256
+890/890 - 15s - loss: 0.0462 - f1: 0.0994
+Epoch 45/187
+537/537 - 8s - loss: 0.0855 - f1: 0.1931
+Epoch 83/321
+707/707 - 12s - loss: 0.0944 - f1: 0.3264
+Epoch 57/273
+537/537 - 8s - loss: 0.0851 - f1: 0.1947
+Epoch 84/321
+658/658 - 12s - loss: 0.0786 - f1: 0.3660
+Epoch 59/256
+707/707 - 12s - loss: 0.0943 - f1: 0.3243
+Epoch 58/273
+890/890 - 16s - loss: 0.0461 - f1: 0.1004
+Epoch 46/187
+537/537 - 8s - loss: 0.0852 - f1: 0.1955
+Epoch 85/321
+658/658 - 12s - loss: 0.0782 - f1: 0.3716
+Epoch 60/256
+537/537 - 8s - loss: 0.0850 - f1: 0.1946
+Epoch 86/321
+707/707 - 12s - loss: 0.0940 - f1: 0.3280
+Epoch 59/273
+890/890 - 15s - loss: 0.0460 - f1: 0.1017
+Epoch 47/187
+658/658 - 12s - loss: 0.0780 - f1: 0.3736
+Epoch 61/256
+537/537 - 8s - loss: 0.0849 - f1: 0.1974
+Epoch 87/321
+707/707 - 12s - loss: 0.0940 - f1: 0.3279
+Epoch 60/273
+537/537 - 8s - loss: 0.0849 - f1: 0.1977
+Epoch 88/321
+658/658 - 12s - loss: 0.0779 - f1: 0.3755
+Epoch 62/256
+890/890 - 15s - loss: 0.0459 - f1: 0.1006
+Epoch 48/187
+537/537 - 8s - loss: 0.0846 - f1: 0.2018
+Epoch 89/321
+707/707 - 12s - loss: 0.0939 - f1: 0.3287
+Epoch 61/273
+658/658 - 12s - loss: 0.0779 - f1: 0.3740
+Epoch 63/256
+537/537 - 8s - loss: 0.0845 - f1: 0.2030
+Epoch 90/321
+890/890 - 15s - loss: 0.0459 - f1: 0.1044
+Epoch 49/187
+707/707 - 12s - loss: 0.0936 - f1: 0.3299
+Epoch 62/273
+537/537 - 8s - loss: 0.0844 - f1: 0.2052
+Epoch 91/321
+658/658 - 12s - loss: 0.0776 - f1: 0.3774
+Epoch 64/256
+707/707 - 12s - loss: 0.0935 - f1: 0.3317
+Epoch 63/273
+537/537 - 8s - loss: 0.0845 - f1: 0.2041
+Epoch 92/321
+890/890 - 15s - loss: 0.0457 - f1: 0.1069
+Epoch 50/187
+658/658 - 12s - loss: 0.0774 - f1: 0.3788
+Epoch 65/256
+537/537 - 8s - loss: 0.0843 - f1: 0.2026
+Epoch 93/321
+707/707 - 12s - loss: 0.0932 - f1: 0.3342
+Epoch 64/273
+890/890 - 15s - loss: 0.0457 - f1: 0.1097
+Epoch 51/187
+658/658 - 12s - loss: 0.0774 - f1: 0.3781
+Epoch 66/256
+537/537 - 8s - loss: 0.0841 - f1: 0.2076
+Epoch 94/321
+707/707 - 12s - loss: 0.0931 - f1: 0.3327
+Epoch 65/273
+537/537 - 8s - loss: 0.0841 - f1: 0.2084
+Epoch 95/321
+658/658 - 12s - loss: 0.0772 - f1: 0.3781
+Epoch 67/256
+890/890 - 15s - loss: 0.0456 - f1: 0.1095
+Epoch 52/187
+537/537 - 8s - loss: 0.0841 - f1: 0.2074
+Epoch 96/321
+707/707 - 12s - loss: 0.0928 - f1: 0.3382
+Epoch 66/273
+658/658 - 12s - loss: 0.0770 - f1: 0.3832
+Epoch 68/256
+537/537 - 8s - loss: 0.0840 - f1: 0.2083
+Epoch 97/321
+890/890 - 15s - loss: 0.0455 - f1: 0.1124
+Epoch 53/187
+707/707 - 12s - loss: 0.0925 - f1: 0.3422
+Epoch 67/273
+537/537 - 8s - loss: 0.0838 - f1: 0.2113
+Epoch 98/321
+658/658 - 12s - loss: 0.0768 - f1: 0.3815
+Epoch 69/256
+537/537 - 8s - loss: 0.0838 - f1: 0.2079
+Epoch 99/321
+707/707 - 12s - loss: 0.0927 - f1: 0.3400
+Epoch 68/273
+890/890 - 15s - loss: 0.0454 - f1: 0.1142
+Epoch 54/187
+658/658 - 12s - loss: 0.0767 - f1: 0.3858
+Epoch 70/256
+537/537 - 8s - loss: 0.0838 - f1: 0.2118
+Epoch 100/321
+707/707 - 12s - loss: 0.0925 - f1: 0.3416
+Epoch 69/273
+537/537 - 8s - loss: 0.0834 - f1: 0.2152
+Epoch 101/321
+658/658 - 12s - loss: 0.0764 - f1: 0.3871
+Epoch 71/256
+890/890 - 15s - loss: 0.0453 - f1: 0.1161
+Epoch 55/187
+707/707 - 12s - loss: 0.0924 - f1: 0.3404
+Epoch 70/273
+537/537 - 8s - loss: 0.0835 - f1: 0.2153
+Epoch 102/321
+658/658 - 12s - loss: 0.0765 - f1: 0.3832
+Epoch 72/256
+890/890 - 15s - loss: 0.0453 - f1: 0.1165
+Epoch 56/187
+537/537 - 8s - loss: 0.0834 - f1: 0.2176
+Epoch 103/321
+707/707 - 12s - loss: 0.0924 - f1: 0.3383
+Epoch 71/273
+537/537 - 8s - loss: 0.0833 - f1: 0.2155
+Epoch 104/321
+658/658 - 11s - loss: 0.0763 - f1: 0.3849
+Epoch 73/256
+890/890 - 15s - loss: 0.0452 - f1: 0.1194
+Epoch 57/187
+707/707 - 12s - loss: 0.0919 - f1: 0.3445
+Epoch 72/273
+537/537 - 8s - loss: 0.0832 - f1: 0.2183
+Epoch 105/321
+658/658 - 12s - loss: 0.0762 - f1: 0.3865
+Epoch 74/256
+537/537 - 8s - loss: 0.0832 - f1: 0.2190
+Epoch 106/321
+707/707 - 12s - loss: 0.0920 - f1: 0.3415
+Epoch 73/273
+890/890 - 15s - loss: 0.0451 - f1: 0.1200
+Epoch 58/187
+658/658 - 12s - loss: 0.0760 - f1: 0.3888
+Epoch 75/256
+537/537 - 8s - loss: 0.0830 - f1: 0.2210
+Epoch 107/321
+707/707 - 12s - loss: 0.0919 - f1: 0.3463
+Epoch 74/273
+537/537 - 8s - loss: 0.0829 - f1: 0.2189
+Epoch 108/321
+658/658 - 12s - loss: 0.0759 - f1: 0.3888
+Epoch 76/256
+890/890 - 15s - loss: 0.0450 - f1: 0.1195
+Epoch 59/187
+537/537 - 8s - loss: 0.0830 - f1: 0.2206
+Epoch 109/321
+707/707 - 12s - loss: 0.0918 - f1: 0.3449
+Epoch 75/273
+658/658 - 11s - loss: 0.0756 - f1: 0.3916
+Epoch 77/256
+537/537 - 8s - loss: 0.0828 - f1: 0.2255
+Epoch 110/321
+890/890 - 15s - loss: 0.0449 - f1: 0.1226
+Epoch 60/187
+707/707 - 12s - loss: 0.0915 - f1: 0.3479
+Epoch 76/273
+537/537 - 8s - loss: 0.0829 - f1: 0.2212
+Epoch 111/321
+658/658 - 12s - loss: 0.0756 - f1: 0.3910
+Epoch 78/256
+537/537 - 8s - loss: 0.0827 - f1: 0.2240
+Epoch 112/321
+890/890 - 15s - loss: 0.0449 - f1: 0.1237
+Epoch 61/187
+707/707 - 12s - loss: 0.0914 - f1: 0.3492
+Epoch 77/273
+658/658 - 12s - loss: 0.0755 - f1: 0.3925
+Epoch 79/256
+537/537 - 8s - loss: 0.0826 - f1: 0.2239
+Epoch 113/321
+707/707 - 12s - loss: 0.0915 - f1: 0.3465
+Epoch 78/273
+890/890 - 15s - loss: 0.0448 - f1: 0.1255
+Epoch 62/187
+658/658 - 12s - loss: 0.0753 - f1: 0.3937
+Epoch 80/256
+537/537 - 8s - loss: 0.0828 - f1: 0.2230
+Epoch 114/321
+707/707 - 12s - loss: 0.0912 - f1: 0.3486
+Epoch 79/273
+537/537 - 8s - loss: 0.0826 - f1: 0.2270
+Epoch 115/321
+658/658 - 12s - loss: 0.0754 - f1: 0.3907
+Epoch 81/256
+890/890 - 15s - loss: 0.0447 - f1: 0.1266
+Epoch 63/187
+537/537 - 8s - loss: 0.0823 - f1: 0.2281
+Epoch 116/321
+707/707 - 12s - loss: 0.0910 - f1: 0.3485
+Epoch 80/273
+658/658 - 12s - loss: 0.0752 - f1: 0.3956
+Epoch 82/256
+537/537 - 8s - loss: 0.0824 - f1: 0.2282
+Epoch 117/321
+890/890 - 16s - loss: 0.0447 - f1: 0.1291
+Epoch 64/187
+707/707 - 12s - loss: 0.0911 - f1: 0.3510
+Epoch 81/273
+537/537 - 8s - loss: 0.0824 - f1: 0.2269
+Epoch 118/321
+658/658 - 12s - loss: 0.0749 - f1: 0.3975
+Epoch 83/256
+537/537 - 8s - loss: 0.0823 - f1: 0.2285
+Epoch 119/321
+707/707 - 12s - loss: 0.0907 - f1: 0.3522
+Epoch 82/273
+890/890 - 15s - loss: 0.0446 - f1: 0.1308
+Epoch 65/187
+658/658 - 12s - loss: 0.0749 - f1: 0.3972
+Epoch 84/256
+537/537 - 8s - loss: 0.0821 - f1: 0.2328
+Epoch 120/321
+707/707 - 12s - loss: 0.0908 - f1: 0.3499
+Epoch 83/273
+537/537 - 8s - loss: 0.0821 - f1: 0.2308
+Epoch 121/321
+658/658 - 12s - loss: 0.0749 - f1: 0.3981
+Epoch 85/256
+890/890 - 15s - loss: 0.0446 - f1: 0.1304
+Epoch 66/187
+537/537 - 8s - loss: 0.0819 - f1: 0.2363
+Epoch 122/321
+707/707 - 12s - loss: 0.0906 - f1: 0.3538
+Epoch 84/273
+658/658 - 12s - loss: 0.0747 - f1: 0.4003
+Epoch 86/256
+537/537 - 9s - loss: 0.0821 - f1: 0.2293
+890/890 - 15s - loss: 0.0446 - f1: 0.1295
+Epoch 123/321
+Epoch 67/187
+707/707 - 12s - loss: 0.0905 - f1: 0.3550
+Epoch 85/273
+658/658 - 12s - loss: 0.0747 - f1: 0.3996
+Epoch 87/256
+537/537 - 8s - loss: 0.0819 - f1: 0.2326
+Epoch 124/321
+890/890 - 15s - loss: 0.0444 - f1: 0.1325
+Epoch 68/187
+537/537 - 8s - loss: 0.0819 - f1: 0.2323
+Epoch 125/321
+707/707 - 12s - loss: 0.0904 - f1: 0.3575
+Epoch 86/273
+658/658 - 12s - loss: 0.0746 - f1: 0.4002
+Epoch 88/256
+537/537 - 9s - loss: 0.0815 - f1: 0.2398
+Epoch 126/321
+890/890 - 15s - loss: 0.0444 - f1: 0.1355
+Epoch 69/187
+707/707 - 12s - loss: 0.0904 - f1: 0.3555
+Epoch 87/273
+658/658 - 12s - loss: 0.0746 - f1: 0.3978
+Epoch 89/256
+537/537 - 8s - loss: 0.0816 - f1: 0.2363
+Epoch 127/321
+707/707 - 12s - loss: 0.0904 - f1: 0.3557
+Epoch 88/273
+537/537 - 9s - loss: 0.0816 - f1: 0.2380
+Epoch 128/321
+658/658 - 12s - loss: 0.0744 - f1: 0.4024
+Epoch 90/256
+890/890 - 15s - loss: 0.0443 - f1: 0.1350
+Epoch 70/187
+537/537 - 8s - loss: 0.0815 - f1: 0.2376
+Epoch 129/321
+658/658 - 12s - loss: 0.0742 - f1: 0.4032
+Epoch 91/256
+707/707 - 12s - loss: 0.0902 - f1: 0.3559
+Epoch 89/273
+537/537 - 8s - loss: 0.0815 - f1: 0.2373
+Epoch 130/321
+890/890 - 15s - loss: 0.0443 - f1: 0.1370
+Epoch 71/187
+658/658 - 12s - loss: 0.0741 - f1: 0.4050
+Epoch 92/256
+707/707 - 12s - loss: 0.0901 - f1: 0.3570
+Epoch 90/273
+537/537 - 8s - loss: 0.0815 - f1: 0.2382
+Epoch 131/321
+890/890 - 15s - loss: 0.0442 - f1: 0.1384
+Epoch 72/187
+537/537 - 8s - loss: 0.0814 - f1: 0.2388
+Epoch 132/321
+658/658 - 12s - loss: 0.0740 - f1: 0.4062
+Epoch 93/256
+707/707 - 12s - loss: 0.0898 - f1: 0.3612
+Epoch 91/273
+537/537 - 8s - loss: 0.0813 - f1: 0.2383
+Epoch 133/321
+658/658 - 12s - loss: 0.0743 - f1: 0.4007
+Epoch 94/256
+707/707 - 12s - loss: 0.0897 - f1: 0.3615
+890/890 - 15s - loss: 0.0442 - f1: 0.1375
+Epoch 92/273
+Epoch 73/187
+537/537 - 8s - loss: 0.0813 - f1: 0.2392
+Epoch 134/321
+537/537 - 8s - loss: 0.0812 - f1: 0.2430
+Epoch 135/321
+658/658 - 12s - loss: 0.0740 - f1: 0.4032
+Epoch 95/256
+707/707 - 12s - loss: 0.0896 - f1: 0.3642
+Epoch 93/273
+890/890 - 15s - loss: 0.0440 - f1: 0.1441
+Epoch 74/187
+537/537 - 8s - loss: 0.0810 - f1: 0.2442
+Epoch 136/321
+658/658 - 12s - loss: 0.0738 - f1: 0.4070
+Epoch 96/256
+707/707 - 12s - loss: 0.0895 - f1: 0.3638
+Epoch 94/273
+537/537 - 9s - loss: 0.0811 - f1: 0.2436
+Epoch 137/321
+890/890 - 15s - loss: 0.0441 - f1: 0.1401
+Epoch 75/187
+658/658 - 12s - loss: 0.0736 - f1: 0.4091
+Epoch 97/256
+537/537 - 8s - loss: 0.0812 - f1: 0.2415
+Epoch 138/321
+707/707 - 12s - loss: 0.0895 - f1: 0.3647
+Epoch 95/273
+537/537 - 8s - loss: 0.0809 - f1: 0.2466
+Epoch 139/321
+890/890 - 15s - loss: 0.0440 - f1: 0.1436
+Epoch 76/187
+658/658 - 11s - loss: 0.0736 - f1: 0.4085
+Epoch 98/256
+707/707 - 12s - loss: 0.0894 - f1: 0.3643
+Epoch 96/273
+537/537 - 8s - loss: 0.0807 - f1: 0.2502
+Epoch 140/321
+658/658 - 12s - loss: 0.0735 - f1: 0.4070
+Epoch 99/256
+537/537 - 8s - loss: 0.0811 - f1: 0.2413
+890/890 - 15s - loss: 0.0439 - f1: 0.1445
+Epoch 141/321
+Epoch 77/187
+707/707 - 13s - loss: 0.0892 - f1: 0.3651
+Epoch 97/273
+537/537 - 8s - loss: 0.0806 - f1: 0.2467
+Epoch 142/321
+658/658 - 12s - loss: 0.0735 - f1: 0.4099
+Epoch 100/256
+707/707 - 12s - loss: 0.0891 - f1: 0.3662
+Epoch 98/273
+890/890 - 15s - loss: 0.0439 - f1: 0.1461
+Epoch 78/187
+537/537 - 8s - loss: 0.0808 - f1: 0.2458
+Epoch 143/321
+658/658 - 12s - loss: 0.0733 - f1: 0.4092
+Epoch 101/256
+537/537 - 8s - loss: 0.0807 - f1: 0.2464
+Epoch 144/321
+707/707 - 12s - loss: 0.0893 - f1: 0.3646
+Epoch 99/273
+890/890 - 15s - loss: 0.0438 - f1: 0.1473
+Epoch 79/187
+658/658 - 12s - loss: 0.0732 - f1: 0.4096
+Epoch 102/256
+537/537 - 9s - loss: 0.0805 - f1: 0.2516
+Epoch 145/321
+707/707 - 12s - loss: 0.0891 - f1: 0.3649
+Epoch 100/273
+537/537 - 9s - loss: 0.0805 - f1: 0.2513
+Epoch 146/321
+658/658 - 12s - loss: 0.0730 - f1: 0.4143
+Epoch 103/256
+890/890 - 15s - loss: 0.0439 - f1: 0.1468
+Epoch 80/187
+707/707 - 12s - loss: 0.0891 - f1: 0.3645
+Epoch 101/273
+537/537 - 9s - loss: 0.0806 - f1: 0.2496
+Epoch 147/321
+658/658 - 12s - loss: 0.0730 - f1: 0.4120
+Epoch 104/256
+537/537 - 8s - loss: 0.0802 - f1: 0.2553
+Epoch 148/321
+707/707 - 12s - loss: 0.0888 - f1: 0.3676
+Epoch 102/273
+890/890 - 15s - loss: 0.0438 - f1: 0.1452
+Epoch 81/187
+537/537 - 8s - loss: 0.0804 - f1: 0.2512
+Epoch 149/321
+658/658 - 12s - loss: 0.0731 - f1: 0.4112
+Epoch 105/256
+707/707 - 12s - loss: 0.0888 - f1: 0.3680
+Epoch 103/273
+537/537 - 9s - loss: 0.0803 - f1: 0.2519
+Epoch 150/321
+890/890 - 15s - loss: 0.0437 - f1: 0.1506
+Epoch 82/187
+658/658 - 12s - loss: 0.0727 - f1: 0.4179
+Epoch 106/256
+537/537 - 8s - loss: 0.0802 - f1: 0.2549
+Epoch 151/321
+707/707 - 12s - loss: 0.0886 - f1: 0.3710
+Epoch 104/273
+890/890 - 15s - loss: 0.0437 - f1: 0.1495
+Epoch 83/187
+658/658 - 12s - loss: 0.0726 - f1: 0.4171
+Epoch 107/256
+537/537 - 8s - loss: 0.0801 - f1: 0.2562
+Epoch 152/321
+707/707 - 12s - loss: 0.0885 - f1: 0.3691
+Epoch 105/273
+537/537 - 8s - loss: 0.0802 - f1: 0.2556
+Epoch 153/321
+658/658 - 11s - loss: 0.0729 - f1: 0.4131
+Epoch 108/256
+890/890 - 15s - loss: 0.0436 - f1: 0.1505
+Epoch 84/187
+707/707 - 12s - loss: 0.0886 - f1: 0.3700
+Epoch 106/273
+537/537 - 8s - loss: 0.0804 - f1: 0.2491
+Epoch 154/321
+658/658 - 12s - loss: 0.0728 - f1: 0.4150
+Epoch 109/256
+537/537 - 8s - loss: 0.0800 - f1: 0.2565
+Epoch 155/321
+707/707 - 12s - loss: 0.0885 - f1: 0.3700
+Epoch 107/273
+890/890 - 15s - loss: 0.0436 - f1: 0.1514
+Epoch 85/187
+537/537 - 8s - loss: 0.0801 - f1: 0.2553
+Epoch 156/321
+658/658 - 12s - loss: 0.0727 - f1: 0.4146
+Epoch 110/256
+707/707 - 12s - loss: 0.0886 - f1: 0.3707
+Epoch 108/273
+537/537 - 8s - loss: 0.0798 - f1: 0.2602
+Epoch 157/321
+890/890 - 15s - loss: 0.0435 - f1: 0.1549
+Epoch 86/187
+658/658 - 11s - loss: 0.0724 - f1: 0.4171
+Epoch 111/256
+537/537 - 8s - loss: 0.0799 - f1: 0.2591
+Epoch 158/321
+707/707 - 12s - loss: 0.0881 - f1: 0.3745
+Epoch 109/273
+658/658 - 12s - loss: 0.0724 - f1: 0.4194
+Epoch 112/256
+537/537 - 8s - loss: 0.0799 - f1: 0.2548
+Epoch 159/321
+890/890 - 15s - loss: 0.0436 - f1: 0.1512
+Epoch 87/187
+707/707 - 12s - loss: 0.0882 - f1: 0.3748
+Epoch 110/273
+537/537 - 8s - loss: 0.0799 - f1: 0.2576
+Epoch 160/321
+658/658 - 11s - loss: 0.0723 - f1: 0.4182
+Epoch 113/256
+890/890 - 16s - loss: 0.0434 - f1: 0.1584
+Epoch 88/187
+537/537 - 8s - loss: 0.0798 - f1: 0.2600
+Epoch 161/321
+707/707 - 12s - loss: 0.0881 - f1: 0.3747
+Epoch 111/273
+658/658 - 12s - loss: 0.0723 - f1: 0.4195
+Epoch 114/256
+537/537 - 8s - loss: 0.0798 - f1: 0.2607
+Epoch 162/321
+707/707 - 12s - loss: 0.0881 - f1: 0.3751
+Epoch 112/273
+890/890 - 15s - loss: 0.0434 - f1: 0.1557
+Epoch 89/187
+537/537 - 8s - loss: 0.0797 - f1: 0.2619
+Epoch 163/321
+658/658 - 12s - loss: 0.0723 - f1: 0.4192
+Epoch 115/256
+537/537 - 8s - loss: 0.0795 - f1: 0.2621
+Epoch 164/321
+707/707 - 12s - loss: 0.0880 - f1: 0.3719
+Epoch 113/273
+658/658 - 12s - loss: 0.0720 - f1: 0.4189
+890/890 - 15s - loss: 0.0434 - f1: 0.1581
+Epoch 116/256
+Epoch 90/187
+537/537 - 8s - loss: 0.0794 - f1: 0.2656
+Epoch 165/321
+707/707 - 12s - loss: 0.0880 - f1: 0.3743
+Epoch 114/273
+537/537 - 8s - loss: 0.0794 - f1: 0.2644
+Epoch 166/321
+658/658 - 12s - loss: 0.0718 - f1: 0.4209
+Epoch 117/256
+890/890 - 15s - loss: 0.0433 - f1: 0.1586
+Epoch 91/187
+537/537 - 8s - loss: 0.0794 - f1: 0.2624
+Epoch 167/321
+707/707 - 12s - loss: 0.0877 - f1: 0.3777
+Epoch 115/273
+658/658 - 11s - loss: 0.0718 - f1: 0.4230
+Epoch 118/256
+537/537 - 8s - loss: 0.0793 - f1: 0.2651
+Epoch 168/321
+890/890 - 15s - loss: 0.0433 - f1: 0.1617
+Epoch 92/187
+707/707 - 11s - loss: 0.0877 - f1: 0.3750
+Epoch 116/273
+658/658 - 12s - loss: 0.0720 - f1: 0.4221
+Epoch 119/256
+537/537 - 8s - loss: 0.0794 - f1: 0.2650
+Epoch 169/321
+537/537 - 8s - loss: 0.0792 - f1: 0.2666
+Epoch 170/321
+707/707 - 12s - loss: 0.0878 - f1: 0.3765
+Epoch 117/273
+890/890 - 15s - loss: 0.0433 - f1: 0.1578
+Epoch 93/187
+658/658 - 11s - loss: 0.0718 - f1: 0.4235
+Epoch 120/256
+537/537 - 8s - loss: 0.0794 - f1: 0.2644
+Epoch 171/321
+707/707 - 12s - loss: 0.0879 - f1: 0.3745
+Epoch 118/273
+658/658 - 12s - loss: 0.0720 - f1: 0.4202
+Epoch 121/256
+890/890 - 15s - loss: 0.0432 - f1: 0.1621
+Epoch 94/187
+537/537 - 8s - loss: 0.0793 - f1: 0.2639
+Epoch 172/321
+707/707 - 12s - loss: 0.0876 - f1: 0.3806
+Epoch 119/273
+537/537 - 8s - loss: 0.0792 - f1: 0.2669
+Epoch 173/321
+658/658 - 12s - loss: 0.0716 - f1: 0.4259
+Epoch 122/256
+890/890 - 15s - loss: 0.0432 - f1: 0.1597
+Epoch 95/187
+537/537 - 8s - loss: 0.0792 - f1: 0.2648
+Epoch 174/321
+707/707 - 12s - loss: 0.0876 - f1: 0.3762
+Epoch 120/273
+658/658 - 12s - loss: 0.0715 - f1: 0.4253
+Epoch 123/256
+537/537 - 8s - loss: 0.0792 - f1: 0.2656
+Epoch 175/321
+890/890 - 15s - loss: 0.0431 - f1: 0.1620
+Epoch 96/187
+707/707 - 12s - loss: 0.0873 - f1: 0.3813
+Epoch 121/273
+537/537 - 8s - loss: 0.0791 - f1: 0.2666
+Epoch 176/321
+658/658 - 11s - loss: 0.0716 - f1: 0.4248
+Epoch 124/256
+537/537 - 8s - loss: 0.0791 - f1: 0.2688
+Epoch 177/321
+707/707 - 12s - loss: 0.0874 - f1: 0.3783
+Epoch 122/273
+890/890 - 15s - loss: 0.0431 - f1: 0.1644
+Epoch 97/187
+658/658 - 12s - loss: 0.0717 - f1: 0.4237
+Epoch 125/256
+537/537 - 8s - loss: 0.0789 - f1: 0.2704
+Epoch 178/321
+707/707 - 12s - loss: 0.0872 - f1: 0.3816
+Epoch 123/273
+658/658 - 12s - loss: 0.0716 - f1: 0.4250
+Epoch 126/256
+537/537 - 8s - loss: 0.0791 - f1: 0.2668
+Epoch 179/321
+890/890 - 15s - loss: 0.0431 - f1: 0.1621
+Epoch 98/187
+537/537 - 8s - loss: 0.0790 - f1: 0.2680
+Epoch 180/321
+707/707 - 12s - loss: 0.0871 - f1: 0.3830
+Epoch 124/273
+658/658 - 12s - loss: 0.0715 - f1: 0.4246
+Epoch 127/256
+537/537 - 8s - loss: 0.0787 - f1: 0.2723
+Epoch 181/321
+890/890 - 15s - loss: 0.0430 - f1: 0.1639
+Epoch 99/187
+707/707 - 12s - loss: 0.0872 - f1: 0.3830
+Epoch 125/273
+658/658 - 12s - loss: 0.0714 - f1: 0.4250
+Epoch 128/256
+537/537 - 8s - loss: 0.0788 - f1: 0.2718
+Epoch 182/321
+890/890 - 15s - loss: 0.0430 - f1: 0.1657
+Epoch 100/187
+537/537 - 8s - loss: 0.0789 - f1: 0.2688
+Epoch 183/321
+707/707 - 12s - loss: 0.0870 - f1: 0.3832
+Epoch 126/273
+658/658 - 12s - loss: 0.0713 - f1: 0.4275
+Epoch 129/256
+537/537 - 8s - loss: 0.0788 - f1: 0.2716
+Epoch 184/321
+707/707 - 12s - loss: 0.0871 - f1: 0.3820
+Epoch 127/273
+658/658 - 12s - loss: 0.0712 - f1: 0.4253
+Epoch 130/256
+890/890 - 15s - loss: 0.0430 - f1: 0.1637
+Epoch 101/187
+537/537 - 8s - loss: 0.0787 - f1: 0.2723
+Epoch 185/321
+537/537 - 8s - loss: 0.0787 - f1: 0.2726
+Epoch 186/321
+658/658 - 12s - loss: 0.0712 - f1: 0.4280
+Epoch 131/256
+707/707 - 12s - loss: 0.0870 - f1: 0.3829
+Epoch 128/273
+890/890 - 15s - loss: 0.0429 - f1: 0.1664
+Epoch 102/187
+537/537 - 8s - loss: 0.0786 - f1: 0.2727
+Epoch 187/321
+658/658 - 12s - loss: 0.0710 - f1: 0.4301
+Epoch 132/256
+707/707 - 12s - loss: 0.0868 - f1: 0.3849
+Epoch 129/273
+537/537 - 8s - loss: 0.0786 - f1: 0.2742
+Epoch 188/321
+890/890 - 15s - loss: 0.0428 - f1: 0.1693
+Epoch 103/187
+658/658 - 11s - loss: 0.0709 - f1: 0.4304
+Epoch 133/256
+707/707 - 11s - loss: 0.0868 - f1: 0.3872
+Epoch 130/273
+537/537 - 8s - loss: 0.0785 - f1: 0.2756
+Epoch 189/321
+537/537 - 9s - loss: 0.0786 - f1: 0.2749
+Epoch 190/321
+890/890 - 15s - loss: 0.0429 - f1: 0.1670
+Epoch 104/187
+658/658 - 12s - loss: 0.0711 - f1: 0.4285
+Epoch 134/256
+707/707 - 12s - loss: 0.0867 - f1: 0.3863
+Epoch 131/273
+537/537 - 8s - loss: 0.0785 - f1: 0.2751
+Epoch 191/321
+658/658 - 11s - loss: 0.0709 - f1: 0.4299
+Epoch 135/256
+707/707 - 12s - loss: 0.0868 - f1: 0.3860
+Epoch 132/273
+890/890 - 15s - loss: 0.0427 - f1: 0.1696
+Epoch 105/187
+537/537 - 8s - loss: 0.0784 - f1: 0.2740
+Epoch 192/321
+537/537 - 8s - loss: 0.0785 - f1: 0.2742
+Epoch 193/321
+658/658 - 12s - loss: 0.0706 - f1: 0.4349
+Epoch 136/256
+707/707 - 12s - loss: 0.0867 - f1: 0.3841
+Epoch 133/273
+890/890 - 15s - loss: 0.0428 - f1: 0.1716
+Epoch 106/187
+537/537 - 8s - loss: 0.0782 - f1: 0.2765
+Epoch 194/321
+658/658 - 12s - loss: 0.0708 - f1: 0.4313
+Epoch 137/256
+707/707 - 12s - loss: 0.0867 - f1: 0.3846
+Epoch 134/273
+537/537 - 8s - loss: 0.0786 - f1: 0.2712
+Epoch 195/321
+890/890 - 15s - loss: 0.0428 - f1: 0.1715
+Epoch 107/187
+658/658 - 11s - loss: 0.0710 - f1: 0.4289
+Epoch 138/256
+707/707 - 12s - loss: 0.0865 - f1: 0.3873
+Epoch 135/273
+537/537 - 8s - loss: 0.0783 - f1: 0.2764
+Epoch 196/321
+537/537 - 9s - loss: 0.0782 - f1: 0.2792
+Epoch 197/321
+658/658 - 12s - loss: 0.0707 - f1: 0.4336
+Epoch 139/256
+707/707 - 12s - loss: 0.0864 - f1: 0.3887
+Epoch 136/273
+890/890 - 15s - loss: 0.0428 - f1: 0.1699
+Epoch 108/187
+537/537 - 8s - loss: 0.0783 - f1: 0.2766
+Epoch 198/321
+658/658 - 12s - loss: 0.0707 - f1: 0.4331
+Epoch 140/256
+707/707 - 12s - loss: 0.0865 - f1: 0.3883
+Epoch 137/273
+537/537 - 8s - loss: 0.0781 - f1: 0.2810
+Epoch 199/321
+890/890 - 15s - loss: 0.0426 - f1: 0.1732
+Epoch 109/187
+537/537 - 8s - loss: 0.0782 - f1: 0.2766
+Epoch 200/321
+658/658 - 12s - loss: 0.0706 - f1: 0.4343
+Epoch 141/256
+707/707 - 12s - loss: 0.0863 - f1: 0.3898
+Epoch 138/273
+537/537 - 8s - loss: 0.0780 - f1: 0.2820
+Epoch 201/321
+890/890 - 15s - loss: 0.0426 - f1: 0.1734
+Epoch 110/187
+658/658 - 12s - loss: 0.0705 - f1: 0.4319
+Epoch 142/256
+707/707 - 12s - loss: 0.0860 - f1: 0.3926
+Epoch 139/273
+537/537 - 8s - loss: 0.0780 - f1: 0.2814
+Epoch 202/321
+890/890 - 15s - loss: 0.0427 - f1: 0.1737
+Epoch 111/187
+658/658 - 11s - loss: 0.0707 - f1: 0.4309
+Epoch 143/256
+537/537 - 8s - loss: 0.0780 - f1: 0.2803
+Epoch 203/321
+707/707 - 12s - loss: 0.0863 - f1: 0.3900
+Epoch 140/273
+537/537 - 8s - loss: 0.0781 - f1: 0.2795
+Epoch 204/321
+658/658 - 12s - loss: 0.0705 - f1: 0.4336
+Epoch 144/256
+707/707 - 12s - loss: 0.0860 - f1: 0.3926
+Epoch 141/273
+890/890 - 15s - loss: 0.0426 - f1: 0.1733
+Epoch 112/187
+537/537 - 8s - loss: 0.0780 - f1: 0.2789
+Epoch 205/321
+658/658 - 12s - loss: 0.0704 - f1: 0.4364
+Epoch 145/256
+537/537 - 8s - loss: 0.0781 - f1: 0.2817
+Epoch 206/321
+707/707 - 12s - loss: 0.0862 - f1: 0.3894
+Epoch 142/273
+890/890 - 16s - loss: 0.0426 - f1: 0.1769
+Epoch 113/187
+537/537 - 8s - loss: 0.0779 - f1: 0.2833
+Epoch 207/321
+658/658 - 12s - loss: 0.0704 - f1: 0.4345
+Epoch 146/256
+707/707 - 12s - loss: 0.0860 - f1: 0.3909
+Epoch 143/273
+537/537 - 8s - loss: 0.0777 - f1: 0.2853
+Epoch 208/321
+890/890 - 15s - loss: 0.0426 - f1: 0.1744
+Epoch 114/187
+658/658 - 12s - loss: 0.0705 - f1: 0.4344
+Epoch 147/256
+537/537 - 8s - loss: 0.0780 - f1: 0.2812
+Epoch 209/321
+707/707 - 12s - loss: 0.0860 - f1: 0.3908
+Epoch 144/273
+658/658 - 12s - loss: 0.0703 - f1: 0.4333
+Epoch 148/256
+537/537 - 9s - loss: 0.0778 - f1: 0.2834
+Epoch 210/321
+890/890 - 15s - loss: 0.0426 - f1: 0.1736
+Epoch 115/187
+707/707 - 12s - loss: 0.0860 - f1: 0.3906
+Epoch 145/273
+537/537 - 8s - loss: 0.0780 - f1: 0.2802
+Epoch 211/321
+658/658 - 12s - loss: 0.0702 - f1: 0.4363
+Epoch 149/256
+890/890 - 15s - loss: 0.0425 - f1: 0.1774
+Epoch 116/187
+707/707 - 12s - loss: 0.0858 - f1: 0.3931
+Epoch 146/273
+537/537 - 8s - loss: 0.0779 - f1: 0.2835
+Epoch 212/321
+658/658 - 11s - loss: 0.0700 - f1: 0.4385
+Epoch 150/256
+537/537 - 8s - loss: 0.0779 - f1: 0.2821
+Epoch 213/321
+707/707 - 12s - loss: 0.0857 - f1: 0.3938
+Epoch 147/273
+890/890 - 15s - loss: 0.0423 - f1: 0.1812
+Epoch 117/187
+537/537 - 9s - loss: 0.0775 - f1: 0.2884
+Epoch 214/321
+658/658 - 12s - loss: 0.0700 - f1: 0.4391
+Epoch 151/256
+707/707 - 12s - loss: 0.0856 - f1: 0.3951
+Epoch 148/273
+537/537 - 8s - loss: 0.0776 - f1: 0.2847
+Epoch 215/321
+890/890 - 15s - loss: 0.0424 - f1: 0.1789
+Epoch 118/187
+658/658 - 12s - loss: 0.0700 - f1: 0.4359
+Epoch 152/256
+537/537 - 8s - loss: 0.0776 - f1: 0.2846
+Epoch 216/321
+707/707 - 12s - loss: 0.0858 - f1: 0.3944
+Epoch 149/273
+658/658 - 12s - loss: 0.0699 - f1: 0.4410
+Epoch 153/256
+537/537 - 8s - loss: 0.0775 - f1: 0.2874
+Epoch 217/321
+890/890 - 15s - loss: 0.0424 - f1: 0.1804
+Epoch 119/187
+707/707 - 12s - loss: 0.0857 - f1: 0.3939
+Epoch 150/273
+537/537 - 8s - loss: 0.0776 - f1: 0.2859
+Epoch 218/321
+658/658 - 12s - loss: 0.0698 - f1: 0.4393
+Epoch 154/256
+537/537 - 8s - loss: 0.0776 - f1: 0.2847
+Epoch 219/321
+707/707 - 12s - loss: 0.0858 - f1: 0.3932
+Epoch 151/273
+890/890 - 15s - loss: 0.0423 - f1: 0.1810
+Epoch 120/187
+658/658 - 11s - loss: 0.0698 - f1: 0.4403
+Epoch 155/256
+537/537 - 8s - loss: 0.0777 - f1: 0.2830
+Epoch 220/321
+707/707 - 12s - loss: 0.0855 - f1: 0.3971
+Epoch 152/273
+890/890 - 15s - loss: 0.0423 - f1: 0.1822
+Epoch 121/187
+537/537 - 8s - loss: 0.0775 - f1: 0.2862
+Epoch 221/321
+658/658 - 12s - loss: 0.0697 - f1: 0.4400
+Epoch 156/256
+537/537 - 8s - loss: 0.0775 - f1: 0.2868
+Epoch 222/321
+707/707 - 12s - loss: 0.0858 - f1: 0.3929
+Epoch 153/273
+658/658 - 12s - loss: 0.0700 - f1: 0.4404
+Epoch 157/256
+890/890 - 15s - loss: 0.0423 - f1: 0.1814
+Epoch 122/187
+537/537 - 8s - loss: 0.0776 - f1: 0.2848
+Epoch 223/321
+707/707 - 12s - loss: 0.0855 - f1: 0.3967
+Epoch 154/273
+658/658 - 11s - loss: 0.0696 - f1: 0.4408
+Epoch 158/256
+537/537 - 8s - loss: 0.0775 - f1: 0.2873
+Epoch 224/321
+890/890 - 15s - loss: 0.0422 - f1: 0.1847
+Epoch 123/187
+707/707 - 12s - loss: 0.0856 - f1: 0.3968
+Epoch 155/273
+537/537 - 8s - loss: 0.0775 - f1: 0.2862
+Epoch 225/321
+658/658 - 12s - loss: 0.0697 - f1: 0.4411
+Epoch 159/256
+537/537 - 8s - loss: 0.0774 - f1: 0.2895
+Epoch 226/321
+707/707 - 12s - loss: 0.0853 - f1: 0.3994
+Epoch 156/273
+890/890 - 15s - loss: 0.0423 - f1: 0.1834
+Epoch 124/187
+658/658 - 12s - loss: 0.0696 - f1: 0.4406
+Epoch 160/256
+537/537 - 8s - loss: 0.0772 - f1: 0.2900
+Epoch 227/321
+707/707 - 12s - loss: 0.0854 - f1: 0.3970
+Epoch 157/273
+537/537 - 8s - loss: 0.0771 - f1: 0.2913
+Epoch 228/321
+890/890 - 14s - loss: 0.0423 - f1: 0.1814
+Epoch 125/187
+658/658 - 11s - loss: 0.0695 - f1: 0.4396
+Epoch 161/256
+537/537 - 8s - loss: 0.0772 - f1: 0.2906
+Epoch 229/321
+707/707 - 12s - loss: 0.0852 - f1: 0.4001
+Epoch 158/273
+658/658 - 12s - loss: 0.0694 - f1: 0.4446
+Epoch 162/256
+537/537 - 8s - loss: 0.0771 - f1: 0.2915
+Epoch 230/321
+890/890 - 15s - loss: 0.0423 - f1: 0.1807
+Epoch 126/187
+707/707 - 12s - loss: 0.0853 - f1: 0.3977
+Epoch 159/273
+537/537 - 8s - loss: 0.0772 - f1: 0.2900
+Epoch 231/321
+658/658 - 12s - loss: 0.0695 - f1: 0.4414
+Epoch 163/256
+890/890 - 16s - loss: 0.0421 - f1: 0.1864
+Epoch 127/187
+537/537 - 8s - loss: 0.0771 - f1: 0.2924
+Epoch 232/321
+707/707 - 12s - loss: 0.0853 - f1: 0.3969
+Epoch 160/273
+658/658 - 11s - loss: 0.0696 - f1: 0.4395
+Epoch 164/256
+537/537 - 8s - loss: 0.0770 - f1: 0.2938
+Epoch 233/321
+707/707 - 12s - loss: 0.0851 - f1: 0.4019
+Epoch 161/273
+890/890 - 15s - loss: 0.0421 - f1: 0.1869
+Epoch 128/187
+658/658 - 12s - loss: 0.0696 - f1: 0.4412
+Epoch 165/256
+537/537 - 8s - loss: 0.0773 - f1: 0.2895
+Epoch 234/321
+537/537 - 8s - loss: 0.0772 - f1: 0.2888
+Epoch 235/321
+707/707 - 12s - loss: 0.0852 - f1: 0.3988
+Epoch 162/273
+658/658 - 12s - loss: 0.0693 - f1: 0.4452
+Epoch 166/256
+890/890 - 15s - loss: 0.0421 - f1: 0.1867
+Epoch 129/187
+537/537 - 8s - loss: 0.0770 - f1: 0.2924
+Epoch 236/321
+707/707 - 12s - loss: 0.0851 - f1: 0.3979
+Epoch 163/273
+658/658 - 12s - loss: 0.0692 - f1: 0.4449
+Epoch 167/256
+537/537 - 8s - loss: 0.0772 - f1: 0.2889
+Epoch 237/321
+890/890 - 15s - loss: 0.0421 - f1: 0.1870
+Epoch 130/187
+537/537 - 8s - loss: 0.0769 - f1: 0.2910
+Epoch 238/321
+707/707 - 12s - loss: 0.0848 - f1: 0.4028
+Epoch 164/273
+658/658 - 11s - loss: 0.0693 - f1: 0.4441
+Epoch 168/256
+537/537 - 8s - loss: 0.0770 - f1: 0.2930
+Epoch 239/321
+890/890 - 15s - loss: 0.0421 - f1: 0.1863
+Epoch 131/187
+658/658 - 11s - loss: 0.0692 - f1: 0.4457
+Epoch 169/256
+707/707 - 12s - loss: 0.0848 - f1: 0.4020
+Epoch 165/273
+537/537 - 8s - loss: 0.0768 - f1: 0.2959
+Epoch 240/321
+658/658 - 12s - loss: 0.0693 - f1: 0.4442
+Epoch 170/256
+537/537 - 8s - loss: 0.0769 - f1: 0.2951
+707/707 - 12s - loss: 0.0849 - f1: 0.4017
+Epoch 241/321
+Epoch 166/273
+890/890 - 15s - loss: 0.0421 - f1: 0.1866
+Epoch 132/187
+537/537 - 8s - loss: 0.0770 - f1: 0.2932
+Epoch 242/321
+658/658 - 12s - loss: 0.0692 - f1: 0.4455
+Epoch 171/256
+707/707 - 12s - loss: 0.0850 - f1: 0.3976
+Epoch 167/273
+890/890 - 15s - loss: 0.0420 - f1: 0.1921
+Epoch 133/187
+537/537 - 8s - loss: 0.0767 - f1: 0.2973
+Epoch 243/321
+658/658 - 12s - loss: 0.0692 - f1: 0.4454
+Epoch 172/256
+707/707 - 12s - loss: 0.0849 - f1: 0.4000
+Epoch 168/273
+537/537 - 9s - loss: 0.0770 - f1: 0.2936
+Epoch 244/321
+890/890 - 15s - loss: 0.0420 - f1: 0.1915
+Epoch 134/187
+537/537 - 8s - loss: 0.0769 - f1: 0.2915
+Epoch 245/321
+658/658 - 11s - loss: 0.0689 - f1: 0.4488
+Epoch 173/256
+707/707 - 12s - loss: 0.0845 - f1: 0.4046
+Epoch 169/273
+537/537 - 8s - loss: 0.0767 - f1: 0.2980
+Epoch 246/321
+890/890 - 15s - loss: 0.0419 - f1: 0.1900
+Epoch 135/187
+658/658 - 12s - loss: 0.0692 - f1: 0.4468
+Epoch 174/256
+707/707 - 12s - loss: 0.0849 - f1: 0.4030
+Epoch 170/273
+537/537 - 8s - loss: 0.0770 - f1: 0.2940
+Epoch 247/321
+658/658 - 12s - loss: 0.0690 - f1: 0.4444
+Epoch 175/256
+537/537 - 8s - loss: 0.0767 - f1: 0.2984
+Epoch 248/321
+707/707 - 12s - loss: 0.0849 - f1: 0.4023
+Epoch 171/273
+890/890 - 15s - loss: 0.0420 - f1: 0.1906
+Epoch 136/187
+537/537 - 8s - loss: 0.0768 - f1: 0.2966
+Epoch 249/321
+658/658 - 12s - loss: 0.0692 - f1: 0.4453
+Epoch 176/256
+707/707 - 12s - loss: 0.0847 - f1: 0.4023
+Epoch 172/273
+537/537 - 8s - loss: 0.0767 - f1: 0.2948
+Epoch 250/321
+890/890 - 15s - loss: 0.0419 - f1: 0.1911
+Epoch 137/187
+658/658 - 12s - loss: 0.0689 - f1: 0.4492
+Epoch 177/256
+707/707 - 12s - loss: 0.0847 - f1: 0.4033
+Epoch 173/273
+537/537 - 8s - loss: 0.0767 - f1: 0.2947
+Epoch 251/321
+890/890 - 15s - loss: 0.0419 - f1: 0.1927
+Epoch 138/187
+537/537 - 8s - loss: 0.0766 - f1: 0.2971
+Epoch 252/321
+658/658 - 12s - loss: 0.0687 - f1: 0.4516
+Epoch 178/256
+707/707 - 12s - loss: 0.0846 - f1: 0.4035
+Epoch 174/273
+537/537 - 8s - loss: 0.0765 - f1: 0.2980
+Epoch 253/321
+658/658 - 12s - loss: 0.0689 - f1: 0.4485
+Epoch 179/256
+890/890 - 15s - loss: 0.0419 - f1: 0.1914
+Epoch 139/187
+707/707 - 12s - loss: 0.0845 - f1: 0.4044
+Epoch 175/273
+537/537 - 8s - loss: 0.0767 - f1: 0.2957
+Epoch 254/321
+658/658 - 12s - loss: 0.0690 - f1: 0.4462
+Epoch 180/256
+537/537 - 9s - loss: 0.0766 - f1: 0.2993
+Epoch 255/321
+707/707 - 12s - loss: 0.0844 - f1: 0.4049
+Epoch 176/273
+890/890 - 15s - loss: 0.0418 - f1: 0.1942
+Epoch 140/187
+537/537 - 8s - loss: 0.0765 - f1: 0.2996
+Epoch 256/321
+658/658 - 12s - loss: 0.0688 - f1: 0.4484
+Epoch 181/256
+707/707 - 12s - loss: 0.0844 - f1: 0.4053
+Epoch 177/273
+537/537 - 8s - loss: 0.0766 - f1: 0.2962
+Epoch 257/321
+890/890 - 15s - loss: 0.0418 - f1: 0.1942
+Epoch 141/187
+658/658 - 12s - loss: 0.0687 - f1: 0.4484
+Epoch 182/256
+537/537 - 8s - loss: 0.0766 - f1: 0.2961
+Epoch 258/321
+707/707 - 12s - loss: 0.0845 - f1: 0.4043
+Epoch 178/273
+537/537 - 8s - loss: 0.0767 - f1: 0.2951
+Epoch 259/321
+890/890 - 15s - loss: 0.0418 - f1: 0.1955
+Epoch 142/187
+658/658 - 12s - loss: 0.0688 - f1: 0.4491
+Epoch 183/256
+707/707 - 12s - loss: 0.0844 - f1: 0.4055
+Epoch 179/273
+537/537 - 8s - loss: 0.0766 - f1: 0.2984
+Epoch 260/321
+658/658 - 12s - loss: 0.0685 - f1: 0.4519
+Epoch 184/256
+890/890 - 15s - loss: 0.0419 - f1: 0.1928
+Epoch 143/187
+537/537 - 8s - loss: 0.0765 - f1: 0.3001
+Epoch 261/321
+707/707 - 12s - loss: 0.0842 - f1: 0.4087
+Epoch 180/273
+537/537 - 8s - loss: 0.0762 - f1: 0.3026
+Epoch 262/321
+658/658 - 12s - loss: 0.0685 - f1: 0.4506
+Epoch 185/256
+707/707 - 12s - loss: 0.0843 - f1: 0.4056
+Epoch 181/273
+890/890 - 15s - loss: 0.0417 - f1: 0.1964
+Epoch 144/187
+537/537 - 8s - loss: 0.0764 - f1: 0.2993
+Epoch 263/321
+658/658 - 12s - loss: 0.0684 - f1: 0.4509
+Epoch 186/256
+707/707 - 12s - loss: 0.0846 - f1: 0.4015
+Epoch 182/273
+537/537 - 8s - loss: 0.0763 - f1: 0.3022
+Epoch 264/321
+890/890 - 15s - loss: 0.0417 - f1: 0.1945
+Epoch 145/187
+658/658 - 12s - loss: 0.0686 - f1: 0.4520
+Epoch 187/256
+537/537 - 8s - loss: 0.0763 - f1: 0.3026
+Epoch 265/321
+707/707 - 12s - loss: 0.0842 - f1: 0.4061
+Epoch 183/273
+537/537 - 8s - loss: 0.0762 - f1: 0.3021
+Epoch 266/321
+658/658 - 12s - loss: 0.0685 - f1: 0.4507
+Epoch 188/256
+890/890 - 15s - loss: 0.0417 - f1: 0.1977
+Epoch 146/187
+707/707 - 12s - loss: 0.0843 - f1: 0.4066
+Epoch 184/273
+537/537 - 8s - loss: 0.0762 - f1: 0.3024
+Epoch 267/321
+658/658 - 12s - loss: 0.0684 - f1: 0.4513
+Epoch 189/256
+537/537 - 8s - loss: 0.0764 - f1: 0.3005
+Epoch 268/321
+890/890 - 15s - loss: 0.0417 - f1: 0.1971
+Epoch 147/187
+707/707 - 12s - loss: 0.0840 - f1: 0.4090
+Epoch 185/273
+537/537 - 8s - loss: 0.0763 - f1: 0.2996
+Epoch 269/321
+658/658 - 12s - loss: 0.0684 - f1: 0.4535
+Epoch 190/256
+707/707 - 12s - loss: 0.0841 - f1: 0.4086
+Epoch 186/273
+537/537 - 8s - loss: 0.0762 - f1: 0.3021
+Epoch 270/321
+890/890 - 15s - loss: 0.0417 - f1: 0.1975
+Epoch 148/187
+658/658 - 12s - loss: 0.0685 - f1: 0.4524
+Epoch 191/256
+537/537 - 8s - loss: 0.0760 - f1: 0.3038
+Epoch 271/321
+707/707 - 12s - loss: 0.0842 - f1: 0.4075
+Epoch 187/273
+890/890 - 15s - loss: 0.0417 - f1: 0.1975
+Epoch 149/187
+537/537 - 8s - loss: 0.0763 - f1: 0.3026
+Epoch 272/321
+658/658 - 12s - loss: 0.0682 - f1: 0.4537
+Epoch 192/256
+707/707 - 12s - loss: 0.0840 - f1: 0.4068
+Epoch 188/273
+537/537 - 8s - loss: 0.0761 - f1: 0.3020
+Epoch 273/321
+658/658 - 11s - loss: 0.0683 - f1: 0.4522
+Epoch 193/256
+890/890 - 15s - loss: 0.0416 - f1: 0.2008
+Epoch 150/187
+537/537 - 8s - loss: 0.0763 - f1: 0.3015
+Epoch 274/321
+707/707 - 12s - loss: 0.0842 - f1: 0.4066
+Epoch 189/273
+658/658 - 12s - loss: 0.0684 - f1: 0.4499
+Epoch 194/256
+537/537 - 8s - loss: 0.0763 - f1: 0.3002
+Epoch 275/321
+890/890 - 15s - loss: 0.0416 - f1: 0.2006
+Epoch 151/187
+707/707 - 12s - loss: 0.0840 - f1: 0.4097
+Epoch 190/273
+537/537 - 8s - loss: 0.0762 - f1: 0.3024
+Epoch 276/321
+658/658 - 11s - loss: 0.0685 - f1: 0.4502
+Epoch 195/256
+537/537 - 8s - loss: 0.0763 - f1: 0.2992
+Epoch 277/321
+707/707 - 11s - loss: 0.0839 - f1: 0.4080
+Epoch 191/273
+890/890 - 15s - loss: 0.0416 - f1: 0.1969
+Epoch 152/187
+658/658 - 12s - loss: 0.0681 - f1: 0.4552
+Epoch 196/256
+537/537 - 8s - loss: 0.0760 - f1: 0.3052
+Epoch 278/321
+707/707 - 12s - loss: 0.0839 - f1: 0.4090
+Epoch 192/273
+658/658 - 11s - loss: 0.0681 - f1: 0.4552
+Epoch 197/256
+537/537 - 8s - loss: 0.0762 - f1: 0.3026
+Epoch 279/321
+890/890 - 15s - loss: 0.0416 - f1: 0.1978
+Epoch 153/187
+707/707 - 12s - loss: 0.0839 - f1: 0.4108
+Epoch 193/273
+537/537 - 8s - loss: 0.0758 - f1: 0.3080
+Epoch 280/321
+658/658 - 12s - loss: 0.0683 - f1: 0.4501
+Epoch 198/256
+890/890 - 15s - loss: 0.0416 - f1: 0.1994
+Epoch 154/187
+537/537 - 9s - loss: 0.0759 - f1: 0.3059
+Epoch 281/321
+707/707 - 12s - loss: 0.0839 - f1: 0.4096
+Epoch 194/273
+658/658 - 11s - loss: 0.0681 - f1: 0.4550
+Epoch 199/256
+537/537 - 8s - loss: 0.0761 - f1: 0.3026
+Epoch 282/321
+707/707 - 12s - loss: 0.0841 - f1: 0.4066
+Epoch 195/273
+890/890 - 15s - loss: 0.0415 - f1: 0.1998
+Epoch 155/187
+537/537 - 8s - loss: 0.0759 - f1: 0.3048
+Epoch 283/321
+658/658 - 12s - loss: 0.0679 - f1: 0.4589
+Epoch 200/256
+537/537 - 8s - loss: 0.0759 - f1: 0.3057
+Epoch 284/321
+707/707 - 12s - loss: 0.0837 - f1: 0.4100
+Epoch 196/273
+658/658 - 12s - loss: 0.0682 - f1: 0.4537
+Epoch 201/256
+890/890 - 15s - loss: 0.0415 - f1: 0.1994
+Epoch 156/187
+537/537 - 8s - loss: 0.0758 - f1: 0.3085
+Epoch 285/321
+707/707 - 12s - loss: 0.0838 - f1: 0.4113
+Epoch 197/273
+658/658 - 12s - loss: 0.0682 - f1: 0.4534
+Epoch 202/256
+537/537 - 8s - loss: 0.0759 - f1: 0.3033
+Epoch 286/321
+890/890 - 15s - loss: 0.0415 - f1: 0.2024
+Epoch 157/187
+537/537 - 8s - loss: 0.0758 - f1: 0.3058
+Epoch 287/321
+707/707 - 12s - loss: 0.0837 - f1: 0.4114
+Epoch 198/273
+658/658 - 12s - loss: 0.0681 - f1: 0.4553
+Epoch 203/256
+537/537 - 8s - loss: 0.0758 - f1: 0.3048
+Epoch 288/321
+890/890 - 15s - loss: 0.0414 - f1: 0.2022
+Epoch 158/187
+707/707 - 12s - loss: 0.0836 - f1: 0.4122
+Epoch 199/273
+658/658 - 11s - loss: 0.0677 - f1: 0.4572
+Epoch 204/256
+537/537 - 8s - loss: 0.0761 - f1: 0.3042
+Epoch 289/321
+707/707 - 12s - loss: 0.0838 - f1: 0.4090
+Epoch 200/273
+537/537 - 8s - loss: 0.0758 - f1: 0.3062
+Epoch 290/321
+890/890 - 15s - loss: 0.0415 - f1: 0.2016
+Epoch 159/187
+658/658 - 11s - loss: 0.0680 - f1: 0.4575
+Epoch 205/256
+537/537 - 8s - loss: 0.0758 - f1: 0.3069
+Epoch 291/321
+707/707 - 12s - loss: 0.0836 - f1: 0.4119
+Epoch 201/273
+658/658 - 12s - loss: 0.0679 - f1: 0.4556
+Epoch 206/256
+890/890 - 15s - loss: 0.0414 - f1: 0.2018
+Epoch 160/187
+537/537 - 8s - loss: 0.0758 - f1: 0.3071
+Epoch 292/321
+707/707 - 12s - loss: 0.0835 - f1: 0.4138
+Epoch 202/273
+658/658 - 11s - loss: 0.0679 - f1: 0.4559
+Epoch 207/256
+537/537 - 8s - loss: 0.0761 - f1: 0.3006
+Epoch 293/321
+890/890 - 15s - loss: 0.0414 - f1: 0.2024
+Epoch 161/187
+537/537 - 9s - loss: 0.0758 - f1: 0.3054
+Epoch 294/321
+658/658 - 12s - loss: 0.0676 - f1: 0.4589
+Epoch 208/256
+707/707 - 12s - loss: 0.0835 - f1: 0.4120
+Epoch 203/273
+537/537 - 8s - loss: 0.0756 - f1: 0.3080
+Epoch 295/321
+890/890 - 15s - loss: 0.0415 - f1: 0.1996
+Epoch 162/187
+658/658 - 11s - loss: 0.0679 - f1: 0.4555
+Epoch 209/256
+707/707 - 12s - loss: 0.0834 - f1: 0.4137
+Epoch 204/273
+537/537 - 8s - loss: 0.0757 - f1: 0.3072
+Epoch 296/321
+537/537 - 8s - loss: 0.0757 - f1: 0.3087
+Epoch 297/321
+658/658 - 12s - loss: 0.0679 - f1: 0.4566
+Epoch 210/256
+707/707 - 12s - loss: 0.0835 - f1: 0.4113
+Epoch 205/273
+890/890 - 15s - loss: 0.0414 - f1: 0.2046
+Epoch 163/187
+537/537 - 8s - loss: 0.0757 - f1: 0.3093
+Epoch 298/321
+658/658 - 12s - loss: 0.0679 - f1: 0.4561
+Epoch 211/256
+707/707 - 12s - loss: 0.0834 - f1: 0.4148
+Epoch 206/273
+537/537 - 8s - loss: 0.0757 - f1: 0.3082
+Epoch 299/321
+890/890 - 15s - loss: 0.0414 - f1: 0.2040
+Epoch 164/187
+658/658 - 12s - loss: 0.0679 - f1: 0.4555
+Epoch 212/256
+537/537 - 8s - loss: 0.0756 - f1: 0.3091
+Epoch 300/321
+707/707 - 12s - loss: 0.0835 - f1: 0.4116
+Epoch 207/273
+537/537 - 8s - loss: 0.0756 - f1: 0.3103
+890/890 - 15s - loss: 0.0415 - f1: 0.2028
+Epoch 301/321
+Epoch 165/187
+658/658 - 12s - loss: 0.0677 - f1: 0.4587
+Epoch 213/256
+707/707 - 12s - loss: 0.0834 - f1: 0.4130
+Epoch 208/273
+537/537 - 8s - loss: 0.0756 - f1: 0.3090
+Epoch 302/321
+658/658 - 12s - loss: 0.0678 - f1: 0.4558
+Epoch 214/256
+890/890 - 15s - loss: 0.0413 - f1: 0.2060
+Epoch 166/187
+707/707 - 11s - loss: 0.0832 - f1: 0.4160
+Epoch 209/273
+537/537 - 8s - loss: 0.0755 - f1: 0.3096
+Epoch 303/321
+537/537 - 8s - loss: 0.0756 - f1: 0.3099
+Epoch 304/321
+658/658 - 11s - loss: 0.0678 - f1: 0.4565
+Epoch 215/256
+707/707 - 12s - loss: 0.0833 - f1: 0.4140
+Epoch 210/273
+890/890 - 15s - loss: 0.0413 - f1: 0.2062
+Epoch 167/187
+537/537 - 8s - loss: 0.0755 - f1: 0.3092
+Epoch 305/321
+658/658 - 12s - loss: 0.0680 - f1: 0.4535
+Epoch 216/256
+707/707 - 12s - loss: 0.0832 - f1: 0.4157
+Epoch 211/273
+537/537 - 8s - loss: 0.0754 - f1: 0.3115
+Epoch 306/321
+890/890 - 15s - loss: 0.0413 - f1: 0.2052
+Epoch 168/187
+537/537 - 8s - loss: 0.0754 - f1: 0.3127
+Epoch 307/321
+658/658 - 11s - loss: 0.0676 - f1: 0.4591
+Epoch 217/256
+707/707 - 12s - loss: 0.0832 - f1: 0.4150
+Epoch 212/273
+537/537 - 8s - loss: 0.0756 - f1: 0.3106
+Epoch 308/321
+890/890 - 15s - loss: 0.0413 - f1: 0.2069
+Epoch 169/187
+658/658 - 11s - loss: 0.0676 - f1: 0.4601
+Epoch 218/256
+707/707 - 12s - loss: 0.0831 - f1: 0.4174
+Epoch 213/273
+537/537 - 8s - loss: 0.0752 - f1: 0.3143
+Epoch 309/321
+658/658 - 12s - loss: 0.0674 - f1: 0.4615
+Epoch 219/256
+537/537 - 8s - loss: 0.0754 - f1: 0.3115
+Epoch 310/321
+707/707 - 12s - loss: 0.0832 - f1: 0.4153
+Epoch 214/273
+890/890 - 15s - loss: 0.0413 - f1: 0.2068
+Epoch 170/187
+537/537 - 8s - loss: 0.0757 - f1: 0.3071
+Epoch 311/321
+658/658 - 12s - loss: 0.0679 - f1: 0.4576
+Epoch 220/256
+707/707 - 12s - loss: 0.0831 - f1: 0.4173
+Epoch 215/273
+890/890 - 15s - loss: 0.0413 - f1: 0.2058
+Epoch 171/187
+537/537 - 8s - loss: 0.0755 - f1: 0.3097
+Epoch 312/321
+658/658 - 12s - loss: 0.0676 - f1: 0.4590
+Epoch 221/256
+707/707 - 12s - loss: 0.0833 - f1: 0.4120
+Epoch 216/273
+537/537 - 8s - loss: 0.0755 - f1: 0.3109
+Epoch 313/321
+890/890 - 15s - loss: 0.0412 - f1: 0.2084
+Epoch 172/187
+537/537 - 8s - loss: 0.0753 - f1: 0.3112
+Epoch 314/321
+658/658 - 12s - loss: 0.0676 - f1: 0.4581
+Epoch 222/256
+707/707 - 12s - loss: 0.0833 - f1: 0.4143
+Epoch 217/273
+537/537 - 8s - loss: 0.0755 - f1: 0.3109
+Epoch 315/321
+658/658 - 12s - loss: 0.0675 - f1: 0.4602
+Epoch 223/256
+890/890 - 15s - loss: 0.0412 - f1: 0.2077
+Epoch 173/187
+707/707 - 12s - loss: 0.0831 - f1: 0.4145
+Epoch 218/273
+537/537 - 8s - loss: 0.0754 - f1: 0.3128
+Epoch 316/321
+658/658 - 12s - loss: 0.0674 - f1: 0.4621
+Epoch 224/256
+537/537 - 9s - loss: 0.0751 - f1: 0.3137
+Epoch 317/321
+707/707 - 14s - loss: 0.0831 - f1: 0.4141
+Epoch 219/273
+890/890 - 17s - loss: 0.0413 - f1: 0.2067
+Epoch 174/187
+537/537 - 10s - loss: 0.0754 - f1: 0.3116
+Epoch 318/321
+658/658 - 13s - loss: 0.0676 - f1: 0.4593
+Epoch 225/256
+707/707 - 13s - loss: 0.0828 - f1: 0.4177
+Epoch 220/273
+537/537 - 9s - loss: 0.0753 - f1: 0.3141
+Epoch 319/321
+890/890 - 18s - loss: 0.0412 - f1: 0.2088
+Epoch 175/187
+658/658 - 15s - loss: 0.0672 - f1: 0.4628
+Epoch 226/256
+537/537 - 9s - loss: 0.0753 - f1: 0.3114
+Epoch 320/321
+707/707 - 13s - loss: 0.0829 - f1: 0.4195
+Epoch 221/273
+537/537 - 8s - loss: 0.0753 - f1: 0.3107
+Epoch 321/321
+890/890 - 15s - loss: 0.0411 - f1: 0.2097
+Epoch 176/187
+658/658 - 12s - loss: 0.0675 - f1: 0.4599
+Epoch 227/256
+707/707 - 12s - loss: 0.0828 - f1: 0.4188
+Epoch 222/273
+537/537 - 8s - loss: 0.0753 - f1: 0.3118
+[92m[INFO] Loading best model...[0m
+658/658 - 14s - loss: 0.0672 - f1: 0.4632
+Epoch 228/256
+890/890 - 17s - loss: 0.0412 - f1: 0.2101
+Epoch 177/187
+707/707 - 14s - loss: 0.0830 - f1: 0.4170
+Epoch 223/273
+658/658 - 13s - loss: 0.0674 - f1: 0.4593
+Epoch 229/256
+707/707 - 13s - loss: 0.0829 - f1: 0.4170
+Epoch 224/273
+890/890 - 17s - loss: 0.0412 - f1: 0.2098
+Epoch 178/187
+658/658 - 13s - loss: 0.0674 - f1: 0.4600
+Epoch 230/256
+707/707 - 12s - loss: 0.0829 - f1: 0.4187
+Epoch 225/273
+890/890 - 16s - loss: 0.0412 - f1: 0.2095
+Epoch 179/187
+658/658 - 13s - loss: 0.0672 - f1: 0.4636
+Epoch 231/256
+707/707 - 13s - loss: 0.0829 - f1: 0.4172
+Epoch 226/273
+890/890 - 17s - loss: 0.0410 - f1: 0.2121
+Epoch 180/187
+658/658 - 13s - loss: 0.0672 - f1: 0.4625
+Epoch 232/256
+707/707 - 13s - loss: 0.0827 - f1: 0.4193
+Epoch 227/273
+658/658 - 13s - loss: 0.0673 - f1: 0.4607
+Epoch 233/256
+707/707 - 12s - loss: 0.0827 - f1: 0.4189
+Epoch 228/273
+890/890 - 16s - loss: 0.0412 - f1: 0.2081
+Epoch 181/187
+658/658 - 13s - loss: 0.0672 - f1: 0.4634
+Epoch 234/256
+707/707 - 12s - loss: 0.0826 - f1: 0.4208
+Epoch 229/273
+890/890 - 17s - loss: 0.0411 - f1: 0.2121
+Epoch 182/187
+658/658 - 14s - loss: 0.0671 - f1: 0.4646
+Epoch 235/256
+707/707 - 14s - loss: 0.0830 - f1: 0.4160
+Epoch 230/273
+890/890 - 17s - loss: 0.0410 - f1: 0.2122
+Epoch 183/187
+658/658 - 14s - loss: 0.0671 - f1: 0.4649
+Epoch 236/256
+707/707 - 13s - loss: 0.0827 - f1: 0.4203
+Epoch 231/273
+658/658 - 12s - loss: 0.0669 - f1: 0.4655
+Epoch 237/256
+890/890 - 16s - loss: 0.0411 - f1: 0.2136
+Epoch 184/187
+707/707 - 12s - loss: 0.0829 - f1: 0.4183
+Epoch 232/273
+658/658 - 13s - loss: 0.0669 - f1: 0.4660
+Epoch 238/256
+707/707 - 13s - loss: 0.0828 - f1: 0.4176
+Epoch 233/273
+890/890 - 17s - loss: 0.0410 - f1: 0.2126
+Epoch 185/187
+658/658 - 14s - loss: 0.0671 - f1: 0.4663
+Epoch 239/256
+707/707 - 14s - loss: 0.0826 - f1: 0.4217
+Epoch 234/273
+890/890 - 17s - loss: 0.0411 - f1: 0.2117
+Epoch 186/187
+658/658 - 13s - loss: 0.0672 - f1: 0.4645
+Epoch 240/256
+707/707 - 13s - loss: 0.0824 - f1: 0.4213
+Epoch 235/273
+890/890 - 16s - loss: 0.0410 - f1: 0.2148
+Epoch 187/187
+658/658 - 12s - loss: 0.0669 - f1: 0.4654
+Epoch 241/256
+707/707 - 13s - loss: 0.0825 - f1: 0.4199
+Epoch 236/273
+658/658 - 13s - loss: 0.0669 - f1: 0.4660
+Epoch 242/256
+707/707 - 13s - loss: 0.0825 - f1: 0.4203
+Epoch 237/273
+890/890 - 17s - loss: 0.0410 - f1: 0.2145
+[92m[INFO] Loading best model...[0m
+658/658 - 14s - loss: 0.0670 - f1: 0.4631
+Epoch 243/256
+707/707 - 14s - loss: 0.0824 - f1: 0.4219
+Epoch 238/273
+658/658 - 12s - loss: 0.0670 - f1: 0.4647
+Epoch 244/256
+707/707 - 13s - loss: 0.0825 - f1: 0.4207
+Epoch 239/273
+658/658 - 13s - loss: 0.0671 - f1: 0.4636
+Epoch 245/256
+707/707 - 14s - loss: 0.0826 - f1: 0.4203
+Epoch 240/273
+658/658 - 14s - loss: 0.0669 - f1: 0.4665
+Epoch 246/256
+707/707 - 13s - loss: 0.0824 - f1: 0.4228
+Epoch 241/273
+658/658 - 13s - loss: 0.0670 - f1: 0.4631
+Epoch 247/256
+707/707 - 13s - loss: 0.0820 - f1: 0.4250
+Epoch 242/273
+658/658 - 13s - loss: 0.0671 - f1: 0.4663
+Epoch 248/256
+707/707 - 13s - loss: 0.0826 - f1: 0.4205
+Epoch 243/273
+658/658 - 14s - loss: 0.0667 - f1: 0.4655
+Epoch 249/256
+707/707 - 13s - loss: 0.0825 - f1: 0.4210
+Epoch 244/273
+658/658 - 14s - loss: 0.0666 - f1: 0.4679
+Epoch 250/256
+707/707 - 14s - loss: 0.0827 - f1: 0.4197
+Epoch 245/273
+658/658 - 13s - loss: 0.0668 - f1: 0.4669
+Epoch 251/256
+707/707 - 13s - loss: 0.0824 - f1: 0.4208
+Epoch 246/273
+658/658 - 14s - loss: 0.0665 - f1: 0.4688
+Epoch 252/256
+707/707 - 14s - loss: 0.0823 - f1: 0.4224
+Epoch 247/273
+658/658 - 14s - loss: 0.0668 - f1: 0.4657
+Epoch 253/256
+707/707 - 14s - loss: 0.0823 - f1: 0.4231
+Epoch 248/273
+658/658 - 13s - loss: 0.0666 - f1: 0.4681
+Epoch 254/256
+707/707 - 13s - loss: 0.0825 - f1: 0.4205
+Epoch 249/273
+658/658 - 13s - loss: 0.0668 - f1: 0.4638
+Epoch 255/256
+707/707 - 13s - loss: 0.0821 - f1: 0.4250
+Epoch 250/273
+658/658 - 15s - loss: 0.0669 - f1: 0.4664
+Epoch 256/256
+707/707 - 15s - loss: 0.0820 - f1: 0.4256
+Epoch 251/273
+658/658 - 13s - loss: 0.0665 - f1: 0.4687
+[92m[INFO] Loading best model...[0m
+707/707 - 13s - loss: 0.0823 - f1: 0.4210
+Epoch 252/273
+707/707 - 14s - loss: 0.0822 - f1: 0.4224
+Epoch 253/273
+707/707 - 15s - loss: 0.0819 - f1: 0.4255
+Epoch 254/273
+707/707 - 13s - loss: 0.0820 - f1: 0.4270
+Epoch 255/273
+707/707 - 13s - loss: 0.0820 - f1: 0.4264
+Epoch 256/273
+707/707 - 14s - loss: 0.0821 - f1: 0.4253
+Epoch 257/273
+707/707 - 14s - loss: 0.0819 - f1: 0.4266
+Epoch 258/273
+707/707 - 14s - loss: 0.0820 - f1: 0.4266
+Epoch 259/273
+707/707 - 14s - loss: 0.0821 - f1: 0.4248
+Epoch 260/273
+707/707 - 14s - loss: 0.0817 - f1: 0.4283
+Epoch 261/273
+707/707 - 14s - loss: 0.0820 - f1: 0.4251
+Epoch 262/273
+707/707 - 14s - loss: 0.0818 - f1: 0.4251
+Epoch 263/273
+707/707 - 14s - loss: 0.0820 - f1: 0.4256
+Epoch 264/273
+707/707 - 14s - loss: 0.0817 - f1: 0.4271
+Epoch 265/273
+707/707 - 15s - loss: 0.0819 - f1: 0.4248
+Epoch 266/273
+707/707 - 14s - loss: 0.0817 - f1: 0.4303
+Epoch 267/273
+707/707 - 14s - loss: 0.0819 - f1: 0.4272
+Epoch 268/273
+707/707 - 14s - loss: 0.0818 - f1: 0.4257
+Epoch 269/273
+707/707 - 15s - loss: 0.0818 - f1: 0.4266
+Epoch 270/273
+707/707 - 13s - loss: 0.0817 - f1: 0.4273
+Epoch 271/273
+707/707 - 14s - loss: 0.0818 - f1: 0.4287
+Epoch 272/273
+707/707 - 14s - loss: 0.0816 - f1: 0.4279
+Epoch 273/273
+707/707 - 13s - loss: 0.0818 - f1: 0.4286
+[92m[INFO] Loading best model...[0m

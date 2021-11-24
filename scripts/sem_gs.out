@@ -1,0 +1,2284 @@
+madrid
+   -[11323] madrid
+2021-11-12 11:24:54.064539: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+paris
+   -[11375] paris
+2021-11-12 11:24:55.068338: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 11:25:04.037196: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 11:25:04.037950: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-12 11:25:04.065546: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 11:25:04.065600: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 11:25:04.068670: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 11:25:04.068776: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 11:25:04.069951: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 11:25:04.070287: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 11:25:04.072383: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 11:25:04.072848: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 11:25:04.073013: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 11:25:04.074726: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 11:25:04.095763: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-12 11:25:04.096894: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 11:25:04.097728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 11:25:04.097763: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 11:25:04.097789: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 11:25:04.097798: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 11:25:04.097806: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 11:25:04.097814: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 11:25:04.097822: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 11:25:04.097831: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 11:25:04.097838: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 11:25:04.099031: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 11:25:04.099066: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 11:25:04.739074: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-12 11:25:04.739127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-12 11:25:04.739136: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-12 11:25:04.741266: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11217 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+Sequence data:   0%|          | 0/6042 [00:00<?, ?it/s]Sequence data:   1%|          | 43/6042 [00:00<00:14, 423.85it/s]Sequence data:   1%|▏         | 86/6042 [00:00<00:14, 408.16it/s]Sequence data:   2%|▏         | 135/6042 [00:00<00:13, 442.15it/s]Sequence data:   3%|▎         | 184/6042 [00:00<00:12, 458.02it/s]Sequence data:   4%|▍         | 230/6042 [00:00<00:12, 448.39it/s]2021-11-12 11:25:06.760311: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 11:25:06.761133: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-12 11:25:06.792596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 11:25:06.792666: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 11:25:06.796012: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 11:25:06.796115: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 11:25:06.797389: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 11:25:06.797754: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 11:25:06.800408: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 11:25:06.801061: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 11:25:06.801285: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 11:25:06.808729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 11:25:06.883454: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-12 11:25:06.884748: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 11:25:06.885739: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 11:25:06.885813: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 11:25:06.885881: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 11:25:06.886151: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 11:25:06.886176: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 11:25:06.886199: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 11:25:06.886221: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 11:25:06.886244: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 11:25:06.886267: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 11:25:06.888109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 11:25:06.888169: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+Sequence data:   5%|▍         | 275/6042 [00:02<01:12, 79.05it/s] Sequence data:   5%|▌         | 322/6042 [00:02<00:52, 109.08it/s]Sequence data:   6%|▌         | 370/6042 [00:02<00:38, 145.67it/s]Sequence data:   7%|▋         | 419/6042 [00:02<00:29, 187.97it/s]2021-11-12 11:25:07.435683: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-12 11:25:07.435717: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-12 11:25:07.435725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-12 11:25:07.441203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10959 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+Sequence data:   8%|▊         | 467/6042 [00:02<00:24, 231.34it/s]Sequence data:   9%|▊         | 516/6042 [00:02<00:19, 276.67it/s]Sequence data:   9%|▉         | 562/6042 [00:02<00:17, 311.96it/s]Sequence data:  10%|█         | 608/6042 [00:02<00:15, 341.85it/s]Sequence data:   0%|          | 0/11019 [00:00<?, ?it/s]Sequence data:  11%|█         | 653/6042 [00:02<00:14, 364.26it/s]Sequence data:  12%|█▏        | 699/6042 [00:02<00:13, 388.17it/s]Sequence data:  12%|█▏        | 746/6042 [00:03<00:12, 407.64it/s]Sequence data:  13%|█▎        | 793/6042 [00:03<00:12, 424.35it/s]Sequence data:  14%|█▍        | 842/6042 [00:03<00:11, 441.63it/s]Sequence data:  15%|█▍        | 892/6042 [00:03<00:11, 457.36it/s]Sequence data:  16%|█▌        | 945/6042 [00:03<00:10, 476.13it/s]Sequence data:  16%|█▋        | 996/6042 [00:03<00:10, 483.64it/s]Sequence data:  17%|█▋        | 1048/6042 [00:03<00:10, 491.39it/s]Sequence data:  18%|█▊        | 1098/6042 [00:03<00:10, 491.93it/s]Sequence data:  19%|█▉        | 1148/6042 [00:03<00:09, 489.46it/s]Sequence data:  20%|█▉        | 1198/6042 [00:03<00:09, 486.84it/s]Sequence data:  21%|██        | 1247/6042 [00:04<00:10, 478.83it/s]Sequence data:  21%|██▏       | 1296/6042 [00:04<00:10, 473.52it/s]Sequence data:  22%|██▏       | 1344/6042 [00:04<00:09, 474.29it/s]Sequence data:  23%|██▎       | 1392/6042 [00:04<00:09, 474.36it/s]Sequence data:  24%|██▍       | 1440/6042 [00:04<00:09, 470.60it/s]Sequence data:   0%|          | 14/11019 [00:01<22:08,  8.29it/s]Sequence data:  25%|██▍       | 1489/6042 [00:04<00:09, 475.64it/s]Sequence data:   0%|          | 51/11019 [00:01<05:00, 36.44it/s]Sequence data:  25%|██▌       | 1539/6042 [00:04<00:09, 481.17it/s]Sequence data:   1%|          | 93/11019 [00:01<02:26, 74.63it/s]Sequence data:  26%|██▋       | 1589/6042 [00:04<00:09, 486.34it/s]Sequence data:   1%|          | 132/11019 [00:01<01:35, 113.87it/s]Sequence data:  27%|██▋       | 1641/6042 [00:04<00:08, 495.20it/s]Sequence data:   2%|▏         | 172/11019 [00:02<01:09, 156.81it/s]Sequence data:  28%|██▊       | 1694/6042 [00:04<00:08, 503.66it/s]Sequence data:   2%|▏         | 208/11019 [00:02<00:56, 192.05it/s]Sequence data:  29%|██▉       | 1745/6042 [00:05<00:08, 505.37it/s]Sequence data:   2%|▏         | 245/11019 [00:02<00:47, 227.02it/s]Sequence data:  30%|██▉       | 1797/6042 [00:05<00:08, 507.15it/s]Sequence data:   3%|▎         | 285/11019 [00:02<00:40, 264.12it/s]Sequence data:  31%|███       | 1851/6042 [00:05<00:08, 515.07it/s]Sequence data:   3%|▎         | 325/11019 [00:02<00:36, 296.71it/s]Sequence data:  32%|███▏      | 1904/6042 [00:05<00:08, 517.20it/s]Sequence data:   3%|▎         | 365/11019 [00:02<00:33, 322.77it/s]Sequence data:  32%|███▏      | 1956/6042 [00:05<00:07, 511.06it/s]Sequence data:   4%|▎         | 407/11019 [00:02<00:30, 347.19it/s]Sequence data:  33%|███▎      | 2009/6042 [00:05<00:07, 515.20it/s]Sequence data:   4%|▍         | 450/11019 [00:02<00:28, 367.60it/s]Sequence data:  34%|███▍      | 2061/6042 [00:05<00:07, 516.02it/s]Sequence data:   4%|▍         | 491/11019 [00:02<00:27, 378.40it/s]Sequence data:  35%|███▌      | 2115/6042 [00:05<00:07, 521.38it/s]Sequence data:   5%|▍         | 532/11019 [00:03<00:27, 381.17it/s]Sequence data:  36%|███▌      | 2168/6042 [00:05<00:07, 511.64it/s]Sequence data:   5%|▌         | 572/11019 [00:03<00:27, 383.18it/s]Sequence data:  37%|███▋      | 2220/6042 [00:06<00:07, 508.17it/s]Sequence data:   6%|▌         | 612/11019 [00:03<00:27, 379.76it/s]Sequence data:  38%|███▊      | 2272/6042 [00:06<00:07, 510.71it/s]Sequence data:   6%|▌         | 651/11019 [00:03<00:27, 375.94it/s]Sequence data:  38%|███▊      | 2326/6042 [00:06<00:07, 518.53it/s]Sequence data:   6%|▋         | 690/11019 [00:03<00:27, 370.28it/s]Sequence data:  39%|███▉      | 2382/6042 [00:06<00:06, 528.99it/s]Sequence data:   7%|▋         | 728/11019 [00:03<00:28, 365.92it/s]Sequence data:  40%|████      | 2435/6042 [00:06<00:06, 525.78it/s]Sequence data:   7%|▋         | 765/11019 [00:03<00:28, 363.29it/s]Sequence data:  41%|████      | 2489/6042 [00:06<00:06, 528.08it/s]Sequence data:   7%|▋         | 802/11019 [00:03<00:28, 360.38it/s]Sequence data:  42%|████▏     | 2543/6042 [00:06<00:06, 530.03it/s]Sequence data:   8%|▊         | 840/11019 [00:03<00:27, 363.61it/s]Sequence data:  43%|████▎     | 2599/6042 [00:06<00:06, 537.93it/s]Sequence data:   8%|▊         | 877/11019 [00:03<00:27, 364.69it/s]Sequence data:  44%|████▍     | 2656/6042 [00:06<00:06, 545.71it/s]Sequence data:   8%|▊         | 915/11019 [00:04<00:27, 366.81it/s]Sequence data:  45%|████▍     | 2713/6042 [00:06<00:06, 551.47it/s]Sequence data:   9%|▊         | 954/11019 [00:04<00:27, 371.55it/s]Sequence data:  46%|████▌     | 2772/6042 [00:07<00:05, 561.10it/s]Sequence data:   9%|▉         | 994/11019 [00:04<00:26, 378.61it/s]Sequence data:  47%|████▋     | 2831/6042 [00:07<00:05, 569.60it/s]Sequence data:   9%|▉         | 1034/11019 [00:04<00:26, 383.88it/s]Sequence data:  48%|████▊     | 2894/6042 [00:07<00:05, 584.92it/s]Sequence data:  10%|▉         | 1075/11019 [00:04<00:25, 390.20it/s]Sequence data:  49%|████▉     | 2953/6042 [00:07<00:05, 576.88it/s]Sequence data:  10%|█         | 1116/11019 [00:04<00:25, 394.58it/s]Sequence data:  50%|████▉     | 3012/6042 [00:07<00:05, 578.96it/s]Sequence data:  11%|█         | 1158/11019 [00:04<00:24, 400.49it/s]Sequence data:  51%|█████     | 3071/6042 [00:07<00:05, 580.80it/s]Sequence data:  11%|█         | 1200/11019 [00:04<00:24, 403.72it/s]Sequence data:  52%|█████▏    | 3132/6042 [00:07<00:04, 587.74it/s]Sequence data:  11%|█▏        | 1242/11019 [00:04<00:23, 407.69it/s]Sequence data:  53%|█████▎    | 3196/6042 [00:07<00:04, 600.70it/s]Sequence data:  12%|█▏        | 1284/11019 [00:04<00:23, 410.23it/s]Sequence data:  54%|█████▍    | 3257/6042 [00:07<00:04, 592.23it/s]Sequence data:  12%|█▏        | 1326/11019 [00:05<00:23, 412.00it/s]Sequence data:  55%|█████▌    | 3324/6042 [00:07<00:04, 612.60it/s]Sequence data:  12%|█▏        | 1369/11019 [00:05<00:23, 415.98it/s]Sequence data:  56%|█████▌    | 3394/6042 [00:08<00:04, 636.66it/s]Sequence data:  13%|█▎        | 1413/11019 [00:05<00:22, 420.37it/s]Sequence data:  57%|█████▋    | 3462/6042 [00:08<00:03, 647.84it/s]Sequence data:  13%|█▎        | 1456/11019 [00:05<00:22, 420.02it/s]Sequence data:  58%|█████▊    | 3533/6042 [00:08<00:03, 666.20it/s]Sequence data:  14%|█▎        | 1499/11019 [00:05<00:22, 418.75it/s]Sequence data:  60%|█████▉    | 3600/6042 [00:08<00:03, 662.98it/s]Sequence data:  14%|█▍        | 1542/11019 [00:05<00:22, 419.35it/s]Sequence data:  61%|██████    | 3671/6042 [00:08<00:03, 676.75it/s]Sequence data:  14%|█▍        | 1584/11019 [00:05<00:22, 416.43it/s]Sequence data:  62%|██████▏   | 3739/6042 [00:08<00:03, 672.91it/s]Sequence data:  15%|█▍        | 1626/11019 [00:05<00:22, 410.74it/s]Sequence data:  63%|██████▎   | 3821/6042 [00:08<00:03, 714.21it/s]Sequence data:  15%|█▌        | 1668/11019 [00:05<00:23, 402.64it/s]Sequence data:  65%|██████▍   | 3925/6042 [00:08<00:02, 810.04it/s]Sequence data:  16%|█▌        | 1710/11019 [00:06<00:22, 405.59it/s]Sequence data:  67%|██████▋   | 4022/6042 [00:08<00:02, 854.97it/s]Sequence data:  16%|█▌        | 1751/11019 [00:06<00:23, 401.44it/s]Sequence data:  68%|██████▊   | 4120/6042 [00:08<00:02, 891.13it/s]Sequence data:  16%|█▋        | 1792/11019 [00:06<00:23, 397.88it/s]Sequence data:  70%|██████▉   | 4218/6042 [00:09<00:01, 915.77it/s]Sequence data:  17%|█▋        | 1832/11019 [00:06<00:23, 395.10it/s]Sequence data:  71%|███████▏  | 4310/6042 [00:09<00:01, 896.39it/s]Sequence data:  17%|█▋        | 1872/11019 [00:06<00:23, 391.40it/s]Sequence data:  73%|███████▎  | 4400/6042 [00:09<00:01, 892.73it/s]Sequence data:  17%|█▋        | 1912/11019 [00:06<00:23, 388.36it/s]Sequence data:  75%|███████▍  | 4508/6042 [00:09<00:01, 945.74it/s]Sequence data:  18%|█▊        | 1951/11019 [00:06<00:23, 386.43it/s]Sequence data:  76%|███████▋  | 4619/6042 [00:09<00:01, 993.26it/s]Sequence data:  18%|█▊        | 1990/11019 [00:06<00:23, 386.58it/s]Sequence data:  78%|███████▊  | 4741/6042 [00:09<00:01, 1057.10it/s]Sequence data:  18%|█▊        | 2029/11019 [00:06<00:23, 382.23it/s]Sequence data:  80%|████████  | 4850/6042 [00:09<00:01, 1065.53it/s]Sequence data:  19%|█▉        | 2068/11019 [00:06<00:23, 380.42it/s]Sequence data:  82%|████████▏ | 4971/6042 [00:09<00:00, 1108.49it/s]Sequence data:  19%|█▉        | 2107/11019 [00:07<00:23, 379.90it/s]Sequence data:  84%|████████▍ | 5092/6042 [00:09<00:00, 1138.29it/s]Sequence data:  19%|█▉        | 2147/11019 [00:07<00:23, 384.90it/s]Sequence data:  86%|████████▋ | 5219/6042 [00:09<00:00, 1173.02it/s]Sequence data:  20%|█▉        | 2188/11019 [00:07<00:22, 390.42it/s]Sequence data:  88%|████████▊ | 5346/6042 [00:10<00:00, 1201.06it/s]Sequence data:  91%|█████████ | 5483/6042 [00:10<00:00, 1247.83it/s]Sequence data:  20%|██        | 2228/11019 [00:07<00:22, 388.91it/s]Sequence data:  93%|█████████▎| 5608/6042 [00:10<00:00, 1243.27it/s]Sequence data:  21%|██        | 2268/11019 [00:07<00:22, 390.19it/s]Sequence data:  95%|█████████▌| 5745/6042 [00:10<00:00, 1280.64it/s]Sequence data:  21%|██        | 2308/11019 [00:07<00:22, 389.82it/s]Sequence data:  97%|█████████▋| 5874/6042 [00:10<00:00, 1278.08it/s]Sequence data:  21%|██▏       | 2349/11019 [00:07<00:21, 394.43it/s]Sequence data:  99%|█████████▉| 6002/6042 [00:10<00:00, 1277.91it/s]Sequence data:  22%|██▏       | 2391/11019 [00:07<00:21, 400.22it/s]Sequence data: 100%|██████████| 6042/6042 [00:10<00:00, 570.17it/s] 
+Sequence data:  22%|██▏       | 2432/11019 [00:07<00:21, 401.51it/s]Sequence data:  22%|██▏       | 2474/11019 [00:07<00:21, 404.29it/s]Sequence data:  23%|██▎       | 2515/11019 [00:08<00:21, 403.23it/s]Sequence data:   0%|          | 0/2744 [00:00<?, ?it/s]Sequence data:  23%|██▎       | 2556/11019 [00:08<00:20, 404.70it/s]Sequence data:   2%|▏         | 49/2744 [00:00<00:05, 485.88it/s]Sequence data:  24%|██▎       | 2598/11019 [00:08<00:20, 408.10it/s]Sequence data:   4%|▎         | 100/2744 [00:00<00:05, 496.69it/s]Sequence data:  24%|██▍       | 2640/11019 [00:08<00:20, 409.34it/s]Sequence data:   5%|▌         | 150/2744 [00:00<00:05, 496.32it/s]Sequence data:  24%|██▍       | 2683/11019 [00:08<00:20, 412.76it/s]Sequence data:   7%|▋         | 202/2744 [00:00<00:05, 503.89it/s]Sequence data:  25%|██▍       | 2725/11019 [00:08<00:20, 414.04it/s]Sequence data:   9%|▉         | 254/2744 [00:00<00:04, 508.61it/s]Sequence data:  25%|██▌       | 2767/11019 [00:08<00:19, 414.13it/s]Sequence data:  11%|█         | 306/2744 [00:00<00:04, 509.69it/s]Sequence data:  26%|██▌       | 2810/11019 [00:08<00:19, 418.62it/s]Sequence data:  13%|█▎        | 358/2744 [00:00<00:04, 513.02it/s]Sequence data:  26%|██▌       | 2852/11019 [00:08<00:19, 418.38it/s]Sequence data:  15%|█▍        | 411/2744 [00:00<00:04, 518.38it/s]Sequence data:  26%|██▋       | 2895/11019 [00:08<00:19, 420.49it/s]Sequence data:  17%|█▋        | 464/2744 [00:00<00:04, 520.30it/s]Sequence data:  27%|██▋       | 2938/11019 [00:09<00:19, 422.20it/s]Sequence data:  19%|█▉        | 518/2744 [00:01<00:04, 524.59it/s]Sequence data:  27%|██▋       | 2982/11019 [00:09<00:18, 425.62it/s]Sequence data:  21%|██        | 571/2744 [00:01<00:04, 524.90it/s]Sequence data:  27%|██▋       | 3025/11019 [00:09<00:18, 424.04it/s]Sequence data:  23%|██▎       | 626/2744 [00:01<00:03, 529.98it/s]Sequence data:  28%|██▊       | 3068/11019 [00:09<00:18, 421.99it/s]Sequence data:  25%|██▍       | 680/2744 [00:01<00:03, 532.01it/s]Sequence data:  28%|██▊       | 3111/11019 [00:09<00:18, 419.69it/s]Sequence data:  27%|██▋       | 735/2744 [00:01<00:03, 535.54it/s]Sequence data:  29%|██▊       | 3154/11019 [00:09<00:18, 420.70it/s]Sequence data:  29%|██▉       | 791/2744 [00:01<00:03, 541.76it/s]Sequence data:  29%|██▉       | 3197/11019 [00:09<00:18, 417.62it/s]Sequence data:  31%|███       | 848/2744 [00:01<00:03, 549.07it/s]Sequence data:  29%|██▉       | 3239/11019 [00:09<00:18, 416.43it/s]Sequence data:  33%|███▎      | 903/2744 [00:01<00:03, 548.42it/s]Sequence data:  30%|██▉       | 3283/11019 [00:09<00:18, 420.47it/s]Sequence data:  35%|███▌      | 962/2744 [00:01<00:03, 559.04it/s]Sequence data:  30%|███       | 3326/11019 [00:09<00:18, 417.22it/s]Sequence data:  37%|███▋      | 1020/2744 [00:01<00:03, 562.59it/s]Sequence data:  31%|███       | 3368/11019 [00:10<00:18, 416.79it/s]Sequence data:  39%|███▉      | 1078/2744 [00:02<00:02, 566.76it/s]Sequence data:  31%|███       | 3410/11019 [00:10<00:18, 415.77it/s]Sequence data:  41%|████▏     | 1137/2744 [00:02<00:02, 573.64it/s]Sequence data:  31%|███▏      | 3454/11019 [00:10<00:17, 422.06it/s]Sequence data:  44%|████▎     | 1196/2744 [00:02<00:02, 575.85it/s]Sequence data:  32%|███▏      | 3497/11019 [00:10<00:17, 423.67it/s]Sequence data:  46%|████▌     | 1254/2744 [00:02<00:02, 573.23it/s]Sequence data:  32%|███▏      | 3540/11019 [00:10<00:17, 420.33it/s]Sequence data:  48%|████▊     | 1312/2744 [00:02<00:02, 574.45it/s]Sequence data:  33%|███▎      | 3583/11019 [00:10<00:17, 422.49it/s]Sequence data:  50%|████▉     | 1370/2744 [00:02<00:02, 576.06it/s]Sequence data:  33%|███▎      | 3627/11019 [00:10<00:17, 424.59it/s]Sequence data:  52%|█████▏    | 1431/2744 [00:02<00:02, 584.30it/s]Sequence data:  54%|█████▍    | 1490/2744 [00:02<00:02, 584.46it/s]Sequence data:  33%|███▎      | 3670/11019 [00:10<00:17, 422.35it/s]Sequence data:  57%|█████▋    | 1552/2744 [00:02<00:02, 592.64it/s]Sequence data:  34%|███▎      | 3714/11019 [00:10<00:17, 425.23it/s]Sequence data:  59%|█████▉    | 1615/2744 [00:02<00:01, 602.25it/s]Sequence data:  34%|███▍      | 3757/11019 [00:11<00:17, 418.60it/s]Sequence data:  61%|██████    | 1677/2744 [00:03<00:01, 605.91it/s]Sequence data:  34%|███▍      | 3799/11019 [00:11<00:17, 416.82it/s]Sequence data:  63%|██████▎   | 1739/2744 [00:03<00:01, 608.46it/s]Sequence data:  35%|███▍      | 3842/11019 [00:11<00:17, 419.21it/s]Sequence data:  66%|██████▌   | 1802/2744 [00:03<00:01, 614.04it/s]Sequence data:  35%|███▌      | 3884/11019 [00:11<00:17, 417.26it/s]Sequence data:  68%|██████▊   | 1865/2744 [00:03<00:01, 617.62it/s]Sequence data:  36%|███▌      | 3929/11019 [00:11<00:16, 424.97it/s]Sequence data:  70%|███████   | 1928/2744 [00:03<00:01, 620.87it/s]Sequence data:  36%|███▌      | 3972/11019 [00:11<00:16, 419.15it/s]Sequence data:  73%|███████▎  | 1993/2744 [00:03<00:01, 628.03it/s]Sequence data:  36%|███▋      | 4014/11019 [00:11<00:16, 418.15it/s]Sequence data:  75%|███████▌  | 2058/2744 [00:03<00:01, 631.99it/s]Sequence data:  37%|███▋      | 4057/11019 [00:11<00:16, 421.58it/s]Sequence data:  77%|███████▋  | 2122/2744 [00:03<00:00, 633.25it/s]Sequence data:  37%|███▋      | 4100/11019 [00:11<00:16, 420.85it/s]Sequence data:  80%|███████▉  | 2188/2744 [00:03<00:00, 639.29it/s]Sequence data:  38%|███▊      | 4143/11019 [00:11<00:16, 415.24it/s]Sequence data:  82%|████████▏ | 2253/2744 [00:03<00:00, 640.63it/s]Sequence data:  38%|███▊      | 4187/11019 [00:12<00:16, 420.92it/s]Sequence data:  85%|████████▍ | 2319/2744 [00:04<00:00, 646.31it/s]Sequence data:  38%|███▊      | 4232/11019 [00:12<00:15, 428.96it/s]Sequence data:  87%|████████▋ | 2386/2744 [00:04<00:00, 650.68it/s]Sequence data:  39%|███▉      | 4275/11019 [00:12<00:15, 428.43it/s]Sequence data:  89%|████████▉ | 2453/2744 [00:04<00:00, 655.73it/s]Sequence data:  39%|███▉      | 4318/11019 [00:12<00:15, 424.47it/s]Sequence data:  92%|█████████▏| 2521/2744 [00:04<00:00, 661.22it/s]Sequence data:  40%|███▉      | 4361/11019 [00:12<00:15, 423.32it/s]Sequence data:  94%|█████████▍| 2590/2744 [00:04<00:00, 667.22it/s]Sequence data:  40%|███▉      | 4404/11019 [00:12<00:15, 415.50it/s]Sequence data:  97%|█████████▋| 2659/2744 [00:04<00:00, 673.81it/s]Sequence data:  99%|█████████▉| 2729/2744 [00:04<00:00, 678.76it/s]Sequence data: 100%|██████████| 2744/2744 [00:04<00:00, 588.65it/s]
+2021-11-12 11:25:20.746981: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-12 11:25:20.764659: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/4000
+Sequence data:  40%|████      | 4446/11019 [00:14<01:33, 70.39it/s] Sequence data:  41%|████      | 4487/11019 [00:14<01:10, 92.57it/s]Sequence data:  41%|████      | 4528/11019 [00:14<00:54, 119.61it/s]Sequence data:  41%|████▏     | 4569/11019 [00:14<00:42, 151.08it/s]Sequence data:  42%|████▏     | 4615/11019 [00:14<00:33, 192.20it/s]Sequence data:  42%|████▏     | 4658/11019 [00:14<00:27, 230.03it/s]2021-11-12 11:25:22.794228: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+Sequence data:  43%|████▎     | 4704/11019 [00:14<00:23, 272.00it/s]Sequence data:  43%|████▎     | 4749/11019 [00:15<00:20, 308.61it/s]2021-11-12 11:25:23.023105: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+Sequence data:  44%|████▎     | 4795/11019 [00:15<00:18, 342.51it/s]Sequence data:  44%|████▍     | 4839/11019 [00:15<00:16, 366.09it/s]Sequence data:  44%|████▍     | 4883/11019 [00:15<00:16, 378.66it/s]Sequence data:  45%|████▍     | 4926/11019 [00:15<00:15, 386.65it/s]Sequence data:  45%|████▌     | 4971/11019 [00:15<00:15, 402.37it/s]Sequence data:  46%|████▌     | 5015/11019 [00:15<00:14, 411.31it/s]Sequence data:  46%|████▌     | 5059/11019 [00:15<00:14, 418.99it/s]Sequence data:  46%|████▋     | 5103/11019 [00:15<00:14, 418.60it/s]Sequence data:  47%|████▋     | 5148/11019 [00:15<00:13, 424.82it/s]Sequence data:  47%|████▋     | 5192/11019 [00:16<00:13, 426.12it/s]Sequence data:  48%|████▊     | 5236/11019 [00:16<00:13, 425.75it/s]Sequence data:  48%|████▊     | 5281/11019 [00:16<00:13, 432.06it/s]Sequence data:  48%|████▊     | 5329/11019 [00:16<00:12, 445.46it/s]Sequence data:  49%|████▉     | 5375/11019 [00:16<00:12, 447.85it/s]Sequence data:  49%|████▉     | 5422/11019 [00:16<00:12, 451.47it/s]Sequence data:  50%|████▉     | 5468/11019 [00:16<00:12, 450.04it/s]Sequence data:  50%|█████     | 5514/11019 [00:16<00:12, 431.95it/s]Sequence data:  51%|█████     | 5566/11019 [00:16<00:11, 456.20it/s]Sequence data:  51%|█████     | 5621/11019 [00:17<00:11, 480.81it/s]Sequence data:  51%|█████▏    | 5671/11019 [00:17<00:11, 485.22it/s]Sequence data:  52%|█████▏    | 5721/11019 [00:17<00:10, 487.18it/s]Sequence data:  52%|█████▏    | 5770/11019 [00:17<00:10, 481.86it/s]Sequence data:  53%|█████▎    | 5821/11019 [00:17<00:10, 487.22it/s]Sequence data:  53%|█████▎    | 5874/11019 [00:17<00:10, 498.54it/s]Sequence data:  54%|█████▍    | 5928/11019 [00:17<00:10, 508.64it/s]Sequence data:  54%|█████▍    | 5981/11019 [00:17<00:09, 514.72it/s]Sequence data:  55%|█████▍    | 6036/11019 [00:17<00:09, 523.54it/s]Sequence data:  55%|█████▌    | 6089/11019 [00:17<00:09, 513.72it/s]Sequence data:  56%|█████▌    | 6148/11019 [00:18<00:09, 534.11it/s]Sequence data:  56%|█████▋    | 6210/11019 [00:18<00:08, 558.94it/s]Sequence data:  57%|█████▋    | 6269/11019 [00:18<00:08, 567.48it/s]Sequence data:  57%|█████▋    | 6335/11019 [00:18<00:07, 593.24it/s]Sequence data:  58%|█████▊    | 6395/11019 [00:18<00:07, 586.12it/s]Sequence data:  59%|█████▊    | 6454/11019 [00:18<00:08, 566.85it/s]Sequence data:  59%|█████▉    | 6512/11019 [00:18<00:07, 567.04it/s]Sequence data:  60%|█████▉    | 6569/11019 [00:18<00:07, 567.53it/s]Sequence data:  60%|██████    | 6634/11019 [00:18<00:07, 588.98it/s]Sequence data:  61%|██████    | 6693/11019 [00:18<00:07, 576.33it/s]Sequence data:  61%|██████▏   | 6756/11019 [00:19<00:07, 590.94it/s]Sequence data:  62%|██████▏   | 6816/11019 [00:19<00:07, 590.54it/s]Sequence data:  62%|██████▏   | 6879/11019 [00:19<00:06, 599.44it/s]Sequence data:  63%|██████▎   | 6940/11019 [00:19<00:07, 560.48it/s]Sequence data:  64%|██████▎   | 7004/11019 [00:19<00:06, 580.73it/s]Sequence data:  64%|██████▍   | 7063/11019 [00:19<00:06, 581.98it/s]Sequence data:  65%|██████▍   | 7131/11019 [00:19<00:06, 609.33it/s]Sequence data:  65%|██████▌   | 7201/11019 [00:19<00:06, 632.26it/s]Sequence data:  66%|██████▌   | 7279/11019 [00:19<00:05, 675.41it/s]Sequence data:  67%|██████▋   | 7366/11019 [00:20<00:05, 730.12it/s]Sequence data:  68%|██████▊   | 7453/11019 [00:20<00:04, 767.45it/s]Sequence data:  68%|██████▊   | 7537/11019 [00:20<00:04, 785.00it/s]Sequence data:  69%|██████▉   | 7623/11019 [00:20<00:04, 806.97it/s]Sequence data:  70%|██████▉   | 7704/11019 [00:20<00:04, 794.57it/s]Sequence data:  71%|███████   | 7784/11019 [00:20<00:04, 768.37it/s]Sequence data:  71%|███████▏  | 7862/11019 [00:20<00:04, 743.35it/s]Sequence data:  72%|███████▏  | 7944/11019 [00:20<00:04, 761.15it/s]Sequence data:  73%|███████▎  | 8037/11019 [00:20<00:03, 809.46it/s]Sequence data:  74%|███████▎  | 8119/11019 [00:20<00:03, 792.64it/s]Sequence data:  74%|███████▍  | 8199/11019 [00:21<00:03, 768.73it/s]Sequence data:  75%|███████▌  | 8277/11019 [00:21<00:03, 753.37it/s]Sequence data:  76%|███████▌  | 8358/11019 [00:21<00:03, 766.68it/s]Sequence data:  77%|███████▋  | 8435/11019 [00:21<00:03, 764.19it/s]Sequence data:  77%|███████▋  | 8512/11019 [00:21<00:03, 752.22it/s]Sequence data:  78%|███████▊  | 8599/11019 [00:21<00:03, 782.68it/s]Sequence data:  79%|███████▉  | 8683/11019 [00:21<00:02, 797.90it/s]Sequence data:  80%|███████▉  | 8795/11019 [00:21<00:02, 890.94it/s]Sequence data:  81%|████████  | 8908/11019 [00:21<00:02, 957.55it/s]Sequence data:  82%|████████▏ | 9012/11019 [00:21<00:02, 976.93it/s]Sequence data:  83%|████████▎ | 9125/11019 [00:22<00:01, 1021.94it/s]Sequence data:  84%|████████▍ | 9237/11019 [00:22<00:01, 1047.93it/s]Sequence data:  85%|████████▍ | 9342/11019 [00:22<00:01, 1043.40it/s]Sequence data:  86%|████████▌ | 9476/11019 [00:22<00:01, 1131.32it/s]Sequence data:  87%|████████▋ | 9590/11019 [00:22<00:01, 1124.76it/s]Sequence data:  88%|████████▊ | 9714/11019 [00:22<00:01, 1158.93it/s]Sequence data:  89%|████████▉ | 9831/11019 [00:22<00:01, 1154.81it/s]Sequence data:  90%|█████████ | 9968/11019 [00:22<00:00, 1212.77it/s]Sequence data:  92%|█████████▏| 10090/11019 [00:22<00:00, 1189.39it/s]Sequence data:  93%|█████████▎| 10210/11019 [00:23<00:00, 1178.74it/s]Sequence data:  94%|█████████▍| 10337/11019 [00:23<00:00, 1203.02it/s]Sequence data:  95%|█████████▍| 10458/11019 [00:23<00:00, 1173.87it/s]Sequence data:  96%|█████████▌| 10576/11019 [00:23<00:00, 1146.20it/s]Sequence data:  97%|█████████▋| 10697/11019 [00:23<00:00, 1161.17it/s]Sequence data:  98%|█████████▊| 10814/11019 [00:23<00:00, 1102.91it/s]Sequence data:  99%|█████████▉| 10925/11019 [00:23<00:00, 1046.95it/s]Sequence data: 100%|██████████| 11019/11019 [00:23<00:00, 464.01it/s] 
+Sequence data:   0%|          | 0/4872 [00:00<?, ?it/s]Sequence data:   1%|          | 40/4872 [00:00<00:12, 395.08it/s]Sequence data:   2%|▏         | 81/4872 [00:00<00:11, 400.38it/s]Sequence data:   3%|▎         | 124/4872 [00:00<00:11, 410.19it/s]Sequence data:   3%|▎         | 168/4872 [00:00<00:11, 418.36it/s]Sequence data:   4%|▍         | 213/4872 [00:00<00:10, 427.45it/s]Sequence data:   5%|▌         | 258/4872 [00:00<00:10, 433.19it/s]Sequence data:   6%|▌         | 303/4872 [00:00<00:10, 437.47it/s]Sequence data:   7%|▋         | 349/4872 [00:00<00:10, 444.49it/s]Sequence data:   8%|▊         | 395/4872 [00:00<00:10, 445.57it/s]Sequence data:   9%|▉         | 442/4872 [00:01<00:09, 451.16it/s]Sequence data:  10%|█         | 488/4872 [00:01<00:09, 450.42it/s]Sequence data:  11%|█         | 534/4872 [00:01<00:09, 452.20it/s]Sequence data:  12%|█▏        | 581/4872 [00:01<00:09, 453.71it/s]Sequence data:  13%|█▎        | 628/4872 [00:01<00:09, 456.30it/s]Sequence data:  14%|█▍        | 676/4872 [00:01<00:09, 461.00it/s]Sequence data:  15%|█▍        | 723/4872 [00:01<00:09, 459.93it/s]Sequence data:  16%|█▌        | 770/4872 [00:01<00:08, 461.73it/s]Sequence data:  17%|█▋        | 819/4872 [00:01<00:08, 467.99it/s]Sequence data:  18%|█▊        | 866/4872 [00:01<00:08, 467.99it/s]Sequence data:  19%|█▉        | 914/4872 [00:02<00:08, 468.40it/s]Sequence data:  20%|█▉        | 961/4872 [00:02<00:08, 465.64it/s]Sequence data:  21%|██        | 1010/4872 [00:02<00:08, 470.13it/s]Sequence data:  22%|██▏       | 1059/4872 [00:02<00:08, 475.29it/s]Sequence data:  23%|██▎       | 1107/4872 [00:02<00:07, 472.50it/s]Sequence data:  24%|██▎       | 1157/4872 [00:02<00:07, 479.09it/s]Sequence data:  25%|██▍       | 1207/4872 [00:02<00:07, 483.39it/s]Sequence data:  26%|██▌       | 1256/4872 [00:02<00:07, 475.39it/s]Sequence data:  27%|██▋       | 1307/4872 [00:02<00:07, 483.60it/s]Sequence data:  28%|██▊       | 1356/4872 [00:02<00:07, 481.25it/s]Sequence data:  29%|██▉       | 1405/4872 [00:03<00:07, 481.07it/s]Sequence data:  30%|██▉       | 1455/4872 [00:03<00:07, 483.59it/s]Sequence data:  31%|███       | 1507/4872 [00:03<00:06, 491.19it/s]Sequence data:  32%|███▏      | 1557/4872 [00:03<00:06, 491.59it/s]Sequence data:  33%|███▎      | 1607/4872 [00:03<00:06, 491.33it/s]Sequence data:  34%|███▍      | 1657/4872 [00:03<00:06, 492.27it/s]Sequence data:  35%|███▌      | 1708/4872 [00:03<00:06, 495.01it/s]Sequence data:  36%|███▌      | 1759/4872 [00:03<00:06, 498.52it/s]Sequence data:  37%|███▋      | 1811/4872 [00:03<00:06, 504.02it/s]Sequence data:  38%|███▊      | 1862/4872 [00:03<00:06, 499.66it/s]Sequence data:  39%|███▉      | 1914/4872 [00:04<00:05, 504.84it/s]Sequence data:  40%|████      | 1965/4872 [00:04<00:05, 504.19it/s]Sequence data:  41%|████▏     | 2016/4872 [00:04<00:05, 503.45it/s]Sequence data:  42%|████▏     | 2067/4872 [00:04<00:05, 502.44it/s]Sequence data:  44%|████▎     | 2120/4872 [00:04<00:05, 507.04it/s]Sequence data:  45%|████▍     | 2173/4872 [00:04<00:05, 513.02it/s]Sequence data:  46%|████▌     | 2225/4872 [00:04<00:05, 510.07it/s]Sequence data:  47%|████▋     | 2277/4872 [00:04<00:05, 508.14it/s]Sequence data:  48%|████▊     | 2329/4872 [00:04<00:04, 509.23it/s]Sequence data:  49%|████▉     | 2381/4872 [00:04<00:04, 512.28it/s]Sequence data:  50%|████▉     | 2433/4872 [00:05<00:04, 510.16it/s]Sequence data:  51%|█████     | 2486/4872 [00:05<00:04, 515.13it/s]Sequence data:  52%|█████▏    | 2538/4872 [00:05<00:04, 510.21it/s]Sequence data:  53%|█████▎    | 2591/4872 [00:05<00:04, 512.41it/s]Sequence data:  54%|█████▍    | 2643/4872 [00:05<00:04, 510.67it/s]Sequence data:  55%|█████▌    | 2696/4872 [00:05<00:04, 514.81it/s]Sequence data:  56%|█████▋    | 2749/4872 [00:05<00:04, 518.18it/s]Sequence data:  57%|█████▋    | 2801/4872 [00:05<00:04, 517.51it/s]Sequence data:  59%|█████▊    | 2853/4872 [00:05<00:03, 516.24it/s]Sequence data:  60%|█████▉    | 2907/4872 [00:06<00:03, 523.13it/s]Sequence data:  61%|██████    | 2960/4872 [00:06<00:03, 524.37it/s]Sequence data:  62%|██████▏   | 3013/4872 [00:06<00:03, 522.40it/s]Sequence data:  63%|██████▎   | 3068/4872 [00:06<00:03, 528.93it/s]Sequence data:  64%|██████▍   | 3123/4872 [00:06<00:03, 533.18it/s]Sequence data:  65%|██████▌   | 3177/4872 [00:06<00:03, 534.51it/s]Sequence data:  66%|██████▋   | 3231/4872 [00:06<00:03, 535.96it/s]Sequence data:  67%|██████▋   | 3286/4872 [00:06<00:02, 539.75it/s]Sequence data:  69%|██████▊   | 3341/4872 [00:06<00:02, 540.62it/s]Sequence data:  70%|██████▉   | 3396/4872 [00:06<00:02, 542.86it/s]Sequence data:  71%|███████   | 3452/4872 [00:07<00:02, 545.37it/s]Sequence data:  72%|███████▏  | 3507/4872 [00:07<00:02, 546.44it/s]Sequence data:  73%|███████▎  | 3562/4872 [00:07<00:02, 547.28it/s]Sequence data:  74%|███████▍  | 3618/4872 [00:07<00:02, 549.78it/s]Sequence data:  75%|███████▌  | 3673/4872 [00:07<00:02, 549.37it/s]Sequence data:  77%|███████▋  | 3729/4872 [00:07<00:02, 551.02it/s]Sequence data:  78%|███████▊  | 3785/4872 [00:07<00:01, 552.32it/s]Sequence data:  79%|███████▉  | 3842/4872 [00:07<00:01, 555.41it/s]Sequence data:  80%|████████  | 3898/4872 [00:07<00:01, 553.67it/s]Sequence data:  81%|████████  | 3955/4872 [00:07<00:01, 556.50it/s]Sequence data:  82%|████████▏ | 4011/4872 [00:08<00:01, 556.55it/s]Sequence data:  83%|████████▎ | 4067/4872 [00:08<00:01, 556.06it/s]Sequence data:  85%|████████▍ | 4123/4872 [00:08<00:01, 555.45it/s]Sequence data:  86%|████████▌ | 4180/4872 [00:08<00:01, 557.00it/s]Sequence data:  87%|████████▋ | 4237/4872 [00:08<00:01, 559.40it/s]Sequence data:  88%|████████▊ | 4295/4872 [00:08<00:01, 562.91it/s]Sequence data:  89%|████████▉ | 4352/4872 [00:08<00:00, 562.42it/s]Sequence data:  91%|█████████ | 4410/4872 [00:08<00:00, 566.05it/s]Sequence data:  92%|█████████▏| 4468/4872 [00:08<00:00, 568.66it/s]Sequence data:  93%|█████████▎| 4527/4872 [00:08<00:00, 573.48it/s]Sequence data:  94%|█████████▍| 4585/4872 [00:09<00:00, 566.83it/s]Sequence data:  95%|█████████▌| 4644/4872 [00:09<00:00, 571.37it/s]Sequence data:  97%|█████████▋| 4703/4872 [00:09<00:00, 576.13it/s]Sequence data:  98%|█████████▊| 4762/4872 [00:09<00:00, 579.46it/s]Sequence data:  99%|█████████▉| 4821/4872 [00:09<00:00, 581.61it/s]Sequence data: 100%|██████████| 4872/4872 [00:09<00:00, 511.01it/s]
+2021-11-12 11:25:41.782961: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-12 11:25:41.800644: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+878/878 - 21s - loss: 0.1272 - f1: 0.0010 - val_loss: 0.1119 - val_f1: 0.0014
+Epoch 1/4000
+Epoch 2/4000
+2021-11-12 11:25:42.475530: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 11:25:42.704973: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+878/878 - 18s - loss: 0.0978 - f1: 0.0790 - val_loss: 0.1036 - val_f1: 0.0765
+Epoch 3/4000
+1082/1082 - 25s - loss: 0.0657 - f1: 2.8598e-04 - val_loss: 0.0549 - val_f1: 0.0000e+00
+Epoch 2/4000
+878/878 - 18s - loss: 0.0921 - f1: 0.1848 - val_loss: 0.0985 - val_f1: 0.1026
+Epoch 4/4000
+1082/1082 - 23s - loss: 0.0446 - f1: 2.8582e-04 - val_loss: 0.0532 - val_f1: 0.0032
+Epoch 3/4000
+878/878 - 18s - loss: 0.0896 - f1: 0.2081 - val_loss: 0.0947 - val_f1: 0.1111
+Epoch 5/4000
+1082/1082 - 23s - loss: 0.0433 - f1: 0.0012 - val_loss: 0.0483 - val_f1: 0.0051
+Epoch 4/4000
+878/878 - 18s - loss: 0.0882 - f1: 0.2145 - val_loss: 0.0916 - val_f1: 0.1119
+Epoch 6/4000
+878/878 - 18s - loss: 0.0870 - f1: 0.2261 - val_loss: 0.0907 - val_f1: 0.1177
+Epoch 7/4000
+1082/1082 - 23s - loss: 0.0423 - f1: 0.0034 - val_loss: 0.0437 - val_f1: 0.0174
+Epoch 5/4000
+878/878 - 18s - loss: 0.0860 - f1: 0.2340 - val_loss: 0.0880 - val_f1: 0.1195
+Epoch 8/4000
+1082/1082 - 24s - loss: 0.0414 - f1: 0.0071 - val_loss: 0.0426 - val_f1: 0.0268
+Epoch 6/4000
+878/878 - 18s - loss: 0.0849 - f1: 0.2422 - val_loss: 0.0859 - val_f1: 0.1281
+Epoch 9/4000
+1082/1082 - 24s - loss: 0.0408 - f1: 0.0112 - val_loss: 0.0414 - val_f1: 0.0293
+Epoch 7/4000
+878/878 - 18s - loss: 0.0841 - f1: 0.2465 - val_loss: 0.0825 - val_f1: 0.1309
+Epoch 10/4000
+878/878 - 18s - loss: 0.0833 - f1: 0.2533 - val_loss: 0.0817 - val_f1: 0.1382
+Epoch 11/4000
+1082/1082 - 23s - loss: 0.0403 - f1: 0.0153 - val_loss: 0.0396 - val_f1: 0.0346
+Epoch 8/4000
+878/878 - 18s - loss: 0.0828 - f1: 0.2589 - val_loss: 0.0823 - val_f1: 0.1449
+Epoch 12/4000
+1082/1082 - 24s - loss: 0.0399 - f1: 0.0164 - val_loss: 0.0393 - val_f1: 0.0390
+Epoch 9/4000
+878/878 - 18s - loss: 0.0821 - f1: 0.2622 - val_loss: 0.0812 - val_f1: 0.1481
+Epoch 13/4000
+1082/1082 - 23s - loss: 0.0395 - f1: 0.0222 - val_loss: 0.0394 - val_f1: 0.0379
+Epoch 10/4000
+878/878 - 18s - loss: 0.0816 - f1: 0.2671 - val_loss: 0.0789 - val_f1: 0.1507
+Epoch 14/4000
+1082/1082 - 23s - loss: 0.0392 - f1: 0.0261 - val_loss: 0.0389 - val_f1: 0.0475
+Epoch 11/4000
+878/878 - 18s - loss: 0.0810 - f1: 0.2732 - val_loss: 0.0785 - val_f1: 0.1544
+Epoch 15/4000
+878/878 - 19s - loss: 0.0807 - f1: 0.2722 - val_loss: 0.0780 - val_f1: 0.1586
+Epoch 16/4000
+1082/1082 - 24s - loss: 0.0390 - f1: 0.0310 - val_loss: 0.0376 - val_f1: 0.0479
+Epoch 12/4000
+878/878 - 19s - loss: 0.0802 - f1: 0.2799 - val_loss: 0.0785 - val_f1: 0.1616
+Epoch 17/4000
+1082/1082 - 23s - loss: 0.0387 - f1: 0.0340 - val_loss: 0.0381 - val_f1: 0.0475
+Epoch 13/4000
+878/878 - 18s - loss: 0.0797 - f1: 0.2837 - val_loss: 0.0765 - val_f1: 0.1617
+Epoch 18/4000
+1082/1082 - 23s - loss: 0.0386 - f1: 0.0359 - val_loss: 0.0376 - val_f1: 0.0478
+Epoch 14/4000
+878/878 - 18s - loss: 0.0794 - f1: 0.2875 - val_loss: 0.0760 - val_f1: 0.1642
+Epoch 19/4000
+1082/1082 - 24s - loss: 0.0383 - f1: 0.0404 - val_loss: 0.0379 - val_f1: 0.0569
+Epoch 15/4000
+878/878 - 18s - loss: 0.0790 - f1: 0.2901 - val_loss: 0.0757 - val_f1: 0.1687
+Epoch 20/4000
+878/878 - 18s - loss: 0.0787 - f1: 0.2934 - val_loss: 0.0751 - val_f1: 0.1684
+Epoch 21/4000
+1082/1082 - 24s - loss: 0.0382 - f1: 0.0422 - val_loss: 0.0377 - val_f1: 0.0548
+Epoch 16/4000
+878/878 - 18s - loss: 0.0784 - f1: 0.2949 - val_loss: 0.0750 - val_f1: 0.1710
+Epoch 22/4000
+1082/1082 - 23s - loss: 0.0380 - f1: 0.0441 - val_loss: 0.0368 - val_f1: 0.0577
+Epoch 17/4000
+878/878 - 18s - loss: 0.0779 - f1: 0.3022 - val_loss: 0.0748 - val_f1: 0.1708
+Epoch 23/4000
+1082/1082 - 24s - loss: 0.0378 - f1: 0.0485 - val_loss: 0.0366 - val_f1: 0.0612
+Epoch 18/4000
+878/878 - 18s - loss: 0.0779 - f1: 0.2993 - val_loss: 0.0734 - val_f1: 0.1739
+Epoch 24/4000
+878/878 - 18s - loss: 0.0774 - f1: 0.3043 - val_loss: 0.0730 - val_f1: 0.1731
+Epoch 25/4000
+1082/1082 - 24s - loss: 0.0377 - f1: 0.0509 - val_loss: 0.0365 - val_f1: 0.0610
+Epoch 19/4000
+878/878 - 18s - loss: 0.0772 - f1: 0.3071 - val_loss: 0.0730 - val_f1: 0.1764
+Epoch 26/4000
+1082/1082 - 23s - loss: 0.0375 - f1: 0.0542 - val_loss: 0.0355 - val_f1: 0.0579
+Epoch 20/4000
+878/878 - 18s - loss: 0.0768 - f1: 0.3116 - val_loss: 0.0724 - val_f1: 0.1762
+Epoch 27/4000
+1082/1082 - 23s - loss: 0.0373 - f1: 0.0556 - val_loss: 0.0353 - val_f1: 0.0619
+Epoch 21/4000
+878/878 - 18s - loss: 0.0765 - f1: 0.3133 - val_loss: 0.0724 - val_f1: 0.1781
+Epoch 28/4000
+878/878 - 18s - loss: 0.0764 - f1: 0.3127 - val_loss: 0.0720 - val_f1: 0.1803
+Epoch 29/4000
+1082/1082 - 23s - loss: 0.0373 - f1: 0.0566 - val_loss: 0.0356 - val_f1: 0.0621
+Epoch 22/4000
+878/878 - 18s - loss: 0.0760 - f1: 0.3184 - val_loss: 0.0709 - val_f1: 0.1802
+Epoch 30/4000
+1082/1082 - 23s - loss: 0.0371 - f1: 0.0594 - val_loss: 0.0360 - val_f1: 0.0685
+Epoch 23/4000
+878/878 - 18s - loss: 0.0759 - f1: 0.3186 - val_loss: 0.0709 - val_f1: 0.1818
+Epoch 31/4000
+1082/1082 - 24s - loss: 0.0370 - f1: 0.0626 - val_loss: 0.0350 - val_f1: 0.0657
+Epoch 24/4000
+878/878 - 18s - loss: 0.0756 - f1: 0.3217 - val_loss: 0.0706 - val_f1: 0.1819
+Epoch 32/4000
+1082/1082 - 23s - loss: 0.0368 - f1: 0.0663 - val_loss: 0.0352 - val_f1: 0.0638
+Epoch 25/4000
+878/878 - 18s - loss: 0.0755 - f1: 0.3212 - val_loss: 0.0707 - val_f1: 0.1823
+Epoch 33/4000
+878/878 - 18s - loss: 0.0753 - f1: 0.3234 - val_loss: 0.0702 - val_f1: 0.1863
+Epoch 34/4000
+1082/1082 - 23s - loss: 0.0367 - f1: 0.0672 - val_loss: 0.0349 - val_f1: 0.0673
+Epoch 26/4000
+878/878 - 19s - loss: 0.0750 - f1: 0.3252 - val_loss: 0.0695 - val_f1: 0.1883
+Epoch 35/4000
+1082/1082 - 24s - loss: 0.0366 - f1: 0.0683 - val_loss: 0.0346 - val_f1: 0.0722
+Epoch 27/4000
+878/878 - 18s - loss: 0.0748 - f1: 0.3291 - val_loss: 0.0692 - val_f1: 0.1879
+Epoch 36/4000
+1082/1082 - 23s - loss: 0.0365 - f1: 0.0714 - val_loss: 0.0343 - val_f1: 0.0672
+Epoch 28/4000
+878/878 - 18s - loss: 0.0746 - f1: 0.3279 - val_loss: 0.0695 - val_f1: 0.1860
+Epoch 37/4000
+878/878 - 18s - loss: 0.0744 - f1: 0.3303 - val_loss: 0.0689 - val_f1: 0.1863
+Epoch 38/4000
+1082/1082 - 23s - loss: 0.0364 - f1: 0.0730 - val_loss: 0.0343 - val_f1: 0.0715
+Epoch 29/4000
+878/878 - 18s - loss: 0.0740 - f1: 0.3331 - val_loss: 0.0691 - val_f1: 0.1891
+Epoch 39/4000
+1082/1082 - 23s - loss: 0.0363 - f1: 0.0742 - val_loss: 0.0343 - val_f1: 0.0736
+Epoch 30/4000
+878/878 - 18s - loss: 0.0739 - f1: 0.3353 - val_loss: 0.0687 - val_f1: 0.1896
+Epoch 40/4000
+1082/1082 - 24s - loss: 0.0362 - f1: 0.0779 - val_loss: 0.0342 - val_f1: 0.0714
+Epoch 31/4000
+878/878 - 18s - loss: 0.0738 - f1: 0.3355 - val_loss: 0.0683 - val_f1: 0.1868
+Epoch 41/4000
+1082/1082 - 23s - loss: 0.0361 - f1: 0.0797 - val_loss: 0.0339 - val_f1: 0.0703
+Epoch 32/4000
+878/878 - 18s - loss: 0.0736 - f1: 0.3363 - val_loss: 0.0684 - val_f1: 0.1902
+Epoch 42/4000
+878/878 - 18s - loss: 0.0735 - f1: 0.3393 - val_loss: 0.0677 - val_f1: 0.1902
+Epoch 43/4000
+1082/1082 - 24s - loss: 0.0360 - f1: 0.0805 - val_loss: 0.0336 - val_f1: 0.0673
+Epoch 33/4000
+878/878 - 18s - loss: 0.0732 - f1: 0.3412 - val_loss: 0.0676 - val_f1: 0.1911
+Epoch 44/4000
+1082/1082 - 23s - loss: 0.0359 - f1: 0.0835 - val_loss: 0.0336 - val_f1: 0.0749
+Epoch 34/4000
+878/878 - 18s - loss: 0.0730 - f1: 0.3433 - val_loss: 0.0678 - val_f1: 0.1903
+Epoch 45/4000
+1082/1082 - 23s - loss: 0.0358 - f1: 0.0838 - val_loss: 0.0337 - val_f1: 0.0709
+Epoch 35/4000
+878/878 - 18s - loss: 0.0730 - f1: 0.3441 - val_loss: 0.0678 - val_f1: 0.1933
+Epoch 46/4000
+878/878 - 18s - loss: 0.0728 - f1: 0.3444 - val_loss: 0.0676 - val_f1: 0.1961
+Epoch 47/4000
+1082/1082 - 23s - loss: 0.0357 - f1: 0.0841 - val_loss: 0.0337 - val_f1: 0.0761
+Epoch 36/4000
+878/878 - 18s - loss: 0.0725 - f1: 0.3476 - val_loss: 0.0668 - val_f1: 0.1873
+Epoch 48/4000
+1082/1082 - 24s - loss: 0.0356 - f1: 0.0883 - val_loss: 0.0334 - val_f1: 0.0736
+Epoch 37/4000
+878/878 - 18s - loss: 0.0725 - f1: 0.3466 - val_loss: 0.0670 - val_f1: 0.1945
+Epoch 49/4000
+1082/1082 - 23s - loss: 0.0355 - f1: 0.0894 - val_loss: 0.0333 - val_f1: 0.0782
+Epoch 38/4000
+878/878 - 18s - loss: 0.0725 - f1: 0.3455 - val_loss: 0.0668 - val_f1: 0.1946
+Epoch 50/4000
+878/878 - 18s - loss: 0.0722 - f1: 0.3516 - val_loss: 0.0669 - val_f1: 0.1976
+1082/1082 - 23s - loss: 0.0355 - f1: 0.0918 - val_loss: 0.0333 - val_f1: 0.0780
+Epoch 51/4000
+Epoch 39/4000
+878/878 - 18s - loss: 0.0720 - f1: 0.3515 - val_loss: 0.0662 - val_f1: 0.1953
+Epoch 52/4000
+1082/1082 - 24s - loss: 0.0354 - f1: 0.0914 - val_loss: 0.0332 - val_f1: 0.0788
+Epoch 40/4000
+878/878 - 18s - loss: 0.0718 - f1: 0.3539 - val_loss: 0.0666 - val_f1: 0.1939
+Epoch 53/4000
+1082/1082 - 23s - loss: 0.0353 - f1: 0.0939 - val_loss: 0.0328 - val_f1: 0.0739
+Epoch 41/4000
+878/878 - 18s - loss: 0.0718 - f1: 0.3533 - val_loss: 0.0664 - val_f1: 0.1997
+Epoch 54/4000
+1082/1082 - 23s - loss: 0.0352 - f1: 0.0957 - val_loss: 0.0330 - val_f1: 0.0793
+Epoch 42/4000
+878/878 - 18s - loss: 0.0715 - f1: 0.3555 - val_loss: 0.0662 - val_f1: 0.1981
+Epoch 55/4000
+878/878 - 18s - loss: 0.0716 - f1: 0.3545 - val_loss: 0.0660 - val_f1: 0.1979
+Epoch 56/4000
+1082/1082 - 23s - loss: 0.0351 - f1: 0.0994 - val_loss: 0.0330 - val_f1: 0.0823
+Epoch 43/4000
+878/878 - 19s - loss: 0.0714 - f1: 0.3579 - val_loss: 0.0659 - val_f1: 0.1971
+Epoch 57/4000
+1082/1082 - 24s - loss: 0.0351 - f1: 0.0989 - val_loss: 0.0328 - val_f1: 0.0806
+Epoch 44/4000
+878/878 - 18s - loss: 0.0712 - f1: 0.3570 - val_loss: 0.0659 - val_f1: 0.2005
+Epoch 58/4000
+1082/1082 - 23s - loss: 0.0350 - f1: 0.1012 - val_loss: 0.0327 - val_f1: 0.0782
+Epoch 45/4000
+878/878 - 18s - loss: 0.0710 - f1: 0.3595 - val_loss: 0.0658 - val_f1: 0.2002
+Epoch 59/4000
+1082/1082 - 24s - loss: 0.0349 - f1: 0.1027 - val_loss: 0.0327 - val_f1: 0.0804
+Epoch 46/4000
+878/878 - 18s - loss: 0.0711 - f1: 0.3575 - val_loss: 0.0656 - val_f1: 0.2003
+Epoch 60/4000
+878/878 - 18s - loss: 0.0709 - f1: 0.3597 - val_loss: 0.0655 - val_f1: 0.2009
+Epoch 61/4000
+1082/1082 - 24s - loss: 0.0348 - f1: 0.1060 - val_loss: 0.0326 - val_f1: 0.0811
+Epoch 47/4000
+878/878 - 18s - loss: 0.0708 - f1: 0.3613 - val_loss: 0.0652 - val_f1: 0.2022
+Epoch 62/4000
+1082/1082 - 23s - loss: 0.0348 - f1: 0.1056 - val_loss: 0.0325 - val_f1: 0.0823
+Epoch 48/4000
+878/878 - 18s - loss: 0.0708 - f1: 0.3618 - val_loss: 0.0653 - val_f1: 0.2037
+Epoch 63/4000
+1082/1082 - 23s - loss: 0.0348 - f1: 0.1062 - val_loss: 0.0323 - val_f1: 0.0806
+Epoch 49/4000
+878/878 - 17s - loss: 0.0705 - f1: 0.3654 - val_loss: 0.0653 - val_f1: 0.2038
+Epoch 64/4000
+878/878 - 18s - loss: 0.0705 - f1: 0.3634 - val_loss: 0.0652 - val_f1: 0.2048
+Epoch 65/4000
+1082/1082 - 23s - loss: 0.0346 - f1: 0.1105 - val_loss: 0.0324 - val_f1: 0.0827
+Epoch 50/4000
+878/878 - 18s - loss: 0.0706 - f1: 0.3622 - val_loss: 0.0653 - val_f1: 0.2019
+Epoch 66/4000
+1082/1082 - 23s - loss: 0.0346 - f1: 0.1100 - val_loss: 0.0324 - val_f1: 0.0832
+Epoch 51/4000
+878/878 - 18s - loss: 0.0701 - f1: 0.3704 - val_loss: 0.0650 - val_f1: 0.2045
+Epoch 67/4000
+1082/1082 - 24s - loss: 0.0345 - f1: 0.1110 - val_loss: 0.0322 - val_f1: 0.0780
+Epoch 52/4000
+878/878 - 18s - loss: 0.0701 - f1: 0.3672 - val_loss: 0.0648 - val_f1: 0.2044
+Epoch 68/4000
+878/878 - 18s - loss: 0.0700 - f1: 0.3695 - val_loss: 0.0648 - val_f1: 0.2032
+Epoch 69/4000
+1082/1082 - 24s - loss: 0.0345 - f1: 0.1126 - val_loss: 0.0322 - val_f1: 0.0819
+Epoch 53/4000
+878/878 - 18s - loss: 0.0700 - f1: 0.3705 - val_loss: 0.0648 - val_f1: 0.2072
+Epoch 70/4000
+1082/1082 - 23s - loss: 0.0344 - f1: 0.1148 - val_loss: 0.0322 - val_f1: 0.0859
+Epoch 54/4000
+878/878 - 18s - loss: 0.0698 - f1: 0.3722 - val_loss: 0.0647 - val_f1: 0.2047
+Epoch 71/4000
+1082/1082 - 23s - loss: 0.0343 - f1: 0.1154 - val_loss: 0.0322 - val_f1: 0.0866
+Epoch 55/4000
+878/878 - 18s - loss: 0.0698 - f1: 0.3707 - val_loss: 0.0646 - val_f1: 0.2052
+Epoch 72/4000
+878/878 - 18s - loss: 0.0697 - f1: 0.3726 - val_loss: 0.0648 - val_f1: 0.2052
+Epoch 73/4000
+1082/1082 - 24s - loss: 0.0343 - f1: 0.1164 - val_loss: 0.0320 - val_f1: 0.0807
+Epoch 56/4000
+878/878 - 18s - loss: 0.0695 - f1: 0.3737 - val_loss: 0.0646 - val_f1: 0.2076
+Epoch 74/4000
+1082/1082 - 23s - loss: 0.0343 - f1: 0.1177 - val_loss: 0.0321 - val_f1: 0.0868
+Epoch 57/4000
+878/878 - 18s - loss: 0.0696 - f1: 0.3715 - val_loss: 0.0647 - val_f1: 0.2118
+Epoch 75/4000
+1082/1082 - 23s - loss: 0.0342 - f1: 0.1193 - val_loss: 0.0320 - val_f1: 0.0879
+Epoch 58/4000
+878/878 - 18s - loss: 0.0695 - f1: 0.3733 - val_loss: 0.0645 - val_f1: 0.2103
+Epoch 76/4000
+1082/1082 - 23s - loss: 0.0341 - f1: 0.1208 - val_loss: 0.0319 - val_f1: 0.0859
+Epoch 59/4000
+878/878 - 18s - loss: 0.0693 - f1: 0.3759 - val_loss: 0.0643 - val_f1: 0.2118
+Epoch 77/4000
+878/878 - 18s - loss: 0.0692 - f1: 0.3766 - val_loss: 0.0644 - val_f1: 0.2074
+Epoch 78/4000
+1082/1082 - 23s - loss: 0.0341 - f1: 0.1217 - val_loss: 0.0319 - val_f1: 0.0872
+Epoch 60/4000
+878/878 - 18s - loss: 0.0693 - f1: 0.3745 - val_loss: 0.0645 - val_f1: 0.2113
+Epoch 79/4000
+1082/1082 - 23s - loss: 0.0341 - f1: 0.1233 - val_loss: 0.0319 - val_f1: 0.0875
+Epoch 61/4000
+878/878 - 18s - loss: 0.0692 - f1: 0.3760 - val_loss: 0.0641 - val_f1: 0.2122
+Epoch 80/4000
+1082/1082 - 24s - loss: 0.0341 - f1: 0.1238 - val_loss: 0.0319 - val_f1: 0.0890
+Epoch 62/4000
+878/878 - 18s - loss: 0.0691 - f1: 0.3780 - val_loss: 0.0642 - val_f1: 0.2106
+Epoch 81/4000
+1082/1082 - 23s - loss: 0.0340 - f1: 0.1258 - val_loss: 0.0318 - val_f1: 0.0853
+Epoch 63/4000
+878/878 - 18s - loss: 0.0692 - f1: 0.3778 - val_loss: 0.0641 - val_f1: 0.2118
+Epoch 82/4000
+878/878 - 18s - loss: 0.0690 - f1: 0.3799 - val_loss: 0.0641 - val_f1: 0.2146
+Epoch 83/4000
+1082/1082 - 23s - loss: 0.0339 - f1: 0.1265 - val_loss: 0.0317 - val_f1: 0.0860
+Epoch 64/4000
+878/878 - 18s - loss: 0.0688 - f1: 0.3812 - val_loss: 0.0639 - val_f1: 0.2152
+Epoch 84/4000
+1082/1082 - 23s - loss: 0.0339 - f1: 0.1271 - val_loss: 0.0318 - val_f1: 0.0918
+Epoch 65/4000
+878/878 - 18s - loss: 0.0687 - f1: 0.3813 - val_loss: 0.0639 - val_f1: 0.2161
+Epoch 85/4000
+1082/1082 - 23s - loss: 0.0338 - f1: 0.1286 - val_loss: 0.0317 - val_f1: 0.0922
+Epoch 66/4000
+878/878 - 18s - loss: 0.0688 - f1: 0.3808 - val_loss: 0.0640 - val_f1: 0.2175
+Epoch 86/4000
+878/878 - 18s - loss: 0.0687 - f1: 0.3819 - val_loss: 0.0640 - val_f1: 0.2167
+Epoch 87/4000
+1082/1082 - 23s - loss: 0.0338 - f1: 0.1299 - val_loss: 0.0316 - val_f1: 0.0884
+Epoch 67/4000
+878/878 - 18s - loss: 0.0686 - f1: 0.3830 - val_loss: 0.0640 - val_f1: 0.2142
+Epoch 88/4000
+1082/1082 - 23s - loss: 0.0338 - f1: 0.1303 - val_loss: 0.0316 - val_f1: 0.0914
+Epoch 68/4000
+878/878 - 18s - loss: 0.0685 - f1: 0.3862 - val_loss: 0.0640 - val_f1: 0.2165
+Epoch 89/4000
+1082/1082 - 23s - loss: 0.0337 - f1: 0.1326 - val_loss: 0.0316 - val_f1: 0.0934
+Epoch 69/4000
+878/878 - 18s - loss: 0.0685 - f1: 0.3825 - val_loss: 0.0637 - val_f1: 0.2168
+Epoch 90/4000
+1082/1082 - 23s - loss: 0.0337 - f1: 0.1341 - val_loss: 0.0316 - val_f1: 0.0953
+Epoch 70/4000
+878/878 - 18s - loss: 0.0683 - f1: 0.3840 - val_loss: 0.0638 - val_f1: 0.2115
+Epoch 91/4000
+878/878 - 18s - loss: 0.0682 - f1: 0.3863 - val_loss: 0.0637 - val_f1: 0.2157
+Epoch 92/4000
+1082/1082 - 23s - loss: 0.0337 - f1: 0.1338 - val_loss: 0.0315 - val_f1: 0.0898
+Epoch 71/4000
+878/878 - 18s - loss: 0.0681 - f1: 0.3873 - val_loss: 0.0637 - val_f1: 0.2161
+Epoch 93/4000
+1082/1082 - 23s - loss: 0.0336 - f1: 0.1333 - val_loss: 0.0315 - val_f1: 0.0945
+Epoch 72/4000
+878/878 - 18s - loss: 0.0682 - f1: 0.3842 - val_loss: 0.0637 - val_f1: 0.2195
+Epoch 94/4000
+1082/1082 - 23s - loss: 0.0336 - f1: 0.1376 - val_loss: 0.0315 - val_f1: 0.0916
+Epoch 73/4000
+878/878 - 18s - loss: 0.0682 - f1: 0.3852 - val_loss: 0.0637 - val_f1: 0.2157
+Epoch 95/4000
+1082/1082 - 23s - loss: 0.0336 - f1: 0.1362 - val_loss: 0.0315 - val_f1: 0.0955
+878/878 - 18s - loss: 0.0681 - f1: 0.3872 - val_loss: 0.0637 - val_f1: 0.2185
+Epoch 74/4000
+Epoch 96/4000
+878/878 - 18s - loss: 0.0681 - f1: 0.3866 - val_loss: 0.0637 - val_f1: 0.2207
+Epoch 97/4000
+1082/1082 - 23s - loss: 0.0335 - f1: 0.1387 - val_loss: 0.0314 - val_f1: 0.0945
+Epoch 75/4000
+878/878 - 18s - loss: 0.0679 - f1: 0.3890 - val_loss: 0.0636 - val_f1: 0.2170
+Epoch 98/4000
+1082/1082 - 24s - loss: 0.0335 - f1: 0.1388 - val_loss: 0.0314 - val_f1: 0.0956
+Epoch 76/4000
+878/878 - 18s - loss: 0.0677 - f1: 0.3925 - val_loss: 0.0636 - val_f1: 0.2200
+Epoch 99/4000
+1082/1082 - 23s - loss: 0.0334 - f1: 0.1414 - val_loss: 0.0314 - val_f1: 0.0967
+Epoch 77/4000
+878/878 - 18s - loss: 0.0679 - f1: 0.3891 - val_loss: 0.0636 - val_f1: 0.2196
+Epoch 100/4000
+878/878 - 18s - loss: 0.0678 - f1: 0.3903 - val_loss: 0.0635 - val_f1: 0.2221
+Epoch 101/4000
+1082/1082 - 23s - loss: 0.0334 - f1: 0.1412 - val_loss: 0.0314 - val_f1: 0.0929
+Epoch 78/4000
+878/878 - 18s - loss: 0.0676 - f1: 0.3918 - val_loss: 0.0634 - val_f1: 0.2215
+Epoch 102/4000
+1082/1082 - 23s - loss: 0.0334 - f1: 0.1410 - val_loss: 0.0313 - val_f1: 0.0965
+Epoch 79/4000
+878/878 - 18s - loss: 0.0675 - f1: 0.3927 - val_loss: 0.0635 - val_f1: 0.2222
+Epoch 103/4000
+1082/1082 - 23s - loss: 0.0334 - f1: 0.1420 - val_loss: 0.0314 - val_f1: 0.0994
+Epoch 80/4000
+878/878 - 18s - loss: 0.0676 - f1: 0.3896 - val_loss: 0.0634 - val_f1: 0.2190
+Epoch 104/4000
+878/878 - 18s - loss: 0.0674 - f1: 0.3932 - val_loss: 0.0630 - val_f1: 0.2200
+1082/1082 - 23s - loss: 0.0333 - f1: 0.1450 - val_loss: 0.0313 - val_f1: 0.0962
+Epoch 105/4000
+Epoch 81/4000
+878/878 - 18s - loss: 0.0675 - f1: 0.3930 - val_loss: 0.0632 - val_f1: 0.2208
+Epoch 106/4000
+1082/1082 - 23s - loss: 0.0333 - f1: 0.1442 - val_loss: 0.0313 - val_f1: 0.0941
+Epoch 82/4000
+878/878 - 18s - loss: 0.0674 - f1: 0.3928 - val_loss: 0.0632 - val_f1: 0.2206
+Epoch 107/4000
+1082/1082 - 23s - loss: 0.0333 - f1: 0.1441 - val_loss: 0.0313 - val_f1: 0.1007
+Epoch 83/4000
+878/878 - 18s - loss: 0.0673 - f1: 0.3951 - val_loss: 0.0632 - val_f1: 0.2215
+Epoch 108/4000
+1082/1082 - 23s - loss: 0.0332 - f1: 0.1471 - val_loss: 0.0313 - val_f1: 0.0958
+Epoch 84/4000
+878/878 - 18s - loss: 0.0673 - f1: 0.3943 - val_loss: 0.0632 - val_f1: 0.2237
+Epoch 109/4000
+878/878 - 18s - loss: 0.0673 - f1: 0.3948 - val_loss: 0.0631 - val_f1: 0.2233
+Epoch 110/4000
+1082/1082 - 24s - loss: 0.0332 - f1: 0.1483 - val_loss: 0.0313 - val_f1: 0.1003
+Epoch 85/4000
+878/878 - 18s - loss: 0.0671 - f1: 0.3958 - val_loss: 0.0631 - val_f1: 0.2242
+Epoch 111/4000
+1082/1082 - 23s - loss: 0.0332 - f1: 0.1464 - val_loss: 0.0312 - val_f1: 0.1000
+Epoch 86/4000
+878/878 - 18s - loss: 0.0672 - f1: 0.3957 - val_loss: 0.0632 - val_f1: 0.2254
+Epoch 112/4000
+1082/1082 - 23s - loss: 0.0331 - f1: 0.1501 - val_loss: 0.0312 - val_f1: 0.1001
+Epoch 87/4000
+878/878 - 18s - loss: 0.0671 - f1: 0.3968 - val_loss: 0.0631 - val_f1: 0.2210
+Epoch 113/4000
+1082/1082 - 23s - loss: 0.0330 - f1: 0.1533 - val_loss: 0.0312 - val_f1: 0.1019
+Epoch 88/4000
+878/878 - 18s - loss: 0.0670 - f1: 0.3952 - val_loss: 0.0630 - val_f1: 0.2192
+Epoch 114/4000
+878/878 - 18s - loss: 0.0671 - f1: 0.3967 - val_loss: 0.0631 - val_f1: 0.2270
+Epoch 115/4000
+1082/1082 - 23s - loss: 0.0331 - f1: 0.1483 - val_loss: 0.0312 - val_f1: 0.0970
+Epoch 89/4000
+878/878 - 18s - loss: 0.0670 - f1: 0.3953 - val_loss: 0.0630 - val_f1: 0.2229
+Epoch 116/4000
+1082/1082 - 23s - loss: 0.0330 - f1: 0.1533 - val_loss: 0.0312 - val_f1: 0.1037
+Epoch 90/4000
+878/878 - 18s - loss: 0.0668 - f1: 0.3984 - val_loss: 0.0629 - val_f1: 0.2287
+Epoch 117/4000
+1082/1082 - 23s - loss: 0.0330 - f1: 0.1529 - val_loss: 0.0311 - val_f1: 0.1038
+Epoch 91/4000
+878/878 - 18s - loss: 0.0669 - f1: 0.3992 - val_loss: 0.0628 - val_f1: 0.2257
+Epoch 118/4000
+878/878 - 18s - loss: 0.0669 - f1: 0.3980 - val_loss: 0.0629 - val_f1: 0.2255
+Epoch 119/4000
+1082/1082 - 24s - loss: 0.0330 - f1: 0.1538 - val_loss: 0.0312 - val_f1: 0.1066
+Epoch 92/4000
+878/878 - 18s - loss: 0.0668 - f1: 0.4013 - val_loss: 0.0628 - val_f1: 0.2251
+Epoch 120/4000
+1082/1082 - 23s - loss: 0.0329 - f1: 0.1567 - val_loss: 0.0311 - val_f1: 0.1076
+Epoch 93/4000
+878/878 - 18s - loss: 0.0668 - f1: 0.3997 - val_loss: 0.0628 - val_f1: 0.2280
+Epoch 121/4000
+1082/1082 - 23s - loss: 0.0329 - f1: 0.1547 - val_loss: 0.0311 - val_f1: 0.1057
+Epoch 94/4000
+878/878 - 18s - loss: 0.0666 - f1: 0.4011 - val_loss: 0.0629 - val_f1: 0.2233
+Epoch 122/4000
+1082/1082 - 24s - loss: 0.0330 - f1: 0.1517 - val_loss: 0.0311 - val_f1: 0.1064
+Epoch 95/4000
+878/878 - 18s - loss: 0.0666 - f1: 0.4011 - val_loss: 0.0627 - val_f1: 0.2271
+Epoch 123/4000
+878/878 - 18s - loss: 0.0665 - f1: 0.4020 - val_loss: 0.0627 - val_f1: 0.2286
+Epoch 124/4000
+1082/1082 - 23s - loss: 0.0329 - f1: 0.1562 - val_loss: 0.0311 - val_f1: 0.1067
+Epoch 96/4000
+878/878 - 18s - loss: 0.0667 - f1: 0.4015 - val_loss: 0.0627 - val_f1: 0.2261
+Epoch 125/4000
+1082/1082 - 23s - loss: 0.0328 - f1: 0.1580 - val_loss: 0.0311 - val_f1: 0.1026
+Epoch 97/4000
+878/878 - 17s - loss: 0.0665 - f1: 0.4029 - val_loss: 0.0627 - val_f1: 0.2270
+Epoch 126/4000
+1082/1082 - 23s - loss: 0.0328 - f1: 0.1578 - val_loss: 0.0310 - val_f1: 0.1051
+Epoch 98/4000
+878/878 - 18s - loss: 0.0666 - f1: 0.4027 - val_loss: 0.0628 - val_f1: 0.2263
+Epoch 127/4000
+878/878 - 18s - loss: 0.0665 - f1: 0.4017 - val_loss: 0.0628 - val_f1: 0.2245
+Epoch 128/4000
+1082/1082 - 23s - loss: 0.0328 - f1: 0.1573 - val_loss: 0.0310 - val_f1: 0.1020
+Epoch 99/4000
+878/878 - 18s - loss: 0.0663 - f1: 0.4040 - val_loss: 0.0628 - val_f1: 0.2274
+Epoch 129/4000
+1082/1082 - 24s - loss: 0.0328 - f1: 0.1592 - val_loss: 0.0310 - val_f1: 0.1065
+Epoch 100/4000
+878/878 - 18s - loss: 0.0663 - f1: 0.4045 - val_loss: 0.0627 - val_f1: 0.2279
+Epoch 130/4000
+1082/1082 - 24s - loss: 0.0328 - f1: 0.1606 - val_loss: 0.0310 - val_f1: 0.1058
+Epoch 101/4000
+878/878 - 18s - loss: 0.0662 - f1: 0.4068 - val_loss: 0.0626 - val_f1: 0.2227
+Epoch 131/4000
+878/878 - 18s - loss: 0.0663 - f1: 0.4037 - val_loss: 0.0626 - val_f1: 0.2287
+1082/1082 - 23s - loss: 0.0328 - f1: 0.1590 - val_loss: 0.0310 - val_f1: 0.1079
+Epoch 132/4000
+Epoch 102/4000
+878/878 - 18s - loss: 0.0663 - f1: 0.4031 - val_loss: 0.0626 - val_f1: 0.2283
+Epoch 133/4000
+1082/1082 - 23s - loss: 0.0327 - f1: 0.1606 - val_loss: 0.0310 - val_f1: 0.1071
+Epoch 103/4000
+878/878 - 18s - loss: 0.0661 - f1: 0.4047 - val_loss: 0.0626 - val_f1: 0.2285
+Epoch 134/4000
+1082/1082 - 23s - loss: 0.0327 - f1: 0.1605 - val_loss: 0.0310 - val_f1: 0.1074
+Epoch 104/4000
+878/878 - 19s - loss: 0.0661 - f1: 0.4067 - val_loss: 0.0625 - val_f1: 0.2318
+Epoch 135/4000
+1082/1082 - 24s - loss: 0.0327 - f1: 0.1615 - val_loss: 0.0310 - val_f1: 0.1091
+Epoch 105/4000
+878/878 - 18s - loss: 0.0661 - f1: 0.4071 - val_loss: 0.0625 - val_f1: 0.2299
+Epoch 136/4000
+878/878 - 18s - loss: 0.0661 - f1: 0.4076 - val_loss: 0.0625 - val_f1: 0.2311
+Epoch 137/4000
+1082/1082 - 24s - loss: 0.0327 - f1: 0.1625 - val_loss: 0.0309 - val_f1: 0.1055
+Epoch 106/4000
+878/878 - 18s - loss: 0.0660 - f1: 0.4082 - val_loss: 0.0624 - val_f1: 0.2315
+Epoch 138/4000
+1082/1082 - 24s - loss: 0.0326 - f1: 0.1639 - val_loss: 0.0310 - val_f1: 0.1119
+Epoch 107/4000
+878/878 - 18s - loss: 0.0660 - f1: 0.4084 - val_loss: 0.0625 - val_f1: 0.2322
+Epoch 139/4000
+1082/1082 - 23s - loss: 0.0326 - f1: 0.1640 - val_loss: 0.0309 - val_f1: 0.1098
+Epoch 108/4000
+878/878 - 18s - loss: 0.0659 - f1: 0.4092 - val_loss: 0.0625 - val_f1: 0.2305
+Epoch 140/4000
+1082/1082 - 23s - loss: 0.0326 - f1: 0.1637 - val_loss: 0.0309 - val_f1: 0.1105
+Epoch 109/4000
+878/878 - 18s - loss: 0.0660 - f1: 0.4076 - val_loss: 0.0624 - val_f1: 0.2314
+Epoch 141/4000
+878/878 - 19s - loss: 0.0659 - f1: 0.4077 - val_loss: 0.0624 - val_f1: 0.2326
+Epoch 142/4000
+1082/1082 - 23s - loss: 0.0326 - f1: 0.1620 - val_loss: 0.0309 - val_f1: 0.1126
+Epoch 110/4000
+878/878 - 18s - loss: 0.0660 - f1: 0.4059 - val_loss: 0.0624 - val_f1: 0.2305
+Epoch 143/4000
+1082/1082 - 23s - loss: 0.0325 - f1: 0.1656 - val_loss: 0.0309 - val_f1: 0.1127
+Epoch 111/4000
+878/878 - 18s - loss: 0.0658 - f1: 0.4086 - val_loss: 0.0623 - val_f1: 0.2302
+Epoch 144/4000
+1082/1082 - 23s - loss: 0.0325 - f1: 0.1648 - val_loss: 0.0309 - val_f1: 0.1144
+Epoch 112/4000
+878/878 - 18s - loss: 0.0656 - f1: 0.4118 - val_loss: 0.0623 - val_f1: 0.2316
+Epoch 145/4000
+878/878 - 19s - loss: 0.0656 - f1: 0.4145 - val_loss: 0.0622 - val_f1: 0.2340
+Epoch 146/4000
+1082/1082 - 23s - loss: 0.0325 - f1: 0.1643 - val_loss: 0.0309 - val_f1: 0.1082
+Epoch 113/4000
+878/878 - 18s - loss: 0.0656 - f1: 0.4109 - val_loss: 0.0624 - val_f1: 0.2341
+Epoch 147/4000
+1082/1082 - 24s - loss: 0.0325 - f1: 0.1680 - val_loss: 0.0309 - val_f1: 0.1126
+Epoch 114/4000
+878/878 - 19s - loss: 0.0657 - f1: 0.4094 - val_loss: 0.0624 - val_f1: 0.2301
+Epoch 148/4000
+1082/1082 - 23s - loss: 0.0325 - f1: 0.1663 - val_loss: 0.0309 - val_f1: 0.1134
+Epoch 115/4000
+878/878 - 18s - loss: 0.0657 - f1: 0.4098 - val_loss: 0.0622 - val_f1: 0.2329
+Epoch 149/4000
+1082/1082 - 23s - loss: 0.0325 - f1: 0.1680 - val_loss: 0.0308 - val_f1: 0.1125
+Epoch 116/4000
+878/878 - 18s - loss: 0.0656 - f1: 0.4114 - val_loss: 0.0623 - val_f1: 0.2330
+Epoch 150/4000
+878/878 - 18s - loss: 0.0655 - f1: 0.4124 - val_loss: 0.0621 - val_f1: 0.2376
+Epoch 151/4000
+1082/1082 - 23s - loss: 0.0324 - f1: 0.1702 - val_loss: 0.0308 - val_f1: 0.1105
+Epoch 117/4000
+878/878 - 18s - loss: 0.0655 - f1: 0.4124 - val_loss: 0.0622 - val_f1: 0.2351
+Epoch 152/4000
+1082/1082 - 23s - loss: 0.0324 - f1: 0.1720 - val_loss: 0.0308 - val_f1: 0.1113
+Epoch 118/4000
+878/878 - 18s - loss: 0.0656 - f1: 0.4111 - val_loss: 0.0621 - val_f1: 0.2364
+Epoch 153/4000
+1082/1082 - 24s - loss: 0.0324 - f1: 0.1688 - val_loss: 0.0308 - val_f1: 0.1133
+Epoch 119/4000
+878/878 - 18s - loss: 0.0656 - f1: 0.4105 - val_loss: 0.0622 - val_f1: 0.2337
+Epoch 154/4000
+1082/1082 - 23s - loss: 0.0324 - f1: 0.1704 - val_loss: 0.0308 - val_f1: 0.1136
+Epoch 120/4000
+878/878 - 18s - loss: 0.0654 - f1: 0.4125 - val_loss: 0.0623 - val_f1: 0.2344
+Epoch 155/4000
+878/878 - 18s - loss: 0.0655 - f1: 0.4114 - val_loss: 0.0621 - val_f1: 0.2319
+Epoch 156/4000
+1082/1082 - 23s - loss: 0.0324 - f1: 0.1689 - val_loss: 0.0308 - val_f1: 0.1129
+Epoch 121/4000
+878/878 - 18s - loss: 0.0654 - f1: 0.4126 - val_loss: 0.0622 - val_f1: 0.2332
+Epoch 157/4000
+1082/1082 - 23s - loss: 0.0324 - f1: 0.1695 - val_loss: 0.0308 - val_f1: 0.1107
+Epoch 122/4000
+878/878 - 19s - loss: 0.0655 - f1: 0.4113 - val_loss: 0.0622 - val_f1: 0.2354
+Epoch 158/4000
+1082/1082 - 23s - loss: 0.0323 - f1: 0.1747 - val_loss: 0.0307 - val_f1: 0.1173
+Epoch 123/4000
+878/878 - 18s - loss: 0.0653 - f1: 0.4149 - val_loss: 0.0623 - val_f1: 0.2351
+Epoch 159/4000
+878/878 - 18s - loss: 0.0655 - f1: 0.4120 - val_loss: 0.0620 - val_f1: 0.2374
+Epoch 160/4000
+1082/1082 - 23s - loss: 0.0323 - f1: 0.1717 - val_loss: 0.0307 - val_f1: 0.1164
+Epoch 124/4000
+878/878 - 18s - loss: 0.0653 - f1: 0.4144 - val_loss: 0.0620 - val_f1: 0.2370
+Epoch 161/4000
+1082/1082 - 23s - loss: 0.0323 - f1: 0.1724 - val_loss: 0.0308 - val_f1: 0.1159
+Epoch 125/4000
+878/878 - 18s - loss: 0.0652 - f1: 0.4154 - val_loss: 0.0621 - val_f1: 0.2385
+Epoch 162/4000
+1082/1082 - 23s - loss: 0.0323 - f1: 0.1727 - val_loss: 0.0307 - val_f1: 0.1174
+Epoch 126/4000
+878/878 - 18s - loss: 0.0652 - f1: 0.4141 - val_loss: 0.0621 - val_f1: 0.2359
+Epoch 163/4000
+1082/1082 - 23s - loss: 0.0322 - f1: 0.1751 - val_loss: 0.0307 - val_f1: 0.1164
+Epoch 127/4000
+878/878 - 18s - loss: 0.0653 - f1: 0.4135 - val_loss: 0.0620 - val_f1: 0.2373
+Epoch 164/4000
+878/878 - 18s - loss: 0.0652 - f1: 0.4163 - val_loss: 0.0620 - val_f1: 0.2394
+Epoch 165/4000
+1082/1082 - 23s - loss: 0.0323 - f1: 0.1746 - val_loss: 0.0307 - val_f1: 0.1162
+Epoch 128/4000
+878/878 - 18s - loss: 0.0651 - f1: 0.4186 - val_loss: 0.0621 - val_f1: 0.2369
+Epoch 166/4000
+1082/1082 - 24s - loss: 0.0322 - f1: 0.1750 - val_loss: 0.0307 - val_f1: 0.1200
+Epoch 129/4000
+878/878 - 18s - loss: 0.0652 - f1: 0.4150 - val_loss: 0.0621 - val_f1: 0.2380
+Epoch 167/4000
+1082/1082 - 23s - loss: 0.0322 - f1: 0.1767 - val_loss: 0.0307 - val_f1: 0.1139
+Epoch 130/4000
+878/878 - 18s - loss: 0.0651 - f1: 0.4138 - val_loss: 0.0619 - val_f1: 0.2386
+Epoch 168/4000
+1082/1082 - 23s - loss: 0.0322 - f1: 0.1761 - val_loss: 0.0307 - val_f1: 0.1207
+878/878 - 18s - loss: 0.0651 - f1: 0.4169 - val_loss: 0.0620 - val_f1: 0.2378
+Epoch 169/4000
+Epoch 131/4000
+878/878 - 19s - loss: 0.0650 - f1: 0.4176 - val_loss: 0.0619 - val_f1: 0.2396
+Epoch 170/4000
+1082/1082 - 23s - loss: 0.0322 - f1: 0.1766 - val_loss: 0.0307 - val_f1: 0.1214
+Epoch 132/4000
+878/878 - 18s - loss: 0.0651 - f1: 0.4153 - val_loss: 0.0620 - val_f1: 0.2371
+Epoch 171/4000
+1082/1082 - 24s - loss: 0.0321 - f1: 0.1798 - val_loss: 0.0307 - val_f1: 0.1174
+Epoch 133/4000
+878/878 - 18s - loss: 0.0650 - f1: 0.4170 - val_loss: 0.0619 - val_f1: 0.2391
+Epoch 172/4000
+1082/1082 - 24s - loss: 0.0321 - f1: 0.1774 - val_loss: 0.0307 - val_f1: 0.1198
+Epoch 134/4000
+878/878 - 18s - loss: 0.0649 - f1: 0.4190 - val_loss: 0.0619 - val_f1: 0.2410
+Epoch 173/4000
+878/878 - 18s - loss: 0.0649 - f1: 0.4187 - val_loss: 0.0618 - val_f1: 0.2434
+Epoch 174/4000
+1082/1082 - 23s - loss: 0.0321 - f1: 0.1809 - val_loss: 0.0307 - val_f1: 0.1217
+Epoch 135/4000
+878/878 - 18s - loss: 0.0650 - f1: 0.4169 - val_loss: 0.0621 - val_f1: 0.2370
+Epoch 175/4000
+1082/1082 - 23s - loss: 0.0321 - f1: 0.1792 - val_loss: 0.0307 - val_f1: 0.1205
+Epoch 136/4000
+878/878 - 18s - loss: 0.0648 - f1: 0.4189 - val_loss: 0.0618 - val_f1: 0.2408
+Epoch 176/4000
+1082/1082 - 23s - loss: 0.0321 - f1: 0.1793 - val_loss: 0.0306 - val_f1: 0.1206
+Epoch 137/4000
+878/878 - 18s - loss: 0.0650 - f1: 0.4172 - val_loss: 0.0618 - val_f1: 0.2411
+Epoch 177/4000
+1082/1082 - 23s - loss: 0.0321 - f1: 0.1795 - val_loss: 0.0306 - val_f1: 0.1208
+Epoch 138/4000
+878/878 - 18s - loss: 0.0649 - f1: 0.4204 - val_loss: 0.0617 - val_f1: 0.2409
+Epoch 178/4000
+878/878 - 19s - loss: 0.0647 - f1: 0.4209 - val_loss: 0.0619 - val_f1: 0.2403
+Epoch 179/4000
+1082/1082 - 23s - loss: 0.0321 - f1: 0.1786 - val_loss: 0.0306 - val_f1: 0.1228
+Epoch 139/4000
+878/878 - 18s - loss: 0.0648 - f1: 0.4171 - val_loss: 0.0618 - val_f1: 0.2404
+Epoch 180/4000
+1082/1082 - 23s - loss: 0.0321 - f1: 0.1791 - val_loss: 0.0306 - val_f1: 0.1246
+Epoch 140/4000
+878/878 - 18s - loss: 0.0647 - f1: 0.4189 - val_loss: 0.0617 - val_f1: 0.2441
+Epoch 181/4000
+1082/1082 - 24s - loss: 0.0320 - f1: 0.1814 - val_loss: 0.0306 - val_f1: 0.1213
+Epoch 141/4000
+878/878 - 18s - loss: 0.0648 - f1: 0.4203 - val_loss: 0.0617 - val_f1: 0.2431
+Epoch 182/4000
+878/878 - 18s - loss: 0.0646 - f1: 0.4193 - val_loss: 0.0618 - val_f1: 0.2437
+Epoch 183/4000
+1082/1082 - 23s - loss: 0.0320 - f1: 0.1811 - val_loss: 0.0306 - val_f1: 0.1186
+Epoch 142/4000
+878/878 - 18s - loss: 0.0644 - f1: 0.4236 - val_loss: 0.0618 - val_f1: 0.2416
+Epoch 184/4000
+1082/1082 - 23s - loss: 0.0320 - f1: 0.1823 - val_loss: 0.0306 - val_f1: 0.1215
+Epoch 143/4000
+878/878 - 18s - loss: 0.0646 - f1: 0.4205 - val_loss: 0.0619 - val_f1: 0.2415
+Epoch 185/4000
+1082/1082 - 24s - loss: 0.0320 - f1: 0.1816 - val_loss: 0.0306 - val_f1: 0.1235
+Epoch 144/4000
+878/878 - 18s - loss: 0.0645 - f1: 0.4230 - val_loss: 0.0617 - val_f1: 0.2406
+Epoch 186/4000
+1082/1082 - 24s - loss: 0.0320 - f1: 0.1828 - val_loss: 0.0306 - val_f1: 0.1218
+Epoch 145/4000
+878/878 - 18s - loss: 0.0647 - f1: 0.4209 - val_loss: 0.0617 - val_f1: 0.2404
+Epoch 187/4000
+878/878 - 19s - loss: 0.0645 - f1: 0.4212 - val_loss: 0.0618 - val_f1: 0.2429
+Epoch 188/4000
+1082/1082 - 23s - loss: 0.0320 - f1: 0.1827 - val_loss: 0.0306 - val_f1: 0.1217
+Epoch 146/4000
+878/878 - 18s - loss: 0.0644 - f1: 0.4216 - val_loss: 0.0617 - val_f1: 0.2415
+Epoch 189/4000
+1082/1082 - 23s - loss: 0.0320 - f1: 0.1842 - val_loss: 0.0306 - val_f1: 0.1214
+Epoch 147/4000
+878/878 - 18s - loss: 0.0645 - f1: 0.4215 - val_loss: 0.0617 - val_f1: 0.2434
+Epoch 190/4000
+1082/1082 - 23s - loss: 0.0320 - f1: 0.1827 - val_loss: 0.0306 - val_f1: 0.1226
+Epoch 148/4000
+878/878 - 18s - loss: 0.0646 - f1: 0.4211 - val_loss: 0.0617 - val_f1: 0.2416
+Epoch 191/4000
+878/878 - 18s - loss: 0.0646 - f1: 0.4216 - val_loss: 0.0617 - val_f1: 0.2417
+Epoch 192/4000
+1082/1082 - 24s - loss: 0.0319 - f1: 0.1845 - val_loss: 0.0306 - val_f1: 0.1228
+Epoch 149/4000
+878/878 - 19s - loss: 0.0644 - f1: 0.4213 - val_loss: 0.0615 - val_f1: 0.2443
+Epoch 193/4000
+1082/1082 - 23s - loss: 0.0320 - f1: 0.1837 - val_loss: 0.0306 - val_f1: 0.1221
+Epoch 150/4000
+878/878 - 18s - loss: 0.0645 - f1: 0.4188 - val_loss: 0.0618 - val_f1: 0.2415
+Epoch 194/4000
+1082/1082 - 24s - loss: 0.0319 - f1: 0.1846 - val_loss: 0.0306 - val_f1: 0.1208
+Epoch 151/4000
+878/878 - 18s - loss: 0.0643 - f1: 0.4231 - val_loss: 0.0616 - val_f1: 0.2434
+Epoch 195/4000
+1082/1082 - 24s - loss: 0.0319 - f1: 0.1855 - val_loss: 0.0305 - val_f1: 0.1218
+Epoch 152/4000
+878/878 - 18s - loss: 0.0643 - f1: 0.4241 - val_loss: 0.0616 - val_f1: 0.2439
+Epoch 196/4000
+878/878 - 18s - loss: 0.0644 - f1: 0.4216 - val_loss: 0.0617 - val_f1: 0.2419
+Epoch 197/4000
+1082/1082 - 23s - loss: 0.0319 - f1: 0.1861 - val_loss: 0.0306 - val_f1: 0.1213
+Epoch 153/4000
+878/878 - 18s - loss: 0.0643 - f1: 0.4243 - val_loss: 0.0617 - val_f1: 0.2391
+Epoch 198/4000
+1082/1082 - 24s - loss: 0.0319 - f1: 0.1864 - val_loss: 0.0306 - val_f1: 0.1238
+Epoch 154/4000
+878/878 - 18s - loss: 0.0643 - f1: 0.4239 - val_loss: 0.0617 - val_f1: 0.2405
+Epoch 199/4000
+1082/1082 - 23s - loss: 0.0319 - f1: 0.1861 - val_loss: 0.0306 - val_f1: 0.1229
+Epoch 155/4000
+878/878 - 18s - loss: 0.0643 - f1: 0.4242 - val_loss: 0.0616 - val_f1: 0.2440
+Epoch 200/4000
+1082/1082 - 23s - loss: 0.0318 - f1: 0.1878 - val_loss: 0.0305 - val_f1: 0.1230
+Epoch 156/4000
+878/878 - 18s - loss: 0.0642 - f1: 0.4255 - val_loss: 0.0615 - val_f1: 0.2444
+Epoch 201/4000
+878/878 - 18s - loss: 0.0641 - f1: 0.4268 - val_loss: 0.0615 - val_f1: 0.2412
+Epoch 202/4000
+1082/1082 - 23s - loss: 0.0318 - f1: 0.1882 - val_loss: 0.0305 - val_f1: 0.1219
+Epoch 157/4000
+878/878 - 18s - loss: 0.0643 - f1: 0.4238 - val_loss: 0.0615 - val_f1: 0.2418
+Epoch 203/4000
+1082/1082 - 23s - loss: 0.0319 - f1: 0.1863 - val_loss: 0.0305 - val_f1: 0.1275
+Epoch 158/4000
+878/878 - 18s - loss: 0.0642 - f1: 0.4247 - val_loss: 0.0615 - val_f1: 0.2422
+Epoch 204/4000
+1082/1082 - 24s - loss: 0.0319 - f1: 0.1867 - val_loss: 0.0305 - val_f1: 0.1267
+Epoch 159/4000
+878/878 - 19s - loss: 0.0641 - f1: 0.4246 - val_loss: 0.0615 - val_f1: 0.2405
+Epoch 205/4000
+878/878 - 18s - loss: 0.0639 - f1: 0.4289 - val_loss: 0.0615 - val_f1: 0.2455
+Epoch 206/4000
+1082/1082 - 23s - loss: 0.0318 - f1: 0.1876 - val_loss: 0.0305 - val_f1: 0.1246
+Epoch 160/4000
+878/878 - 18s - loss: 0.0642 - f1: 0.4256 - val_loss: 0.0615 - val_f1: 0.2430
+Epoch 207/4000
+1082/1082 - 23s - loss: 0.0318 - f1: 0.1873 - val_loss: 0.0305 - val_f1: 0.1257
+Epoch 161/4000
+878/878 - 18s - loss: 0.0641 - f1: 0.4267 - val_loss: 0.0615 - val_f1: 0.2426
+Epoch 208/4000
+1082/1082 - 24s - loss: 0.0318 - f1: 0.1881 - val_loss: 0.0305 - val_f1: 0.1242
+Epoch 162/4000
+878/878 - 18s - loss: 0.0640 - f1: 0.4270 - val_loss: 0.0615 - val_f1: 0.2402
+Epoch 209/4000
+1082/1082 - 23s - loss: 0.0318 - f1: 0.1893 - val_loss: 0.0305 - val_f1: 0.1236
+Epoch 163/4000
+878/878 - 18s - loss: 0.0641 - f1: 0.4254 - val_loss: 0.0615 - val_f1: 0.2423
+Epoch 210/4000
+878/878 - 18s - loss: 0.0639 - f1: 0.4267 - val_loss: 0.0615 - val_f1: 0.2448
+Epoch 211/4000
+1082/1082 - 23s - loss: 0.0318 - f1: 0.1899 - val_loss: 0.0305 - val_f1: 0.1239
+Epoch 164/4000
+878/878 - 18s - loss: 0.0641 - f1: 0.4259 - val_loss: 0.0615 - val_f1: 0.2441
+Epoch 212/4000
+1082/1082 - 23s - loss: 0.0317 - f1: 0.1926 - val_loss: 0.0305 - val_f1: 0.1249
+Epoch 165/4000
+878/878 - 18s - loss: 0.0641 - f1: 0.4258 - val_loss: 0.0615 - val_f1: 0.2433
+Epoch 213/4000
+1082/1082 - 23s - loss: 0.0318 - f1: 0.1874 - val_loss: 0.0305 - val_f1: 0.1281
+Epoch 166/4000
+878/878 - 18s - loss: 0.0639 - f1: 0.4303 - val_loss: 0.0614 - val_f1: 0.2459
+Epoch 214/4000
+1082/1082 - 23s - loss: 0.0317 - f1: 0.1913 - val_loss: 0.0305 - val_f1: 0.1292
+878/878 - 18s - loss: 0.0641 - f1: 0.4237 - val_loss: 0.0615 - val_f1: 0.2466
+Epoch 167/4000
+Epoch 215/4000
+878/878 - 18s - loss: 0.0640 - f1: 0.4284 - val_loss: 0.0614 - val_f1: 0.2442
+Epoch 216/4000
+1082/1082 - 24s - loss: 0.0317 - f1: 0.1905 - val_loss: 0.0305 - val_f1: 0.1268
+Epoch 168/4000
+878/878 - 18s - loss: 0.0640 - f1: 0.4261 - val_loss: 0.0614 - val_f1: 0.2477
+Epoch 217/4000
+1082/1082 - 23s - loss: 0.0318 - f1: 0.1892 - val_loss: 0.0305 - val_f1: 0.1276
+Epoch 169/4000
+878/878 - 19s - loss: 0.0638 - f1: 0.4283 - val_loss: 0.0615 - val_f1: 0.2437
+Epoch 218/4000
+1082/1082 - 24s - loss: 0.0317 - f1: 0.1905 - val_loss: 0.0304 - val_f1: 0.1274
+Epoch 170/4000
+878/878 - 18s - loss: 0.0639 - f1: 0.4285 - val_loss: 0.0614 - val_f1: 0.2453
+Epoch 219/4000
+878/878 - 18s - loss: 0.0639 - f1: 0.4278 - val_loss: 0.0615 - val_f1: 0.2485
+Epoch 220/4000
+1082/1082 - 24s - loss: 0.0317 - f1: 0.1924 - val_loss: 0.0304 - val_f1: 0.1289
+Epoch 171/4000
+878/878 - 18s - loss: 0.0640 - f1: 0.4276 - val_loss: 0.0615 - val_f1: 0.2430
+Epoch 221/4000
+1082/1082 - 23s - loss: 0.0317 - f1: 0.1920 - val_loss: 0.0305 - val_f1: 0.1257
+Epoch 172/4000
+878/878 - 18s - loss: 0.0639 - f1: 0.4295 - val_loss: 0.0614 - val_f1: 0.2468
+Epoch 222/4000
+1082/1082 - 24s - loss: 0.0317 - f1: 0.1914 - val_loss: 0.0304 - val_f1: 0.1304
+Epoch 173/4000
+878/878 - 18s - loss: 0.0639 - f1: 0.4284 - val_loss: 0.0614 - val_f1: 0.2441
+Epoch 223/4000
+1082/1082 - 24s - loss: 0.0317 - f1: 0.1914 - val_loss: 0.0305 - val_f1: 0.1268
+Epoch 174/4000
+878/878 - 19s - loss: 0.0639 - f1: 0.4284 - val_loss: 0.0614 - val_f1: 0.2455
+Epoch 224/4000
+878/878 - 18s - loss: 0.0638 - f1: 0.4276 - val_loss: 0.0613 - val_f1: 0.2468
+Epoch 225/4000
+1082/1082 - 23s - loss: 0.0317 - f1: 0.1899 - val_loss: 0.0304 - val_f1: 0.1264
+Epoch 175/4000
+878/878 - 18s - loss: 0.0638 - f1: 0.4285 - val_loss: 0.0613 - val_f1: 0.2461
+Epoch 226/4000
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1928 - val_loss: 0.0304 - val_f1: 0.1247
+Epoch 176/4000
+878/878 - 18s - loss: 0.0636 - f1: 0.4311 - val_loss: 0.0613 - val_f1: 0.2452
+Epoch 227/4000
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1923 - val_loss: 0.0304 - val_f1: 0.1255
+Epoch 177/4000
+878/878 - 19s - loss: 0.0637 - f1: 0.4298 - val_loss: 0.0615 - val_f1: 0.2416
+Epoch 228/4000
+878/878 - 18s - loss: 0.0638 - f1: 0.4292 - val_loss: 0.0614 - val_f1: 0.2451
+Epoch 229/4000
+1082/1082 - 24s - loss: 0.0317 - f1: 0.1908 - val_loss: 0.0304 - val_f1: 0.1261
+Epoch 178/4000
+878/878 - 18s - loss: 0.0639 - f1: 0.4290 - val_loss: 0.0614 - val_f1: 0.2434
+Epoch 230/4000
+1082/1082 - 24s - loss: 0.0316 - f1: 0.1929 - val_loss: 0.0304 - val_f1: 0.1283
+Epoch 179/4000
+878/878 - 18s - loss: 0.0637 - f1: 0.4296 - val_loss: 0.0613 - val_f1: 0.2433
+Epoch 231/4000
+1082/1082 - 24s - loss: 0.0317 - f1: 0.1917 - val_loss: 0.0304 - val_f1: 0.1275
+Epoch 180/4000
+878/878 - 18s - loss: 0.0636 - f1: 0.4327 - val_loss: 0.0613 - val_f1: 0.2469
+Epoch 232/4000
+878/878 - 19s - loss: 0.0637 - f1: 0.4295 - val_loss: 0.0614 - val_f1: 0.2450
+Epoch 233/4000
+1082/1082 - 24s - loss: 0.0316 - f1: 0.1947 - val_loss: 0.0304 - val_f1: 0.1286
+Epoch 181/4000
+878/878 - 18s - loss: 0.0637 - f1: 0.4288 - val_loss: 0.0614 - val_f1: 0.2428
+Epoch 234/4000
+1082/1082 - 24s - loss: 0.0316 - f1: 0.1960 - val_loss: 0.0304 - val_f1: 0.1256
+Epoch 182/4000
+878/878 - 18s - loss: 0.0638 - f1: 0.4283 - val_loss: 0.0614 - val_f1: 0.2433
+Epoch 235/4000
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1943 - val_loss: 0.0304 - val_f1: 0.1283
+Epoch 183/4000
+878/878 - 18s - loss: 0.0638 - f1: 0.4275 - val_loss: 0.0613 - val_f1: 0.2435
+Epoch 236/4000
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1950 - val_loss: 0.0304 - val_f1: 0.1310
+Epoch 184/4000
+878/878 - 18s - loss: 0.0637 - f1: 0.4304 - val_loss: 0.0612 - val_f1: 0.2464
+Epoch 237/4000
+878/878 - 18s - loss: 0.0635 - f1: 0.4319 - val_loss: 0.0612 - val_f1: 0.2454
+Epoch 238/4000
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1938 - val_loss: 0.0304 - val_f1: 0.1296
+Epoch 185/4000
+878/878 - 18s - loss: 0.0636 - f1: 0.4316 - val_loss: 0.0612 - val_f1: 0.2459
+Epoch 239/4000
+1082/1082 - 23s - loss: 0.0315 - f1: 0.1956 - val_loss: 0.0304 - val_f1: 0.1286
+Epoch 186/4000
+878/878 - 18s - loss: 0.0635 - f1: 0.4309 - val_loss: 0.0612 - val_f1: 0.2467
+Epoch 00239: early stopping
+[92m[INFO] Loading best model...[0m
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1962 - val_loss: 0.0303 - val_f1: 0.1307
+Epoch 187/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1972 - val_loss: 0.0304 - val_f1: 0.1292
+Epoch 188/4000
+1082/1082 - 23s - loss: 0.0316 - f1: 0.1934 - val_loss: 0.0304 - val_f1: 0.1276
+Epoch 189/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1963 - val_loss: 0.0304 - val_f1: 0.1273
+Epoch 190/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1984 - val_loss: 0.0304 - val_f1: 0.1277
+Epoch 191/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1969 - val_loss: 0.0304 - val_f1: 0.1324
+Epoch 192/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1982 - val_loss: 0.0304 - val_f1: 0.1296
+Epoch 193/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1975 - val_loss: 0.0303 - val_f1: 0.1310
+Epoch 194/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1967 - val_loss: 0.0304 - val_f1: 0.1313
+Epoch 195/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1954 - val_loss: 0.0304 - val_f1: 0.1309
+Epoch 196/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1978 - val_loss: 0.0304 - val_f1: 0.1319
+Epoch 197/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.1999 - val_loss: 0.0303 - val_f1: 0.1292
+Epoch 198/4000
+1082/1082 - 23s - loss: 0.0314 - f1: 0.1998 - val_loss: 0.0303 - val_f1: 0.1334
+Epoch 199/4000
+1082/1082 - 23s - loss: 0.0315 - f1: 0.1987 - val_loss: 0.0303 - val_f1: 0.1312
+Epoch 200/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.2009 - val_loss: 0.0303 - val_f1: 0.1317
+Epoch 201/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.1998 - val_loss: 0.0303 - val_f1: 0.1316
+Epoch 202/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.1998 - val_loss: 0.0303 - val_f1: 0.1324
+Epoch 203/4000
+1082/1082 - 23s - loss: 0.0314 - f1: 0.2007 - val_loss: 0.0303 - val_f1: 0.1323
+Epoch 204/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.1987 - val_loss: 0.0303 - val_f1: 0.1328
+Epoch 205/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.1997 - val_loss: 0.0303 - val_f1: 0.1328
+Epoch 206/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.1997 - val_loss: 0.0303 - val_f1: 0.1314
+Epoch 207/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.2004 - val_loss: 0.0303 - val_f1: 0.1351
+Epoch 208/4000
+1082/1082 - 24s - loss: 0.0315 - f1: 0.1967 - val_loss: 0.0303 - val_f1: 0.1338
+Epoch 209/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.2023 - val_loss: 0.0303 - val_f1: 0.1325
+Epoch 210/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.2013 - val_loss: 0.0303 - val_f1: 0.1338
+Epoch 211/4000
+1082/1082 - 24s - loss: 0.0314 - f1: 0.2012 - val_loss: 0.0303 - val_f1: 0.1341
+Epoch 212/4000
+1082/1082 - 24s - loss: 0.0313 - f1: 0.2029 - val_loss: 0.0303 - val_f1: 0.1338
+Epoch 213/4000
+1082/1082 - 24s - loss: 0.0313 - f1: 0.2038 - val_loss: 0.0303 - val_f1: 0.1323
+Epoch 214/4000
+1082/1082 - 23s - loss: 0.0314 - f1: 0.2020 - val_loss: 0.0303 - val_f1: 0.1340
+Epoch 215/4000
+1082/1082 - 25s - loss: 0.0313 - f1: 0.2020 - val_loss: 0.0303 - val_f1: 0.1373
+Epoch 216/4000
+1082/1082 - 24s - loss: 0.0313 - f1: 0.2042 - val_loss: 0.0303 - val_f1: 0.1333
+Epoch 217/4000
+1082/1082 - 24s - loss: 0.0313 - f1: 0.2007 - val_loss: 0.0303 - val_f1: 0.1336
+Epoch 218/4000
+1082/1082 - 23s - loss: 0.0313 - f1: 0.2052 - val_loss: 0.0303 - val_f1: 0.1333
+Epoch 219/4000
+1082/1082 - 24s - loss: 0.0313 - f1: 0.2048 - val_loss: 0.0303 - val_f1: 0.1351
+Epoch 220/4000
+1082/1082 - 23s - loss: 0.0313 - f1: 0.2014 - val_loss: 0.0303 - val_f1: 0.1326
+Epoch 221/4000
+1082/1082 - 25s - loss: 0.0313 - f1: 0.2067 - val_loss: 0.0303 - val_f1: 0.1359
+Epoch 222/4000
+1082/1082 - 24s - loss: 0.0313 - f1: 0.2030 - val_loss: 0.0302 - val_f1: 0.1385
+Epoch 223/4000
+1082/1082 - 23s - loss: 0.0313 - f1: 0.2033 - val_loss: 0.0303 - val_f1: 0.1348
+Epoch 224/4000
+1082/1082 - 23s - loss: 0.0313 - f1: 0.2050 - val_loss: 0.0303 - val_f1: 0.1364
+Epoch 225/4000
+1082/1082 - 23s - loss: 0.0312 - f1: 0.2068 - val_loss: 0.0302 - val_f1: 0.1349
+Epoch 226/4000
+1082/1082 - 25s - loss: 0.0313 - f1: 0.2050 - val_loss: 0.0303 - val_f1: 0.1351
+Epoch 227/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2048 - val_loss: 0.0303 - val_f1: 0.1367
+Epoch 228/4000
+1082/1082 - 23s - loss: 0.0313 - f1: 0.2065 - val_loss: 0.0302 - val_f1: 0.1360
+Epoch 229/4000
+1082/1082 - 24s - loss: 0.0313 - f1: 0.2053 - val_loss: 0.0303 - val_f1: 0.1331
+Epoch 230/4000
+1082/1082 - 23s - loss: 0.0312 - f1: 0.2078 - val_loss: 0.0303 - val_f1: 0.1355
+Epoch 231/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2063 - val_loss: 0.0303 - val_f1: 0.1361
+Epoch 232/4000
+1082/1082 - 23s - loss: 0.0312 - f1: 0.2061 - val_loss: 0.0303 - val_f1: 0.1363
+Epoch 233/4000
+1082/1082 - 23s - loss: 0.0312 - f1: 0.2062 - val_loss: 0.0302 - val_f1: 0.1391
+Epoch 234/4000
+1082/1082 - 24s - loss: 0.0313 - f1: 0.2045 - val_loss: 0.0303 - val_f1: 0.1346
+Epoch 235/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2068 - val_loss: 0.0302 - val_f1: 0.1383
+Epoch 236/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2052 - val_loss: 0.0302 - val_f1: 0.1359
+Epoch 237/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2082 - val_loss: 0.0302 - val_f1: 0.1356
+Epoch 238/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2071 - val_loss: 0.0302 - val_f1: 0.1385
+Epoch 239/4000
+1082/1082 - 23s - loss: 0.0312 - f1: 0.2071 - val_loss: 0.0302 - val_f1: 0.1382
+Epoch 240/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2091 - val_loss: 0.0302 - val_f1: 0.1381
+Epoch 241/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2082 - val_loss: 0.0302 - val_f1: 0.1358
+Epoch 242/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2071 - val_loss: 0.0302 - val_f1: 0.1397
+Epoch 243/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2091 - val_loss: 0.0302 - val_f1: 0.1380
+Epoch 244/4000
+1082/1082 - 23s - loss: 0.0312 - f1: 0.2072 - val_loss: 0.0302 - val_f1: 0.1381
+Epoch 245/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2078 - val_loss: 0.0302 - val_f1: 0.1386
+Epoch 246/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2071 - val_loss: 0.0302 - val_f1: 0.1388
+Epoch 247/4000
+1082/1082 - 24s - loss: 0.0312 - f1: 0.2085 - val_loss: 0.0302 - val_f1: 0.1394
+Epoch 248/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2085 - val_loss: 0.0302 - val_f1: 0.1374
+Epoch 249/4000
+1082/1082 - 23s - loss: 0.0312 - f1: 0.2088 - val_loss: 0.0302 - val_f1: 0.1369
+Epoch 250/4000
+1082/1082 - 23s - loss: 0.0312 - f1: 0.2074 - val_loss: 0.0302 - val_f1: 0.1393
+Epoch 251/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2097 - val_loss: 0.0302 - val_f1: 0.1391
+Epoch 252/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2095 - val_loss: 0.0302 - val_f1: 0.1396
+Epoch 253/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2121 - val_loss: 0.0302 - val_f1: 0.1385
+Epoch 254/4000
+1082/1082 - 25s - loss: 0.0312 - f1: 0.2075 - val_loss: 0.0302 - val_f1: 0.1397
+Epoch 255/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2090 - val_loss: 0.0302 - val_f1: 0.1399
+Epoch 256/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2093 - val_loss: 0.0302 - val_f1: 0.1412
+Epoch 257/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2110 - val_loss: 0.0302 - val_f1: 0.1359
+Epoch 258/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2095 - val_loss: 0.0302 - val_f1: 0.1401
+Epoch 259/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2130 - val_loss: 0.0302 - val_f1: 0.1378
+Epoch 260/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2105 - val_loss: 0.0302 - val_f1: 0.1405
+Epoch 261/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2102 - val_loss: 0.0302 - val_f1: 0.1373
+Epoch 262/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2113 - val_loss: 0.0302 - val_f1: 0.1392
+Epoch 263/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2109 - val_loss: 0.0302 - val_f1: 0.1380
+Epoch 264/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2116 - val_loss: 0.0302 - val_f1: 0.1420
+Epoch 265/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2104 - val_loss: 0.0302 - val_f1: 0.1365
+Epoch 266/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2106 - val_loss: 0.0302 - val_f1: 0.1400
+Epoch 267/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2098 - val_loss: 0.0302 - val_f1: 0.1370
+Epoch 268/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2109 - val_loss: 0.0302 - val_f1: 0.1405
+Epoch 269/4000
+1082/1082 - 24s - loss: 0.0311 - f1: 0.2098 - val_loss: 0.0302 - val_f1: 0.1372
+Epoch 270/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2112 - val_loss: 0.0302 - val_f1: 0.1371
+Epoch 271/4000
+1082/1082 - 23s - loss: 0.0311 - f1: 0.2113 - val_loss: 0.0302 - val_f1: 0.1428
+Epoch 272/4000
+1082/1082 - 23s - loss: 0.0310 - f1: 0.2135 - val_loss: 0.0302 - val_f1: 0.1414
+Epoch 273/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2119 - val_loss: 0.0302 - val_f1: 0.1439
+Epoch 274/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2149 - val_loss: 0.0302 - val_f1: 0.1404
+Epoch 275/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2133 - val_loss: 0.0302 - val_f1: 0.1406
+Epoch 276/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2145 - val_loss: 0.0302 - val_f1: 0.1404
+Epoch 277/4000
+1082/1082 - 22s - loss: 0.0310 - f1: 0.2145 - val_loss: 0.0302 - val_f1: 0.1422
+Epoch 278/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2137 - val_loss: 0.0302 - val_f1: 0.1409
+Epoch 279/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2129 - val_loss: 0.0302 - val_f1: 0.1408
+Epoch 280/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2140 - val_loss: 0.0302 - val_f1: 0.1425
+Epoch 281/4000
+1082/1082 - 23s - loss: 0.0310 - f1: 0.2145 - val_loss: 0.0302 - val_f1: 0.1404
+Epoch 282/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2138 - val_loss: 0.0302 - val_f1: 0.1426
+Epoch 283/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2135 - val_loss: 0.0302 - val_f1: 0.1421
+Epoch 284/4000
+1082/1082 - 23s - loss: 0.0310 - f1: 0.2158 - val_loss: 0.0301 - val_f1: 0.1424
+Epoch 285/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2153 - val_loss: 0.0302 - val_f1: 0.1435
+Epoch 286/4000
+1082/1082 - 25s - loss: 0.0309 - f1: 0.2171 - val_loss: 0.0302 - val_f1: 0.1421
+Epoch 287/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2147 - val_loss: 0.0302 - val_f1: 0.1429
+Epoch 288/4000
+1082/1082 - 23s - loss: 0.0310 - f1: 0.2147 - val_loss: 0.0301 - val_f1: 0.1409
+Epoch 289/4000
+1082/1082 - 23s - loss: 0.0309 - f1: 0.2172 - val_loss: 0.0301 - val_f1: 0.1442
+Epoch 290/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2144 - val_loss: 0.0301 - val_f1: 0.1406
+Epoch 291/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2130 - val_loss: 0.0301 - val_f1: 0.1448
+Epoch 292/4000
+1082/1082 - 22s - loss: 0.0309 - f1: 0.2163 - val_loss: 0.0301 - val_f1: 0.1428
+Epoch 293/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2156 - val_loss: 0.0301 - val_f1: 0.1438
+Epoch 294/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2141 - val_loss: 0.0302 - val_f1: 0.1430
+Epoch 295/4000
+1082/1082 - 24s - loss: 0.0310 - f1: 0.2153 - val_loss: 0.0301 - val_f1: 0.1448
+Epoch 296/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2154 - val_loss: 0.0301 - val_f1: 0.1439
+Epoch 297/4000
+1082/1082 - 23s - loss: 0.0310 - f1: 0.2152 - val_loss: 0.0302 - val_f1: 0.1429
+Epoch 298/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2191 - val_loss: 0.0302 - val_f1: 0.1429
+Epoch 299/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2144 - val_loss: 0.0301 - val_f1: 0.1442
+Epoch 300/4000
+1082/1082 - 25s - loss: 0.0309 - f1: 0.2155 - val_loss: 0.0301 - val_f1: 0.1445
+Epoch 301/4000
+1082/1082 - 25s - loss: 0.0309 - f1: 0.2151 - val_loss: 0.0301 - val_f1: 0.1432
+Epoch 302/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2167 - val_loss: 0.0301 - val_f1: 0.1436
+Epoch 303/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2152 - val_loss: 0.0301 - val_f1: 0.1430
+Epoch 304/4000
+1082/1082 - 23s - loss: 0.0309 - f1: 0.2168 - val_loss: 0.0301 - val_f1: 0.1431
+Epoch 305/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2169 - val_loss: 0.0301 - val_f1: 0.1462
+Epoch 306/4000
+1082/1082 - 25s - loss: 0.0309 - f1: 0.2173 - val_loss: 0.0301 - val_f1: 0.1444
+Epoch 307/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2163 - val_loss: 0.0301 - val_f1: 0.1442
+Epoch 308/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2187 - val_loss: 0.0301 - val_f1: 0.1458
+Epoch 309/4000
+1082/1082 - 25s - loss: 0.0309 - f1: 0.2164 - val_loss: 0.0301 - val_f1: 0.1466
+Epoch 310/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2189 - val_loss: 0.0301 - val_f1: 0.1429
+Epoch 311/4000
+1082/1082 - 23s - loss: 0.0309 - f1: 0.2175 - val_loss: 0.0301 - val_f1: 0.1415
+Epoch 312/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2191 - val_loss: 0.0301 - val_f1: 0.1427
+Epoch 313/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2162 - val_loss: 0.0301 - val_f1: 0.1443
+Epoch 314/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2191 - val_loss: 0.0301 - val_f1: 0.1429
+Epoch 315/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2176 - val_loss: 0.0301 - val_f1: 0.1445
+Epoch 316/4000
+1082/1082 - 23s - loss: 0.0309 - f1: 0.2168 - val_loss: 0.0301 - val_f1: 0.1459
+Epoch 317/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2212 - val_loss: 0.0301 - val_f1: 0.1442
+Epoch 318/4000
+1082/1082 - 23s - loss: 0.0309 - f1: 0.2176 - val_loss: 0.0301 - val_f1: 0.1431
+Epoch 319/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2202 - val_loss: 0.0301 - val_f1: 0.1476
+Epoch 320/4000
+1082/1082 - 23s - loss: 0.0309 - f1: 0.2188 - val_loss: 0.0301 - val_f1: 0.1461
+Epoch 321/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2195 - val_loss: 0.0301 - val_f1: 0.1447
+Epoch 322/4000
+1082/1082 - 26s - loss: 0.0308 - f1: 0.2206 - val_loss: 0.0301 - val_f1: 0.1441
+Epoch 323/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2187 - val_loss: 0.0301 - val_f1: 0.1467
+Epoch 324/4000
+1082/1082 - 24s - loss: 0.0309 - f1: 0.2179 - val_loss: 0.0301 - val_f1: 0.1450
+Epoch 325/4000
+1082/1082 - 23s - loss: 0.0309 - f1: 0.2184 - val_loss: 0.0301 - val_f1: 0.1435
+Epoch 326/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2208 - val_loss: 0.0301 - val_f1: 0.1466
+Epoch 327/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2213 - val_loss: 0.0301 - val_f1: 0.1460
+Epoch 328/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2208 - val_loss: 0.0301 - val_f1: 0.1449
+Epoch 329/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2206 - val_loss: 0.0301 - val_f1: 0.1462
+Epoch 330/4000
+1082/1082 - 25s - loss: 0.0308 - f1: 0.2183 - val_loss: 0.0301 - val_f1: 0.1474
+Epoch 331/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2213 - val_loss: 0.0301 - val_f1: 0.1471
+Epoch 332/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2209 - val_loss: 0.0301 - val_f1: 0.1453
+Epoch 333/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2197 - val_loss: 0.0301 - val_f1: 0.1469
+Epoch 334/4000
+1082/1082 - 22s - loss: 0.0308 - f1: 0.2199 - val_loss: 0.0301 - val_f1: 0.1434
+Epoch 335/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2230 - val_loss: 0.0300 - val_f1: 0.1462
+Epoch 336/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2203 - val_loss: 0.0301 - val_f1: 0.1471
+Epoch 337/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2224 - val_loss: 0.0301 - val_f1: 0.1454
+Epoch 338/4000
+1082/1082 - 25s - loss: 0.0308 - f1: 0.2206 - val_loss: 0.0300 - val_f1: 0.1486
+Epoch 339/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2218 - val_loss: 0.0300 - val_f1: 0.1452
+Epoch 340/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2219 - val_loss: 0.0300 - val_f1: 0.1465
+Epoch 341/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2227 - val_loss: 0.0301 - val_f1: 0.1464
+Epoch 342/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2214 - val_loss: 0.0300 - val_f1: 0.1480
+Epoch 343/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2198 - val_loss: 0.0300 - val_f1: 0.1475
+Epoch 344/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2209 - val_loss: 0.0300 - val_f1: 0.1462
+Epoch 345/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2212 - val_loss: 0.0300 - val_f1: 0.1457
+Epoch 346/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2218 - val_loss: 0.0300 - val_f1: 0.1500
+Epoch 347/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2216 - val_loss: 0.0300 - val_f1: 0.1457
+Epoch 348/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2225 - val_loss: 0.0301 - val_f1: 0.1448
+Epoch 349/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2220 - val_loss: 0.0300 - val_f1: 0.1462
+Epoch 350/4000
+1082/1082 - 25s - loss: 0.0308 - f1: 0.2216 - val_loss: 0.0301 - val_f1: 0.1458
+Epoch 351/4000
+1082/1082 - 23s - loss: 0.0308 - f1: 0.2197 - val_loss: 0.0301 - val_f1: 0.1462
+Epoch 352/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2254 - val_loss: 0.0300 - val_f1: 0.1474
+Epoch 353/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2219 - val_loss: 0.0300 - val_f1: 0.1473
+Epoch 354/4000
+1082/1082 - 25s - loss: 0.0307 - f1: 0.2233 - val_loss: 0.0300 - val_f1: 0.1475
+Epoch 355/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2236 - val_loss: 0.0301 - val_f1: 0.1458
+Epoch 356/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2220 - val_loss: 0.0300 - val_f1: 0.1445
+Epoch 357/4000
+1082/1082 - 24s - loss: 0.0308 - f1: 0.2211 - val_loss: 0.0300 - val_f1: 0.1496
+Epoch 358/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2234 - val_loss: 0.0300 - val_f1: 0.1458
+Epoch 359/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2217 - val_loss: 0.0300 - val_f1: 0.1478
+Epoch 360/4000
+1082/1082 - 25s - loss: 0.0308 - f1: 0.2208 - val_loss: 0.0300 - val_f1: 0.1487
+Epoch 361/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2224 - val_loss: 0.0300 - val_f1: 0.1491
+Epoch 362/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2248 - val_loss: 0.0300 - val_f1: 0.1501
+Epoch 363/4000
+1082/1082 - 25s - loss: 0.0307 - f1: 0.2241 - val_loss: 0.0300 - val_f1: 0.1497
+Epoch 364/4000
+1082/1082 - 25s - loss: 0.0307 - f1: 0.2239 - val_loss: 0.0300 - val_f1: 0.1464
+Epoch 365/4000
+1082/1082 - 25s - loss: 0.0307 - f1: 0.2245 - val_loss: 0.0300 - val_f1: 0.1519
+Epoch 366/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2241 - val_loss: 0.0300 - val_f1: 0.1478
+Epoch 367/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2243 - val_loss: 0.0300 - val_f1: 0.1467
+Epoch 368/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2249 - val_loss: 0.0300 - val_f1: 0.1474
+Epoch 369/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2256 - val_loss: 0.0300 - val_f1: 0.1468
+Epoch 370/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2231 - val_loss: 0.0301 - val_f1: 0.1450
+Epoch 371/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2226 - val_loss: 0.0300 - val_f1: 0.1480
+Epoch 372/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2237 - val_loss: 0.0300 - val_f1: 0.1480
+Epoch 373/4000
+1082/1082 - 24s - loss: 0.0306 - f1: 0.2265 - val_loss: 0.0300 - val_f1: 0.1471
+Epoch 374/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2218 - val_loss: 0.0300 - val_f1: 0.1473
+Epoch 375/4000
+1082/1082 - 25s - loss: 0.0307 - f1: 0.2221 - val_loss: 0.0300 - val_f1: 0.1465
+Epoch 376/4000
+1082/1082 - 25s - loss: 0.0307 - f1: 0.2259 - val_loss: 0.0300 - val_f1: 0.1477
+Epoch 377/4000
+1082/1082 - 25s - loss: 0.0307 - f1: 0.2240 - val_loss: 0.0300 - val_f1: 0.1466
+Epoch 378/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2239 - val_loss: 0.0300 - val_f1: 0.1489
+Epoch 379/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2266 - val_loss: 0.0300 - val_f1: 0.1476
+Epoch 380/4000
+1082/1082 - 23s - loss: 0.0307 - f1: 0.2238 - val_loss: 0.0300 - val_f1: 0.1467
+Epoch 381/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2251 - val_loss: 0.0300 - val_f1: 0.1496
+Epoch 382/4000
+1082/1082 - 23s - loss: 0.0306 - f1: 0.2266 - val_loss: 0.0300 - val_f1: 0.1484
+Epoch 383/4000
+1082/1082 - 25s - loss: 0.0306 - f1: 0.2244 - val_loss: 0.0300 - val_f1: 0.1489
+Epoch 384/4000
+1082/1082 - 24s - loss: 0.0306 - f1: 0.2263 - val_loss: 0.0300 - val_f1: 0.1494
+Epoch 385/4000
+1082/1082 - 24s - loss: 0.0307 - f1: 0.2255 - val_loss: 0.0301 - val_f1: 0.1449
+Epoch 00385: early stopping
+[92m[INFO] Loading best model...[0m
+newyorkcity
+   -[17236] newyorkcity
+2021-11-12 13:57:30.206906: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+london
+   -[17258] london
+2021-11-12 13:57:31.269000: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 13:57:55.347245: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 13:57:55.348526: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-12 13:57:55.384575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 13:57:55.384629: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 13:57:55.388449: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 13:57:55.388585: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 13:57:55.390069: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 13:57:55.390521: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 13:57:55.392888: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 13:57:55.393452: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 13:57:55.393647: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 13:57:55.395286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 13:57:55.414459: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-12 13:57:55.415765: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 13:57:55.417496: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 13:57:55.417557: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 13:57:55.417607: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 13:57:55.417631: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 13:57:55.417655: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 13:57:55.417687: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 13:57:55.417711: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 13:57:55.417734: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 13:57:55.417759: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 13:57:55.432066: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 13:57:55.432145: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 13:57:55.932588: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-12 13:57:55.932621: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-12 13:57:55.932626: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-12 13:57:55.935695: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11217 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+Sequence data:   0%|          | 0/6675 [00:00<?, ?it/s]Sequence data:   1%|          | 39/6675 [00:00<00:17, 389.66it/s]Sequence data:   1%|▏         | 86/6675 [00:00<00:15, 434.47it/s]Sequence data:   2%|▏         | 130/6675 [00:00<00:15, 428.02it/s]Sequence data:   3%|▎         | 177/6675 [00:00<00:14, 441.40it/s]Sequence data:   3%|▎         | 225/6675 [00:00<00:14, 453.86it/s]Sequence data:   4%|▍         | 271/6675 [00:00<00:14, 443.58it/s]Sequence data:   5%|▍         | 316/6675 [00:00<00:14, 437.57it/s]Sequence data:   5%|▌         | 360/6675 [00:02<01:11, 88.41it/s] Sequence data:   6%|▌         | 408/6675 [00:02<00:52, 120.19it/s]Sequence data:   7%|▋         | 457/6675 [00:02<00:39, 158.74it/s]Sequence data:   8%|▊         | 507/6675 [00:02<00:30, 202.79it/s]Sequence data:   8%|▊         | 552/6675 [00:02<00:25, 241.40it/s]Sequence data:   9%|▉         | 596/6675 [00:02<00:22, 276.02it/s]Sequence data:  10%|▉         | 640/6675 [00:02<00:19, 306.21it/s]Sequence data:  10%|█         | 683/6675 [00:02<00:17, 333.10it/s]Sequence data:  11%|█         | 727/6675 [00:02<00:16, 357.22it/s]Sequence data:  12%|█▏        | 773/6675 [00:03<00:15, 382.17it/s]Sequence data:  12%|█▏        | 820/6675 [00:03<00:14, 405.45it/s]Sequence data:  13%|█▎        | 869/6675 [00:03<00:13, 428.50it/s]Sequence data:  14%|█▍        | 919/6675 [00:03<00:12, 447.17it/s]Sequence data:  15%|█▍        | 969/6675 [00:03<00:12, 460.15it/s]Sequence data:  15%|█▌        | 1017/6675 [00:03<00:12, 465.39it/s]Sequence data:  16%|█▌        | 1067/6675 [00:03<00:11, 473.27it/s]Sequence data:  17%|█▋        | 1116/6675 [00:03<00:11, 471.52it/s]Sequence data:  17%|█▋        | 1164/6675 [00:03<00:11, 472.00it/s]Sequence data:  18%|█▊        | 1212/6675 [00:03<00:11, 470.72it/s]Sequence data:  19%|█▉        | 1260/6675 [00:04<00:11, 463.35it/s]Sequence data:  20%|█▉        | 1307/6675 [00:04<00:11, 456.95it/s]Sequence data:  20%|██        | 1353/6675 [00:04<00:11, 454.70it/s]Sequence data:  21%|██        | 1399/6675 [00:04<00:11, 452.63it/s]Sequence data:  22%|██▏       | 1445/6675 [00:04<00:11, 454.66it/s]Sequence data:  22%|██▏       | 1494/6675 [00:04<00:11, 462.40it/s]Sequence data:  23%|██▎       | 1541/6675 [00:04<00:11, 464.21it/s]Sequence data:  24%|██▍       | 1590/6675 [00:04<00:10, 469.17it/s]Sequence data:  25%|██▍       | 1639/6675 [00:04<00:10, 473.99it/s]Sequence data:  25%|██▌       | 1690/6675 [00:04<00:10, 483.74it/s]Sequence data:  26%|██▌       | 1740/6675 [00:05<00:10, 486.71it/s]Sequence data:  27%|██▋       | 1790/6675 [00:05<00:09, 489.11it/s]Sequence data:  28%|██▊       | 1840/6675 [00:05<00:09, 491.44it/s]Sequence data:  28%|██▊       | 1890/6675 [00:05<00:09, 489.27it/s]Sequence data:  29%|██▉       | 1940/6675 [00:05<00:09, 491.83it/s]Sequence data:  30%|██▉       | 1991/6675 [00:05<00:09, 496.59it/s]Sequence data:  31%|███       | 2041/6675 [00:05<00:09, 489.20it/s]Sequence data:  31%|███▏      | 2090/6675 [00:05<00:09, 484.45it/s]Sequence data:  32%|███▏      | 2139/6675 [00:05<00:09, 483.77it/s]Sequence data:  33%|███▎      | 2189/6675 [00:05<00:09, 488.40it/s]Sequence data:  34%|███▎      | 2238/6675 [00:06<00:09, 481.28it/s]Sequence data:  34%|███▍      | 2287/6675 [00:06<00:09, 474.37it/s]Sequence data:  35%|███▌      | 2337/6675 [00:06<00:09, 480.27it/s]Sequence data:  36%|███▌      | 2386/6675 [00:06<00:08, 482.46it/s]Sequence data:  36%|███▋      | 2435/6675 [00:06<00:08, 482.77it/s]Sequence data:  37%|███▋      | 2484/6675 [00:06<00:08, 484.14it/s]Sequence data:  38%|███▊      | 2533/6675 [00:06<00:08, 482.57it/s]Sequence data:  39%|███▊      | 2586/6675 [00:06<00:08, 494.19it/s]Sequence data:  40%|███▉      | 2642/6675 [00:06<00:07, 513.37it/s]Sequence data:  40%|████      | 2697/6675 [00:06<00:07, 522.06it/s]Sequence data:  41%|████      | 2750/6675 [00:07<00:07, 518.37it/s]Sequence data:  42%|████▏     | 2804/6675 [00:07<00:07, 522.66it/s]Sequence data:  43%|████▎     | 2858/6675 [00:07<00:07, 526.80it/s]Sequence data:  44%|████▎     | 2911/6675 [00:07<00:07, 521.78it/s]Sequence data:  44%|████▍     | 2965/6675 [00:07<00:07, 524.91it/s]Sequence data:  45%|████▌     | 3023/6675 [00:07<00:06, 538.30it/s]Sequence data:  46%|████▌     | 3077/6675 [00:07<00:06, 538.02it/s]Sequence data:  47%|████▋     | 3139/6675 [00:07<00:06, 561.95it/s]Sequence data:  48%|████▊     | 3201/6675 [00:07<00:06, 577.65it/s]Sequence data:  49%|████▉     | 3260/6675 [00:08<00:05, 579.96it/s]Sequence data:  50%|████▉     | 3319/6675 [00:08<00:05, 571.66it/s]Sequence data:  51%|█████     | 3377/6675 [00:08<00:05, 572.74it/s]Sequence data:  52%|█████▏    | 3438/6675 [00:08<00:05, 580.97it/s]Sequence data:  52%|█████▏    | 3501/6675 [00:08<00:05, 595.45it/s]Sequence data:  53%|█████▎    | 3568/6675 [00:08<00:05, 614.65it/s]Sequence data:  54%|█████▍    | 3633/6675 [00:08<00:04, 623.74it/s]Sequence data:  55%|█████▌    | 3703/6675 [00:08<00:04, 643.73it/s]Sequence data:  56%|█████▋    | 3768/6675 [00:08<00:04, 625.66it/s]Sequence data:  57%|█████▋    | 3836/6675 [00:08<00:04, 638.17it/s]Sequence data:  58%|█████▊    | 3900/6675 [00:09<00:04, 629.21it/s]Sequence data:  59%|█████▉    | 3967/6675 [00:09<00:04, 637.77it/s]Sequence data:  60%|██████    | 4033/6675 [00:09<00:04, 644.04it/s]Sequence data:  61%|██████▏   | 4105/6675 [00:09<00:03, 664.99it/s]Sequence data:  63%|██████▎   | 4195/6675 [00:09<00:03, 730.75it/s]Sequence data:  64%|██████▍   | 4282/6675 [00:09<00:03, 770.94it/s]Sequence data:  65%|██████▌   | 4372/6675 [00:09<00:02, 806.05it/s]Sequence data:  67%|██████▋   | 4454/6675 [00:09<00:02, 807.49it/s]Sequence data:  68%|██████▊   | 4537/6675 [00:09<00:02, 813.50it/s]Sequence data:  69%|██████▉   | 4619/6675 [00:09<00:02, 803.98it/s]Sequence data:  70%|███████   | 4700/6675 [00:10<00:02, 797.08it/s]Sequence data:  72%|███████▏  | 4788/6675 [00:10<00:02, 820.54it/s]Sequence data:  73%|███████▎  | 4871/6675 [00:10<00:02, 806.78it/s]Sequence data:  74%|███████▍  | 4965/6675 [00:10<00:02, 842.63it/s]Sequence data:  76%|███████▌  | 5065/6675 [00:10<00:01, 888.76it/s]Sequence data:  78%|███████▊  | 5180/6675 [00:10<00:01, 965.70it/s]Sequence data:  79%|███████▉  | 5290/6675 [00:10<00:01, 1002.20it/s]Sequence data:  81%|████████  | 5397/6675 [00:10<00:01, 1019.59it/s]Sequence data:  83%|████████▎ | 5522/6675 [00:10<00:01, 1087.92it/s]Sequence data:  85%|████████▍ | 5650/6675 [00:10<00:00, 1145.12it/s]Sequence data:  87%|████████▋ | 5777/6675 [00:11<00:00, 1181.57it/s]Sequence data:  88%|████████▊ | 5901/6675 [00:11<00:00, 1198.98it/s]Sequence data:  91%|█████████ | 6041/6675 [00:11<00:00, 1257.11it/s]Sequence data:  92%|█████████▏| 6174/6675 [00:11<00:00, 1275.41it/s]Sequence data:  94%|█████████▍| 6302/6675 [00:11<00:00, 1264.83it/s]Sequence data:  96%|█████████▋| 6430/6675 [00:11<00:00, 1267.75it/s]Sequence data:  98%|█████████▊| 6557/6675 [00:11<00:00, 1262.03it/s]Sequence data: 100%|██████████| 6675/6675 [00:11<00:00, 567.43it/s] 
+Sequence data:   0%|          | 0/2908 [00:00<?, ?it/s]Sequence data:   2%|▏         | 49/2908 [00:00<00:05, 488.48it/s]Sequence data:   3%|▎         | 100/2908 [00:00<00:05, 498.76it/s]Sequence data:   5%|▌         | 151/2908 [00:00<00:05, 499.59it/s]Sequence data:   7%|▋         | 201/2908 [00:00<00:05, 498.97it/s]Sequence data:   9%|▊         | 251/2908 [00:00<00:05, 498.68it/s]Sequence data:  10%|█         | 302/2908 [00:00<00:05, 501.84it/s]Sequence data:  12%|█▏        | 355/2908 [00:00<00:04, 510.91it/s]Sequence data:  14%|█▍        | 408/2908 [00:00<00:04, 515.66it/s]Sequence data:  16%|█▌        | 460/2908 [00:00<00:04, 515.91it/s]Sequence data:  18%|█▊        | 512/2908 [00:01<00:04, 515.83it/s]Sequence data:  19%|█▉        | 565/2908 [00:01<00:04, 518.11it/s]Sequence data:  21%|██▏       | 618/2908 [00:01<00:04, 521.18it/s]Sequence data:  23%|██▎       | 673/2908 [00:01<00:04, 528.64it/s]Sequence data:  25%|██▌       | 728/2908 [00:01<00:04, 532.75it/s]Sequence data:  27%|██▋       | 783/2908 [00:01<00:03, 537.75it/s]Sequence data:  29%|██▉       | 838/2908 [00:01<00:03, 538.97it/s]Sequence data:  31%|███       | 894/2908 [00:01<00:03, 545.10it/s]Sequence data:  33%|███▎      | 949/2908 [00:01<00:03, 541.88it/s]Sequence data:  35%|███▍      | 1005/2908 [00:01<00:03, 546.50it/s]Sequence data:  36%|███▋      | 1061/2908 [00:02<00:03, 549.73it/s]Sequence data:  38%|███▊      | 1118/2908 [00:02<00:03, 553.17it/s]Sequence data:  40%|████      | 1177/2908 [00:02<00:03, 562.03it/s]Sequence data:  43%|████▎     | 1236/2908 [00:02<00:02, 567.94it/s]Sequence data:  44%|████▍     | 1294/2908 [00:02<00:02, 568.44it/s]Sequence data:  47%|████▋     | 1353/2908 [00:02<00:02, 571.89it/s]Sequence data:  49%|████▊     | 1412/2908 [00:02<00:02, 576.73it/s]Sequence data:  51%|█████     | 1470/2908 [00:02<00:02, 576.56it/s]Sequence data:  53%|█████▎    | 1528/2908 [00:02<00:02, 576.49it/s]Sequence data:  55%|█████▍    | 1589/2908 [00:02<00:02, 585.13it/s]Sequence data:  57%|█████▋    | 1648/2908 [00:03<00:02, 584.91it/s]Sequence data:  59%|█████▉    | 1709/2908 [00:03<00:02, 591.17it/s]Sequence data:  61%|██████    | 1771/2908 [00:03<00:01, 596.36it/s]Sequence data:  63%|██████▎   | 1834/2908 [00:03<00:01, 604.04it/s]Sequence data:  65%|██████▌   | 1896/2908 [00:03<00:01, 606.51it/s]Sequence data:  67%|██████▋   | 1958/2908 [00:03<00:01, 607.32it/s]Sequence data:  69%|██████▉   | 2020/2908 [00:03<00:01, 610.38it/s]Sequence data:  72%|███████▏  | 2082/2908 [00:03<00:01, 611.14it/s]Sequence data:  74%|███████▍  | 2146/2908 [00:03<00:01, 616.69it/s]Sequence data:  76%|███████▌  | 2210/2908 [00:03<00:01, 622.31it/s]Sequence data:  78%|███████▊  | 2275/2908 [00:04<00:01, 627.67it/s]Sequence data:  80%|████████  | 2339/2908 [00:04<00:00, 630.37it/s]Sequence data:  83%|████████▎ | 2403/2908 [00:04<00:00, 628.15it/s]Sequence data:  85%|████████▍ | 2469/2908 [00:04<00:00, 637.00it/s]Sequence data:  87%|████████▋ | 2534/2908 [00:04<00:00, 637.90it/s]Sequence data:  89%|████████▉ | 2599/2908 [00:04<00:00, 641.46it/s]Sequence data:  92%|█████████▏| 2664/2908 [00:04<00:00, 641.22it/s]Sequence data:  94%|█████████▍| 2732/2908 [00:04<00:00, 650.42it/s]Sequence data:  96%|█████████▋| 2800/2908 [00:04<00:00, 657.49it/s]Sequence data:  99%|█████████▊| 2868/2908 [00:04<00:00, 663.05it/s]Sequence data: 100%|██████████| 2908/2908 [00:05<00:00, 580.64it/s]
+2021-11-12 13:58:13.424018: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-12 13:58:13.444676: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/4000
+2021-11-12 13:58:14.049212: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 13:58:14.249578: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 13:58:16.367029: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 13:58:16.367936: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-12 13:58:16.403944: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 13:58:16.403997: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 13:58:16.407902: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 13:58:16.408018: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 13:58:16.409359: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 13:58:16.409756: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 13:58:16.411921: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 13:58:16.412431: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 13:58:16.412614: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 13:58:16.415169: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 13:58:16.435432: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-12 13:58:16.436718: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-12 13:58:16.438166: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:65:00.0 name: TITAN Xp computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 30 deviceMemorySize: 11.91GiB deviceMemoryBandwidth: 510.07GiB/s
+2021-11-12 13:58:16.438227: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 13:58:16.438273: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 13:58:16.438298: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2021-11-12 13:58:16.438321: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-12 13:58:16.438344: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-12 13:58:16.438367: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-12 13:58:16.438390: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2021-11-12 13:58:16.438414: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2021-11-12 13:58:16.440712: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-11-12 13:58:16.440774: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2021-11-12 13:58:16.868413: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-12 13:58:16.868445: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-11-12 13:58:16.868455: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-11-12 13:58:16.869853: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10851 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:65:00.0, compute capability: 6.1)
+Sequence data:   0%|          | 0/12574 [00:00<?, ?it/s]Sequence data:   0%|          | 22/12574 [00:00<00:58, 213.40it/s]Sequence data:   0%|          | 48/12574 [00:00<00:52, 239.57it/s]Sequence data:   1%|          | 72/12574 [00:00<00:54, 231.21it/s]Sequence data:   1%|          | 96/12574 [00:00<00:53, 234.57it/s]Sequence data:   1%|          | 122/12574 [00:00<00:51, 243.01it/s]Sequence data:   1%|          | 150/12574 [00:00<00:49, 252.72it/s]Sequence data:   1%|▏         | 178/12574 [00:00<00:47, 259.05it/s]Sequence data:   2%|▏         | 204/12574 [00:00<00:49, 250.68it/s]Sequence data:   2%|▏         | 230/12574 [00:00<00:51, 238.45it/s]Sequence data:   2%|▏         | 254/12574 [00:01<00:52, 234.31it/s]Sequence data:   2%|▏         | 278/12574 [00:01<00:52, 234.32it/s]Sequence data:   2%|▏         | 302/12574 [00:01<00:52, 235.43it/s]Sequence data:   3%|▎         | 328/12574 [00:01<00:50, 241.25it/s]Sequence data:   3%|▎         | 354/12574 [00:01<00:49, 245.22it/s]Sequence data:   3%|▎         | 381/12574 [00:01<00:48, 251.20it/s]Sequence data:   3%|▎         | 409/12574 [00:01<00:47, 257.79it/s]Sequence data:   3%|▎         | 437/12574 [00:01<00:46, 262.05it/s]Sequence data:   4%|▎         | 466/12574 [00:01<00:44, 269.91it/s]Sequence data:   4%|▍         | 495/12574 [00:01<00:43, 275.34it/s]Sequence data:   4%|▍         | 524/12574 [00:02<00:43, 277.69it/s]Sequence data:   4%|▍         | 552/12574 [00:02<00:43, 277.45it/s]Sequence data:   5%|▍         | 580/12574 [00:02<00:44, 267.02it/s]Sequence data:   5%|▍         | 607/12574 [00:02<00:45, 260.57it/s]Sequence data:   5%|▌         | 634/12574 [00:02<00:47, 249.61it/s]Sequence data:   5%|▌         | 660/12574 [00:02<00:49, 241.92it/s]Sequence data:   5%|▌         | 685/12574 [00:02<00:50, 236.91it/s]Sequence data:   6%|▌         | 709/12574 [00:02<00:50, 234.62it/s]Sequence data:   6%|▌         | 733/12574 [00:02<00:51, 230.97it/s]Sequence data:   6%|▌         | 757/12574 [00:03<00:51, 230.72it/s]Sequence data:   6%|▌         | 782/12574 [00:03<00:50, 234.38it/s]Sequence data:   6%|▋         | 806/12574 [00:06<07:29, 26.20it/s] Sequence data:   7%|▋         | 832/12574 [00:06<05:23, 36.33it/s]Sequence data:   7%|▋         | 858/12574 [00:06<03:57, 49.35it/s]Sequence data:   7%|▋         | 884/12574 [00:06<02:58, 65.56it/s]Sequence data:   7%|▋         | 911/12574 [00:06<02:16, 85.63it/s]Sequence data:   7%|▋         | 938/12574 [00:06<01:47, 107.97it/s]Sequence data:   8%|▊         | 965/12574 [00:06<01:27, 132.04it/s]Sequence data:   8%|▊         | 992/12574 [00:06<01:14, 156.28it/s]Sequence data:   8%|▊         | 1020/12574 [00:06<01:03, 180.71it/s]Sequence data:   8%|▊         | 1048/12574 [00:06<00:57, 201.53it/s]Sequence data:   9%|▊         | 1076/12574 [00:07<00:52, 218.22it/s]Sequence data:   9%|▉         | 1104/12574 [00:07<00:49, 233.44it/s]Sequence data:   9%|▉         | 1133/12574 [00:07<00:46, 246.69it/s]Sequence data:   9%|▉         | 1161/12574 [00:07<00:44, 255.45it/s]Sequence data:   9%|▉         | 1189/12574 [00:07<00:43, 261.78it/s]Sequence data:  10%|▉         | 1217/12574 [00:07<00:43, 260.49it/s]Sequence data:  10%|▉         | 1245/12574 [00:07<00:42, 263.85it/s]Sequence data:  10%|█         | 1273/12574 [00:07<00:42, 263.51it/s]Sequence data:  10%|█         | 1300/12574 [00:07<00:43, 262.02it/s]Sequence data:  11%|█         | 1327/12574 [00:08<00:43, 257.96it/s]Sequence data:  11%|█         | 1354/12574 [00:08<00:44, 250.93it/s]Sequence data:  11%|█         | 1380/12574 [00:08<00:44, 250.45it/s]Sequence data:  11%|█         | 1406/12574 [00:08<00:44, 248.43it/s]Sequence data:  11%|█▏        | 1431/12574 [00:08<00:45, 246.27it/s]Sequence data:  12%|█▏        | 1456/12574 [00:08<00:46, 238.12it/s]Sequence data:  12%|█▏        | 1480/12574 [00:08<00:47, 235.02it/s]Sequence data:  12%|█▏        | 1504/12574 [00:08<00:47, 234.00it/s]Sequence data:  12%|█▏        | 1528/12574 [00:08<00:47, 231.29it/s]Sequence data:  12%|█▏        | 1552/12574 [00:08<00:48, 229.57it/s]Sequence data:  13%|█▎        | 1575/12574 [00:09<00:48, 227.59it/s]Sequence data:  13%|█▎        | 1598/12574 [00:09<00:48, 227.71it/s]Sequence data:  13%|█▎        | 1621/12574 [00:09<00:48, 226.15it/s]Sequence data:  13%|█▎        | 1645/12574 [00:09<00:47, 227.81it/s]Sequence data:  13%|█▎        | 1669/12574 [00:09<00:47, 229.11it/s]Sequence data:  13%|█▎        | 1693/12574 [00:09<00:47, 230.40it/s]Sequence data:  14%|█▎        | 1717/12574 [00:09<00:47, 228.95it/s]Sequence data:  14%|█▍        | 1741/12574 [00:09<00:46, 230.68it/s]Sequence data:  14%|█▍        | 1766/12574 [00:09<00:46, 233.65it/s]Sequence data:  14%|█▍        | 1791/12574 [00:10<00:45, 235.50it/s]Sequence data:  14%|█▍        | 1816/12574 [00:10<00:44, 239.24it/s]Sequence data:  15%|█▍        | 1841/12574 [00:10<00:44, 241.27it/s]Sequence data:  15%|█▍        | 1866/12574 [00:10<00:44, 241.80it/s]Sequence data:  15%|█▌        | 1892/12574 [00:10<00:43, 244.74it/s]Sequence data:  15%|█▌        | 1918/12574 [00:10<00:43, 246.95it/s]Sequence data:  15%|█▌        | 1945/12574 [00:10<00:42, 251.21it/s]Sequence data:  16%|█▌        | 1971/12574 [00:10<00:42, 251.90it/s]Sequence data:  16%|█▌        | 1998/12574 [00:10<00:41, 255.04it/s]Sequence data:  16%|█▌        | 2025/12574 [00:10<00:40, 257.53it/s]Sequence data:  16%|█▋        | 2053/12574 [00:11<00:40, 262.17it/s]Sequence data:  17%|█▋        | 2080/12574 [00:11<00:39, 263.15it/s]Sequence data:  17%|█▋        | 2108/12574 [00:11<00:39, 265.39it/s]Sequence data:  17%|█▋        | 2135/12574 [00:11<00:39, 264.84it/s]Sequence data:  17%|█▋        | 2163/12574 [00:11<00:38, 267.46it/s]Sequence data:  17%|█▋        | 2191/12574 [00:11<00:38, 269.60it/s]Sequence data:  18%|█▊        | 2219/12574 [00:11<00:38, 271.24it/s]Sequence data:  18%|█▊        | 2247/12574 [00:11<00:37, 272.70it/s]Sequence data:  18%|█▊        | 2275/12574 [00:11<00:37, 273.75it/s]Sequence data:  18%|█▊        | 2303/12574 [00:11<00:37, 274.86it/s]Sequence data:  19%|█▊        | 2331/12574 [00:12<00:37, 273.02it/s]Sequence data:  19%|█▉        | 2360/12574 [00:12<00:36, 276.52it/s]Sequence data:  19%|█▉        | 2388/12574 [00:12<00:36, 275.84it/s]Sequence data:  19%|█▉        | 2417/12574 [00:12<00:36, 277.30it/s]Sequence data:  19%|█▉        | 2447/12574 [00:12<00:35, 281.63it/s]Sequence data:  20%|█▉        | 2476/12574 [00:12<00:35, 283.18it/s]Sequence data:  20%|█▉        | 2505/12574 [00:12<00:35, 282.22it/s]Sequence data:  20%|██        | 2534/12574 [00:12<00:35, 280.41it/s]Sequence data:  20%|██        | 2563/12574 [00:12<00:35, 282.35it/s]Sequence data:  21%|██        | 2592/12574 [00:12<00:36, 276.71it/s]Sequence data:  21%|██        | 2621/12574 [00:13<00:35, 279.04it/s]Sequence data:  21%|██        | 2649/12574 [00:13<00:36, 273.10it/s]Sequence data:  21%|██▏       | 2677/12574 [00:13<00:36, 272.74it/s]Sequence data:  22%|██▏       | 2705/12574 [00:13<00:36, 266.75it/s]Sequence data:  22%|██▏       | 2732/12574 [00:13<00:37, 263.56it/s]Sequence data:  22%|██▏       | 2760/12574 [00:13<00:36, 265.77it/s]Sequence data:  22%|██▏       | 2787/12574 [00:13<00:36, 265.93it/s]Sequence data:  22%|██▏       | 2815/12574 [00:13<00:36, 269.14it/s]844/844 - 21s - loss: 0.1152 - f1: 0.0013 - val_loss: 0.0936 - val_f1: 0.0013
+Sequence data:  23%|██▎       | 2842/12574 [00:13<00:36, 266.97it/s]Sequence data:  23%|██▎       | 2869/12574 [00:14<00:37, 255.66it/s]Sequence data:  23%|██▎       | 2895/12574 [00:14<00:38, 251.46it/s]Epoch 2/4000
+Sequence data:  23%|██▎       | 2921/12574 [00:14<00:38, 250.46it/s]Sequence data:  23%|██▎       | 2947/12574 [00:14<00:39, 245.96it/s]Sequence data:  24%|██▎       | 2973/12574 [00:14<00:38, 246.96it/s]Sequence data:  24%|██▍       | 2999/12574 [00:14<00:38, 248.10it/s]Sequence data:  24%|██▍       | 3026/12574 [00:14<00:37, 252.58it/s]Sequence data:  24%|██▍       | 3052/12574 [00:14<00:38, 250.38it/s]Sequence data:  24%|██▍       | 3078/12574 [00:14<00:38, 248.34it/s]Sequence data:  25%|██▍       | 3103/12574 [00:14<00:38, 246.68it/s]Sequence data:  25%|██▍       | 3128/12574 [00:15<00:38, 246.13it/s]Sequence data:  25%|██▌       | 3153/12574 [00:15<00:38, 243.50it/s]Sequence data:  25%|██▌       | 3178/12574 [00:15<00:38, 242.59it/s]Sequence data:  25%|██▌       | 3203/12574 [00:15<00:38, 244.54it/s]Sequence data:  26%|██▌       | 3230/12574 [00:15<00:37, 250.38it/s]Sequence data:  26%|██▌       | 3256/12574 [00:15<00:37, 247.35it/s]Sequence data:  26%|██▌       | 3282/12574 [00:15<00:37, 249.27it/s]Sequence data:  26%|██▋       | 3309/12574 [00:15<00:36, 253.82it/s]Sequence data:  27%|██▋       | 3335/12574 [00:15<00:37, 247.57it/s]Sequence data:  27%|██▋       | 3361/12574 [00:16<00:36, 250.47it/s]Sequence data:  27%|██▋       | 3387/12574 [00:16<00:36, 249.00it/s]Sequence data:  27%|██▋       | 3412/12574 [00:16<00:36, 247.98it/s]Sequence data:  27%|██▋       | 3439/12574 [00:16<00:36, 251.87it/s]Sequence data:  28%|██▊       | 3465/12574 [00:16<00:36, 252.55it/s]Sequence data:  28%|██▊       | 3492/12574 [00:16<00:35, 255.40it/s]Sequence data:  28%|██▊       | 3518/12574 [00:16<00:35, 256.49it/s]Sequence data:  28%|██▊       | 3547/12574 [00:16<00:34, 264.93it/s]Sequence data:  28%|██▊       | 3574/12574 [00:16<00:34, 264.01it/s]Sequence data:  29%|██▊       | 3601/12574 [00:16<00:34, 263.80it/s]Sequence data:  29%|██▉       | 3628/12574 [00:17<00:34, 261.11it/s]Sequence data:  29%|██▉       | 3656/12574 [00:17<00:33, 264.77it/s]Sequence data:  29%|██▉       | 3683/12574 [00:17<00:33, 266.01it/s]Sequence data:  30%|██▉       | 3710/12574 [00:17<00:33, 263.71it/s]Sequence data:  30%|██▉       | 3737/12574 [00:17<00:33, 264.34it/s]Sequence data:  30%|██▉       | 3764/12574 [00:17<00:33, 265.22it/s]Sequence data:  30%|███       | 3792/12574 [00:17<00:32, 268.11it/s]Sequence data:  30%|███       | 3820/12574 [00:17<00:32, 270.03it/s]Sequence data:  31%|███       | 3850/12574 [00:17<00:31, 275.57it/s]Sequence data:  31%|███       | 3878/12574 [00:17<00:31, 276.44it/s]Sequence data:  31%|███       | 3906/12574 [00:18<00:31, 277.11it/s]Sequence data:  31%|███▏      | 3934/12574 [00:18<00:31, 275.39it/s]Sequence data:  32%|███▏      | 3963/12574 [00:18<00:30, 279.09it/s]Sequence data:  32%|███▏      | 3991/12574 [00:18<00:31, 276.17it/s]Sequence data:  32%|███▏      | 4021/12574 [00:18<00:30, 281.63it/s]Sequence data:  32%|███▏      | 4050/12574 [00:18<00:30, 279.70it/s]Sequence data:  32%|███▏      | 4078/12574 [00:18<00:30, 279.65it/s]Sequence data:  33%|███▎      | 4108/12574 [00:18<00:29, 285.53it/s]Sequence data:  33%|███▎      | 4137/12574 [00:18<00:30, 280.97it/s]Sequence data:  33%|███▎      | 4167/12574 [00:19<00:29, 283.13it/s]Sequence data:  33%|███▎      | 4198/12574 [00:19<00:29, 288.52it/s]Sequence data:  34%|███▎      | 4227/12574 [00:19<00:28, 287.98it/s]Sequence data:  34%|███▍      | 4256/12574 [00:19<00:28, 287.58it/s]Sequence data:  34%|███▍      | 4285/12574 [00:19<00:28, 287.83it/s]Sequence data:  34%|███▍      | 4314/12574 [00:19<00:28, 287.76it/s]Sequence data:  35%|███▍      | 4343/12574 [00:19<00:28, 284.79it/s]Sequence data:  35%|███▍      | 4372/12574 [00:19<00:28, 285.61it/s]Sequence data:  35%|███▌      | 4401/12574 [00:19<00:29, 281.64it/s]Sequence data:  35%|███▌      | 4431/12574 [00:19<00:28, 285.55it/s]Sequence data:  35%|███▌      | 4460/12574 [00:20<00:28, 283.23it/s]Sequence data:  36%|███▌      | 4490/12574 [00:20<00:28, 287.55it/s]Sequence data:  36%|███▌      | 4519/12574 [00:20<00:28, 281.93it/s]Sequence data:  36%|███▌      | 4548/12574 [00:20<00:28, 282.22it/s]Sequence data:  36%|███▋      | 4578/12574 [00:20<00:27, 285.92it/s]Sequence data:  37%|███▋      | 4607/12574 [00:20<00:28, 284.26it/s]Sequence data:  37%|███▋      | 4636/12574 [00:20<00:27, 285.02it/s]Sequence data:  37%|███▋      | 4665/12574 [00:20<00:28, 280.97it/s]Sequence data:  37%|███▋      | 4694/12574 [00:20<00:27, 282.06it/s]Sequence data:  38%|███▊      | 4723/12574 [00:20<00:28, 280.12it/s]Sequence data:  38%|███▊      | 4752/12574 [00:21<00:28, 276.11it/s]Sequence data:  38%|███▊      | 4780/12574 [00:21<00:28, 275.81it/s]Sequence data:  38%|███▊      | 4808/12574 [00:21<00:28, 276.32it/s]Sequence data:  38%|███▊      | 4836/12574 [00:21<00:28, 273.95it/s]Sequence data:  39%|███▊      | 4864/12574 [00:21<00:28, 273.00it/s]Sequence data:  39%|███▉      | 4895/12574 [00:21<00:27, 283.39it/s]Sequence data:  39%|███▉      | 4924/12574 [00:21<00:27, 279.39it/s]Sequence data:  39%|███▉      | 4952/12574 [00:21<00:27, 274.88it/s]Sequence data:  40%|███▉      | 4982/12574 [00:21<00:26, 281.60it/s]Sequence data:  40%|███▉      | 5011/12574 [00:21<00:26, 280.90it/s]Sequence data:  40%|████      | 5040/12574 [00:22<00:27, 272.58it/s]Sequence data:  40%|████      | 5069/12574 [00:22<00:27, 274.70it/s]Sequence data:  41%|████      | 5097/12574 [00:22<00:27, 271.38it/s]Sequence data:  41%|████      | 5125/12574 [00:22<00:27, 269.85it/s]Sequence data:  41%|████      | 5156/12574 [00:22<00:26, 279.67it/s]Sequence data:  41%|████      | 5186/12574 [00:22<00:25, 284.40it/s]Sequence data:  41%|████▏     | 5216/12574 [00:22<00:25, 287.73it/s]Sequence data:  42%|████▏     | 5245/12574 [00:22<00:25, 284.37it/s]Sequence data:  42%|████▏     | 5274/12574 [00:22<00:25, 281.77it/s]Sequence data:  42%|████▏     | 5304/12574 [00:23<00:25, 285.33it/s]Sequence data:  42%|████▏     | 5333/12574 [00:23<00:25, 281.81it/s]Sequence data:  43%|████▎     | 5362/12574 [00:23<00:25, 278.48it/s]Sequence data:  43%|████▎     | 5392/12574 [00:23<00:25, 283.30it/s]Sequence data:  43%|████▎     | 5421/12574 [00:23<00:25, 282.52it/s]Sequence data:  43%|████▎     | 5450/12574 [00:23<00:25, 280.33it/s]Sequence data:  44%|████▎     | 5479/12574 [00:23<00:25, 279.83it/s]Sequence data:  44%|████▍     | 5507/12574 [00:23<00:26, 270.52it/s]Sequence data:  44%|████▍     | 5535/12574 [00:23<00:26, 267.10it/s]Sequence data:  44%|████▍     | 5564/12574 [00:23<00:25, 271.15it/s]Sequence data:  44%|████▍     | 5594/12574 [00:24<00:25, 276.95it/s]Sequence data:  45%|████▍     | 5622/12574 [00:24<00:25, 276.75it/s]Sequence data:  45%|████▍     | 5654/12574 [00:24<00:24, 288.10it/s]Sequence data:  45%|████▌     | 5686/12574 [00:24<00:23, 296.42it/s]Sequence data:  45%|████▌     | 5716/12574 [00:24<00:23, 291.26it/s]Sequence data:  46%|████▌     | 5746/12574 [00:24<00:23, 288.98it/s]Sequence data:  46%|████▌     | 5776/12574 [00:24<00:23, 291.57it/s]Sequence data:  46%|████▌     | 5808/12574 [00:24<00:22, 299.85it/s]Sequence data:  46%|████▋     | 5839/12574 [00:24<00:22, 301.45it/s]Sequence data:  47%|████▋     | 5872/12574 [00:25<00:21, 307.62it/s]Sequence data:  47%|████▋     | 5905/12574 [00:25<00:21, 313.92it/s]Sequence data:  47%|████▋     | 5937/12574 [00:25<00:21, 312.33it/s]Sequence data:  47%|████▋     | 5969/12574 [00:25<00:21, 311.00it/s]Sequence data:  48%|████▊     | 6004/12574 [00:25<00:20, 320.65it/s]Sequence data:  48%|████▊     | 6037/12574 [00:25<00:20, 316.16it/s]Sequence data:  48%|████▊     | 6069/12574 [00:25<00:20, 312.81it/s]Sequence data:  49%|████▊     | 6101/12574 [00:25<00:20, 314.86it/s]Sequence data:  49%|████▉     | 6133/12574 [00:25<00:20, 315.01it/s]Sequence data:  49%|████▉     | 6166/12574 [00:25<00:20, 316.19it/s]Sequence data:  49%|████▉     | 6198/12574 [00:26<00:20, 314.68it/s]Sequence data:  50%|████▉     | 6230/12574 [00:26<00:20, 312.87it/s]Sequence data:  50%|████▉     | 6262/12574 [00:26<00:20, 311.31it/s]Sequence data:  50%|█████     | 6294/12574 [00:26<00:20, 310.72it/s]Sequence data:  50%|█████     | 6326/12574 [00:26<00:20, 307.62it/s]Sequence data:  51%|█████     | 6357/12574 [00:26<00:20, 302.56it/s]Sequence data:  51%|█████     | 6390/12574 [00:26<00:20, 308.63it/s]Sequence data:  51%|█████     | 6421/12574 [00:26<00:19, 308.29it/s]Sequence data:  51%|█████▏    | 6453/12574 [00:26<00:19, 309.78it/s]Sequence data:  52%|█████▏    | 6487/12574 [00:26<00:19, 316.76it/s]Sequence data:  52%|█████▏    | 6521/12574 [00:27<00:18, 323.56it/s]Sequence data:  52%|█████▏    | 6556/12574 [00:27<00:18, 330.44it/s]Sequence data:  52%|█████▏    | 6590/12574 [00:27<00:18, 324.60it/s]Sequence data:  53%|█████▎    | 6626/12574 [00:27<00:17, 332.72it/s]Sequence data:  53%|█████▎    | 6660/12574 [00:27<00:17, 332.58it/s]Sequence data:  53%|█████▎    | 6695/12574 [00:27<00:17, 335.39it/s]Sequence data:  54%|█████▎    | 6730/12574 [00:27<00:17, 338.35it/s]Sequence data:  54%|█████▍    | 6766/12574 [00:27<00:17, 341.40it/s]Sequence data:  54%|█████▍    | 6801/12574 [00:27<00:16, 339.96it/s]Sequence data:  54%|█████▍    | 6837/12574 [00:28<00:16, 343.42it/s]Sequence data:  55%|█████▍    | 6877/12574 [00:28<00:15, 358.20it/s]Sequence data:  55%|█████▍    | 6913/12574 [00:28<00:16, 350.74it/s]Sequence data:  55%|█████▌    | 6949/12574 [00:28<00:15, 351.92it/s]Sequence data:  56%|█████▌    | 6988/12574 [00:28<00:15, 360.28it/s]Sequence data:  56%|█████▌    | 7025/12574 [00:28<00:16, 342.71it/s]Sequence data:  56%|█████▌    | 7060/12574 [00:28<00:16, 341.95it/s]Sequence data:  56%|█████▋    | 7096/12574 [00:28<00:15, 345.82it/s]Sequence data:  57%|█████▋    | 7131/12574 [00:28<00:15, 341.97it/s]Sequence data:  57%|█████▋    | 7167/12574 [00:28<00:15, 345.08it/s]Sequence data:  57%|█████▋    | 7205/12574 [00:29<00:15, 352.64it/s]Sequence data:  58%|█████▊    | 7244/12574 [00:29<00:14, 363.01it/s]Sequence data:  58%|█████▊    | 7287/12574 [00:29<00:13, 382.23it/s]Sequence data:  58%|█████▊    | 7330/12574 [00:29<00:13, 395.29it/s]Sequence data:  59%|█████▊    | 7374/12574 [00:29<00:12, 407.15it/s]Sequence data:  59%|█████▉    | 7415/12574 [00:29<00:12, 406.75it/s]Sequence data:  59%|█████▉    | 7456/12574 [00:29<00:12, 403.88it/s]Sequence data:  60%|█████▉    | 7500/12574 [00:29<00:12, 411.21it/s]Sequence data:  60%|██████    | 7546/12574 [00:29<00:11, 421.04it/s]Sequence data:  60%|██████    | 7593/12574 [00:29<00:11, 434.29it/s]Sequence data:  61%|██████    | 7637/12574 [00:30<00:11, 424.23it/s]Sequence data:  61%|██████    | 7680/12574 [00:30<00:12, 404.77it/s]Sequence data:  61%|██████▏   | 7732/12574 [00:30<00:11, 433.93it/s]Sequence data:  62%|██████▏   | 7776/12574 [00:30<00:11, 419.00it/s]Sequence data:  62%|██████▏   | 7819/12574 [00:30<00:11, 421.65it/s]Sequence data:  63%|██████▎   | 7862/12574 [00:30<00:11, 418.31it/s]Sequence data:  63%|██████▎   | 7904/12574 [00:30<00:11, 397.37it/s]Sequence data:  63%|██████▎   | 7944/12574 [00:30<00:12, 371.65it/s]Sequence data:  64%|██████▎   | 7992/12574 [00:30<00:11, 401.02it/s]Sequence data:  64%|██████▍   | 8033/12574 [00:31<00:11, 390.74it/s]Sequence data:  64%|██████▍   | 8075/12574 [00:31<00:11, 394.88it/s]Sequence data:  65%|██████▍   | 8115/12574 [00:31<00:11, 389.24it/s]Sequence data:  65%|██████▍   | 8155/12574 [00:31<00:11, 389.37it/s]Sequence data:  65%|██████▌   | 8195/12574 [00:31<00:11, 391.47it/s]Sequence data:  65%|██████▌   | 8235/12574 [00:31<00:11, 390.45it/s]Sequence data:  66%|██████▌   | 8275/12574 [00:31<00:10, 392.73it/s]Sequence data:  66%|██████▌   | 8315/12574 [00:31<00:11, 374.60it/s]Sequence data:  67%|██████▋   | 8369/12574 [00:31<00:10, 419.32it/s]Sequence data:  67%|██████▋   | 8427/12574 [00:32<00:08, 465.52it/s]844/844 - 18s - loss: 0.0847 - f1: 0.0943 - val_loss: 0.0865 - val_f1: 0.0562
+Sequence data:  67%|██████▋   | 8481/12574 [00:32<00:08, 483.85it/s]Sequence data:  68%|██████▊   | 8531/12574 [00:32<00:08, 487.63it/s]Sequence data:  68%|██████▊   | 8590/12574 [00:32<00:07, 514.65it/s]Epoch 3/4000
+Sequence data:  69%|██████▉   | 8646/12574 [00:32<00:07, 527.91it/s]Sequence data:  69%|██████▉   | 8699/12574 [00:32<00:07, 512.91it/s]Sequence data:  70%|██████▉   | 8764/12574 [00:32<00:06, 550.96it/s]Sequence data:  70%|███████   | 8821/12574 [00:32<00:06, 554.53it/s]Sequence data:  71%|███████   | 8877/12574 [00:32<00:06, 554.48it/s]Sequence data:  71%|███████   | 8933/12574 [00:32<00:06, 531.85it/s]Sequence data:  71%|███████▏  | 8987/12574 [00:33<00:06, 533.22it/s]Sequence data:  72%|███████▏  | 9054/12574 [00:33<00:06, 568.17it/s]Sequence data:  72%|███████▏  | 9111/12574 [00:33<00:06, 557.19it/s]Sequence data:  73%|███████▎  | 9167/12574 [00:33<00:06, 556.03it/s]Sequence data:  73%|███████▎  | 9224/12574 [00:33<00:05, 560.06it/s]Sequence data:  74%|███████▍  | 9283/12574 [00:33<00:05, 566.93it/s]Sequence data:  74%|███████▍  | 9340/12574 [00:33<00:05, 556.73it/s]Sequence data:  75%|███████▍  | 9402/12574 [00:33<00:05, 571.84it/s]Sequence data:  75%|███████▌  | 9460/12574 [00:33<00:05, 551.96it/s]Sequence data:  76%|███████▌  | 9517/12574 [00:33<00:05, 555.20it/s]Sequence data:  76%|███████▌  | 9573/12574 [00:34<00:05, 550.54it/s]Sequence data:  77%|███████▋  | 9631/12574 [00:34<00:05, 556.82it/s]Sequence data:  77%|███████▋  | 9687/12574 [00:34<00:05, 555.85it/s]Sequence data:  78%|███████▊  | 9747/12574 [00:34<00:04, 565.43it/s]Sequence data:  78%|███████▊  | 9811/12574 [00:34<00:04, 583.16it/s]Sequence data:  78%|███████▊  | 9870/12574 [00:34<00:04, 578.46it/s]Sequence data:  79%|███████▉  | 9928/12574 [00:34<00:04, 577.08it/s]Sequence data:  80%|███████▉  | 10011/12574 [00:34<00:03, 648.52it/s]Sequence data:  80%|████████  | 10114/12574 [00:34<00:03, 755.96it/s]Sequence data:  81%|████████  | 10201/12574 [00:35<00:03, 786.03it/s]Sequence data:  82%|████████▏ | 10287/12574 [00:35<00:02, 804.16it/s]Sequence data:  82%|████████▏ | 10373/12574 [00:35<00:02, 815.66it/s]Sequence data:  83%|████████▎ | 10455/12574 [00:35<00:02, 804.67it/s]Sequence data:  84%|████████▍ | 10549/12574 [00:35<00:02, 843.44it/s]Sequence data:  85%|████████▍ | 10642/12574 [00:35<00:02, 868.11it/s]Sequence data:  85%|████████▌ | 10729/12574 [00:35<00:02, 847.34it/s]Sequence data:  86%|████████▌ | 10814/12574 [00:35<00:02, 844.92it/s]Sequence data:  87%|████████▋ | 10899/12574 [00:35<00:02, 837.34it/s]Sequence data:  87%|████████▋ | 10983/12574 [00:35<00:01, 799.09it/s]Sequence data:  88%|████████▊ | 11071/12574 [00:36<00:01, 817.03it/s]Sequence data:  89%|████████▊ | 11154/12574 [00:36<00:01, 812.72it/s]Sequence data:  89%|████████▉ | 11236/12574 [00:36<00:01, 801.98it/s]Sequence data:  90%|█████████ | 11317/12574 [00:36<00:01, 780.93it/s]Sequence data:  91%|█████████ | 11396/12574 [00:36<00:01, 782.32it/s]Sequence data:  91%|█████████▏| 11493/12574 [00:36<00:01, 834.40it/s]Sequence data:  92%|█████████▏| 11582/12574 [00:36<00:01, 846.85it/s]Sequence data:  93%|█████████▎| 11677/12574 [00:36<00:01, 875.77it/s]Sequence data:  94%|█████████▎| 11768/12574 [00:36<00:00, 880.56it/s]Sequence data:  94%|█████████▍| 11857/12574 [00:36<00:00, 860.72it/s]Sequence data:  95%|█████████▍| 11944/12574 [00:37<00:00, 800.47it/s]Sequence data:  96%|█████████▌| 12035/12574 [00:37<00:00, 830.23it/s]Sequence data:  96%|█████████▋| 12120/12574 [00:37<00:00, 833.31it/s]Sequence data:  97%|█████████▋| 12209/12574 [00:37<00:00, 844.84it/s]Sequence data:  98%|█████████▊| 12308/12574 [00:37<00:00, 883.19it/s]Sequence data:  99%|█████████▊| 12407/12574 [00:37<00:00, 910.79it/s]Sequence data:  99%|█████████▉| 12499/12574 [00:37<00:00, 901.54it/s]Sequence data: 100%|██████████| 12574/12574 [00:37<00:00, 332.51it/s]
+Sequence data:   0%|          | 0/5866 [00:00<?, ?it/s]Sequence data:   0%|          | 26/5866 [00:00<00:22, 256.61it/s]Sequence data:   1%|          | 52/5866 [00:00<00:22, 258.27it/s]Sequence data:   1%|▏         | 79/5866 [00:00<00:22, 260.92it/s]Sequence data:   2%|▏         | 107/5866 [00:00<00:21, 264.38it/s]Sequence data:   2%|▏         | 134/5866 [00:00<00:21, 263.21it/s]Sequence data:   3%|▎         | 161/5866 [00:00<00:21, 264.60it/s]Sequence data:   3%|▎         | 188/5866 [00:00<00:21, 265.17it/s]Sequence data:   4%|▎         | 215/5866 [00:00<00:21, 266.54it/s]Sequence data:   4%|▍         | 243/5866 [00:00<00:20, 268.33it/s]Sequence data:   5%|▍         | 271/5866 [00:01<00:20, 271.68it/s]Sequence data:   5%|▌         | 299/5866 [00:01<00:20, 272.18it/s]Sequence data:   6%|▌         | 327/5866 [00:01<00:20, 270.45it/s]Sequence data:   6%|▌         | 356/5866 [00:01<00:20, 274.48it/s]Sequence data:   7%|▋         | 385/5866 [00:01<00:19, 277.60it/s]Sequence data:   7%|▋         | 414/5866 [00:01<00:19, 279.54it/s]Sequence data:   8%|▊         | 442/5866 [00:01<00:19, 277.73it/s]Sequence data:   8%|▊         | 470/5866 [00:01<00:19, 276.79it/s]Sequence data:   9%|▊         | 499/5866 [00:01<00:19, 277.67it/s]Sequence data:   9%|▉         | 527/5866 [00:01<00:19, 275.65it/s]Sequence data:   9%|▉         | 556/5866 [00:02<00:19, 278.18it/s]Sequence data:  10%|▉         | 585/5866 [00:02<00:18, 281.59it/s]Sequence data:  10%|█         | 615/5866 [00:02<00:18, 286.51it/s]Sequence data:  11%|█         | 645/5866 [00:02<00:18, 288.74it/s]Sequence data:  12%|█▏        | 676/5866 [00:02<00:17, 294.28it/s]Sequence data:  12%|█▏        | 706/5866 [00:02<00:17, 290.59it/s]Sequence data:  13%|█▎        | 736/5866 [00:02<00:17, 286.27it/s]Sequence data:  13%|█▎        | 765/5866 [00:02<00:17, 285.90it/s]Sequence data:  14%|█▎        | 794/5866 [00:02<00:17, 286.12it/s]Sequence data:  14%|█▍        | 823/5866 [00:05<02:41, 31.31it/s] Sequence data:  14%|█▍        | 850/5866 [00:05<02:00, 41.73it/s]Sequence data:  15%|█▍        | 879/5866 [00:05<01:28, 56.25it/s]Sequence data:  15%|█▌        | 909/5866 [00:06<01:06, 75.03it/s]Sequence data:  16%|█▌        | 939/5866 [00:06<00:50, 97.25it/s]Sequence data:  17%|█▋        | 970/5866 [00:06<00:39, 123.63it/s]Sequence data:  17%|█▋        | 1001/5866 [00:06<00:32, 151.48it/s]Sequence data:  18%|█▊        | 1030/5866 [00:06<00:27, 175.75it/s]Sequence data:  18%|█▊        | 1061/5866 [00:06<00:23, 202.44it/s]Sequence data:  19%|█▊        | 1091/5866 [00:06<00:21, 222.25it/s]Sequence data:  19%|█▉        | 1121/5866 [00:06<00:19, 237.94it/s]Sequence data:  20%|█▉        | 1153/5866 [00:06<00:18, 256.36it/s]Sequence data:  20%|██        | 1183/5866 [00:06<00:17, 266.14it/s]Sequence data:  21%|██        | 1215/5866 [00:07<00:16, 279.64it/s]Sequence data:  21%|██        | 1246/5866 [00:07<00:16, 284.02it/s]Sequence data:  22%|██▏       | 1277/5866 [00:07<00:15, 289.40it/s]Sequence data:  22%|██▏       | 1308/5866 [00:07<00:15, 293.64it/s]Sequence data:  23%|██▎       | 1340/5866 [00:07<00:15, 299.35it/s]Sequence data:  23%|██▎       | 1371/5866 [00:07<00:14, 300.27it/s]Sequence data:  24%|██▍       | 1403/5866 [00:07<00:14, 304.27it/s]Sequence data:  24%|██▍       | 1436/5866 [00:07<00:14, 310.59it/s]Sequence data:  25%|██▌       | 1468/5866 [00:07<00:14, 308.74it/s]Sequence data:  26%|██▌       | 1500/5866 [00:08<00:14, 304.47it/s]Sequence data:  26%|██▌       | 1531/5866 [00:08<00:14, 305.10it/s]Sequence data:  27%|██▋       | 1562/5866 [00:08<00:14, 305.00it/s]Sequence data:  27%|██▋       | 1595/5866 [00:08<00:13, 311.94it/s]Sequence data:  28%|██▊       | 1627/5866 [00:08<00:13, 310.50it/s]Sequence data:  28%|██▊       | 1659/5866 [00:08<00:13, 311.49it/s]Sequence data:  29%|██▉       | 1691/5866 [00:08<00:13, 312.26it/s]Sequence data:  29%|██▉       | 1724/5866 [00:08<00:13, 316.28it/s]Sequence data:  30%|██▉       | 1756/5866 [00:08<00:13, 310.86it/s]Sequence data:  30%|███       | 1788/5866 [00:08<00:13, 312.35it/s]Sequence data:  31%|███       | 1820/5866 [00:09<00:12, 313.09it/s]Sequence data:  32%|███▏      | 1854/5866 [00:09<00:12, 319.96it/s]Sequence data:  32%|███▏      | 1887/5866 [00:09<00:12, 315.03it/s]Sequence data:  33%|███▎      | 1920/5866 [00:09<00:12, 318.47it/s]Sequence data:  33%|███▎      | 1952/5866 [00:09<00:12, 315.95it/s]Sequence data:  34%|███▍      | 1984/5866 [00:09<00:12, 314.45it/s]Sequence data:  34%|███▍      | 2016/5866 [00:09<00:12, 311.72it/s]Sequence data:  35%|███▍      | 2049/5866 [00:09<00:12, 315.89it/s]Sequence data:  35%|███▌      | 2081/5866 [00:09<00:12, 312.35it/s]Sequence data:  36%|███▌      | 2115/5866 [00:09<00:11, 319.51it/s]Sequence data:  37%|███▋      | 2148/5866 [00:10<00:11, 320.65it/s]Sequence data:  37%|███▋      | 2181/5866 [00:10<00:11, 321.80it/s]Sequence data:  38%|███▊      | 2214/5866 [00:10<00:11, 315.50it/s]Sequence data:  38%|███▊      | 2248/5866 [00:10<00:11, 320.63it/s]Sequence data:  39%|███▉      | 2281/5866 [00:10<00:11, 320.81it/s]Sequence data:  39%|███▉      | 2315/5866 [00:10<00:10, 326.40it/s]Sequence data:  40%|████      | 2348/5866 [00:10<00:10, 325.64it/s]Sequence data:  41%|████      | 2382/5866 [00:10<00:10, 329.26it/s]Sequence data:  41%|████      | 2415/5866 [00:10<00:10, 325.16it/s]Sequence data:  42%|████▏     | 2450/5866 [00:10<00:10, 329.40it/s]Sequence data:  42%|████▏     | 2484/5866 [00:11<00:10, 331.92it/s]Sequence data:  43%|████▎     | 2520/5866 [00:11<00:09, 338.40it/s]Sequence data:  44%|████▎     | 2554/5866 [00:11<00:09, 334.29it/s]Sequence data:  44%|████▍     | 2588/5866 [00:11<00:09, 330.86it/s]Sequence data:  45%|████▍     | 2622/5866 [00:11<00:09, 327.17it/s]Sequence data:  45%|████▌     | 2655/5866 [00:11<00:09, 326.87it/s]Sequence data:  46%|████▌     | 2690/5866 [00:11<00:09, 333.58it/s]Sequence data:  46%|████▋     | 2724/5866 [00:11<00:09, 327.28it/s]844/844 - 18s - loss: 0.0803 - f1: 0.1348 - val_loss: 0.0782 - val_f1: 0.0929
+Sequence data:  47%|████▋     | 2758/5866 [00:11<00:09, 329.08it/s]Sequence data:  48%|████▊     | 2792/5866 [00:12<00:09, 330.24it/s]Sequence data:  48%|████▊     | 2826/5866 [00:12<00:09, 327.00it/s]Epoch 4/4000
+Sequence data:  49%|████▉     | 2863/5866 [00:12<00:08, 337.03it/s]Sequence data:  49%|████▉     | 2898/5866 [00:12<00:08, 338.20it/s]Sequence data:  50%|████▉     | 2932/5866 [00:12<00:08, 338.24it/s]Sequence data:  51%|█████     | 2966/5866 [00:12<00:08, 338.15it/s]Sequence data:  51%|█████     | 3002/5866 [00:12<00:08, 343.71it/s]Sequence data:  52%|█████▏    | 3038/5866 [00:12<00:08, 346.72it/s]Sequence data:  52%|█████▏    | 3074/5866 [00:12<00:07, 349.32it/s]Sequence data:  53%|█████▎    | 3109/5866 [00:12<00:07, 347.44it/s]Sequence data:  54%|█████▎    | 3144/5866 [00:13<00:07, 347.67it/s]Sequence data:  54%|█████▍    | 3179/5866 [00:13<00:07, 346.86it/s]Sequence data:  55%|█████▍    | 3216/5866 [00:13<00:07, 351.42it/s]Sequence data:  55%|█████▌    | 3252/5866 [00:13<00:07, 351.90it/s]Sequence data:  56%|█████▌    | 3288/5866 [00:13<00:07, 352.33it/s]Sequence data:  57%|█████▋    | 3324/5866 [00:13<00:07, 347.93it/s]Sequence data:  57%|█████▋    | 3359/5866 [00:13<00:07, 345.90it/s]Sequence data:  58%|█████▊    | 3395/5866 [00:13<00:07, 349.93it/s]Sequence data:  58%|█████▊    | 3431/5866 [00:13<00:06, 349.84it/s]Sequence data:  59%|█████▉    | 3467/5866 [00:13<00:06, 351.34it/s]Sequence data:  60%|█████▉    | 3503/5866 [00:14<00:06, 353.06it/s]Sequence data:  60%|██████    | 3539/5866 [00:14<00:06, 353.82it/s]Sequence data:  61%|██████    | 3575/5866 [00:14<00:06, 354.86it/s]Sequence data:  62%|██████▏   | 3611/5866 [00:14<00:06, 353.90it/s]Sequence data:  62%|██████▏   | 3648/5866 [00:14<00:06, 357.90it/s]Sequence data:  63%|██████▎   | 3686/5866 [00:14<00:06, 362.91it/s]Sequence data:  63%|██████▎   | 3723/5866 [00:14<00:05, 361.76it/s]Sequence data:  64%|██████▍   | 3760/5866 [00:14<00:05, 358.36it/s]Sequence data:  65%|██████▍   | 3799/5866 [00:14<00:05, 364.57it/s]Sequence data:  65%|██████▌   | 3836/5866 [00:14<00:05, 365.87it/s]Sequence data:  66%|██████▌   | 3875/5866 [00:15<00:05, 370.97it/s]Sequence data:  67%|██████▋   | 3913/5866 [00:15<00:05, 369.24it/s]Sequence data:  67%|██████▋   | 3951/5866 [00:15<00:05, 371.91it/s]Sequence data:  68%|██████▊   | 3989/5866 [00:15<00:05, 369.50it/s]Sequence data:  69%|██████▊   | 4027/5866 [00:15<00:04, 371.81it/s]Sequence data:  69%|██████▉   | 4065/5866 [00:15<00:04, 373.11it/s]Sequence data:  70%|██████▉   | 4103/5866 [00:15<00:04, 370.74it/s]Sequence data:  71%|███████   | 4141/5866 [00:15<00:04, 367.03it/s]Sequence data:  71%|███████▏  | 4180/5866 [00:15<00:04, 371.35it/s]Sequence data:  72%|███████▏  | 4218/5866 [00:16<00:04, 372.08it/s]Sequence data:  73%|███████▎  | 4256/5866 [00:16<00:04, 373.94it/s]Sequence data:  73%|███████▎  | 4294/5866 [00:16<00:04, 375.15it/s]Sequence data:  74%|███████▍  | 4333/5866 [00:16<00:04, 376.24it/s]Sequence data:  75%|███████▍  | 4371/5866 [00:16<00:03, 376.26it/s]Sequence data:  75%|███████▌  | 4409/5866 [00:16<00:03, 371.85it/s]Sequence data:  76%|███████▌  | 4447/5866 [00:16<00:03, 371.52it/s]Sequence data:  76%|███████▋  | 4486/5866 [00:16<00:03, 376.76it/s]Sequence data:  77%|███████▋  | 4525/5866 [00:16<00:03, 379.62it/s]Sequence data:  78%|███████▊  | 4564/5866 [00:16<00:03, 381.32it/s]Sequence data:  78%|███████▊  | 4603/5866 [00:17<00:03, 383.85it/s]Sequence data:  79%|███████▉  | 4642/5866 [00:17<00:03, 377.65it/s]Sequence data:  80%|███████▉  | 4680/5866 [00:17<00:03, 377.33it/s]Sequence data:  80%|████████  | 4718/5866 [00:17<00:03, 374.91it/s]Sequence data:  81%|████████  | 4756/5866 [00:17<00:02, 374.73it/s]Sequence data:  82%|████████▏ | 4794/5866 [00:17<00:02, 375.38it/s]Sequence data:  82%|████████▏ | 4834/5866 [00:17<00:02, 382.10it/s]Sequence data:  83%|████████▎ | 4874/5866 [00:17<00:02, 385.22it/s]Sequence data:  84%|████████▍ | 4913/5866 [00:17<00:02, 385.46it/s]Sequence data:  84%|████████▍ | 4952/5866 [00:17<00:02, 384.08it/s]Sequence data:  85%|████████▌ | 4992/5866 [00:18<00:02, 387.10it/s]Sequence data:  86%|████████▌ | 5031/5866 [00:18<00:02, 386.92it/s]Sequence data:  86%|████████▋ | 5071/5866 [00:18<00:02, 388.38it/s]Sequence data:  87%|████████▋ | 5110/5866 [00:18<00:01, 388.29it/s]Sequence data:  88%|████████▊ | 5150/5866 [00:18<00:01, 391.02it/s]Sequence data:  88%|████████▊ | 5190/5866 [00:18<00:01, 393.62it/s]Sequence data:  89%|████████▉ | 5231/5866 [00:18<00:01, 396.52it/s]Sequence data:  90%|████████▉ | 5271/5866 [00:18<00:01, 396.58it/s]Sequence data:  91%|█████████ | 5311/5866 [00:18<00:01, 394.96it/s]Sequence data:  91%|█████████ | 5351/5866 [00:18<00:01, 395.45it/s]Sequence data:  92%|█████████▏| 5391/5866 [00:19<00:01, 396.45it/s]Sequence data:  93%|█████████▎| 5431/5866 [00:19<00:01, 394.25it/s]Sequence data:  93%|█████████▎| 5471/5866 [00:19<00:01, 389.59it/s]Sequence data:  94%|█████████▍| 5512/5866 [00:19<00:00, 394.01it/s]Sequence data:  95%|█████████▍| 5554/5866 [00:19<00:00, 399.72it/s]Sequence data:  95%|█████████▌| 5596/5866 [00:19<00:00, 404.18it/s]Sequence data:  96%|█████████▌| 5638/5866 [00:19<00:00, 406.70it/s]Sequence data:  97%|█████████▋| 5680/5866 [00:19<00:00, 408.75it/s]Sequence data:  98%|█████████▊| 5722/5866 [00:19<00:00, 410.29it/s]Sequence data:  98%|█████████▊| 5764/5866 [00:19<00:00, 411.41it/s]Sequence data:  99%|█████████▉| 5806/5866 [00:20<00:00, 412.17it/s]Sequence data: 100%|█████████▉| 5848/5866 [00:20<00:00, 413.11it/s]Sequence data: 100%|██████████| 5866/5866 [00:20<00:00, 290.21it/s]
+2021-11-12 13:59:18.963081: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-12 13:59:18.980723: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3300000000 Hz
+Epoch 1/4000
+2021-11-12 13:59:19.563577: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-11-12 13:59:19.763260: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+844/844 - 18s - loss: 0.0772 - f1: 0.1673 - val_loss: 0.0751 - val_f1: 0.1119
+Epoch 5/4000
+844/844 - 18s - loss: 0.0749 - f1: 0.1912 - val_loss: 0.0714 - val_f1: 0.1151
+Epoch 6/4000
+844/844 - 18s - loss: 0.0734 - f1: 0.2028 - val_loss: 0.0700 - val_f1: 0.1211
+Epoch 7/4000
+1936/1936 - 55s - loss: 0.0595 - f1: 2.9463e-04 - val_loss: 0.0517 - val_f1: 0.0073
+Epoch 2/4000
+844/844 - 19s - loss: 0.0722 - f1: 0.2120 - val_loss: 0.0681 - val_f1: 0.1270
+Epoch 8/4000
+844/844 - 18s - loss: 0.0713 - f1: 0.2196 - val_loss: 0.0663 - val_f1: 0.1325
+Epoch 9/4000
+844/844 - 18s - loss: 0.0704 - f1: 0.2258 - val_loss: 0.0655 - val_f1: 0.1383
+Epoch 10/4000
+1936/1936 - 53s - loss: 0.0460 - f1: 0.0028 - val_loss: 0.0439 - val_f1: 0.0103
+Epoch 3/4000
+844/844 - 19s - loss: 0.0697 - f1: 0.2307 - val_loss: 0.0647 - val_f1: 0.1415
+Epoch 11/4000
+844/844 - 18s - loss: 0.0691 - f1: 0.2358 - val_loss: 0.0633 - val_f1: 0.1465
+Epoch 12/4000
+844/844 - 18s - loss: 0.0686 - f1: 0.2406 - val_loss: 0.0641 - val_f1: 0.1506
+Epoch 13/4000
+1936/1936 - 53s - loss: 0.0439 - f1: 0.0145 - val_loss: 0.0408 - val_f1: 0.0311
+Epoch 4/4000
+844/844 - 18s - loss: 0.0679 - f1: 0.2508 - val_loss: 0.0619 - val_f1: 0.1550
+Epoch 14/4000
+844/844 - 18s - loss: 0.0676 - f1: 0.2526 - val_loss: 0.0620 - val_f1: 0.1575
+Epoch 15/4000
+844/844 - 18s - loss: 0.0671 - f1: 0.2576 - val_loss: 0.0611 - val_f1: 0.1615
+Epoch 16/4000
+1936/1936 - 53s - loss: 0.0427 - f1: 0.0280 - val_loss: 0.0395 - val_f1: 0.0440
+Epoch 5/4000
+844/844 - 18s - loss: 0.0666 - f1: 0.2640 - val_loss: 0.0611 - val_f1: 0.1633
+Epoch 17/4000
+844/844 - 18s - loss: 0.0662 - f1: 0.2659 - val_loss: 0.0605 - val_f1: 0.1661
+Epoch 18/4000
+1936/1936 - 53s - loss: 0.0419 - f1: 0.0401 - val_loss: 0.0389 - val_f1: 0.0493
+Epoch 6/4000
+844/844 - 18s - loss: 0.0659 - f1: 0.2703 - val_loss: 0.0592 - val_f1: 0.1688
+Epoch 19/4000
+844/844 - 18s - loss: 0.0656 - f1: 0.2694 - val_loss: 0.0605 - val_f1: 0.1704
+Epoch 20/4000
+844/844 - 18s - loss: 0.0651 - f1: 0.2783 - val_loss: 0.0598 - val_f1: 0.1722
+Epoch 21/4000
+1936/1936 - 53s - loss: 0.0414 - f1: 0.0502 - val_loss: 0.0379 - val_f1: 0.0545
+Epoch 7/4000
+844/844 - 18s - loss: 0.0649 - f1: 0.2761 - val_loss: 0.0575 - val_f1: 0.1790
+Epoch 22/4000
+844/844 - 18s - loss: 0.0646 - f1: 0.2829 - val_loss: 0.0581 - val_f1: 0.1819
+Epoch 23/4000
+844/844 - 18s - loss: 0.0643 - f1: 0.2864 - val_loss: 0.0568 - val_f1: 0.1833
+Epoch 24/4000
+1936/1936 - 53s - loss: 0.0409 - f1: 0.0608 - val_loss: 0.0379 - val_f1: 0.0644
+Epoch 8/4000
+844/844 - 18s - loss: 0.0640 - f1: 0.2874 - val_loss: 0.0572 - val_f1: 0.1849
+Epoch 25/4000
+844/844 - 18s - loss: 0.0637 - f1: 0.2905 - val_loss: 0.0566 - val_f1: 0.1860
+Epoch 26/4000
+844/844 - 18s - loss: 0.0634 - f1: 0.2930 - val_loss: 0.0559 - val_f1: 0.1921
+Epoch 27/4000
+1936/1936 - 53s - loss: 0.0405 - f1: 0.0692 - val_loss: 0.0370 - val_f1: 0.0678
+Epoch 9/4000
+844/844 - 18s - loss: 0.0634 - f1: 0.2932 - val_loss: 0.0573 - val_f1: 0.1892
+Epoch 28/4000
+844/844 - 18s - loss: 0.0629 - f1: 0.2998 - val_loss: 0.0557 - val_f1: 0.1906
+Epoch 29/4000
+844/844 - 18s - loss: 0.0627 - f1: 0.3018 - val_loss: 0.0555 - val_f1: 0.1949
+Epoch 30/4000
+1936/1936 - 52s - loss: 0.0402 - f1: 0.0749 - val_loss: 0.0354 - val_f1: 0.0670
+Epoch 10/4000
+844/844 - 18s - loss: 0.0626 - f1: 0.3026 - val_loss: 0.0552 - val_f1: 0.1948
+Epoch 31/4000
+844/844 - 18s - loss: 0.0624 - f1: 0.3034 - val_loss: 0.0550 - val_f1: 0.1979
+Epoch 32/4000
+844/844 - 18s - loss: 0.0621 - f1: 0.3072 - val_loss: 0.0548 - val_f1: 0.1987
+Epoch 33/4000
+1936/1936 - 53s - loss: 0.0399 - f1: 0.0819 - val_loss: 0.0355 - val_f1: 0.0752
+Epoch 11/4000
+844/844 - 18s - loss: 0.0619 - f1: 0.3082 - val_loss: 0.0536 - val_f1: 0.1999
+Epoch 34/4000
+844/844 - 18s - loss: 0.0616 - f1: 0.3140 - val_loss: 0.0538 - val_f1: 0.1988
+Epoch 35/4000
+844/844 - 19s - loss: 0.0615 - f1: 0.3147 - val_loss: 0.0543 - val_f1: 0.2022
+Epoch 36/4000
+1936/1936 - 53s - loss: 0.0396 - f1: 0.0884 - val_loss: 0.0353 - val_f1: 0.0778
+Epoch 12/4000
+844/844 - 18s - loss: 0.0612 - f1: 0.3174 - val_loss: 0.0534 - val_f1: 0.2040
+Epoch 37/4000
+844/844 - 18s - loss: 0.0610 - f1: 0.3191 - val_loss: 0.0529 - val_f1: 0.2053
+Epoch 38/4000
+844/844 - 18s - loss: 0.0608 - f1: 0.3203 - val_loss: 0.0530 - val_f1: 0.2065
+Epoch 39/4000
+1936/1936 - 53s - loss: 0.0393 - f1: 0.0939 - val_loss: 0.0352 - val_f1: 0.0860
+Epoch 13/4000
+844/844 - 18s - loss: 0.0607 - f1: 0.3212 - val_loss: 0.0531 - val_f1: 0.2086
+Epoch 40/4000
+844/844 - 18s - loss: 0.0604 - f1: 0.3239 - val_loss: 0.0530 - val_f1: 0.2097
+Epoch 41/4000
+844/844 - 18s - loss: 0.0602 - f1: 0.3262 - val_loss: 0.0526 - val_f1: 0.2089
+Epoch 42/4000
+1936/1936 - 53s - loss: 0.0391 - f1: 0.0973 - val_loss: 0.0346 - val_f1: 0.0876
+Epoch 14/4000
+844/844 - 18s - loss: 0.0602 - f1: 0.3277 - val_loss: 0.0523 - val_f1: 0.2111
+Epoch 43/4000
+844/844 - 18s - loss: 0.0601 - f1: 0.3310 - val_loss: 0.0523 - val_f1: 0.2107
+Epoch 44/4000
+1936/1936 - 53s - loss: 0.0388 - f1: 0.1027 - val_loss: 0.0341 - val_f1: 0.0854
+Epoch 15/4000
+844/844 - 18s - loss: 0.0598 - f1: 0.3292 - val_loss: 0.0518 - val_f1: 0.2107
+Epoch 45/4000
+844/844 - 18s - loss: 0.0597 - f1: 0.3330 - val_loss: 0.0513 - val_f1: 0.2147
+Epoch 46/4000
+844/844 - 18s - loss: 0.0595 - f1: 0.3320 - val_loss: 0.0516 - val_f1: 0.2185
+Epoch 47/4000
+1936/1936 - 53s - loss: 0.0386 - f1: 0.1064 - val_loss: 0.0344 - val_f1: 0.0908
+Epoch 16/4000
+844/844 - 18s - loss: 0.0593 - f1: 0.3348 - val_loss: 0.0516 - val_f1: 0.2165
+Epoch 48/4000
+844/844 - 18s - loss: 0.0592 - f1: 0.3363 - val_loss: 0.0510 - val_f1: 0.2177
+Epoch 49/4000
+844/844 - 18s - loss: 0.0591 - f1: 0.3375 - val_loss: 0.0513 - val_f1: 0.2187
+Epoch 50/4000
+1936/1936 - 53s - loss: 0.0385 - f1: 0.1106 - val_loss: 0.0341 - val_f1: 0.0963
+Epoch 17/4000
+844/844 - 18s - loss: 0.0588 - f1: 0.3413 - val_loss: 0.0507 - val_f1: 0.2167
+Epoch 51/4000
+844/844 - 18s - loss: 0.0587 - f1: 0.3396 - val_loss: 0.0508 - val_f1: 0.2192
+Epoch 52/4000
+844/844 - 18s - loss: 0.0586 - f1: 0.3418 - val_loss: 0.0508 - val_f1: 0.2213
+Epoch 53/4000
+1936/1936 - 53s - loss: 0.0383 - f1: 0.1131 - val_loss: 0.0335 - val_f1: 0.0935
+Epoch 18/4000
+844/844 - 18s - loss: 0.0584 - f1: 0.3455 - val_loss: 0.0510 - val_f1: 0.2192
+Epoch 54/4000
+844/844 - 18s - loss: 0.0584 - f1: 0.3448 - val_loss: 0.0504 - val_f1: 0.2233
+Epoch 55/4000
+844/844 - 18s - loss: 0.0585 - f1: 0.3443 - val_loss: 0.0504 - val_f1: 0.2226
+Epoch 56/4000
+1936/1936 - 53s - loss: 0.0381 - f1: 0.1165 - val_loss: 0.0332 - val_f1: 0.0965
+Epoch 19/4000
+844/844 - 18s - loss: 0.0583 - f1: 0.3465 - val_loss: 0.0502 - val_f1: 0.2250
+Epoch 57/4000
+844/844 - 18s - loss: 0.0581 - f1: 0.3469 - val_loss: 0.0502 - val_f1: 0.2286
+Epoch 58/4000
+844/844 - 18s - loss: 0.0579 - f1: 0.3496 - val_loss: 0.0500 - val_f1: 0.2265
+Epoch 59/4000
+1936/1936 - 53s - loss: 0.0379 - f1: 0.1195 - val_loss: 0.0331 - val_f1: 0.0975
+Epoch 20/4000
+844/844 - 18s - loss: 0.0577 - f1: 0.3522 - val_loss: 0.0499 - val_f1: 0.2280
+Epoch 60/4000
+844/844 - 18s - loss: 0.0576 - f1: 0.3531 - val_loss: 0.0500 - val_f1: 0.2290
+Epoch 61/4000
+844/844 - 18s - loss: 0.0577 - f1: 0.3526 - val_loss: 0.0497 - val_f1: 0.2268
+Epoch 62/4000
+1936/1936 - 53s - loss: 0.0378 - f1: 0.1221 - val_loss: 0.0329 - val_f1: 0.0980
+Epoch 21/4000
+844/844 - 18s - loss: 0.0575 - f1: 0.3545 - val_loss: 0.0495 - val_f1: 0.2297
+Epoch 63/4000
+844/844 - 18s - loss: 0.0573 - f1: 0.3569 - val_loss: 0.0497 - val_f1: 0.2310
+Epoch 64/4000
+844/844 - 18s - loss: 0.0573 - f1: 0.3557 - val_loss: 0.0495 - val_f1: 0.2315
+Epoch 65/4000
+1936/1936 - 53s - loss: 0.0376 - f1: 0.1272 - val_loss: 0.0327 - val_f1: 0.1050
+Epoch 22/4000
+844/844 - 18s - loss: 0.0573 - f1: 0.3551 - val_loss: 0.0496 - val_f1: 0.2327
+Epoch 66/4000
+844/844 - 18s - loss: 0.0571 - f1: 0.3589 - val_loss: 0.0494 - val_f1: 0.2337
+Epoch 67/4000
+844/844 - 18s - loss: 0.0570 - f1: 0.3593 - val_loss: 0.0493 - val_f1: 0.2341
+Epoch 68/4000
+1936/1936 - 53s - loss: 0.0374 - f1: 0.1303 - val_loss: 0.0322 - val_f1: 0.1004
+Epoch 23/4000
+844/844 - 18s - loss: 0.0568 - f1: 0.3631 - val_loss: 0.0495 - val_f1: 0.2329
+Epoch 69/4000
+844/844 - 18s - loss: 0.0568 - f1: 0.3612 - val_loss: 0.0492 - val_f1: 0.2356
+Epoch 70/4000
+844/844 - 19s - loss: 0.0567 - f1: 0.3629 - val_loss: 0.0491 - val_f1: 0.2357
+Epoch 71/4000
+1936/1936 - 53s - loss: 0.0373 - f1: 0.1325 - val_loss: 0.0323 - val_f1: 0.1037
+Epoch 24/4000
+844/844 - 18s - loss: 0.0566 - f1: 0.3636 - val_loss: 0.0490 - val_f1: 0.2348
+Epoch 72/4000
+844/844 - 19s - loss: 0.0565 - f1: 0.3674 - val_loss: 0.0489 - val_f1: 0.2372
+Epoch 73/4000
+844/844 - 18s - loss: 0.0564 - f1: 0.3664 - val_loss: 0.0487 - val_f1: 0.2379
+Epoch 74/4000
+1936/1936 - 53s - loss: 0.0372 - f1: 0.1349 - val_loss: 0.0321 - val_f1: 0.1064
+Epoch 25/4000
+844/844 - 18s - loss: 0.0564 - f1: 0.3667 - val_loss: 0.0488 - val_f1: 0.2387
+Epoch 75/4000
+844/844 - 18s - loss: 0.0561 - f1: 0.3712 - val_loss: 0.0486 - val_f1: 0.2410
+Epoch 76/4000
+1936/1936 - 54s - loss: 0.0370 - f1: 0.1400 - val_loss: 0.0319 - val_f1: 0.1065
+Epoch 26/4000
+844/844 - 18s - loss: 0.0563 - f1: 0.3670 - val_loss: 0.0486 - val_f1: 0.2408
+Epoch 77/4000
+844/844 - 18s - loss: 0.0562 - f1: 0.3694 - val_loss: 0.0487 - val_f1: 0.2416
+Epoch 78/4000
+844/844 - 18s - loss: 0.0560 - f1: 0.3712 - val_loss: 0.0486 - val_f1: 0.2414
+Epoch 79/4000
+1936/1936 - 53s - loss: 0.0369 - f1: 0.1410 - val_loss: 0.0318 - val_f1: 0.1082
+Epoch 27/4000
+844/844 - 18s - loss: 0.0560 - f1: 0.3722 - val_loss: 0.0488 - val_f1: 0.2426
+Epoch 80/4000
+844/844 - 18s - loss: 0.0558 - f1: 0.3736 - val_loss: 0.0486 - val_f1: 0.2436
+Epoch 81/4000
+844/844 - 18s - loss: 0.0558 - f1: 0.3731 - val_loss: 0.0485 - val_f1: 0.2440
+Epoch 82/4000
+1936/1936 - 53s - loss: 0.0368 - f1: 0.1437 - val_loss: 0.0316 - val_f1: 0.1070
+Epoch 28/4000
+844/844 - 18s - loss: 0.0557 - f1: 0.3738 - val_loss: 0.0482 - val_f1: 0.2452
+Epoch 83/4000
+844/844 - 19s - loss: 0.0557 - f1: 0.3730 - val_loss: 0.0483 - val_f1: 0.2460
+Epoch 84/4000
+844/844 - 18s - loss: 0.0555 - f1: 0.3760 - val_loss: 0.0484 - val_f1: 0.2441
+Epoch 85/4000
+1936/1936 - 53s - loss: 0.0367 - f1: 0.1449 - val_loss: 0.0317 - val_f1: 0.1095
+Epoch 29/4000
+844/844 - 19s - loss: 0.0556 - f1: 0.3756 - val_loss: 0.0483 - val_f1: 0.2463
+Epoch 86/4000
+844/844 - 18s - loss: 0.0554 - f1: 0.3774 - val_loss: 0.0483 - val_f1: 0.2484
+Epoch 87/4000
+844/844 - 18s - loss: 0.0553 - f1: 0.3795 - val_loss: 0.0484 - val_f1: 0.2466
+Epoch 88/4000
+1936/1936 - 53s - loss: 0.0366 - f1: 0.1488 - val_loss: 0.0315 - val_f1: 0.1117
+Epoch 30/4000
+844/844 - 18s - loss: 0.0553 - f1: 0.3775 - val_loss: 0.0480 - val_f1: 0.2468
+Epoch 89/4000
+844/844 - 19s - loss: 0.0553 - f1: 0.3781 - val_loss: 0.0480 - val_f1: 0.2481
+Epoch 90/4000
+844/844 - 18s - loss: 0.0553 - f1: 0.3772 - val_loss: 0.0481 - val_f1: 0.2477
+Epoch 91/4000
+1936/1936 - 52s - loss: 0.0365 - f1: 0.1495 - val_loss: 0.0313 - val_f1: 0.1103
+Epoch 31/4000
+844/844 - 18s - loss: 0.0551 - f1: 0.3795 - val_loss: 0.0480 - val_f1: 0.2475
+Epoch 92/4000
+844/844 - 18s - loss: 0.0552 - f1: 0.3796 - val_loss: 0.0480 - val_f1: 0.2502
+Epoch 93/4000
+844/844 - 18s - loss: 0.0551 - f1: 0.3826 - val_loss: 0.0481 - val_f1: 0.2484
+Epoch 94/4000
+1936/1936 - 53s - loss: 0.0364 - f1: 0.1530 - val_loss: 0.0312 - val_f1: 0.1129
+Epoch 32/4000
+844/844 - 18s - loss: 0.0551 - f1: 0.3810 - val_loss: 0.0480 - val_f1: 0.2522
+Epoch 95/4000
+844/844 - 18s - loss: 0.0549 - f1: 0.3842 - val_loss: 0.0478 - val_f1: 0.2521
+Epoch 96/4000
+844/844 - 18s - loss: 0.0548 - f1: 0.3832 - val_loss: 0.0478 - val_f1: 0.2531
+Epoch 97/4000
+1936/1936 - 53s - loss: 0.0363 - f1: 0.1552 - val_loss: 0.0311 - val_f1: 0.1130
+Epoch 33/4000
+844/844 - 18s - loss: 0.0548 - f1: 0.3851 - val_loss: 0.0477 - val_f1: 0.2519
+Epoch 98/4000
+844/844 - 18s - loss: 0.0549 - f1: 0.3830 - val_loss: 0.0478 - val_f1: 0.2525
+Epoch 99/4000
+844/844 - 18s - loss: 0.0547 - f1: 0.3872 - val_loss: 0.0477 - val_f1: 0.2527
+Epoch 100/4000
+1936/1936 - 52s - loss: 0.0362 - f1: 0.1561 - val_loss: 0.0311 - val_f1: 0.1142
+Epoch 34/4000
+844/844 - 18s - loss: 0.0547 - f1: 0.3856 - val_loss: 0.0478 - val_f1: 0.2523
+Epoch 101/4000
+844/844 - 18s - loss: 0.0546 - f1: 0.3869 - val_loss: 0.0478 - val_f1: 0.2533
+Epoch 102/4000
+844/844 - 18s - loss: 0.0545 - f1: 0.3891 - val_loss: 0.0476 - val_f1: 0.2561
+Epoch 103/4000
+1936/1936 - 52s - loss: 0.0361 - f1: 0.1588 - val_loss: 0.0309 - val_f1: 0.1123
+Epoch 35/4000
+844/844 - 18s - loss: 0.0544 - f1: 0.3898 - val_loss: 0.0476 - val_f1: 0.2535
+Epoch 104/4000
+844/844 - 18s - loss: 0.0545 - f1: 0.3890 - val_loss: 0.0476 - val_f1: 0.2553
+Epoch 105/4000
+1936/1936 - 53s - loss: 0.0361 - f1: 0.1604 - val_loss: 0.0309 - val_f1: 0.1171
+Epoch 36/4000
+844/844 - 19s - loss: 0.0544 - f1: 0.3886 - val_loss: 0.0477 - val_f1: 0.2526
+Epoch 106/4000
+844/844 - 18s - loss: 0.0542 - f1: 0.3914 - val_loss: 0.0476 - val_f1: 0.2536
+Epoch 107/4000
+844/844 - 18s - loss: 0.0543 - f1: 0.3905 - val_loss: 0.0478 - val_f1: 0.2528
+Epoch 108/4000
+1936/1936 - 52s - loss: 0.0360 - f1: 0.1637 - val_loss: 0.0308 - val_f1: 0.1152
+Epoch 37/4000
+844/844 - 18s - loss: 0.0543 - f1: 0.3886 - val_loss: 0.0477 - val_f1: 0.2549
+Epoch 109/4000
+844/844 - 18s - loss: 0.0543 - f1: 0.3908 - val_loss: 0.0475 - val_f1: 0.2556
+Epoch 110/4000
+844/844 - 18s - loss: 0.0542 - f1: 0.3907 - val_loss: 0.0475 - val_f1: 0.2579
+Epoch 111/4000
+1936/1936 - 53s - loss: 0.0359 - f1: 0.1652 - val_loss: 0.0307 - val_f1: 0.1185
+Epoch 38/4000
+844/844 - 19s - loss: 0.0541 - f1: 0.3935 - val_loss: 0.0475 - val_f1: 0.2605
+Epoch 112/4000
+844/844 - 18s - loss: 0.0540 - f1: 0.3935 - val_loss: 0.0474 - val_f1: 0.2589
+Epoch 113/4000
+844/844 - 18s - loss: 0.0541 - f1: 0.3923 - val_loss: 0.0473 - val_f1: 0.2610
+Epoch 114/4000
+1936/1936 - 53s - loss: 0.0358 - f1: 0.1653 - val_loss: 0.0307 - val_f1: 0.1217
+Epoch 39/4000
+844/844 - 18s - loss: 0.0540 - f1: 0.3943 - val_loss: 0.0474 - val_f1: 0.2608
+Epoch 115/4000
+844/844 - 18s - loss: 0.0539 - f1: 0.3943 - val_loss: 0.0473 - val_f1: 0.2605
+Epoch 116/4000
+844/844 - 18s - loss: 0.0538 - f1: 0.3967 - val_loss: 0.0473 - val_f1: 0.2602
+Epoch 117/4000
+1936/1936 - 53s - loss: 0.0358 - f1: 0.1677 - val_loss: 0.0306 - val_f1: 0.1204
+Epoch 40/4000
+844/844 - 18s - loss: 0.0539 - f1: 0.3947 - val_loss: 0.0472 - val_f1: 0.2623
+Epoch 118/4000
+844/844 - 18s - loss: 0.0539 - f1: 0.3938 - val_loss: 0.0474 - val_f1: 0.2619
+Epoch 119/4000
+844/844 - 18s - loss: 0.0539 - f1: 0.3943 - val_loss: 0.0473 - val_f1: 0.2635
+Epoch 120/4000
+1936/1936 - 53s - loss: 0.0357 - f1: 0.1699 - val_loss: 0.0305 - val_f1: 0.1192
+Epoch 41/4000
+844/844 - 18s - loss: 0.0538 - f1: 0.3965 - val_loss: 0.0473 - val_f1: 0.2612
+Epoch 121/4000
+844/844 - 18s - loss: 0.0536 - f1: 0.3983 - val_loss: 0.0471 - val_f1: 0.2633
+Epoch 122/4000
+844/844 - 18s - loss: 0.0537 - f1: 0.3996 - val_loss: 0.0472 - val_f1: 0.2623
+Epoch 123/4000
+1936/1936 - 52s - loss: 0.0357 - f1: 0.1694 - val_loss: 0.0305 - val_f1: 0.1221
+Epoch 42/4000
+844/844 - 18s - loss: 0.0537 - f1: 0.3983 - val_loss: 0.0472 - val_f1: 0.2622
+Epoch 124/4000
+844/844 - 18s - loss: 0.0536 - f1: 0.3991 - val_loss: 0.0473 - val_f1: 0.2643
+Epoch 125/4000
+844/844 - 18s - loss: 0.0535 - f1: 0.3995 - val_loss: 0.0471 - val_f1: 0.2656
+Epoch 126/4000
+1936/1936 - 53s - loss: 0.0356 - f1: 0.1723 - val_loss: 0.0304 - val_f1: 0.1223
+Epoch 43/4000
+844/844 - 18s - loss: 0.0534 - f1: 0.4010 - val_loss: 0.0471 - val_f1: 0.2631
+Epoch 127/4000
+844/844 - 18s - loss: 0.0535 - f1: 0.3999 - val_loss: 0.0472 - val_f1: 0.2659
+Epoch 128/4000
+844/844 - 18s - loss: 0.0534 - f1: 0.4003 - val_loss: 0.0471 - val_f1: 0.2657
+Epoch 129/4000
+1936/1936 - 52s - loss: 0.0356 - f1: 0.1734 - val_loss: 0.0304 - val_f1: 0.1259
+Epoch 44/4000
+844/844 - 18s - loss: 0.0534 - f1: 0.4006 - val_loss: 0.0472 - val_f1: 0.2661
+Epoch 130/4000
+844/844 - 18s - loss: 0.0532 - f1: 0.4040 - val_loss: 0.0471 - val_f1: 0.2651
+Epoch 131/4000
+844/844 - 18s - loss: 0.0531 - f1: 0.4045 - val_loss: 0.0470 - val_f1: 0.2676
+Epoch 132/4000
+1936/1936 - 52s - loss: 0.0355 - f1: 0.1766 - val_loss: 0.0304 - val_f1: 0.1277
+Epoch 45/4000
+844/844 - 18s - loss: 0.0533 - f1: 0.4024 - val_loss: 0.0471 - val_f1: 0.2648
+Epoch 133/4000
+844/844 - 18s - loss: 0.0532 - f1: 0.4025 - val_loss: 0.0470 - val_f1: 0.2623
+Epoch 134/4000
+844/844 - 18s - loss: 0.0532 - f1: 0.4029 - val_loss: 0.0470 - val_f1: 0.2647
+Epoch 135/4000
+1936/1936 - 53s - loss: 0.0354 - f1: 0.1775 - val_loss: 0.0304 - val_f1: 0.1297
+Epoch 46/4000
+844/844 - 18s - loss: 0.0532 - f1: 0.4020 - val_loss: 0.0468 - val_f1: 0.2668
+Epoch 136/4000
+844/844 - 18s - loss: 0.0532 - f1: 0.4019 - val_loss: 0.0469 - val_f1: 0.2655
+Epoch 137/4000
+1936/1936 - 53s - loss: 0.0354 - f1: 0.1775 - val_loss: 0.0303 - val_f1: 0.1320
+Epoch 47/4000
+844/844 - 18s - loss: 0.0531 - f1: 0.4048 - val_loss: 0.0470 - val_f1: 0.2648
+Epoch 138/4000
+844/844 - 18s - loss: 0.0531 - f1: 0.4065 - val_loss: 0.0470 - val_f1: 0.2654
+Epoch 139/4000
+844/844 - 18s - loss: 0.0531 - f1: 0.4044 - val_loss: 0.0469 - val_f1: 0.2663
+Epoch 140/4000
+1936/1936 - 53s - loss: 0.0353 - f1: 0.1806 - val_loss: 0.0303 - val_f1: 0.1294
+Epoch 48/4000
+844/844 - 18s - loss: 0.0530 - f1: 0.4056 - val_loss: 0.0470 - val_f1: 0.2652
+Epoch 141/4000
+844/844 - 18s - loss: 0.0530 - f1: 0.4058 - val_loss: 0.0469 - val_f1: 0.2655
+Epoch 142/4000
+844/844 - 18s - loss: 0.0529 - f1: 0.4068 - val_loss: 0.0468 - val_f1: 0.2667
+Epoch 143/4000
+1936/1936 - 53s - loss: 0.0353 - f1: 0.1807 - val_loss: 0.0303 - val_f1: 0.1306
+Epoch 49/4000
+844/844 - 18s - loss: 0.0530 - f1: 0.4052 - val_loss: 0.0470 - val_f1: 0.2673
+Epoch 144/4000
+844/844 - 19s - loss: 0.0528 - f1: 0.4081 - val_loss: 0.0468 - val_f1: 0.2669
+Epoch 145/4000
+844/844 - 18s - loss: 0.0529 - f1: 0.4084 - val_loss: 0.0469 - val_f1: 0.2644
+Epoch 146/4000
+1936/1936 - 53s - loss: 0.0353 - f1: 0.1819 - val_loss: 0.0302 - val_f1: 0.1314
+Epoch 50/4000
+844/844 - 18s - loss: 0.0527 - f1: 0.4088 - val_loss: 0.0469 - val_f1: 0.2668
+Epoch 147/4000
+844/844 - 18s - loss: 0.0528 - f1: 0.4086 - val_loss: 0.0468 - val_f1: 0.2662
+Epoch 148/4000
+844/844 - 18s - loss: 0.0527 - f1: 0.4070 - val_loss: 0.0467 - val_f1: 0.2692
+Epoch 149/4000
+1936/1936 - 53s - loss: 0.0352 - f1: 0.1830 - val_loss: 0.0302 - val_f1: 0.1379
+Epoch 51/4000
+844/844 - 18s - loss: 0.0526 - f1: 0.4101 - val_loss: 0.0468 - val_f1: 0.2668
+Epoch 150/4000
+844/844 - 18s - loss: 0.0527 - f1: 0.4104 - val_loss: 0.0467 - val_f1: 0.2673
+Epoch 151/4000
+844/844 - 18s - loss: 0.0526 - f1: 0.4115 - val_loss: 0.0466 - val_f1: 0.2708
+Epoch 152/4000
+1936/1936 - 53s - loss: 0.0352 - f1: 0.1848 - val_loss: 0.0301 - val_f1: 0.1352
+Epoch 52/4000
+844/844 - 18s - loss: 0.0527 - f1: 0.4103 - val_loss: 0.0467 - val_f1: 0.2683
+Epoch 153/4000
+844/844 - 18s - loss: 0.0527 - f1: 0.4081 - val_loss: 0.0467 - val_f1: 0.2694
+Epoch 154/4000
+844/844 - 18s - loss: 0.0525 - f1: 0.4115 - val_loss: 0.0468 - val_f1: 0.2678
+Epoch 155/4000
+1936/1936 - 53s - loss: 0.0351 - f1: 0.1846 - val_loss: 0.0300 - val_f1: 0.1315
+Epoch 53/4000
+844/844 - 18s - loss: 0.0525 - f1: 0.4117 - val_loss: 0.0466 - val_f1: 0.2684
+Epoch 156/4000
+844/844 - 18s - loss: 0.0525 - f1: 0.4109 - val_loss: 0.0467 - val_f1: 0.2668
+Epoch 157/4000
+844/844 - 18s - loss: 0.0524 - f1: 0.4137 - val_loss: 0.0467 - val_f1: 0.2703
+Epoch 158/4000
+1936/1936 - 54s - loss: 0.0351 - f1: 0.1863 - val_loss: 0.0301 - val_f1: 0.1370
+Epoch 54/4000
+844/844 - 18s - loss: 0.0525 - f1: 0.4126 - val_loss: 0.0466 - val_f1: 0.2700
+Epoch 159/4000
+844/844 - 18s - loss: 0.0524 - f1: 0.4118 - val_loss: 0.0466 - val_f1: 0.2682
+Epoch 160/4000
+844/844 - 18s - loss: 0.0524 - f1: 0.4121 - val_loss: 0.0466 - val_f1: 0.2682
+Epoch 161/4000
+1936/1936 - 53s - loss: 0.0350 - f1: 0.1865 - val_loss: 0.0300 - val_f1: 0.1375
+Epoch 55/4000
+844/844 - 18s - loss: 0.0524 - f1: 0.4115 - val_loss: 0.0466 - val_f1: 0.2688
+Epoch 162/4000
+844/844 - 18s - loss: 0.0524 - f1: 0.4128 - val_loss: 0.0466 - val_f1: 0.2674
+Epoch 163/4000
+844/844 - 18s - loss: 0.0523 - f1: 0.4154 - val_loss: 0.0466 - val_f1: 0.2679
+Epoch 164/4000
+1936/1936 - 53s - loss: 0.0350 - f1: 0.1885 - val_loss: 0.0300 - val_f1: 0.1426
+Epoch 56/4000
+844/844 - 18s - loss: 0.0521 - f1: 0.4155 - val_loss: 0.0465 - val_f1: 0.2707
+Epoch 165/4000
+844/844 - 18s - loss: 0.0522 - f1: 0.4138 - val_loss: 0.0466 - val_f1: 0.2689
+Epoch 166/4000
+844/844 - 18s - loss: 0.0523 - f1: 0.4132 - val_loss: 0.0466 - val_f1: 0.2693
+Epoch 167/4000
+1936/1936 - 53s - loss: 0.0349 - f1: 0.1893 - val_loss: 0.0300 - val_f1: 0.1410
+Epoch 57/4000
+844/844 - 19s - loss: 0.0523 - f1: 0.4152 - val_loss: 0.0465 - val_f1: 0.2697
+Epoch 168/4000
+844/844 - 18s - loss: 0.0522 - f1: 0.4167 - val_loss: 0.0465 - val_f1: 0.2678
+Epoch 169/4000
+844/844 - 18s - loss: 0.0522 - f1: 0.4160 - val_loss: 0.0464 - val_f1: 0.2704
+Epoch 170/4000
+1936/1936 - 52s - loss: 0.0349 - f1: 0.1909 - val_loss: 0.0299 - val_f1: 0.1409
+Epoch 58/4000
+844/844 - 18s - loss: 0.0522 - f1: 0.4155 - val_loss: 0.0465 - val_f1: 0.2699
+Epoch 171/4000
+844/844 - 18s - loss: 0.0522 - f1: 0.4160 - val_loss: 0.0465 - val_f1: 0.2722
+Epoch 172/4000
+1936/1936 - 53s - loss: 0.0348 - f1: 0.1943 - val_loss: 0.0300 - val_f1: 0.1428
+Epoch 59/4000
+844/844 - 18s - loss: 0.0521 - f1: 0.4167 - val_loss: 0.0464 - val_f1: 0.2715
+Epoch 173/4000
+844/844 - 18s - loss: 0.0522 - f1: 0.4142 - val_loss: 0.0464 - val_f1: 0.2718
+Epoch 174/4000
+844/844 - 18s - loss: 0.0519 - f1: 0.4177 - val_loss: 0.0463 - val_f1: 0.2747
+Epoch 175/4000
+1936/1936 - 52s - loss: 0.0348 - f1: 0.1928 - val_loss: 0.0298 - val_f1: 0.1400
+Epoch 60/4000
+844/844 - 18s - loss: 0.0521 - f1: 0.4179 - val_loss: 0.0465 - val_f1: 0.2710
+Epoch 176/4000
+844/844 - 18s - loss: 0.0520 - f1: 0.4181 - val_loss: 0.0464 - val_f1: 0.2709
+Epoch 177/4000
+844/844 - 18s - loss: 0.0521 - f1: 0.4169 - val_loss: 0.0465 - val_f1: 0.2710
+Epoch 178/4000
+1936/1936 - 53s - loss: 0.0348 - f1: 0.1934 - val_loss: 0.0298 - val_f1: 0.1438
+Epoch 61/4000
+844/844 - 18s - loss: 0.0520 - f1: 0.4177 - val_loss: 0.0464 - val_f1: 0.2723
+Epoch 179/4000
+844/844 - 18s - loss: 0.0520 - f1: 0.4175 - val_loss: 0.0463 - val_f1: 0.2747
+Epoch 180/4000
+844/844 - 18s - loss: 0.0519 - f1: 0.4176 - val_loss: 0.0464 - val_f1: 0.2713
+Epoch 181/4000
+1936/1936 - 52s - loss: 0.0348 - f1: 0.1947 - val_loss: 0.0298 - val_f1: 0.1451
+Epoch 62/4000
+844/844 - 18s - loss: 0.0518 - f1: 0.4196 - val_loss: 0.0464 - val_f1: 0.2717
+Epoch 182/4000
+844/844 - 18s - loss: 0.0518 - f1: 0.4200 - val_loss: 0.0463 - val_f1: 0.2719
+Epoch 183/4000
+844/844 - 19s - loss: 0.0519 - f1: 0.4190 - val_loss: 0.0464 - val_f1: 0.2731
+Epoch 184/4000
+1936/1936 - 53s - loss: 0.0347 - f1: 0.1947 - val_loss: 0.0298 - val_f1: 0.1458
+Epoch 63/4000
+844/844 - 18s - loss: 0.0517 - f1: 0.4203 - val_loss: 0.0464 - val_f1: 0.2729
+Epoch 185/4000
+844/844 - 18s - loss: 0.0518 - f1: 0.4189 - val_loss: 0.0463 - val_f1: 0.2746
+Epoch 186/4000
+844/844 - 18s - loss: 0.0518 - f1: 0.4201 - val_loss: 0.0462 - val_f1: 0.2745
+Epoch 187/4000
+1936/1936 - 53s - loss: 0.0347 - f1: 0.1970 - val_loss: 0.0297 - val_f1: 0.1451
+Epoch 64/4000
+844/844 - 18s - loss: 0.0517 - f1: 0.4222 - val_loss: 0.0463 - val_f1: 0.2726
+Epoch 188/4000
+844/844 - 19s - loss: 0.0518 - f1: 0.4211 - val_loss: 0.0463 - val_f1: 0.2719
+Epoch 189/4000
+844/844 - 18s - loss: 0.0518 - f1: 0.4193 - val_loss: 0.0464 - val_f1: 0.2727
+Epoch 190/4000
+1936/1936 - 53s - loss: 0.0347 - f1: 0.1970 - val_loss: 0.0297 - val_f1: 0.1462
+Epoch 65/4000
+844/844 - 18s - loss: 0.0517 - f1: 0.4183 - val_loss: 0.0462 - val_f1: 0.2732
+Epoch 191/4000
+844/844 - 18s - loss: 0.0517 - f1: 0.4203 - val_loss: 0.0462 - val_f1: 0.2742
+Epoch 192/4000
+844/844 - 18s - loss: 0.0517 - f1: 0.4217 - val_loss: 0.0463 - val_f1: 0.2745
+Epoch 193/4000
+1936/1936 - 53s - loss: 0.0346 - f1: 0.1985 - val_loss: 0.0297 - val_f1: 0.1466
+Epoch 66/4000
+844/844 - 18s - loss: 0.0517 - f1: 0.4225 - val_loss: 0.0462 - val_f1: 0.2731
+Epoch 194/4000
+844/844 - 18s - loss: 0.0517 - f1: 0.4199 - val_loss: 0.0464 - val_f1: 0.2746
+Epoch 00194: early stopping
+[92m[INFO] Loading best model...[0m
+1936/1936 - 53s - loss: 0.0346 - f1: 0.1984 - val_loss: 0.0297 - val_f1: 0.1494
+Epoch 67/4000
+1936/1936 - 55s - loss: 0.0346 - f1: 0.2005 - val_loss: 0.0297 - val_f1: 0.1489
+Epoch 68/4000
+1936/1936 - 52s - loss: 0.0345 - f1: 0.2015 - val_loss: 0.0297 - val_f1: 0.1468
+Epoch 69/4000
+1936/1936 - 55s - loss: 0.0345 - f1: 0.2023 - val_loss: 0.0297 - val_f1: 0.1493
+Epoch 70/4000
+1936/1936 - 51s - loss: 0.0345 - f1: 0.2007 - val_loss: 0.0297 - val_f1: 0.1513
+Epoch 71/4000
+1936/1936 - 52s - loss: 0.0344 - f1: 0.2031 - val_loss: 0.0296 - val_f1: 0.1466
+Epoch 72/4000
+1936/1936 - 52s - loss: 0.0344 - f1: 0.2046 - val_loss: 0.0296 - val_f1: 0.1507
+Epoch 73/4000
+1936/1936 - 56s - loss: 0.0344 - f1: 0.2030 - val_loss: 0.0295 - val_f1: 0.1533
+Epoch 74/4000
+1936/1936 - 54s - loss: 0.0344 - f1: 0.2059 - val_loss: 0.0295 - val_f1: 0.1501
+Epoch 75/4000
+1936/1936 - 53s - loss: 0.0343 - f1: 0.2077 - val_loss: 0.0296 - val_f1: 0.1530
+Epoch 76/4000
+1936/1936 - 55s - loss: 0.0343 - f1: 0.2066 - val_loss: 0.0296 - val_f1: 0.1541
+Epoch 77/4000
+1936/1936 - 55s - loss: 0.0343 - f1: 0.2089 - val_loss: 0.0295 - val_f1: 0.1518
+Epoch 78/4000
+1936/1936 - 55s - loss: 0.0343 - f1: 0.2077 - val_loss: 0.0294 - val_f1: 0.1521
+Epoch 79/4000
+1936/1936 - 54s - loss: 0.0342 - f1: 0.2091 - val_loss: 0.0294 - val_f1: 0.1517
+Epoch 80/4000
+1936/1936 - 53s - loss: 0.0343 - f1: 0.2090 - val_loss: 0.0294 - val_f1: 0.1538
+Epoch 81/4000
+1936/1936 - 52s - loss: 0.0342 - f1: 0.2088 - val_loss: 0.0294 - val_f1: 0.1557
+Epoch 82/4000
+1936/1936 - 52s - loss: 0.0342 - f1: 0.2093 - val_loss: 0.0295 - val_f1: 0.1555
+Epoch 83/4000
+1936/1936 - 53s - loss: 0.0342 - f1: 0.2105 - val_loss: 0.0294 - val_f1: 0.1552
+Epoch 84/4000
+1936/1936 - 53s - loss: 0.0341 - f1: 0.2106 - val_loss: 0.0294 - val_f1: 0.1595
+Epoch 85/4000
+1936/1936 - 56s - loss: 0.0341 - f1: 0.2132 - val_loss: 0.0294 - val_f1: 0.1575
+Epoch 86/4000
+1936/1936 - 54s - loss: 0.0341 - f1: 0.2129 - val_loss: 0.0293 - val_f1: 0.1541
+Epoch 87/4000
+1936/1936 - 54s - loss: 0.0341 - f1: 0.2141 - val_loss: 0.0294 - val_f1: 0.1582
+Epoch 88/4000
+1936/1936 - 56s - loss: 0.0341 - f1: 0.2122 - val_loss: 0.0294 - val_f1: 0.1586
+Epoch 89/4000
+1936/1936 - 55s - loss: 0.0341 - f1: 0.2119 - val_loss: 0.0293 - val_f1: 0.1577
+Epoch 90/4000
+1936/1936 - 50s - loss: 0.0340 - f1: 0.2136 - val_loss: 0.0293 - val_f1: 0.1575
+Epoch 91/4000
+1936/1936 - 54s - loss: 0.0340 - f1: 0.2152 - val_loss: 0.0294 - val_f1: 0.1577
+Epoch 92/4000
+1936/1936 - 52s - loss: 0.0340 - f1: 0.2153 - val_loss: 0.0293 - val_f1: 0.1593
+Epoch 93/4000
+1936/1936 - 52s - loss: 0.0340 - f1: 0.2130 - val_loss: 0.0293 - val_f1: 0.1570
+Epoch 94/4000
+1936/1936 - 54s - loss: 0.0339 - f1: 0.2159 - val_loss: 0.0293 - val_f1: 0.1591
+Epoch 95/4000
+1936/1936 - 55s - loss: 0.0339 - f1: 0.2157 - val_loss: 0.0293 - val_f1: 0.1593
+Epoch 96/4000
+1936/1936 - 54s - loss: 0.0339 - f1: 0.2181 - val_loss: 0.0292 - val_f1: 0.1600
+Epoch 97/4000
+1936/1936 - 56s - loss: 0.0339 - f1: 0.2183 - val_loss: 0.0292 - val_f1: 0.1618
+Epoch 98/4000
+1936/1936 - 53s - loss: 0.0339 - f1: 0.2170 - val_loss: 0.0292 - val_f1: 0.1608
+Epoch 99/4000
+1936/1936 - 56s - loss: 0.0339 - f1: 0.2178 - val_loss: 0.0292 - val_f1: 0.1635
+Epoch 100/4000
+1936/1936 - 53s - loss: 0.0338 - f1: 0.2188 - val_loss: 0.0292 - val_f1: 0.1613
+Epoch 101/4000
+1936/1936 - 54s - loss: 0.0338 - f1: 0.2192 - val_loss: 0.0292 - val_f1: 0.1624
+Epoch 102/4000
+1936/1936 - 55s - loss: 0.0338 - f1: 0.2182 - val_loss: 0.0292 - val_f1: 0.1606
+Epoch 103/4000
+1936/1936 - 52s - loss: 0.0338 - f1: 0.2215 - val_loss: 0.0291 - val_f1: 0.1630
+Epoch 104/4000
+1936/1936 - 52s - loss: 0.0338 - f1: 0.2192 - val_loss: 0.0292 - val_f1: 0.1635
+Epoch 105/4000
+1936/1936 - 53s - loss: 0.0338 - f1: 0.2195 - val_loss: 0.0291 - val_f1: 0.1636
+Epoch 106/4000
+1936/1936 - 54s - loss: 0.0338 - f1: 0.2200 - val_loss: 0.0292 - val_f1: 0.1637
+Epoch 107/4000
+1936/1936 - 56s - loss: 0.0337 - f1: 0.2221 - val_loss: 0.0291 - val_f1: 0.1621
+Epoch 108/4000
+1936/1936 - 55s - loss: 0.0337 - f1: 0.2214 - val_loss: 0.0291 - val_f1: 0.1664
+Epoch 109/4000
+1936/1936 - 54s - loss: 0.0337 - f1: 0.2222 - val_loss: 0.0291 - val_f1: 0.1655
+Epoch 110/4000
+1936/1936 - 54s - loss: 0.0337 - f1: 0.2223 - val_loss: 0.0291 - val_f1: 0.1672
+Epoch 111/4000
+1936/1936 - 53s - loss: 0.0337 - f1: 0.2240 - val_loss: 0.0291 - val_f1: 0.1644
+Epoch 112/4000
+1936/1936 - 54s - loss: 0.0337 - f1: 0.2232 - val_loss: 0.0291 - val_f1: 0.1677
+Epoch 113/4000
+1936/1936 - 55s - loss: 0.0337 - f1: 0.2237 - val_loss: 0.0291 - val_f1: 0.1662
+Epoch 114/4000
+1936/1936 - 53s - loss: 0.0337 - f1: 0.2244 - val_loss: 0.0291 - val_f1: 0.1654
+Epoch 115/4000
+1936/1936 - 54s - loss: 0.0336 - f1: 0.2254 - val_loss: 0.0290 - val_f1: 0.1649
+Epoch 116/4000
+1936/1936 - 53s - loss: 0.0336 - f1: 0.2244 - val_loss: 0.0291 - val_f1: 0.1671
+Epoch 117/4000
+1936/1936 - 51s - loss: 0.0336 - f1: 0.2248 - val_loss: 0.0291 - val_f1: 0.1668
+Epoch 118/4000
+1936/1936 - 53s - loss: 0.0336 - f1: 0.2256 - val_loss: 0.0290 - val_f1: 0.1687
+Epoch 119/4000
+1936/1936 - 53s - loss: 0.0336 - f1: 0.2253 - val_loss: 0.0291 - val_f1: 0.1666
+Epoch 120/4000
+1936/1936 - 54s - loss: 0.0336 - f1: 0.2263 - val_loss: 0.0290 - val_f1: 0.1689
+Epoch 121/4000
+1936/1936 - 54s - loss: 0.0335 - f1: 0.2274 - val_loss: 0.0290 - val_f1: 0.1681
+Epoch 122/4000
+1936/1936 - 53s - loss: 0.0336 - f1: 0.2265 - val_loss: 0.0290 - val_f1: 0.1669
+Epoch 123/4000
+1936/1936 - 55s - loss: 0.0336 - f1: 0.2258 - val_loss: 0.0290 - val_f1: 0.1656
+Epoch 124/4000
+1936/1936 - 54s - loss: 0.0335 - f1: 0.2288 - val_loss: 0.0290 - val_f1: 0.1660
+Epoch 125/4000
+1936/1936 - 53s - loss: 0.0335 - f1: 0.2276 - val_loss: 0.0289 - val_f1: 0.1685
+Epoch 126/4000
+1936/1936 - 52s - loss: 0.0335 - f1: 0.2273 - val_loss: 0.0290 - val_f1: 0.1683
+Epoch 127/4000
+1936/1936 - 54s - loss: 0.0335 - f1: 0.2279 - val_loss: 0.0290 - val_f1: 0.1713
+Epoch 128/4000
+1936/1936 - 52s - loss: 0.0335 - f1: 0.2282 - val_loss: 0.0290 - val_f1: 0.1704
+Epoch 129/4000
+1936/1936 - 55s - loss: 0.0335 - f1: 0.2285 - val_loss: 0.0290 - val_f1: 0.1697
+Epoch 130/4000
+1936/1936 - 52s - loss: 0.0335 - f1: 0.2279 - val_loss: 0.0290 - val_f1: 0.1684
+Epoch 131/4000
+1936/1936 - 53s - loss: 0.0334 - f1: 0.2312 - val_loss: 0.0290 - val_f1: 0.1705
+Epoch 132/4000
+1936/1936 - 53s - loss: 0.0335 - f1: 0.2281 - val_loss: 0.0289 - val_f1: 0.1714
+Epoch 133/4000
+1936/1936 - 54s - loss: 0.0334 - f1: 0.2305 - val_loss: 0.0289 - val_f1: 0.1721
+Epoch 134/4000
+1936/1936 - 56s - loss: 0.0334 - f1: 0.2306 - val_loss: 0.0289 - val_f1: 0.1728
+Epoch 135/4000
+1936/1936 - 54s - loss: 0.0335 - f1: 0.2293 - val_loss: 0.0290 - val_f1: 0.1698
+Epoch 136/4000
+1936/1936 - 52s - loss: 0.0334 - f1: 0.2310 - val_loss: 0.0289 - val_f1: 0.1724
+Epoch 137/4000
+1936/1936 - 53s - loss: 0.0334 - f1: 0.2292 - val_loss: 0.0290 - val_f1: 0.1720
+Epoch 138/4000
+1936/1936 - 55s - loss: 0.0334 - f1: 0.2293 - val_loss: 0.0290 - val_f1: 0.1698
+Epoch 139/4000
+1936/1936 - 52s - loss: 0.0334 - f1: 0.2317 - val_loss: 0.0289 - val_f1: 0.1699
+Epoch 140/4000
+1936/1936 - 55s - loss: 0.0334 - f1: 0.2319 - val_loss: 0.0290 - val_f1: 0.1707
+Epoch 141/4000
+1936/1936 - 53s - loss: 0.0333 - f1: 0.2322 - val_loss: 0.0290 - val_f1: 0.1745
+Epoch 142/4000
+1936/1936 - 55s - loss: 0.0334 - f1: 0.2306 - val_loss: 0.0290 - val_f1: 0.1723
+Epoch 143/4000
+1936/1936 - 55s - loss: 0.0333 - f1: 0.2320 - val_loss: 0.0289 - val_f1: 0.1742
+Epoch 144/4000
+1936/1936 - 54s - loss: 0.0333 - f1: 0.2328 - val_loss: 0.0289 - val_f1: 0.1749
+Epoch 145/4000
+1936/1936 - 52s - loss: 0.0333 - f1: 0.2320 - val_loss: 0.0289 - val_f1: 0.1721
+Epoch 146/4000
+1936/1936 - 52s - loss: 0.0333 - f1: 0.2326 - val_loss: 0.0289 - val_f1: 0.1719
+Epoch 147/4000
+1936/1936 - 54s - loss: 0.0333 - f1: 0.2325 - val_loss: 0.0289 - val_f1: 0.1752
+Epoch 148/4000
+1936/1936 - 56s - loss: 0.0333 - f1: 0.2335 - val_loss: 0.0289 - val_f1: 0.1729
+Epoch 149/4000
+1936/1936 - 53s - loss: 0.0333 - f1: 0.2352 - val_loss: 0.0289 - val_f1: 0.1737
+Epoch 150/4000
+1936/1936 - 52s - loss: 0.0333 - f1: 0.2324 - val_loss: 0.0288 - val_f1: 0.1705
+Epoch 151/4000
+1936/1936 - 53s - loss: 0.0333 - f1: 0.2330 - val_loss: 0.0289 - val_f1: 0.1723
+Epoch 152/4000
+1936/1936 - 55s - loss: 0.0333 - f1: 0.2348 - val_loss: 0.0288 - val_f1: 0.1730
+Epoch 153/4000
+1936/1936 - 52s - loss: 0.0333 - f1: 0.2340 - val_loss: 0.0289 - val_f1: 0.1759
+Epoch 154/4000
+1936/1936 - 54s - loss: 0.0333 - f1: 0.2333 - val_loss: 0.0289 - val_f1: 0.1751
+Epoch 155/4000
+1936/1936 - 53s - loss: 0.0333 - f1: 0.2332 - val_loss: 0.0288 - val_f1: 0.1745
+Epoch 156/4000
+1936/1936 - 53s - loss: 0.0332 - f1: 0.2359 - val_loss: 0.0288 - val_f1: 0.1766
+Epoch 157/4000
+1936/1936 - 54s - loss: 0.0332 - f1: 0.2352 - val_loss: 0.0288 - val_f1: 0.1760
+Epoch 158/4000
+1936/1936 - 57s - loss: 0.0333 - f1: 0.2361 - val_loss: 0.0289 - val_f1: 0.1736
+Epoch 159/4000
+1936/1936 - 54s - loss: 0.0332 - f1: 0.2366 - val_loss: 0.0288 - val_f1: 0.1750
+Epoch 160/4000
+1936/1936 - 52s - loss: 0.0332 - f1: 0.2353 - val_loss: 0.0288 - val_f1: 0.1763
+Epoch 161/4000
+1936/1936 - 52s - loss: 0.0332 - f1: 0.2369 - val_loss: 0.0289 - val_f1: 0.1775
+Epoch 162/4000
+1936/1936 - 53s - loss: 0.0332 - f1: 0.2362 - val_loss: 0.0288 - val_f1: 0.1781
+Epoch 163/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2365 - val_loss: 0.0288 - val_f1: 0.1786
+Epoch 164/4000
+1936/1936 - 54s - loss: 0.0332 - f1: 0.2363 - val_loss: 0.0288 - val_f1: 0.1778
+Epoch 165/4000
+1936/1936 - 56s - loss: 0.0332 - f1: 0.2371 - val_loss: 0.0288 - val_f1: 0.1778
+Epoch 166/4000
+1936/1936 - 54s - loss: 0.0332 - f1: 0.2364 - val_loss: 0.0288 - val_f1: 0.1750
+Epoch 167/4000
+1936/1936 - 55s - loss: 0.0332 - f1: 0.2372 - val_loss: 0.0288 - val_f1: 0.1776
+Epoch 168/4000
+1936/1936 - 53s - loss: 0.0332 - f1: 0.2362 - val_loss: 0.0287 - val_f1: 0.1769
+Epoch 169/4000
+1936/1936 - 54s - loss: 0.0331 - f1: 0.2387 - val_loss: 0.0288 - val_f1: 0.1804
+Epoch 170/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2379 - val_loss: 0.0288 - val_f1: 0.1792
+Epoch 171/4000
+1936/1936 - 54s - loss: 0.0331 - f1: 0.2388 - val_loss: 0.0288 - val_f1: 0.1781
+Epoch 172/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2373 - val_loss: 0.0287 - val_f1: 0.1776
+Epoch 173/4000
+1936/1936 - 52s - loss: 0.0332 - f1: 0.2363 - val_loss: 0.0287 - val_f1: 0.1783
+Epoch 174/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2354 - val_loss: 0.0288 - val_f1: 0.1788
+Epoch 175/4000
+1936/1936 - 55s - loss: 0.0331 - f1: 0.2397 - val_loss: 0.0287 - val_f1: 0.1777
+Epoch 176/4000
+1936/1936 - 54s - loss: 0.0331 - f1: 0.2389 - val_loss: 0.0287 - val_f1: 0.1753
+Epoch 177/4000
+1936/1936 - 55s - loss: 0.0331 - f1: 0.2389 - val_loss: 0.0288 - val_f1: 0.1763
+Epoch 178/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2391 - val_loss: 0.0288 - val_f1: 0.1790
+Epoch 179/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2393 - val_loss: 0.0288 - val_f1: 0.1784
+Epoch 180/4000
+1936/1936 - 52s - loss: 0.0331 - f1: 0.2389 - val_loss: 0.0287 - val_f1: 0.1781
+Epoch 181/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2402 - val_loss: 0.0287 - val_f1: 0.1801
+Epoch 182/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2393 - val_loss: 0.0287 - val_f1: 0.1811
+Epoch 183/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2401 - val_loss: 0.0287 - val_f1: 0.1795
+Epoch 184/4000
+1936/1936 - 54s - loss: 0.0331 - f1: 0.2397 - val_loss: 0.0287 - val_f1: 0.1759
+Epoch 185/4000
+1936/1936 - 53s - loss: 0.0331 - f1: 0.2392 - val_loss: 0.0287 - val_f1: 0.1793
+Epoch 186/4000
+1936/1936 - 53s - loss: 0.0330 - f1: 0.2418 - val_loss: 0.0287 - val_f1: 0.1793
+Epoch 187/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2412 - val_loss: 0.0287 - val_f1: 0.1784
+Epoch 188/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2414 - val_loss: 0.0288 - val_f1: 0.1802
+Epoch 189/4000
+1936/1936 - 50s - loss: 0.0331 - f1: 0.2407 - val_loss: 0.0288 - val_f1: 0.1823
+Epoch 190/4000
+1936/1936 - 53s - loss: 0.0330 - f1: 0.2423 - val_loss: 0.0287 - val_f1: 0.1808
+Epoch 191/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2424 - val_loss: 0.0287 - val_f1: 0.1807
+Epoch 192/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2390 - val_loss: 0.0287 - val_f1: 0.1831
+Epoch 193/4000
+1936/1936 - 55s - loss: 0.0330 - f1: 0.2414 - val_loss: 0.0287 - val_f1: 0.1798
+Epoch 194/4000
+1936/1936 - 52s - loss: 0.0330 - f1: 0.2417 - val_loss: 0.0286 - val_f1: 0.1806
+Epoch 195/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2416 - val_loss: 0.0287 - val_f1: 0.1840
+Epoch 196/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2421 - val_loss: 0.0287 - val_f1: 0.1826
+Epoch 197/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2405 - val_loss: 0.0287 - val_f1: 0.1815
+Epoch 198/4000
+1936/1936 - 52s - loss: 0.0330 - f1: 0.2413 - val_loss: 0.0287 - val_f1: 0.1845
+Epoch 199/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2407 - val_loss: 0.0288 - val_f1: 0.1835
+Epoch 200/4000
+1936/1936 - 53s - loss: 0.0330 - f1: 0.2401 - val_loss: 0.0287 - val_f1: 0.1807
+Epoch 201/4000
+1936/1936 - 55s - loss: 0.0330 - f1: 0.2421 - val_loss: 0.0287 - val_f1: 0.1836
+Epoch 202/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2427 - val_loss: 0.0287 - val_f1: 0.1853
+Epoch 203/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2444 - val_loss: 0.0287 - val_f1: 0.1834
+Epoch 204/4000
+1936/1936 - 53s - loss: 0.0329 - f1: 0.2442 - val_loss: 0.0287 - val_f1: 0.1843
+Epoch 205/4000
+1936/1936 - 53s - loss: 0.0330 - f1: 0.2422 - val_loss: 0.0287 - val_f1: 0.1837
+Epoch 206/4000
+1936/1936 - 52s - loss: 0.0329 - f1: 0.2435 - val_loss: 0.0287 - val_f1: 0.1849
+Epoch 207/4000
+1936/1936 - 55s - loss: 0.0330 - f1: 0.2423 - val_loss: 0.0287 - val_f1: 0.1814
+Epoch 208/4000
+1936/1936 - 52s - loss: 0.0329 - f1: 0.2441 - val_loss: 0.0287 - val_f1: 0.1847
+Epoch 209/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2427 - val_loss: 0.0287 - val_f1: 0.1835
+Epoch 210/4000
+1936/1936 - 56s - loss: 0.0329 - f1: 0.2434 - val_loss: 0.0287 - val_f1: 0.1842
+Epoch 211/4000
+1936/1936 - 53s - loss: 0.0330 - f1: 0.2435 - val_loss: 0.0286 - val_f1: 0.1843
+Epoch 212/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2448 - val_loss: 0.0286 - val_f1: 0.1840
+Epoch 213/4000
+1936/1936 - 52s - loss: 0.0329 - f1: 0.2435 - val_loss: 0.0287 - val_f1: 0.1815
+Epoch 214/4000
+1936/1936 - 55s - loss: 0.0329 - f1: 0.2453 - val_loss: 0.0287 - val_f1: 0.1881
+Epoch 215/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2443 - val_loss: 0.0286 - val_f1: 0.1846
+Epoch 216/4000
+1936/1936 - 55s - loss: 0.0329 - f1: 0.2441 - val_loss: 0.0287 - val_f1: 0.1864
+Epoch 217/4000
+1936/1936 - 52s - loss: 0.0329 - f1: 0.2454 - val_loss: 0.0286 - val_f1: 0.1828
+Epoch 218/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2430 - val_loss: 0.0287 - val_f1: 0.1842
+Epoch 219/4000
+1936/1936 - 51s - loss: 0.0329 - f1: 0.2431 - val_loss: 0.0287 - val_f1: 0.1849
+Epoch 220/4000
+1936/1936 - 53s - loss: 0.0329 - f1: 0.2454 - val_loss: 0.0287 - val_f1: 0.1854
+Epoch 221/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2439 - val_loss: 0.0286 - val_f1: 0.1852
+Epoch 222/4000
+1936/1936 - 52s - loss: 0.0329 - f1: 0.2434 - val_loss: 0.0286 - val_f1: 0.1837
+Epoch 223/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2452 - val_loss: 0.0286 - val_f1: 0.1855
+Epoch 224/4000
+1936/1936 - 54s - loss: 0.0330 - f1: 0.2419 - val_loss: 0.0287 - val_f1: 0.1846
+Epoch 225/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2440 - val_loss: 0.0287 - val_f1: 0.1827
+Epoch 226/4000
+1936/1936 - 54s - loss: 0.0329 - f1: 0.2457 - val_loss: 0.0287 - val_f1: 0.1832
+Epoch 227/4000
+1936/1936 - 53s - loss: 0.0329 - f1: 0.2459 - val_loss: 0.0287 - val_f1: 0.1865
+Epoch 228/4000
+1936/1936 - 54s - loss: 0.0328 - f1: 0.2448 - val_loss: 0.0286 - val_f1: 0.1821
+Epoch 229/4000
+1936/1936 - 52s - loss: 0.0328 - f1: 0.2475 - val_loss: 0.0286 - val_f1: 0.1831
+Epoch 230/4000
+1936/1936 - 54s - loss: 0.0328 - f1: 0.2465 - val_loss: 0.0287 - val_f1: 0.1851
+Epoch 231/4000
+1936/1936 - 52s - loss: 0.0328 - f1: 0.2470 - val_loss: 0.0286 - val_f1: 0.1843
+Epoch 232/4000
+1936/1936 - 54s - loss: 0.0328 - f1: 0.2457 - val_loss: 0.0287 - val_f1: 0.1824
+Epoch 233/4000
+1936/1936 - 55s - loss: 0.0328 - f1: 0.2459 - val_loss: 0.0287 - val_f1: 0.1847
+Epoch 234/4000
+1936/1936 - 53s - loss: 0.0329 - f1: 0.2452 - val_loss: 0.0286 - val_f1: 0.1872
+Epoch 00234: early stopping
+[92m[INFO] Loading best model...[0m
