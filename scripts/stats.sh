@@ -1,17 +1,14 @@
 #!/bin/bash
 
-MAXTSTS=2
-STAGE=2
-
+MAXTSTS=1
 i=0
 
-declare -a CITIES=( "madrid" "paris" "newyorkcity" "london")
-
+declare -a CITIES=( "gijon" "barcelona" "madrid" "newyorkcity" "paris" "london")
+declare -a CITIES=( "London")
 
 for CITY in "${CITIES[@]}" ;do
   echo "$CITY"
-
-  nohup /usr/bin/python3.6 -u  SemPic.py -stg $STAGE -ct $CITY &
+  nohup /usr/bin/python3.6 -u  SemPicPoi.py -ct $CITY &
 
   # Almacenar los PID en una lista hasta alcanzar el máximo de procesos
   pids[${i}]=$!
@@ -31,7 +28,5 @@ for CITY in "${CITIES[@]}" ;do
     i=0
   fi
 
-  #Esperar X segundos entre pruebas para que le de tiempo a ocupar memoria en GPU
-  sleep 1 # 600
 
 done

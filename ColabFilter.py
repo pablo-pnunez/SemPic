@@ -11,7 +11,7 @@ import numpy as np
 
 args = parse_cmd_args()
 
-city = "gijon".lower().replace(" ", "") if args.ct is None else args.ct
+city = "barcelona".lower().replace(" ", "") if args.ct is None else args.ct
 
 stage = 2 if args.stg is None else args.stg
 model_v = "0" if args.mv is None else args.mv

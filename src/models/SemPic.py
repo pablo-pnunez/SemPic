@@ -44,10 +44,13 @@ def __user_test__(user_data, all_img_embs, train_dev_images, emb):
         # Eliminar restaurantes repetidos, si no el top no es justo con el Filtro colaborativo 
         # first_pos = rst_train_dists.loc[rst_train_dists.restaurantId.isin(relevant)].index[0]
         rst_train_dists = rst_train_dists.drop_duplicates("restaurantId").reset_index(drop=True)
-        first_pos = rst_train_dists.loc[rst_train_dists.restaurantId.isin(relevant)].index[0]
+        usr_rst_pos = rst_train_dists.loc[rst_train_dists.restaurantId.isin(relevant)]
+        first_pos = usr_rst_pos.index[0]
+        # Diccionario id_rest:posición
+        usr_rst_pos = dict(zip(usr_rst_pos.restaurantId,usr_rst_pos.index))
 
         # print(uid, time.time()-tss)
-        return(uid, first_pos, n_revs, n_imgs)
+        return(uid, first_pos, usr_rst_pos, n_revs, n_imgs)
         
 
 class SemPic(KerasModelClass):
@@ -185,7 +188,7 @@ class SemPic(KerasModelClass):
         pbar.close()
 
         ret = ret.get()
-        ret = pd.DataFrame(ret, columns=["userId","first_pos","n_revs","n_imgs"])
+        ret = pd.DataFrame(ret, columns=["userId", "first_pos", "usr_rst_pos", "n_revs", "n_imgs"])
 
         return ret
 

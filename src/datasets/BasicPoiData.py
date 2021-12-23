@@ -126,15 +126,21 @@ class BasicPoiData(DatasetClass):
         multiple = data.groupby(["userId", "restaurantId"])["reviewId"].max().reset_index(name="last_reviewId")
         return data.loc[data.reviewId.isin(multiple.last_reviewId.values)].reset_index(drop=True)
 
-    def __basic_filtering__(self):
-        """Carga los datos de una ciudad, quedandose con las columnas relevantes"""
-
+    def __load_raw_data__(self):
+        
         # Cargar reviews
         rev = pd.read_pickle(self.CONFIG["data_path"] + self.CONFIG["city"] + "/df_"+self.CONFIG["city"]+".pickle").reset_index(drop=True)
         rev = rev.rename(columns={"idPOI":"restaurantId", "namePOI":"rest_name"})
         rev = rev.astype({'restaurantId': 'int64', 'reviewId': 'int64', 'rating': 'int64'})
         rev["num_images"] = rev.imageId.apply(lambda x: len(x))
         rev["like"] = rev.rating.apply(lambda x: 1 if x > 3 else 0)
+        
+        return rev
+
+    def __basic_filtering__(self):
+        """Carga los datos de una ciudad, quedandose con las columnas relevantes"""
+        # Cargar datos en crudo
+        rev = self.__load_raw_data__()
 
         # Quedarse con ultima review de los usuarios en caso de tener valoraciones diferentes (mismo rest)
         rev = self.__drop_multiple_visits__(rev)
@@ -163,7 +169,6 @@ class BasicPoiData(DatasetClass):
         rev = rev[['reviewId', 'userId', 'restaurantId', 'like', 'rest_name', 'imageId', 'num_images']]
 
         return rev, img
-
 
 class DenseNetSequence(Sequence):
 

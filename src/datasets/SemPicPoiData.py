@@ -101,3 +101,30 @@ class SemPicPoiData(BasicPoiData):
             to_pickle(self.DATASET_PATH, "IMG", img)
 
             return self.get_dict_data(self.DATASET_PATH, load)
+
+    def paper_stats(self):
+        #rev = self.__load_raw_data__()
+        
+        td = self.DATA["TRAIN_DEV"]
+        ts = self.DATA["TEST"]
+        rev = td.append(ts)
+
+        print(self.CONFIG["city"])
+
+        n_revs = len(rev.reviewId.unique())
+        n_imgs = rev.num_images.sum()
+        n_usrs = len(rev.userId.unique())
+        n_rest = len(rev.restaurantId.unique())
+
+        print(f"{n_revs}\t{n_imgs}\t{n_usrs}\t{n_rest}")
+
+        line = []
+        for st in [td, ts]:
+            n_revs = len(st.reviewId.unique())
+            n_usrs = len(st.userId.unique())
+            n_rest = len(st.restaurantId.unique())
+            avg_rvw_per_usr = st.groupby("userId").userId.count().mean()
+            matrix_density = len(st)/(n_usrs* n_rest) # Número de unos en la matriz de relaciones
+            line.extend([n_revs, n_usrs, n_rest, avg_rvw_per_usr, matrix_density])
+        
+        print("\t".join(map(str,line)))

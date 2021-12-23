@@ -15,9 +15,9 @@ import tensorflow as tf
 
 args = parse_cmd_args()
 
-city = "Barcelona".replace(" ", "") if args.ct is None else args.ct
+city = "Madrid".replace(" ", "") if args.ct is None else args.ct
 
-stage = 0 if args.stg is None else args.stg
+stage = 3 if args.stg is None else args.stg
 model_v = "0" if args.mv is None else args.mv
 
 pctg_usrs = .15 if args.pctg is None else args.pctg
@@ -26,13 +26,16 @@ seed = 100 if args.sd is None else args.sd
 l_rate = 1e-4 if args.lr is None else args.lr
 n_epochs = 4000 if args.ep is None else args.ep
 b_size = 128 if args.bs is None else args.bs
+l2_nu = 1e-4 if args.l2 is None else args.l2
 
 # Conjunto base ########################################################################################################
 
 dts_cfg = {"city": city, "pctg_usrs": pctg_usrs, "seed": seed,
            "data_path": "/media/nas/pois/tripadvisor_pois/DATA_byList/", "save_path": "data/", "test_dev_split": .15}
 sempic_dataset = SemPicPoiData(dts_cfg)
+#sempic_dataset.paper_stats()
 
+exit()
 # SemPic ###############################################################################################################
 
 sempic_cfg = {"model": {"model_version": model_v, "learning_rate": l_rate, "final_learning_rate": l_rate/10, 

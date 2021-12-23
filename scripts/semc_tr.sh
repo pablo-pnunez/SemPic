@@ -11,7 +11,7 @@ declare -a CITIES=( "barcelona" "madrid" "paris" "newyorkcity")
 for CITY in "${CITIES[@]}" ;do
   echo "$CITY"
 
-  nohup /usr/bin/python3.6 -u  SemPicCold.py -stg $STAGE -c $CITY &
+  nohup /usr/bin/python3.6 -u  SemPicCold.py -stg $STAGE -ct $CITY &
 
   # Almacenar los PID en una lista hasta alcanzar el máximo de procesos
   pids[${i}]=$!

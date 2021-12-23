@@ -19,6 +19,10 @@ class SemPicPoiColdData(SemPicPoiData):
             # Obtener imágenes del restaurante y las mezclamos (para que sean de DEV unas aleatorias)
             rst_imgs = img.loc[img.reviewId.isin(rows.reviewId)].sample(frac=1, random_state=self.CONFIG["seed"])
             
+            #Para obtener el id del usuario (se podría hacer más facil, pero habría que repetir los experimientos por la semilla anteiror)
+            usr_rvw = rows[["reviewId","userId"]]
+            usr_rvw.index = usr_rvw.reviewId.values
+
             # Cuantas van a dev
             to_dev = int(len(rst_imgs)*self.CONFIG["test_dev_split"])
             dv = np.zeros(len(rst_imgs), dtype=int)
@@ -30,10 +34,11 @@ class SemPicPoiColdData(SemPicPoiData):
             x = rst_imgs.index.values
             y = [rows.loc[rows.userId<=max_usr_id, "userId"].tolist()]*len(rst_imgs) # En la salida, solo aquellos usuarios que son del X%
             z = rst_imgs.reviewId.values
+            usr = usr_rvw.loc[rst_imgs.reviewId.values].userId.values
 
-            ret.extend(list(zip(r, rn, x, y, z, dv)))
+            ret.extend(list(zip(r, rn, x, y, z, usr, dv)))
 
-        ret = pd.DataFrame(ret, columns=["restaurantId", "rest_name", "id_img", "output", "reviewId", "dev"]).sample(frac=1).reset_index(drop=True)
+        ret = pd.DataFrame(ret, columns=["restaurantId", "rest_name", "id_img", "output", "reviewId", "userId", "dev"]).sample(frac=1).reset_index(drop=True)
         return ret 
 
     def __split_dataset__(self, rev):
@@ -101,3 +106,37 @@ class SemPicPoiColdData(SemPicPoiData):
             to_pickle(self.DATASET_PATH, "IMG", img)
 
             return self.get_dict_data(self.DATASET_PATH, load)
+
+    def paper_stats(self):
+        #_, _, rev = self.__load_raw_data__()
+        
+        td = self.DATA["TRAIN_DEV"]
+        td = td.groupby("reviewId").apply(lambda x: pd.Series({"num_images":len(x), "restaurantId":x.restaurantId.values[0], "rest_name":x.rest_name.values[0], "userId":x.userId.values[0]})).reset_index()
+        ts = self.DATA["TEST"]
+        rev = td.append(ts)
+
+        print(self.CONFIG["city"])
+
+        n_revs = len(rev.reviewId.unique())
+        n_imgs = rev.num_images.sum()
+        n_usrs = len(rev.userId.unique())
+        n_rest = len(rev.restaurantId.unique())
+
+        print(f"{n_revs}\t{n_imgs}\t{n_usrs}\t{n_rest}")
+
+        line = []
+        st_n_usrs = len(td.userId.unique())
+        st_pr_usrs = st_n_usrs/n_usrs
+        st_pop = td.groupby("userId").apply(lambda x: (0 in x.restaurantId.values)*1).sum()/st_n_usrs
+        avg_rvw_per_usr = td.groupby("userId").userId.count().mean()
+        line.extend([st_n_usrs, avg_rvw_per_usr, st_pop])
+
+        usr_tst_nrvs = ts.groupby("userId").like.count().reset_index()
+        for n in [1,2,3,4]:
+            if n==4:
+                tpm_usr = usr_tst_nrvs.loc[usr_tst_nrvs.like>=n]
+            else:
+                tpm_usr = usr_tst_nrvs.loc[usr_tst_nrvs.like==n]
+            line.append(len(tpm_usr))
+
+        print("\t".join(map(str,line)))

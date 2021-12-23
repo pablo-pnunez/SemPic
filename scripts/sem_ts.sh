@@ -4,7 +4,8 @@ MAXTSTS=1
 
 i=0
 
-declare -a CITIES=( "gijon" "barcelona" "madrid" "newyorkcity" "paris")
+declare -a CITIES=( "gijon" "barcelona" "madrid" "newyorkcity" "paris", "london")
+
 declare -a STAGES=( 2 3 )
 
 
@@ -12,7 +13,7 @@ for STAGE in "${STAGES[@]}" ;do
   for CITY in "${CITIES[@]}" ;do
     echo "$CITY"
 
-    nohup /usr/bin/python3.6 -u  SemPic.py -stg $STAGE -c $CITY &
+    nohup /usr/bin/python3.6 -u  SemPic.py -stg $STAGE -ct $CITY &
 
     # Almacenar los PID en una lista hasta alcanzar el máximo de procesos
     pids[${i}]=$!

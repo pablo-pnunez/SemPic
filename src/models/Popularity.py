@@ -12,7 +12,6 @@ from concurrent.futures import ProcessPoolExecutor
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-import tensorflow as tf
 from multiprocessing import Pool
 import tensorflow.keras.backend as K
 from scipy.spatial.distance import cdist
@@ -37,9 +36,13 @@ class Popularity(KerasModelClass):
         # Para cada usuario de test, obtener el restaurante más cercano
         for uid, udata in self.DATASET.DATA["TEST"].groupby("userId"):
             rsts = udata
-            first_pos = rest_pop.loc[rest_pop.restaurantId.isin(udata.restaurantId.unique())].index[0]
-            ret.append((uid, first_pos, len(udata), udata.num_images.sum()))
+            usr_rst_pos = rest_pop.loc[rest_pop.restaurantId.isin(udata.restaurantId.unique())]
+            first_pos = usr_rst_pos.index[0]
+            # Diccionario id_rest:posición
+            usr_rst_pos = dict(zip(usr_rst_pos.restaurantId,usr_rst_pos.index))
 
-        ret = pd.DataFrame(ret, columns=["userId","first_pos","n_revs","n_imgs"])
+            ret.append((uid, first_pos, usr_rst_pos, len(udata), udata.num_images.sum()))
+
+        ret = pd.DataFrame(ret, columns=["userId","first_pos","usr_rst_pos","n_revs","n_imgs"])
 
         return ret

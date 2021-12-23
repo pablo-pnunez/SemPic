@@ -26,7 +26,6 @@ class SemPicData(BasicData):
 
         return train, test
 
-
     def __split_dataset__(self, rev):
         rvws_to_train, rvws_to_dev, rvws_to_test = [],[],[]
 
@@ -61,7 +60,6 @@ class SemPicData(BasicData):
         train_dev = train.append(dev).reset_index(drop=True)
 
         return train_dev, test
-
 
     def get_data(self, load=["DENSENET_IMG_SIZE", "N_USR_PCTG", "N_USR", "N_RST", "TRAIN_DEV", "TEST", "IMG"]):
 
@@ -103,3 +101,30 @@ class SemPicData(BasicData):
             to_pickle(self.DATASET_PATH, "IMG", img)
 
             return self.get_dict_data(self.DATASET_PATH, load)
+
+    def paper_stats(self):
+        #_, _, rev = self.__load_raw_data__()
+        
+        td = self.DATA["TRAIN_DEV"]
+        ts = self.DATA["TEST"]
+        rev = td.append(ts)
+
+        print(self.CONFIG["city"])
+
+        n_revs = len(rev.reviewId.unique())
+        n_imgs = rev.num_images.sum()
+        n_usrs = len(rev.userId.unique())
+        n_rest = len(rev.restaurantId.unique())
+
+        print(f"{n_revs}\t{n_imgs}\t{n_usrs}\t{n_rest}")
+
+        line = []
+        for st in [td, ts]:
+            n_revs = len(st.reviewId.unique())
+            n_usrs = len(st.userId.unique())
+            n_rest = len(st.restaurantId.unique())
+            avg_rvw_per_usr = st.groupby("userId").userId.count().mean()
+            matrix_density = len(st)/(n_usrs* n_rest) # Número de unos en la matriz de relaciones
+            line.extend([n_revs, n_usrs, n_rest, avg_rvw_per_usr, matrix_density])
+        
+        print("\t".join(map(str,line)))

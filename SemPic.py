@@ -14,9 +14,9 @@ import tensorflow as tf
 
 args = parse_cmd_args()
 
-city = "barcelona".lower().replace(" ", "") if args.ct is None else args.ct
+city = "gijon".lower().replace(" ", "") if args.ct is None else args.ct
 
-stage = 4 if args.stg is None else args.stg
+stage = 3 if args.stg is None else args.stg
 model_v = "0" if args.mv is None else args.mv
 
 pctg_usrs = .15 if args.pctg is None else args.pctg
@@ -31,6 +31,7 @@ b_size = 128 if args.bs is None else args.bs
 dts_cfg = {"city": city, "pctg_usrs": pctg_usrs, "seed": seed,
            "data_path": "/media/nas/pperez/data/TripAdvisor/", "save_path": "data/", "test_dev_split": .15}
 sempic_dataset = SemPicData(dts_cfg)
+# sempic_dataset.paper_stats()
 
 # SemPic ###############################################################################################################
 

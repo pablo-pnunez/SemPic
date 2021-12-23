@@ -91,11 +91,14 @@ class ColabFilter(KerasModelClass):
             n_imgs = r.num_images.sum()
 
             u_r_v = user_rst_val.loc[user_rst_val.userId==uid].sort_values("val", ascending=False).reset_index(drop=True)
-            first_pos = u_r_v.loc[u_r_v.restaurantId.isin(relevant)].index[0]
+            usr_rst_pos = u_r_v.loc[u_r_v.restaurantId.isin(relevant)]
+            first_pos = usr_rst_pos.index[0]
+            # Diccionario id_rest:posición
+            usr_rst_pos = dict(zip(usr_rst_pos.restaurantId,usr_rst_pos.index))
 
-            ret.append((uid, first_pos, n_revs, n_imgs))
+            ret.append((uid, first_pos, usr_rst_pos, n_revs, n_imgs))
 
-        ret = pd.DataFrame(ret, columns=["userId","first_pos","n_revs","n_imgs"])
+        ret = pd.DataFrame(ret, columns=["userId","first_pos","usr_rst_pos","n_revs","n_imgs"])
 
         return ret
 

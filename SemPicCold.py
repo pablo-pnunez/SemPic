@@ -14,10 +14,10 @@ import tensorflow as tf
 
 args = parse_cmd_args()
 
-city = "newyorkcity".lower().replace(" ", "") if args.ct is None else args.ct
+city = "gijon".lower().replace(" ", "") if args.ct is None else args.ct
 
-stage = 3 if args.stg is None else args.stg
-model_v = "1" if args.mv is None else args.mv
+stage = 4 if args.stg is None else args.stg
+model_v = "0" if args.mv is None else args.mv
 
 pctg_usrs = .15 if args.pctg is None else args.pctg
 gpu = int(np.argmin(list(map(lambda x: x["mem_used_percent"], nvgpu.gpu_info()))))
@@ -31,6 +31,8 @@ b_size = 128 if args.bs is None else args.bs
 dts_cfg = {"city": city, "pctg_usrs": pctg_usrs, "seed": seed,
            "data_path": "/media/nas/pperez/data/TripAdvisor/", "save_path": "data/", "test_dev_split": .25}
 sempic_dataset = SemPicColdData(dts_cfg)
+sempic_dataset.paper_stats()
+exit()
 
 # SemPic ###############################################################################################################
 
@@ -47,8 +49,8 @@ if stage == 0:
     sempic_mdl.evaluate(test=False)
 
 if stage == 1 or stage==2  or stage==3: # "88b883ad275b29cbaed8096e35a20d74"
-    #bst_cfg = {"gijon": "88b883ad275b29cbaed8096e35a20d74", "barcelona": "2b2f3779179b6cfc06b5980724f86b69", "madrid": "b8282921dd765c7e8cc2d5d0302fe06d", "paris":"692343d4201483160231a2ddbcdebaad", "newyorkcity":"4b5431429a977b9b6296d75db44ec724", "london":"00b919c8c4a1b1d4970827aa6c8ff7bd"}
-    bst_cfg = {"gijon": "ee4860088aa92c7b8e0a132d9216f522", "barcelona": "", "madrid": "", "paris":"", "newyorkcity":"648c7b7e8369132f4dfc4ddd2660ec1f", "london":""}
+    bst_cfg = {"gijon": "88b883ad275b29cbaed8096e35a20d74", "barcelona": "2b2f3779179b6cfc06b5980724f86b69", "madrid": "b8282921dd765c7e8cc2d5d0302fe06d", "paris":"692343d4201483160231a2ddbcdebaad", "newyorkcity":"4b5431429a977b9b6296d75db44ec724", "london":"00b919c8c4a1b1d4970827aa6c8ff7bd"}
+    #bst_cfg = {"gijon": "ee4860088aa92c7b8e0a132d9216f522", "barcelona": "", "madrid": "", "paris":"", "newyorkcity":"648c7b7e8369132f4dfc4ddd2660ec1f", "london":""}
     with open('models/SemPicCold/%s/%s/cfg.json' % (city, bst_cfg[city])) as f: best_cfg_data = json.load(f)
     dts_cfg = best_cfg_data["dataset_config"]
     sempic_dataset = SemPicColdData(dts_cfg)

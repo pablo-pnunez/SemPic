@@ -33,7 +33,8 @@ l2_nu = 1e-4 if args.l2 is None else args.l2
 dts_cfg = {"city": city, "pctg_usrs": pctg_usrs, "seed": seed,
            "data_path": "/media/nas/pois/tripadvisor_pois/DATA_byList/", "save_path": "data/", "test_dev_split": .25}
 sempic_dataset = SemPicPoiColdData(dts_cfg)
-
+sempic_dataset.paper_stats()
+exit()
 # SemPic ###############################################################################################################
 
 sempic_cfg = {"model": {"model_version": model_v, "learning_rate": l_rate, "final_learning_rate": l_rate/10, 

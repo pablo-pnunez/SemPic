@@ -39,9 +39,7 @@ class BasicData(DatasetClass):
         multiple = data.groupby(["userId", "restaurantId"])["reviewId"].max().reset_index(name="last_reviewId")
         return data.loc[data.reviewId.isin(multiple.last_reviewId.values)].reset_index(drop=True)
 
-    def __basic_filtering__(self):
-        """Carga los datos de una ciudad, quedandose con las columnas relevantes"""
-
+    def __load_raw_data__(self):
         # Cargar imágenes
         img = pd.read_pickle(self.CONFIG["data_path"] + self.CONFIG["city"] + "_data/img-hd-densenet.pkl")
         img = img.astype({'review': 'int64'})
@@ -53,11 +51,19 @@ class BasicData(DatasetClass):
 
         # Cargar reviews
         rev = pd.read_pickle(self.CONFIG["data_path"] + self.CONFIG["city"] + "_data/reviews.pkl")
+        len(rev.reviewId.unique())
         rev = rev.astype({'reviewId': 'int64', 'restaurantId': 'int64', 'rating': 'int64'})
         rev = rev.merge(res[["id","rest_name"]], left_on="restaurantId", right_on="id", how="left")
         rev["num_images"] = rev.images.apply(lambda x: len(x))
         rev["like"] = rev.rating.apply(lambda x: 1 if x > 30 else 0)
 
+        return img, res, rev
+
+    def __basic_filtering__(self):
+        """Carga los datos de una ciudad, quedandose con las columnas relevantes"""
+        # Cargar los datos en crudo
+        img, res, rev = self.__load_raw_data__()
+        
         # Añadir URL a imágenes
         img = img.merge(rev[["reviewId", "restaurantId", "images"]], left_on="review", right_on="reviewId", how="left")
         img["url"] = img.apply(lambda x: x.images[x.image]['image_url_lowres'], axis=1)
@@ -79,4 +85,3 @@ class BasicData(DatasetClass):
         assert rev.num_images.sum() == len(img) # Verificar que hay las mismas fotos en ambos conjutos
 
         return rev, img
-

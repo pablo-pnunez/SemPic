@@ -7,6 +7,7 @@ import os
 import numpy as np
 import pandas as pd
 import tensorflow as tf
+tf.get_logger().setLevel('DEBUG')
 import matplotlib.pylab as plt
 import seaborn as sns
 
@@ -171,12 +172,37 @@ class KerasModelClass(ModelClass):
         else:
             ret = pd.read_pickle(test_file_name)
 
+        # Desglose >= restaurantes 
         for top in n_relevant:
             print(f"- TOP {top:2} {'-'*25}")
             ret["acierto"] = (ret["first_pos"]<top).astype(int)
             for t in [1, 2, 3, 4]:
                 tmp_data = ret.loc[ret.n_revs >= t]
                 print(">=%d\t%d\t%d\t%f" % (t, len(tmp_data), tmp_data.acierto.sum(), tmp_data.acierto.sum() / len(tmp_data)))
+
+        # Desglose == restaurantes 
+        print("="*34)
+        for top in n_relevant:
+            print(f"- TOP {top:2} {'-'*25}")
+            ret["acierto"] = (ret["first_pos"]<top).astype(int)
+            for t in [1, 2, 3, 4]:
+                if t<4: 
+                    tmp_data = ret.loc[ret.n_revs == t]
+                    print("=%d\t%d\t%d\t%f" % (t, len(tmp_data), tmp_data.acierto.sum(), tmp_data.acierto.sum() / len(tmp_data)))
+                else: 
+                    tmp_data = ret.loc[ret.n_revs >= t]
+                    print(">=%d\t%d\t%d\t%f" % (t, len(tmp_data), tmp_data.acierto.sum(), tmp_data.acierto.sum() / len(tmp_data)))
+
+        # Prec@ and Rec@ 
+        print("="*34)
+        for top in n_relevant:
+            print(f"- TOP {top:2} {'-'*25}")
+            ret["usr_rst_pos_values"] = ret.usr_rst_pos.apply(lambda x: np.array(list(x.values())))
+            ret["prec_at"] = ret.apply(lambda x: len(x.usr_rst_pos_values[x.usr_rst_pos_values<top])/top, 1 )
+            ret["rec_at"] = ret.apply(lambda x: len(x.usr_rst_pos_values[x.usr_rst_pos_values<top])/len(x.usr_rst_pos_values), 1 )
+
+            print(">=%d\t%d\t%f\t%f" % (1, len(ret), ret.prec_at.mean(), ret.rec_at.mean()))
+
 
     def __perform_test__(self) -> pd.DataFrame:
         """ Realiza el test y retorna los resultados en dataframe"""
